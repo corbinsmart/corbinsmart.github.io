@@ -63,6 +63,7 @@ body {
 h2 {
 	font-size: 50px;
 	padding: 0;
+	/*vertical-align: top;*/
 	display: inline;
 }
 
@@ -71,6 +72,7 @@ span.year {
 	font-weight: bold;
 	font-size: 40px;
 	margin-left: 10px;
+	/*vertical-align: top;*/
 }
 
 #maingames {
@@ -124,6 +126,13 @@ span.year {
 	width: 200px;
 	padding-bottom: 15px;
 }
+.app-icon {
+	width: 75px;
+	padding-bottom: 15px;
+	/*margin-right: 15px;*/
+	filter: drop-shadow(0 0 0.3rem #cacaca); /*grayscale(1);*/
+
+}
 
 a {
 	color: black;
@@ -141,7 +150,7 @@ p.gamedesc {
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 50px;
+	margin-top: 25px;
 	margin-bottom: 40px;
 }
 #protodesc {
