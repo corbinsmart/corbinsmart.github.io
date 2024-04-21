@@ -19,9 +19,9 @@ body {
   }
 }
 
-/*video {*/
-  /*background: black;*/
-/*}*/
+video {
+  background: black;
+}
 
 .panel {
 	filter: drop-shadow(0 0 0.75rem #aeaeae); /*grayscale(1);*/
