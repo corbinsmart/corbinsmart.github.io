@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.9378568c.css",
-    "main.js": "/static/js/main.0f731f2d.js",
-    "static/js/928.d7ad998c.chunk.js": "/static/js/928.d7ad998c.chunk.js",
-    "static/js/453.9cf523df.chunk.js": "/static/js/453.9cf523df.chunk.js",
-    "static/js/665.46dfd8d9.chunk.js": "/static/js/665.46dfd8d9.chunk.js",
+    "main.css": "/static/css/main.2330e21d.css",
+    "main.js": "/static/js/main.b18865a7.js",
+    "static/js/444.ed07f4d4.chunk.js": "/static/js/444.ed07f4d4.chunk.js",
+    "static/js/63.39d9f8e3.chunk.js": "/static/js/63.39d9f8e3.chunk.js",
+    "static/js/956.35855afb.chunk.js": "/static/js/956.35855afb.chunk.js",
+    "static/js/527.7796eaa8.chunk.js": "/static/js/527.7796eaa8.chunk.js",
+    "static/js/625.c5bc76ed.chunk.js": "/static/js/625.c5bc76ed.chunk.js",
     "static/media/wotlas.png": "/static/media/wotlas.1ce1f7e72164fca47512.png",
-    "static/media/woto.svg": "/static/media/woto.9a81313cd9ebb69d347f6ce2e72ee936.svg",
-    "static/media/nodejs.svg": "/static/media/nodejs.92bfd659c004bb5f49542e3a39f07d72.svg",
+    "static/media/woto.svg": "/static/media/woto.9a81313cd9ebb69d347f.svg",
     "index.html": "/index.html",
-    "main.9378568c.css.map": "/static/css/main.9378568c.css.map",
-    "main.0f731f2d.js.map": "/static/js/main.0f731f2d.js.map",
-    "928.d7ad998c.chunk.js.map": "/static/js/928.d7ad998c.chunk.js.map",
-    "453.9cf523df.chunk.js.map": "/static/js/453.9cf523df.chunk.js.map",
-    "665.46dfd8d9.chunk.js.map": "/static/js/665.46dfd8d9.chunk.js.map"
+    "main.2330e21d.css.map": "/static/css/main.2330e21d.css.map",
+    "main.b18865a7.js.map": "/static/js/main.b18865a7.js.map",
+    "444.ed07f4d4.chunk.js.map": "/static/js/444.ed07f4d4.chunk.js.map",
+    "63.39d9f8e3.chunk.js.map": "/static/js/63.39d9f8e3.chunk.js.map",
+    "956.35855afb.chunk.js.map": "/static/js/956.35855afb.chunk.js.map",
+    "527.7796eaa8.chunk.js.map": "/static/js/527.7796eaa8.chunk.js.map",
+    "625.c5bc76ed.chunk.js.map": "/static/js/625.c5bc76ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9378568c.css",
-    "static/js/main.0f731f2d.js"
+    "static/css/main.2330e21d.css",
+    "static/js/main.b18865a7.js"
   ]
 }
