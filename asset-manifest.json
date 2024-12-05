@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2330e21d.css",
-    "main.js": "/static/js/main.b18865a7.js",
+    "main.css": "/static/css/main.df752a3e.css",
+    "main.js": "/static/js/main.b620c646.js",
     "static/js/444.ed07f4d4.chunk.js": "/static/js/444.ed07f4d4.chunk.js",
     "static/js/63.39d9f8e3.chunk.js": "/static/js/63.39d9f8e3.chunk.js",
     "static/js/956.35855afb.chunk.js": "/static/js/956.35855afb.chunk.js",
@@ -10,8 +10,8 @@
     "static/media/wotlas.png": "/static/media/wotlas.1ce1f7e72164fca47512.png",
     "static/media/woto.svg": "/static/media/woto.9a81313cd9ebb69d347f.svg",
     "index.html": "/index.html",
-    "main.2330e21d.css.map": "/static/css/main.2330e21d.css.map",
-    "main.b18865a7.js.map": "/static/js/main.b18865a7.js.map",
+    "main.df752a3e.css.map": "/static/css/main.df752a3e.css.map",
+    "main.b620c646.js.map": "/static/js/main.b620c646.js.map",
     "444.ed07f4d4.chunk.js.map": "/static/js/444.ed07f4d4.chunk.js.map",
     "63.39d9f8e3.chunk.js.map": "/static/js/63.39d9f8e3.chunk.js.map",
     "956.35855afb.chunk.js.map": "/static/js/956.35855afb.chunk.js.map",
@@ -19,7 +19,7 @@
     "625.c5bc76ed.chunk.js.map": "/static/js/625.c5bc76ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2330e21d.css",
-    "static/js/main.b18865a7.js"
+    "static/css/main.df752a3e.css",
+    "static/js/main.b620c646.js"
   ]
 }
