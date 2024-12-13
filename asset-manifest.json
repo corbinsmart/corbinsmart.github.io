@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e2f59cc6.css",
-    "main.js": "/static/js/main.8785611a.js",
+    "main.js": "/static/js/main.85af5699.js",
     "static/js/444.b128f941.chunk.js": "/static/js/444.b128f941.chunk.js",
     "static/js/63.095cb870.chunk.js": "/static/js/63.095cb870.chunk.js",
     "static/js/956.35855afb.chunk.js": "/static/js/956.35855afb.chunk.js",
@@ -11,7 +11,7 @@
     "static/media/woto.svg": "/static/media/woto.9a81313cd9ebb69d347f.svg",
     "index.html": "/index.html",
     "main.e2f59cc6.css.map": "/static/css/main.e2f59cc6.css.map",
-    "main.8785611a.js.map": "/static/js/main.8785611a.js.map",
+    "main.85af5699.js.map": "/static/js/main.85af5699.js.map",
     "444.b128f941.chunk.js.map": "/static/js/444.b128f941.chunk.js.map",
     "63.095cb870.chunk.js.map": "/static/js/63.095cb870.chunk.js.map",
     "956.35855afb.chunk.js.map": "/static/js/956.35855afb.chunk.js.map",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.e2f59cc6.css",
-    "static/js/main.8785611a.js"
+    "static/js/main.85af5699.js"
   ]
 }
