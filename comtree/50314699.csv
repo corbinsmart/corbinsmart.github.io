@@ -1,0 +1,79 @@
+50314699		armcat	1793442611	0
+50315474	> OpenAI confirmed both frontends rejected the reported messages, resolved the issue, and awarded a total bounty of $5,000.<p>It requires the user to click a link. But I still find this bounty very low. Others may not report them if such a small bounty is given.	yellow_lead	1793449324	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50315324	"Oof. Together with the fact that it's possible to remotely access the file system (!) of computers ever having started a ""Work"" chat in the ChatGPT desktop app [1], this seems pretty bad.<p>[1] <a href=""https://news.ycombinator.com/item?id=50078284"">https://news.ycombinator.com/item?id=50078284</a>"	lxgr	1793448216	1
+				
+				
+50318963	"Something about the writing style here makes it hard for me to follow what actually happened. The section about JSONP for example seems to be explaining how JSONP works and how it's designed as an attempt to work around these attacks, but that explanation is then passed off as an explanation of how they bypassed the protection. And the whole premise seems to be about how manipulating the Preview content let them work through multiple defensive layers, but I don't see an explanation of how they directly controlled that content in the first place. I would have thought that the only control you have over the content of ""an ordinary public ChatGPT share"" is the prompt text, and that any migration of that text into ""a small working webpage using its Preview feature"" is up to the model deciding to generate that ""HTML block"" in response."	zahlman	1793473101	1
+				
+				
+				
+				
+50315175	Does no one write their own blogs anymore?	dumberquestions	1793447313	1
+				
+				
+				
+				
+				
+50316856	$5000 is a joke. They pay millions to their top devs and still have more holes than a colander so a nice guy shows you a huge opening in your platform and all you can give him is a pat on the shoulder? Did you fire your top devs and hire that guy for a million bucks plus options? Did you sue the security firm you paid millions to audit the issues?<p>I really hope they get hacked and crash down burning in flames like the Hindenburg	Kuyawa	1793459309	1
+				
+				
+				
+50315368	"Now what about those millions of lines of code? Wasn’t the agent swarm supposed to take care of it?
+All jokes aside this is exactly what happens as you build larger monoliths, system complexity and bug surface increases logarithmically… so in all seriousness you want to reduce LOC as much as possible. Maybe this can teach OpenAI a lesson to produce software that’s correct and adhere to established engineering standards over sensationalised “we built so much code” promotional material."	usernametaken29	1793448527	1
+				
+				
+				
+				
+				
+50316169	Appreciate the incremental write up building up the scope of the poc.<p>I like the chain of regular old school things used to achieve it like post message, JSONP, iframe, Img tags.	6thbit	1793454432	1
+50319177	"$5000 is a joke for a ""P1"" vuln"	hridyaagrawal	1793474415	1
+				
+50318415	5k makes me think the next guy is gonna sell his exploit in the black market instead.	htk	1793469895	1
+				
+50314705	we are getting to the point of “why have passwords?” Right? At some point soon we have to move to the honor system of just please don’t login as me?	15o9o	1793442703	1
+				
+				
+				
+50315511	if only they had some sort of cybersecurity state of the art thing...	atrokhymchuk	1793449548	1
+50317315	I think there was another HN discussion about it re bounty value and as far as I remember the issue is not that big companies are greedy in that case, but rather that over time it’s strategically better to have lower bounties so less people are interested in it.<p>5 or 50k doesnt matter to them. And this bug in terms of severity is very high imho.	jwpapi	1793462080	1
+				
+50315883	"only $5000 for this, lmao. It should be $50k out of pure shame. If they don't make these things hurt just a little they're never going to take following best practices seriously enough. There will be 9 more anyways.<p>Meanwhile the actual user of the account probably has to sign in using a yubikey because they get ""CyBeRsEcRuItY aLeRtS"" when they try to update node in their project to fix a crash and have to switch to daybreak blue to continue (or attempt to trick the normal models into doing it and risk getting autobanned)"	monster_truck	1793452272	1
+50319792	unrelated to this, but this company randomly reached out disclosing a vulnerability to us (test environment, synthetic tenant). on the one hand, thank you, it’s patched. on the other - we do not have a bug bounty program and this is not welcome. having agent swarms randomly breaking in to environments and then marketing their services in the disclosure is not an ideal sales tactic, in addition to being illegal.	joshuamoyers	1793478386	1
+				
+				
+50315167	> able to take over anyone's account simply by sending them a link<p>dont click links people<p>that'll be $500k for the security training pls	jareklupinski	1793447231	1
+				
+				
+				
+				
+				
+				
+50318704	It's exhilarating (for the lack of the knowledge of a better word) to see OpenAI and Anthropic starting getting hacked and getting a taste of their own medicine. Brings back hope that actual software engineering is not dead yet.	pllbnk	1793471766	1
+50320014	Hex aka Parameter is an irresponsible company, on my blacklist. after they did an unsolicited pentest on us, we scheduled a call. joke of a team.<p>hilarious that their headline message, on every web page, is `Backed by YC`.<p>also, the product is way behind their competitors anyway.<p>really cool exploit they found here, but that doesn't make them a company worth doing business with.	jiveturkey	1793479518	1
+50318327	5k is nothing for the amount of headache you just saved them..	Zeruxe	1793469226	1
+50317329	Claude or Gemini didn’t find the vulnerability on ChatGPT?	j9feng	1793462187	1
+50325781	I thought we had AIs and coding was solved?<p>How comes the very companies creating, supposedly, the best LLMs in the world have such blatant one-click security holes?<p>Something doesn't add up: sounds to me like coding ain't entirely solved yet after all...	TacticalCoder	1793541694	1
+				
+50317682	"Sigh.
+With how good Openai are good in programming frontier agents, they still have weak security. Hmmn, i'm short of words."	Yieldz	1793464765	1
+50316603	why didnt the black box of bullshit company detect this? for a group that touts every inane 'discovery' with hyperbolic bullshit, they really fall short on delivering anything of actual value, just rehashed bullshit.	nickphx	1793457476	1
+50321837	[flagged]	jiang-li	1793495375	1
+50324469	[dead]	gewetensleegte	1793531073	1
+50316122	[flagged]	msarda_23	1793454101	1
+50317018	[flagged]	marincoco1	1793460326	1
+50316384	[flagged]	frank00001	1793455884	1
+50315488	Another classic OAuth implementation failure. Mismanaging the state parameter or leaking tokens via referer headers in redirects is Security 101. Wild to see this in a production environment of this scale.	marwaneet	1793449427	1
+				
+				

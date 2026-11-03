@@ -1,0 +1,52 @@
+50325662		entryleveljobsc	1793540844	0
+50326857	I find this research odd because I don’t know what field of study to call this. It’s not computer science. It’s almost like behavioral psychology, but for AI agents instead of humans or animals. That said, I feel like these studies lack a lot of rigor. Or maybe it’s a lack of clear direction. Like, what are we trying to determine here? Because these things often involve advanced AI agents and complex harnesses, but then it sounds like they are given a very minimal prompt. What are we really studying then? Would the outcome be completely different with a different prompt? Can we generalize these results to other models? Different generations of models, different levels of thinking? What if we tried fine-tuning the model to this scenario? Is this fundamentally how any LLM would act, or is this some artifact of our current, generalized fine-tuning?	openasocket	1793548963	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50326361	"I started playing the rs-sdk (<a href=""https://github.com/MaxBittker/rs-sdk"" rel=""nofollow"">https://github.com/MaxBittker/rs-sdk</a>) with Claude after seeing it on HN the other day. I haven't looked at the Minecraft experiment but just letting an agent loose in the game and telling it to play did not work well. At first it really did not have a good feel for how the game actually plays and would routinely waste tons of time doing something that makes no sense — very reminiscent of the ""four agents spent 11 minutes appointing a ‘sole fertilizer operator’ for a single piece of bone meal on a single wheat block"" anecdote in this article.<p>But, after several hours of correcting and directing Claude (build modular, re-usable snippets of useful code rather than one-off scripts for driving, document your learnings for future agents, etc., explicit guidance on playing more optimally) it can now play the game fully on its own. I just gave it a goal to play through the end of the ""Legends quest"" (nearing end game content, requires playing through lots of complex quests ) and it's breezing through it.<p>I haven't experimented with swarms of agents yet, but I know if I had tried to create a swarm in 2004scape before the agent was actually good at playing the game, it would have failed horribly. So, I wonder how good the agents they were experimenting with are at Minecraft when playing alone."	_vertigo	1793545664	1
+				
+				
+				
+50326153	"I think that is a common failure case.  It isn't that different that agents getting stuck in other types of loops, distractions.  There is this great short novel about it by Adrian Tchaikovsky, ""Service Model"":<p><a href=""https://en.wikipedia.org/wiki/Service_Model"" rel=""nofollow"">https://en.wikipedia.org/wiki/Service_Model</a>"	bhouston	1793544052	1
+50326098	"Direct article: <a href=""https://labs.ycombinator.com/projects/games/index.html"" rel=""nofollow"">https://labs.ycombinator.com/projects/games/index.html</a>"	ddtaylor	1793543681	1
+50327653	I’m not sure there’s too much to take away from this. It seems like a fun experiment, but I find it unsurprising LLMs failed in this context. They used this “mineflayer” wrapper, allowing GPT to read some game state and take actions. Yet the whole time, the game is running and the agents have to sit and process every minute or so. We know that agents cooperate much better in a harness more like bash in a Unix VM attempting some programming task. To conclude from this that agents categorically poorly cooperate and descend into bureaucracy is an overreach. I think anyone working on AI robotics would find this result pretty unsurprising	gjskngnf	1793554118	1
+50325885	Germany 2027 and onwards.	GuestFAUniverse	1793542330	1
+				
+				
+50326669	"<a href=""https://news.ycombinator.com/item?id=50296486"">https://news.ycombinator.com/item?id=50296486</a> it was discussed here"	sega_sai	1793547532	1
+50327517	Of course they failed <today>, but make it a supervised goal and tomorrow we'll have minecraft utopia*<p>Now we just need to end human civilization a few times before the reward function kicks in and we'll have actual utopia<p>* the utopia might be backed by anti-thermodynamic processes available to a simulated reality; if you are concerned about anti-thermodynamic processes not being available in your reality, consult your local physicist or snake oil salesperson for a second opinion	za_creature	1793553176	1
+50326155	This site is cancerous, overloaded with ads	bad_haircut72	1793544058	1
+				
+				
+50326308	"Interesting insights about similar issues in this video by Openrig [1]<p>Multi-agent coordination is an engineering problem characterized by the inevitable emergence of human-like social pathologies - such as bureaucratic inertia.<p>[1] <a href=""https://m.youtube.com/watch?v=AL-PQuB2wy0"" rel=""nofollow"">https://m.youtube.com/watch?v=AL-PQuB2wy0</a>"	fallinditch	1793545194	1
+				
+50328073	"I guess Minecraft is suffering from administratium[0] poisoning.<p>[0] <a href=""https://web.archive.org/web/20130315075433/http://www.lhup.edu/~DSIMANEK/administ.htm"" rel=""nofollow"">https://web.archive.org/web/20130315075433/http://www.lhup.e...</a>"	ChrisMarshallNY	1793556713	1
+50326534	"<a href=""https://arxiv.org/abs/2610.22319"" rel=""nofollow"">https://arxiv.org/abs/2610.22319</a><p>Maybe a skill issue? Deepmind beat Minecraft. Or are the goals different?"	serioussecurity	1793546786	1
+50326941	"This is game theory... wait a sec... is degenerating capitalism into something that burns everything down to ashes just as a ""the ultimate 6d chess move"" to actually solve/perfect all the computer problems?<p>We are in AI thing right now... but bureaucracy makes everything fail... so we can start doing genetic algorithms/game theory to optimize it so we can swarm... but swarming requires defining a max/goal, which will require some kind of formal definition framework for what ""the sitius altius and fortius"" of AI agent swarm can build on Minecraft can do....<p>Wait a sec... are we just trying to beat Magnasanti in Minecraft?"	xlayn	1793549530	1
+50326569	We've automated management consulting.	jordanb	1793546974	1
+50326309			1793545206	1
+50326382	Wow, Tomshardware is spawning a ton of ads. Impossible to read this.	ajrouvoet	1793545812	1
+				
+50327780	I would like to see what would be different with uncensored models.	hsuduebc2	1793554822	1
+50327260	These are really subjective tests because the LLMs can have adjusted behavior based on the system prompt.<p>If you have the LLM operate on default behavior it likely won’t work because most systems if picked at random don’t work… even for humans.<p>The systems you see around us come from thousands of years of cultural evolution. If you simulate the same thing with LLMs where you have it write to its own context on what works and what doesn’t work you will eventually get something working.	threethirtytwo	1793551566	1
+50327620	Oh like the country of France?	TacticalCoder	1793553884	1
+50326952	They should have elected an all powerful leader, whose word is absolute. Bureaucracy is designed as mitigation for individual human incompetence. You do not need it once you are an all powerful, all knowing being.	deadbabe	1793549575	1
+50329966	[flagged]	alexkubit	1793567703	1
+50326528	Humans arrived at a capacity for social cooperation via millions of generations in which it has been a force on reproductive fitness. That created deeply rooted phenotypes like empathy, loyalty, hierarchy, and morality. Even if such concepts can be well described in a statistical model of language, there is no reason to think that they automatically become embedded in motivation. Without that, they may as well be anthropological observations by Martians.<p>To embed them as motivations, we can embed neural nets within a framework of genetic algorithms, in which successful cooperation is a gate to the next generation. It seems to me that this approach should be not just about creating efficient agent swarms, but should also be at the core of alignment efforts.	delichon	1793546756	1
+50327351	[flagged]	rahulsawhneyonl	1793552151	1
+50329259	[flagged]	alonharpaz	1793563895	1
+50326554			1793546921	1
+50326012	[dead]	woweink	1793543158	1

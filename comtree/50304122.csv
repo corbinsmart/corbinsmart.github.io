@@ -1,0 +1,185 @@
+50304122		taubek	1793369300	0
+50317592	We just recently use Claude Code to port an old Coldfusion site to Java Spring and it went amazingly well.  It's around 50K lines of Java, one of our engineers did it in his spare time over about a week, using the $200/mo Claude plan.  We had been talking about doing it for at least the last dozen years but never found the time.  It would have taken around 12-18 engineer-months to do this manually.<p>He had the translation use browser integration to compare the new site to the old site automatically.  The result was so good that he had to change background color on the new site because he couldn't be sure that he was testing the new site; it was so close to the original he was paranoid about accidentally being on the old site and not knowing it.  The whole thing was done in under 2 weeks, including coding, developer testing, tester testing, and deployment.  It's been in production 4-6 weeks now and we've had no reports of problems.	linsomniac	1793464195	1
+				
+				
+				
+50313951	Translating from one language/platform to another is something AI is very very good at, so this sounds like a good use of it, bonus points if they create a comprehensive test suite first.<p>Yes it will lead to new bugs, but the older code probably contains a ton of bugs already and is probably difficult to update (original writers long gone, docs out of date etc), so this is probably the best way out of that situation, <i>as long as</i> proper support is given afterwards so they don't end up in the same situation a year later (this is the hard bit).<p>The ra-ra commentary from the CEO is somewhat off-putting, but the idea is not all bad.	grey-area	1793431316	1
+				
+				
+				
+				
+				
+				
+				
+				
+50305103	We have an embedded system in one of product offerings that was largely developed using a bunch of “antiquated” technologies (over the past twenty years) and over the past year the two software devs that maintained it have retired. This normally would have big problem, but the entire codebase was re-written, documented, and modernized in a matter of about 3 months (for about $20k in tokens, and a mid level developer spending 50% of their time on it over that period). So it doesn’t surprise me to think a company like Cisco has piles of situations like this.	balderdash	1793373327	1
+				
+				
+				
+50316396	"""Where there's no sense, there's no feeling"". The words, I am told, of my father's maternal grandmother.  It is strange to feel such an intense kinship and to inhabit so closely the mind space of a woman who I have never met.<p>Perhaps I'm merely feeling my age.  But while I suspect Cisco will eventually be disappointed, my emotional state remains a profound void.  There is no feeling.<p>I reserve empathy instead towards those at Cisco who chose rightly in life.  They get to work, they do the job, they return home, they feed their family bread.  Please endure the 'vision' of your corporate masters.  You have already arrived and your destination is good.<p>When I was young I was told the book of Ecclesiastes was depressing.  But with age I see it as a book of hope.  Your job is pointless and that will never change regardless of your token burn rate.  Enjoy your family as the sun sets."	Verdex	1793455964	1
+50305232	"There also seems to be some weird hero-worship from the CEO, directed at this 27-YO engineer?  Like, ""he is the one who can save us."""	Taikonerd	1793373878	1
+				
+				
+				
+				
+				
+				
+50313887	I used claude to reverse engineer an old foxpro program. it setup a dos box and went through every screen. Looked at whatever files it could. Took a single week and it was 99% the same.	bendangelo	1793430394	1
+				
+				
+				
+50305235	Unless they also have 750K tests like sqlite do, I can't imagine this will go well, even if/especially if the legacy code warrants a refactor.	Aperocky	1793373892	1
+				
+				
+				
+50304936	As much as I dislike AI, having worked on Cisco gear for years, I can't imagine AI can put out a <i>worse</i> product. If the re-write is full of bugs and security holes and static SSH keys, then it has not changed at all.	Refreeze5224	1793372680	1
+				
+				
+				
+				
+50313677	AI rewrites of Cisco code? The infinite possibilities for endless backdoors is off the charts.	jck86	1793427537	1
+				
+				
+				
+50312125	Having to rewrite decades worth of legacy Cisco code is going to make Claude retire and start a goose farm.	paxy	1793407872	1
+				
+				
+				
+				
+				
+50314881	A strategy that could work very well is to let the AI<p>- explore the features and behaviour of the existing code<p>- first write lots of E2E tests for literally everything<p>- human-in-the-loop to review the feature list and test cases to see if some obvious or important stuff is missing<p>- then let implement it and verify by tests<p>I used this in (way) smaller scenarios and got really good examples with minimal human interaction.	micw	1793444644	1
+50316543	I agree with the sentiments that it important to understand the code during major refactoring projects. But what if while the code was being refactored the AI was asked in addition to keep a ledger of the changes it made and why. That ledger could be the basis of providing understanding to a code base that most likely had minimal corporate understanding in the first place. And because it is ok text format, the learning scales well instead of being consolidated to a single team of people working on the project.<p>I don’t believe it has to be this zero sum game where either you use AI and lose understanding or you don’t use AI and gain understanding. There’s a way to do both since, if used properly, AI could be the best teacher we’ve had.	kayashaolu2	1793457004	1
+				
+				
+50317436	I run some Huawei networking equipment under VRP OS (switches, OLTs). CLI is almost identical to iOS, but commands have alternative naming (e.g. show -> display, but many more such instances wherever possible - often times I prefer the naming in VRP). Apparently even the first editions of VRP documentation had parts citing cisco verbatim or had references to cisco docs. Rumors say its origins are stolen iOS source code at some point in the past via corporate espionage. The irony of this is that this cisco codebase has been rewritten at least once by the chinese before LLMs ;).	candl	1793463053	1
+50305003	Does this one engineer have the domain knowledge to know WHY the old code was written the way it was, and what the graybeards would have done differently if they could start again now?<p>Otherwise he's just going to replicate all the legacy bugs and questionable design decisions.	Taikonerd	1793372956	1
+				
+				
+				
+50304910	Rewrite it in service of… what exactly?	alwa	1793372579	1
+				
+				
+50305459	He'll pull it off, get feature complete, and spend a year or two with better models as they are released ironing it out.  We just did an experiment, in four weeks generated 3500 commits, 200k sloc with a 1:1.15 ratio of production to test code and it all works very well.  We are well on our way from 10x to 100x.	mr_roboto	1793374664	1
+				
+				
+50317989	Not something at Cisco scale. But a co-founder and I, rewrote a dating app we had written in Ionic/Angular/SpringBoot/Postgres to React-Native/NextJS/Supabase in two weeks, and released it without the users/paid subscribers not knowing what happened, but they were happy to see the new slick/faster interface.<p>We had developed the original app in 2020-2021 when Covid was around, and we were bored sitting at home not having much to do, and wanted to learn Angular. Our employer/company we worked for, wanted all of us to be to be Full-stack and both of us were backend developers. Hence we did our dating app as a side project as my co-founder was single.<p>Initially it was a $100 Claude Max license, and we were maxxing it at every stage, but once rewritten, $20 is good enough to maintain it.	RoadieRoller	1793466782	1
+				
+50305351	I think Cisco is an interesting use case for AI, because it's code, probably:<p>-Works according to a defined specification<p>-Within the bounds of that specification, has a lot of code written to optimize speed, cost, latency, etc - all measureable goals<p>-Written in c, with all it's weakness<p>-Given limitless engineering work, some could be ported to better hardware<p>-the new system could be automatically compared to the old system for functional correctness<p>All those factors fit well with agent based development.<p>Btw, many of them are true in general to embedded systems.	petra	1793374299	1
+				
+				
+				
+				
+				
+50306089	"Source: <a href=""https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/"" rel=""nofollow"">https://fortune.com/2026/10/30/cisco-president-jeetu-patel-g...</a> (<a href=""https://news.ycombinator.com/item?id=50303001"">https://news.ycombinator.com/item?id=50303001</a>)"	ChrisArchitect	1793377085	1
+50304827	There's no goal mentioned in this article as why 98% of the code needs rewriting.	williadc	1793372100	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50305429	Cisco that powers more than half of the backbone of all things online? Are we trying to lose control of AGI as soon as it emerges??	1970-01-01	1793374550	1
+				
+50318028	> I see some of the best ideas coming from the younger generation that have not yet been in the job market.<p>The views of these business leaders betray their own lack of vision, they are barking up the wrong tree.<p>The ability to think differently is not the preserve of the young. Instead of only hiring a bunch of greenhorns they should identify and cultivate people who are idea generators and flexible thinkers, of any age group, starting inside their own organization.<p>If you, as a business leader, are not stimulating a culture of innovation and instead maintain the status quo of traditional hierarchical roles where managers become gatekeepers of ideas, and everyone is protecting their own little domains, then you are the problem. Shit organizations will quickly turn original-thinking young people into corporate drones.	fallinditch	1793467013	1
+				
+50305291	Well they say the last 20% of the work takes 80% of the time so if he gets the prototype in 4 weeks, which I have no doubt he will be able to do, and assuming that prototype is the first 80% of work, then he should be able to do this in 20 weeks. He even has some margin! Looking forward to seeing the results	emoII	1793374090	1
+50313108	/r/whatcouldgowrong	davesque	1793419516	1
+50305028	Misleading title, someone should fix it. 98% of legacy code. Check out the full title of the article.	dmortin	1793373040	1
+				
+50317623	"Just since it wasn't clear to me.<p>Jeetu Patel is the CEO of Cisco, Paddy is actually Padmanabhan Krishnamurthy, a 27yo student/fonder.<p><a href=""https://www.padmanabhankrishnamurthy.com/"" rel=""nofollow"">https://www.padmanabhankrishnamurthy.com/</a>"	_ache_	1793464395	1
+				
+50305165	I guess Cisco decided it has not alienated its customers enough till now & its finally time to get people running for the woods - at least if those peoples would like their network to continue working.	m4rtink	1793373577	1
+				
+50314333	For me the next step is parallel businesses - that is capture the realm Im and out traffic of your company, probably easier for some than others, and then run different code bases against the same traffic, how much can be simplified, which code bases are easier to understand etc	lifeisstillgood	1793437654	1
+50318112	You need a skilled person to make it success. Someone who has already made his hand dirty with the legacy code for years should be the right person for it.	myspeed	1793467699	1
+50306751	Shocking to realize how many on HN do not realize that this is NOT a tall order, and has not been a feat for at least six months.	cheevly	1793379558	1
+				
+50305664	Maybe Stanford found some more of their stolen code being used by Cisco. /s Cisco origins is a fascinating subject.	rasz	1793375405	1
+50317425	I wonder if this will involve any Chez Scheme code. Sometimes I think Scheme would be a <i>great</i> language for AI to write code with.	gwerbin	1793462966	1
+50317185	I left Cisco fairly recently and was relatively close to Paddy in the org chart (same group). Interesting to see this come up here.	weakfish	1793461239	1
+50316506			1793456751	1
+50312454	"Most successful companies and innovative ideas come from middle aged founders and inventors. Silicon Valley loves the romantic notion of a contrarian young adult or even teenager ""seeing what nobody else sees"" , but they are the exception and not the rule."	glimshe	1793411123	1
+50312642	Anybody have an estimate of how much that is going to cost in token cost?	pianopatrick	1793413237	1
+50312737	"Never thought I'd say this, but, ""thank god I use unifi""."	gonight	1793414470	1
+50305293	I mean, this is going to be easy. I've worked on Cisco gear before and this will be a simple job for AI. The big question is what the goal is... so you've rewritten new C++ code or ported to a newer version of Linux? Or you've unified the codebase of the Catalyst + Meraki switches?<p>Not clear to me what he's doing. Re-implement switching? Simplify features? Reduce LoC? Add test coverage? Either way, AI in that world will be helpful. I'm sure it'll spot all kinds of problems in opaque drivers that are hard to follow from MF specs.	blobbers	1793374094	1
+				
+				
+50305960	ha ha .. that sounds like an Onion article. To be fair - if they did a narrow refactor to focus on fixing only obvious and known issues, they probably might be able to pull it off because a ton of that code is hairballs.	bluegatty	1793376566	1
+50312993	I doubt AI is gonna make or break this kind of project. It's the weird institutional knowledge that underpins a lot of these legacy code bases.	Melatonic	1793417939	1
+50305010	Is this like a PR piece for the guy? It's odd to see him singled out in a piece that would be normally be about the company, the CEO or the decision itself.	piker	1793372983	1
+				
+				
+				
+50304993	So there's a real risk that Cisco might become history in just a few years. Taking that kind of risk with a rather unproven technology has to be psychosis. Or is that kind of belief a form of Religion?	classified	1793372924	1
+				
+				
+				
+50312852	Don't they have no other AI news to share	bill10	1793415985	1
+50314024	If it isn't broken then break it!	samiv	1793432688	1
+50316271	I need a hero! I'm holding out for a hero till the end of the month...	alexandre_m	1793455175	1
+50312999	"<a href=""https://archive.li/exFjo"" rel=""nofollow"">https://archive.li/exFjo</a>"	skissane	1793418001	1
+50314970	But AI written code is legacy from day one. Since by definition nobody knows or understands what it does.	LtWorf	1793445536	1
+				
+50320752	This feels like Cisco paid for the article	Havoc	1793484662	1
+50315237	> That changed when Patel dropped into Cisco’s San Francisco office, and the pair got talking. Krishnamurthy reckoned he could rewrite Cisco’s legacy code with a two-person team. Patel says even the most AI-forward people on his own team weren’t thinking that way.<p>LOL.  <i>All</i> 27 year-olds looking at a heap of legacy code think they can easily rewrite it better.  It's never as easy as it seems on the surface.	hasbot	1793447768	1
+				
+50314420	From unlimited AI tokens to massive layout and beyond !	hamdouni	1793438932	1
+50314490	Shit, if broadcom did this to their codebase the world would be a better place. Their stuff is crap, and it's everywhere. It's unclear if they even use source control. Our guys spent ridiculous amounts of time backporting our submitted fixes into their releases.	mannyv	1793439996	1
+50311770	What's so special about the other 2%, is it good?	snov	1793404928	1
+50305245	rewriting code is the easy part<p>it's the testing in real world usage to shake out all the edge cases and bugs that's hard and that you can't just write unit tests for	insane_dreamer	1793373914	1
+				
+50318548	Such a risky idea to let one person rewrite the whole legacy. I mean there's a chance that this guy thinks about maintenance and how all his creations will me supported when he's done, but something tells me that he just want to show that he can do it and the rest of the tech team will be suffering. Good luck to that guy anyway	gosen	1793470720	1
+50305417	"""According to a report by Fortune"" - here's that report: <a href=""https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/"" rel=""nofollow"">https://fortune.com/2026/10/30/cisco-president-jeetu-patel-g...</a><p>Fortune's source was the CEO himself:<p>> “I’ve given him unlimited tokens because he’s going to refactor code,” Patel told Fortune at a small roundtable dinner. “So I’m like, you can go, you can go nuts.”<p>I think that Fortune story is better than the Tom's Hardware one. It ties the Cisco anecdote into a larger trend of some people deliberately hiring younger, less experienced developers for their AI projects - because they are more likely to be ""AI native""."	simonw	1793374519	1
+				
+				
+				
+50315097	The article text and tone sounds like an April Fool's article published sooner than it should have.	ExoticPearTree	1793446496	1
+50316155	This is the dumbest fucking headline I've read in awhile. Does Cisco not have smart employees already doing this?	jbrooks84	1793454334	1
+50315702	Oh great a guy doing the unlimited needful. Won’t end well for Cisco.	nusoone	1793450903	1
+50312499	Literally anyone can do this	dfedbeef	1793411678	1
+50312029	They need to cut cost & to figure out productivity per engineer. They're doing this b/c they are going to significantly cut their engineer workforce.	measurablefunc	1793406864	1
+50313010	What a mess of an article. Hard to read. Chasing the jabs and the stabs for clicks.	keyle	1793418189	1
+50311611	its never unlimited....	jeffybefffy519	1793403743	1
+50313176	This decision is about <i>so</i> many things <i>except</i> the code that it deserves some kind of award.<p>Demonstrates fanatical devotion to capital’s golden idol - “yes, <i>all</i> of the code; yes, <i>unlimited</i> budget”. Doesn’t actually cost the company anything - only one engineer off task, any nuggets of value can be harvested as it progresses but any costs or big changes can be deferred until completion of the impossibly large open-ended mandate (ie never), one guy won’t have the personal bandwidth to spend so much that the “unlimited” part actually matters, and in case of emergency it only costs six months severance to make it all go away. It even rescues a fellow national from the ignominy of being employed so far below his previous station, there’s so much to like about it. Hmm? The code? What about it?	fwlr	1793420475	1
+				
+				
+50313987	Anyone else thinking that tech and porn lingo is converging?	aktuel	1793432178	1
+50317828	Anthropic training data unrecoverably got tainted, need to retrain.	lofaszvanitt	1793465728	1
+50313550	Claude make the Cisco ACI webui load in less than 10 minutes, make no mistakes	mawadev	1793426068	1
+				
+50312412	If i was an ex founder and having a low profile in a big company, I am doing it on purpose, either to have a peaceful life or heal from a burnout, definitely I don’t want to be on the spot like that, especially when I am not innovating anything new nor I will take any meaningful credit after since it will mostly go to AI, worse, if it didn’t work out I will have my career ruined being known to had an unlimited supply of tokens and still failed.	tamimio	1793410778	1
+50311882			1793405761	1
+50315278	"Am I the only one reading the headline as ""Cisco committed their source code to public domain""?"	zeroq	1793447993	1
+50315296	...and thereby making new legacy code.	spragl	1793448083	1
+50313691	"""At most companies, only someone with decades of experience under their belt would be trusted with a project this size. Patel thinks that’s a problem.<p>“If you don’t hire the early-in-career [workers], and you just let your workforce continue the way that they were, where do fresh ideas get injected? How do you challenge the status quo?” he said.""<p>-------------------<p>This would be an interesting approach for a bleeding edge startup that's betting big on producing something novel or going bankrupt.  If you're going to bet the company on one guy and some AI, that's <i>bold</i>.  He'd better have some serious chops and not be merely a slick salesman.<p>However, Cisco is an infrastructure company.  Status quo is what most people <i>want</i> from an infrastructure company.  You don't want your Cisco stuff to suddenly start doing new, innovative things that require a complete redux of everything built on top of it.  This, of course, assumes that having one guy do a refactor of your entire code-base produces something ""innovative"" rather than a cavalcade of snafu's.<p>It's probably not the best time to be holding CSCO."	beloch	1793427650	1
+50312762	First LLM PTSD case coming soon. You heard it here first, folks.	pdimitar	1793414923	1
+50322929	[flagged]	MaxQuimby	1793510800	1
+50317643	[flagged]	Linkjob	1793464565	1
+50324180	[flagged]	dionnam	1793528159	1
+50316523	[flagged]	abalgir	1793456883	1
+50315967	[flagged]	mikevertal	1793452976	1
+50314941	[flagged]	SidMangsatabam	1793445304	1
+50319366	[dead]	fleroviumna	1793475657	1
+50312535	[dead]	spkm	1793411987	1
+50305273	[dead]	pupppet	1793374019	1
+50318656	[dead]	tiffanyh	1793471494	1
+50314762	[dead]	draw_down	1793443308	1
+50313572	[flagged]	marberal	1793426479	1
+				
+50305407	I suspect we are approaching a world where this makes sense to do annually. Opus 5.5 is good enough to improve on most codebases, and Opus 7 will no doubt be good enough to improve on that.	causal	1793374482	1
+				
+50305339	'98% of the company's legacy code' is very vague. How many code bases? How each code base is connected to any supported Cisco product? How many KLOC the company's legacy code?	raincom	1793374245	1
+				
+50315430	It's all about process. If you have a good process in mind, you can build a system that can reliably do everything.Artificial intelligence is now the engine to do that. With the correct harnessing, you can do anything now	polyterative	1793449002	1
+50313175	A lot of the commenters here are still living in early 2026. Late 2026 AI can absolutely demolish this kind of job. It can clone photoshop! You think this is going to be harder than that?	emtel	1793420468	1
+				
+				
+				
+				

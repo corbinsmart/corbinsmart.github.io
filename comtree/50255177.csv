@@ -1,0 +1,26 @@
+50255177		dverlaeckt80	1793080943	0
+50257324	"Could I suggest also looking at a sed-inspired parsing language
+(a DSL) which is called nom and is documented at <a href=""http://www.nomlang.org"" rel=""nofollow"">http://www.nomlang.org</a>
+An example script for parsing symbolic expressions is at
+<a href=""http://www.nomlang.org/eg/maths.parse.pss"" rel=""nofollow"">http://www.nomlang.org/eg/maths.parse.pss</a> and another which turns the
+expressions into LaTeX is /eg/maths.tolatex.pss<p>Nom may seem quite verbose. I have written another language (which compiles
+to nom) which I call Syntagma. The syntax of syntagma is much closer to 
+EBNF but also has powerful additions, such as a ""lookahead"" syntax, a 
+negated lookahead syntax (eg: ""parse this as an expression if it is not
+followed by a multiply operator""). Also, Syntagma has a ""condition"" syntax, 
+meaning that a parse rule will only reduce if the attributes of the 
+parse tokens match certain conditions.<p>An example of an expression parser written in Syntagma is at
+<a href=""http://www.nomlang.org/syntagma/eg/expr.sta"" rel=""nofollow"">http://www.nomlang.org/syntagma/eg/expr.sta</a>  This is much more succinct 
+than the equivalent nom script. The script /syntagma/eg/expr.toforth.sta
+converts symbolic expressions (and assignments) into Forth.<p>Parsing is an interesting topic, but I feel that it is quite difficult
+or non-intuitive with some of the traditional tools and methods (at 
+least for me)."	mjbq	1793099290	1
+50256315	Personally I never found the shunting yard algorithm very intuitive at all.<p>A recursive descent parser makes much more sense to me.	jstanley	1793091726	1
+50257144	For me, the win is that a Pratt parser is more data-driven.<p>It’s easy to look at a table or map of operators and their precedence and convince myself that it’s correct. A recursive descent parser needs to be very clearly structured to have similar clarity, IMO.<p>You can easily combine Pratt parsing with recursive descent, using the Pratt part only for expressions. FWIW, this is my favorite approach for parsing C.	throw-qqqqq	1793098075	2
+50260887	"The table-driven aspect is nice when you have user defined operators. I've used it inside a combinator based parser for a language with mixfix operators (e.g. _≡⟨_⟩_ ).<p>Lean4 takes this to an extreme and has ""syntax categories"" (e.g. expression), each of which has something like a pratt parser. Ambiguity is broken by taking the option that makes the most progress, and it is made efficient by memoization. You can add syntax at compile time, down to the lexing level. There is an example that adds HTML-like syntax and uses it later in the same file.<p><a href=""https://github.com/leanprover/lean4/blob/0f2eaa6e776255083f999d11278ce656d09d853d/tests/playground/webserver/Webserver.lean#L171-L174"" rel=""nofollow"">https://github.com/leanprover/lean4/blob/0f2eaa6e776255083f9...</a><p>(I'm not saying changing the language on the fly is a good idea, but it's interesting that they pulled it off.)"	dunham	1793115221	3
+50257558	Pratt parsing, in its simplest form, is essentially an optimized recursive descent that uses lookahead to skip levels. Which as you say ends up being clearer too.	bonzini	1793100696	3
+50257412	Yeah, for “normal” syntax I’d generally go for recursive descent, but for expression parsing with operator precedence I’d implement Pratt parsing if I had any say in the matter.	arnsholt	1793099829	3
+50257473	"I think of it as expressions vs statements, but I think we agree.<p>Lexing for tokenization -> 
+recursive descent for statements -> Pratt parsing for expressions.<p>S-Expressions and prefix-notation are so easy to work with (compared to in-fix IMO), because the precedence is explicit."	throw-qqqqq	1793100153	4
+50277281	That is my favorite approach for parsing <i>any</i> language which has operator precedence. It is easy to write, easy to maintain, performs well, and doesn't require you to include extra tools in your build process.<p>I know some people love their parser generator tools, but I just don't find them to be worth the hassle; parsing is not a hard problem.	marssaxman	1793208361	3
+50280214	> I know some people love their parser generator tools, but I just don't find them to be worth the hassle<p>Totally agree!	throw-qqqqq	1793218384	4

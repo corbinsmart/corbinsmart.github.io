@@ -1,0 +1,25 @@
+50278645		g0xA52A2A	1793212165	0
+50294088	"Hey folks, this is my project. I really liked OxCaml's zero_alloc feature [0], something you don't get in Rust or Zig or Go*, and have been trying to get a handle on allocations in The Consensus's code search engine.<p>It's an extremely early project but it's been helping me out a bunch already. Would love to hear your bug reports or requests if you try running it on your codebase.<p>[0] <a href=""https://theconsensus.dev/p/2026/06/27/the-feature-in-oxcaml-more-languages-should-steal.html?focus=1"" rel=""nofollow"">https://theconsensus.dev/p/2026/06/27/the-feature-in-oxcaml-...</a><p>* I think you can get this in Clang and maybe GCC with `__attribute__((nonallocating))` though."	eatonphil	1793300071	1
+				
+50293009	The end state of every garbage collected language is a suite of tools to prevent garbage collection at all costs.<p>I think we can learn something here.	andrewla	1793295693	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50294165	"If you don't allocate, why do you even need Go or Rust? LLMs handle less elegant syntax just as well. I use a zero-malloc C dialect with slices and bounds-checking.<p>Just recently I was sketching a smallish database in zero-malloc C. <a href=""https://replicated.live/blog/db"" rel=""nofollow"">https://replicated.live/blog/db</a> That was partly because most LSM data structures are read-only, so mmap was good enough and concurrent access was safe for the bulk of the data.<p>The ""hot zone"" (memtable) then requires some intricate engineering, but that is the case either way.<p>You can go quite far with zero-malloc C."	gritzko	1793300445	1
+				
+				
+50293378	Go compiler has an advanced escaping analyzer. Wouldn't it be easier and better to add this noalloc-analyzer feature to golang directly?	kvemkon	1793297250	1
+				
+				
+				
+50297921	Interesting difference between Go and Python, `c.counts[name] += n` can allocate if name isn't already present, whereas in Python you get a key error.	kristianp	1793317893	1
+				
+50295190			1793304956	1
+50292051	I love it. Any thoughts on allowing (value type) Pointers into a Region?	zinodaur	1793292478	1

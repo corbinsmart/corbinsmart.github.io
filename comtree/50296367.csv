@@ -1,0 +1,34 @@
+50296367	Is it just me, or has Opus suddenly turned dumb as rocks with 0 attention span over the last half day or so? Noticeably worse output across multiple agents on very different projects.	jahala	1793309485	0
+50296857	"There was an article on HN a month or so about benchmarking Opus 5.5 every day and recording / publishing the results.  I recall this being a github repo, but my searches turned this up instead: <a href=""https://www.bridgebench.ai/nerf-bench/claude-opus-5-5"" rel=""nofollow"">https://www.bridgebench.ai/nerf-bench/claude-opus-5-5</a><p>So it seems like ... it is not getting dumber.  I find myself using Fable a lot more, though.  Opus 5.5 was never as fun as Fable, but it's pretty good."	jrockway	1793311641	1
+				
+				
+				
+50297779	I think something has changed, maybe about two weeks ago, because there’s this fixation from the model where if you ever need to make a correction, it simply becomes disinterested with your instructions.	itopaloglu83	1793316933	1
+				
+50296743	New model incoming	74948494i4	1793311155	1
+50309058	"I found your post because I searched ""Did Opus 5.5 get worse today?"". I experienced the same thing with it not following instructions well and just missing things."	flynfish	1793388773	1
+				
+				
+50296588	Agreed. Yet, it munches tokens like there's not tomorrow. I don't get anything done with Claude in the past 2-3 weeks - just eating up its weekly quota within a day.	nikolay	1793310524	1
+				
+				
+50325228	I am still using Opus 5.5 over fable 5.1, no decline noticable	constipn	1793537976	1
+50312422	I have same experience with Fable, it's absolutely ridiculous. It's not one, it's like 10 transgressions an hour, doing really stupid stuff, hallucinating, ignoring commands, gold-fish memory.<p>They're nerfing them real hard.	cromka	1793410891	1
+50296642	I started noticing at the end of last week. My colleagues started noticing on different days this week.	jpbryan	1793310744	1
+50298584	<i>Is it just me, or has Opus suddenly turned dumb as rocks</i><p>What I've seen is that if I let Opus 5.5 run for too many turns <i>(not sure how to quantify that)</i> it starts exhibiting signs of human dementia.  It will forget it told me to run something and will then accuse me of misconfiguring something that it literally gave me a script to run that configures something.  It also forgets the instructions in my project and has to go back and read them and apologizes for forgetting the instructions.  Between this increasing context rot and the excessive shock collars applied to defensive security coding it's rare that I can even use Opus 5.5.  For the past few weeks I have had to use Opus 4.8 and even that now has a sub-set of the shock collars applied [cyber] which forces me to start a new session.  This has led me to researching the Abliterated 70B/120B <i>(uncensored)</i> models and required hardware.<p>So dumb as rocks?  I am not seeing that, but the context rot is getting worse for me personally.  I don't know if it makes a difference, I am on the pro 20x plan.  Maybe people on enterprise plans do not see this which I assume is most of the people here using Claude.	Bender	1793321922	1
+				
+				
+50296748	Fable 5.5 incoming?	jaapz	1793311164	1
+50313551	Sometimes I read a thread like this and I feel like I don't know what people are doing or am I the only crazy one in the world. I'm still using Composer 2.5 (a low tier model released 5 months ago and about a Sonnet 4.x tier capability one) and being extremely productive with it and working on multiple projects on a $20/mo Cursor sub. I move to Grok 4.7 in some cases if I find Composer 2.5 not smart enough for something, or for company work when I'm not the one paying for tokens, but it's honestly not even needed most of the time. Composer 2.5 writes all kinds of code (JS, Rust, etc.) just fine and tests and compiles them and everything, and is super fast. What are people doing that constantly need Opus 5.5 and even having to move to Fable/Mythos?	godot	1793426074	1
+50296750	nerfed, fable 5.5 coming soon	vldszn	1793311173	1
+				
+50300503	some of my coworkers said it got stupid verbose yesterday or the day before, all of a sudden. i haven't noticed any difference personally.<p>you, and they, might be getting a/b tested	1_1xdev1	1793342110	1
+50304914	Fable 5.5 incoming?	Theophane_Rame	1793372588	1
+50298389	First time?	fractorial	1793320651	1
+50302144	I am feeling the same got dumbest answers so I just changed the model	anitroves	1793356919	1
+50297016	No.	sunaookami	1793312432	1
+50299535	[flagged]	shafiqmoltafet	1793330739	1
+50302177	[dead]	tinykerneldev	1793357157	1
+50309958	[flagged]	UnredactedAI	1793393347	1
+50296394	[dead]	TempoRevenue	1793309585	1
+50297120	[flagged]	nextliftoff	1793312980	1

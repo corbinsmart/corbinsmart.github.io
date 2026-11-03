@@ -1,0 +1,34 @@
+50315987		gloxkiqcza	1793453100	0
+50318890	"> preemptively protecting themselves from potential lawsuits ... for offering the means to reverse-engineer their software.<p>I think the legal concern isn't so much the act of reverse engineering itself which is mostly legal (except RE specifically to remove anti-copying protection under DMCA), it's that damages from contributory infringement are theoretically unbounded because it's up to $150k per work and $2,500 per download. When the client is worth billions, corporate counsel is going to default maximally conservative, which is extra tragic because secondary infringement almost certainly doesn't apply to AI in this context. Meanwhile, overreacting to this <i>extremely</i> unlikely threat IS causing significant disruption to innocent activities.<p>Under copyright law secondary infringement doesn't apply to ""general purpose technology"". It requires ""encouraging or knowing in advance it'll be used for infringement,"" set in the early 80s in the Sony BetaMax case. Under DMCA it requires being ""primary designed to circumvent access controls,"" set in the late 90s by Hollywood lobbyists targeting DeCSS for DVDs. Lawyers today are only defaulting to prohibition because there hasn't yet been a case ruling AI is a general purpose technology. Yet it's obviously the most 'general purpose' tech since, maybe.... the wheel?<p>OAI / ANT management needs to revisit the secondary copyright infringement prohibition because it's hurting not only their product and brand but also the entire AI value prop. A helpful intelligent agent that randomly goes AWOL for irrationally mistaken reasons is a <i>serious</i> product issue. While mistaken concerns around bioweapons and IT security are understandable, dropping secondary copyright infringement prohibitions seems like an easy win.<p>The real liability to OAI/Ant is much smaller than it appears, while the long-term downsides are larger than they look. Pragmatically, copyright trolls are just a nuisance, the real threat is someone with deep pockets like Nintendo/Sony, but those guys don't want to sue anyone who might go to court. The <i>last</i> thing they want is a clear ruling that AI is general purpose which would forever remove their vague threat."	mrandish	1793472730	1
+50318526	They never expected their models could be used for reverse engineering.That's the truth.<p>Now, they're panicking. And this is why the other dude, OpenAI, came out to say that people shouldn't use RAM locally, because they can't control the software anymore.<p>Open weight models, ablated models are going to become the norm, hopefully, locally run.<p>So instead, they're saying, look, hardware should become hard to reach for all of us, for the consumers.It's not because we're competing for resources for the same silicon or chips as they are.The ship has sailed thankfully.	laylower	1793470600	1
+				
+				
+50317135	This will work for approximately a year until ablated open weights models catch up, and then it will be open season. My 2c is that we need to figure out reputation systems that are resilient to low effort cloning rather than try to prevent it, because the latter approach is a non-starter outside of a very short time horizon.	asdfasgasdgasdg	1793460959	1
+				
+50320127	This is why we need open AI (not OpenAI). Some duopoly deciding what goes on a whim is not acceptable<p>I can sorta see them suppressing instructions for say bioweapons (that seems fair to me), but this demonstrates that they'll bend for corporate interests.	Havoc	1793480114	1
+50317422	remember when llms were a tool and you could use them however you wanted? pepperidge farms remembers<p>can't wait for the day when you end up in jail for the wrong prompt or when you will be served ads through the kazoo.	x86x87	1793462955	1
+				
+				
+50316629	"<a href=""https://news.ycombinator.com/item?id=50304358"">https://news.ycombinator.com/item?id=50304358</a>"	hurfdurf	1793457668	1
+				
+50320792	"There is some irony there. So asking the AI to mod or reverse-engineer an existing game is a no-go, but asking it to create a ""new"" game using stolen assets and stolen code is fine..."	xg15	1793484993	1
+				
+50320758	I wonder if this is the start of a chain of events that will lead to anything that requires more tech savvy than editing an Excel spreadsheet to be limited to enterprise customers, while consumers get a dumbed-down chat bot.	GaryBluto	1793484696	1
+50318049	To what extent are ports of old/abandoned games to modern systems permitted? For me, one of the major value propositions of AI-based coding tools is the ability to rapidly update legacy software that still has some use, including games.	mezentius	1793467179	1
+				
+50325613	Not sure if it's true! Devs are still REA old games.	LotfiBenDev	1793540498	1
+50317833	That's what happens when you rent your intelligence from someone else.	lioeters	1793465754	1
+50316581	- all those RE guys ll just hop to chat gpt instead<p>- if chat gpt also blocks it, they ll hop to all the chinese models	vivzkestrel	1793457358	1
+				
+50317357	I honestly don't see the appeal in cloning existing games. Why not leverage the tools to design and build new games? There are so many mechanics, niches and genres yet to be explored. Use this newly found power and bring them to life.	neovive	1793462402	1
+				
+				
+				
+				
+				
+				
+				
+				
+50319032	"[dupe] Discussion: <a href=""https://news.ycombinator.com/item?id=50304358"">https://news.ycombinator.com/item?id=50304358</a>"	ChrisArchitect	1793473465	1
+50316894			1793459586	1
+50317595	"But copying Ghibli style is still allowed.<p>Software people protecting their ""own"" and fucking over everyone else."	Arodex	1793464202	1

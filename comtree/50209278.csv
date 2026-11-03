@@ -1,0 +1,31 @@
+50209278		ibobev	1792764462	0
+50242894	This is amazing. Now I'm imagining the ability to simulate less-than-ideal conditions for tree growth. Placing the tree next to a building or on a hill or culling branches at certain stages in its life to see what happens next, etc.<p>I think my overall thought is: we see plenty of nice looking trees in games and graphics. What about authentically degenerate trees?	Waterluvian	1793019705	1
+50247241	Now I want a simulated caterpillar. In my area, we sometimes get caterpillar apocalypse where the whole forest will be full of them, sometimes they cover entire trees with their silk.<p>I think the most interesting result would be somewhere halfway between 0 and 100% nibbled.	andai	1793034574	2
+50249764	Don't stop there: fungi and beetles are some other stressors that could be modeled alongside caterpillars using similar techniques. Like lepidopterans, they are very host-specific, though they have somewhat different transmission vectors, so you could see the defoliation (or other foliage impacts like leaf curling and yellowing) spread / not spread depending on factors such as proximity, moisture, wind and the parasite's lifecycle.	cmpb	1793043588	3
+50241011	"Pretty cool idea: ""buds compete for light, the tree distributes a growth resource among them, and the successful ones produce new shoots. Those shoots change the light available for the next round. The crown shape emerges from this feedback loop.""<p>I would never have thought to generate tree shapes by simulating real life"	abrookewood	1793005212	1
+50241297	Procedural generation always looks magical until you realize it's just a bunch of simple rules fighting for resources.	levicanskij	1793007575	1
+50241962	That makes it even more magical to me.	fenykep	1793013670	2
+50244454	reductionists being reductionists. I'm with you.	d-us-vb	1793025318	3
+50244997	There has been a complete deluge of new accounts sometimes only hours or days old being extremely condescending, overly negative, sometimes antagonistic, and sometimes they seem like a kind of LLM prompted to cause arguments.	lloydatkinson	1793027030	4
+50248257	HN needs to re-introduce the rule where you can't post until the account is at least a few days old.	FuriouslyAdrift	1793038108	5
+50244037	occam's razor at its finest	armeehn	1793023872	2
+50241810	The algorithm is cool and the article is pleasing to read.	perfsakuya	1793012189	1
+50242841	This makes me realise that the amount of wind affects the number of viable leaves.	oniony	1793019499	1
+50246540	[dead]	jihadjihad	1793032095	2
+50241013	"oh hey, very nice result!
+i've been experimenting with trees (using ai) as well - <a href=""https://treesim.netlify.app/"" rel=""nofollow"">https://treesim.netlify.app/</a>"	swazzy	1793005248	1
+50242165	The generated trees look absolutely amazing. Adjusting the process for different lighting situations seems straightforward too - freestanding trees look different from those in woods.	yxhuvud	1793015390	1
+50242340	This is super cool! Been looking into procedural tree generation for a project and that paper is a great starting point.	efromvt	1793016631	1
+50241614	Show me a smoothly animated demo of growth from a bud! It would look incredible	eluded-xyz	1793010301	1
+50241521	Oh hell yeah, a topic like this was on my bucket list for a while.	cvanelteren	1793009599	1
+50240558	Very nice overview of procedural tree generation!	swiftcoder	1793001680	1
+50242355	This is beautiful! Thank you for sharing!	camidagreat1	1793016753	1
+50256943	This is one of my favorite topics recently — a bit of a guilty pleasure. Please share other procedural flora growth if you know of examples!<p>I’ve found it’s a lot, lot harder than I expected, though I’m targeting aroids (monstera, philodendron, pothos, anthurium, etc) rather than trees, which adds the tricky requirement to get the leaves to unfurl naturally from their petioles. Not quite completely discouraged yet though, sadly!	bbor	1793096555	1
+50240852	Nice to see another article from Mr Arion Render, always a pleasure. And of course posted by ibobev, always worth watching his HN submissions.	pixelpoet	1793003891	1
+50245282	Could foresters use this?	Syper	1793028007	1
+50241789	now i am wondering if that would correctly imitate crown shyness etc. When several trees grow close to each other	busssard	1793011987	1
+50241948	It can, but doing that for a whole forest would require a lot of voxels!	swiftcoder	1793013569	2
+50242192	Yes, especially as not all trees are the same age, and the older trees were grown defined by even older trees that are now gone.	yxhuvud	1793015547	3
+50243696	yeah, and them having different rules for growth given different species	busssard	1793022646	4
+50244665	All their growth models do involve light, however. So it probably does make sense to have a common light representation - ideally some sort of sparse cone storage though, not a voxel grid the size of a forest.	swiftcoder	1793026017	5
+50273926	it would be nice to be able to place different light sources and have a basic ray tracing sim, so you could simulate trees growing in cave entrances etc	busssard	1793196762	6

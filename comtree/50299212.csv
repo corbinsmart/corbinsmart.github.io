@@ -1,0 +1,7 @@
+50299212		simonpure	1793327793	0
+50300516	Coordination is a tax. You don't want to chase this.<p>Everyone who is doing community of models via message passing is losing the game right now. Every single case of gas town I've seen could be refactored into a single agent loop with a well curated set of tools.<p>I think designing the tools is the hardest part in doing this AI harness/agent thing correctly. If you feel inclined to create an entirely new role in the system, it's likely you couldn't figure out a clean way to make two tools work together. This conflict is not resolved simply by moving the two tools to two different agents. This merely hides the old problem inside a new one.	bob1029	1793342360	1
+50300480	"Interesting article but I don’t understand this:<p><pre><code>    When they can eventually work directly with one another rather than sitting inside human hierarchies, we will be dealing with a genuinely new kind of economic input.
+</code></pre>
+What does AI working directly with one another mean? I don’t think it’s anything new - it’s the same AI working on a long horizon task. A big part of the article works on the assumption that this is qualitatively new way AI can work but I see it as a human operating an AI agent that does long horizon task that internally can spawn multiple subagents (but this part is abstracted from the user who only gives it a prompt).<p>Unless there are domain specific models, what am I missing?"	simianwords	1793341743	1
+				
+				

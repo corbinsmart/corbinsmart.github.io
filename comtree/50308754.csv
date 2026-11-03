@@ -1,0 +1,38 @@
+50308754		bogdanoff_2	1793387373	0
+50327850	"I need to put a disclaimer to say that I <i>hate</i> when people hijack a post about foo to talk about bar, but:<p>> The language is not object oriented but it provides some features to facilitate object oriented designs.<p>It has classes and implicit `self`. Not nothing, but I don't think it's incorrect to say has any more OOP than general purpose languages like Lua or JavaScript in that sense.<p>Something like Pony[1] is a more mature and feature rich entry and has a much better OOP story.<p>All that said:
+a) I'm sorry for doing the thing I hate when other people do<p>b) Creating a language is a big undertaking, and it's super cool that they did it<p>c) I see it seems to already be written in Copper too, which is also very neat!<p>[1]: <a href=""https://www.ponylang.io/"" rel=""nofollow"">https://www.ponylang.io/</a>"	pull_my_finger	1793555299	1
+				
+				
+				
+50328237	As a Crystal fan, really nice syntax. The documentation leaves open several questions:<p>What is the memory model here? What does it compile to? What makes it 'low level'? Is there a GC? Does it have ABI compatibility with C or a FFI?	ricardobeat	1793557644	1
+				
+50329681	It’s nice they tried with a more fleshed out exemplar.  Polymorphism (“generics”) and interfaces (“OOP”) would have been even better to see, especially across any kind of visibility boundary enforced by the language (packages, and the like.)<p>Programming to an abstract interface — and in large codebases, enforced visibility controls — represent the middle ground everyone wants, in my experience, between “OOP” and “sir, this is C”.	gorgoiler	1793565989	1
+				
+50308755	"Not mine, but I found this to be really interesting as a language created by one person for their own use.<p>Also really interesting are the author's blog with articles on language design (for example his thoughts on exceptions, and how he added them to his language, then decided against them), and the change log for the language, showing its evolution.<p><a href=""https://tibleiz.net/"" rel=""nofollow"">https://tibleiz.net/</a><p><a href=""https://tibleiz.net/copper/changes.html"" rel=""nofollow"">https://tibleiz.net/copper/changes.html</a>"	bogdanoff_2	1793387373	1
+50328481	How does it free memory? I don't get it. I browsed the docs a bit but didn't find a single reference to deallocation. There's alloc for heap allocation but no free?	nirei	1793559190	1
+				
+50328356	I wish the author has written about the motives behind the language and why someone should choose Copper. We have in fact more programming languages than we actually can use.	sinuhe69	1793558345	1
+				
+50327009	Garbage collected? Couldn’t tell from the docs.	DenisM	1793549865	1
+				
+50327085	"It seems pretty tasteful, but I don't see anything about character sets. How does it support Unicode? What does a string of 16-bit characters represent?<p>There do seem to be some Unicode constants in the standard library:<p><a href=""https://tibleiz.net/browser.html?path=std&title=Standard%20Library%20Source%20Code"" rel=""nofollow"">https://tibleiz.net/browser.html?path=std&title=Standard%20L...</a>"	skybrian	1793550352	1
+50328386	"""Copper is a programming language that I use as a replacement to C.""<p>That's used... to make what?"	mwkaufma	1793558507	1
+				
+50329843	Really hard to make opinion based on few small examples but I can say I like what I see, Ruby like syntax definitely doesn't hurt language.<p>Multiple return values are kind of weird, but maybe it is just me. Overall this is something I will give a try.	desireco42	1793566936	1
+50328162	"Looks nice and small.  Too bad it doesn't quite actually build (on Linux).  Also, no string interpolation (AFAIC) and no kebab-case.<p>Here's my current stab at a small compiled language: <<a href=""https://codeberg.org/stevefolta/lx-2025"" rel=""nofollow"">https://codeberg.org/stevefolta/lx-2025</a>>."	stevefolta	1793557229	1
+50327508	Seems like Dart with indentation instead of braces.	leecommamichael	1793553089	1
+				
+50329386	Seems really interesting	digitaltrees	1793564503	1
+50327309	"Looks like Crystal to me. But with stronger typing.<p><a href=""https://crystal-lang.org"" rel=""nofollow"">https://crystal-lang.org</a><p>Neat little language..."	flossly	1793551892	1
+				
+50327802	The simplicity is appreciated.	Vishal_Max	1793554979	1
+50327353	This might be my new favorite language. Deeply sane.	analog8374	1793552155	1
+				
+50326700	It’s similar to Python syntax.	jdw64	1793547712	1
+				
+50328735	This seems to have a lot of potential, but there are important details missing. Hopefully the feedback from this thread will result in those questions getting answered by the author soon.	Fervicus	1793560716	1
+50328530	I think the days of releasing new programming languages is gone, it's like releasing a new punch card format. Humans don't code anymore and so programming language is really a choice LLM's make for you.	small_model	1793559522	1
+				
+				
+				
+				

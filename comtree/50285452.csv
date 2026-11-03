@@ -1,0 +1,115 @@
+50285452		MarkBlah	1793257730	0
+50286914	"The issue seems serious but the part about Australia and 000 that would ban an attacked device seems the typical LLM-being-too-anal paragraph, and completely lacking common sense.<p>Maybe I'm wrong and naive but given that the AU law was done to force people move forward from 3G only phones because the network was being shutdown and 000 moved to 5G (I believe), it's a law for operator to contact their customers still using an old phone and migrate them to a newer one.
+I doubt they will block automatically the number if you are under that DOS for a few days in a row."	darkwater	1793269942	1
+				
+				
+				
+50293016	As an ex-Google ISE, part of my work was to review security vulnerability reports to us. If this report came on my lap I would definitely have flagged this as a severe security issue. Just a DoS yes, but a severe DoS. I did tier two engineering reviews though. From the website's timeline it seems like a tier one triager dismissed it. And I would see this happen occasionally: tier one triagers either dismissing things that shouldn't, or the reverse, flagging things that don't deserve it. My personal opinion is that the quality of Google's work has declined somewhat in the last decade. Disappointing...	mrb	1793295720	1
+				
+				
+50286986	"Google has clearly flagged this as ""not a security issue"", repeatedly. It's a weird bug for sure, but what's the scenario here?<p>Correct me if I'm wrong, but the carrier configuration messages can normally only come from carriers. The demo APK sends a message to the phone itself, but sending SMS messages requires special confirmation.<p>Practically speaking, what's the risk?"	jeroenhd	1793270560	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50293500	"It is more likely a severe communication issue happened. A related fix was committed by Google on June 15th [0] and was apparently assigned CVE-2026-58882. GrapheneOS [1] was able to ship the fix through the security preview channel as early as July, but it will otherwise be in the upcoming November security bulletin.<p>[0] <a href=""https://android.googlesource.com/platform/frameworks/opt/telephony/+/735d9672603fa206c4b43cb668c1aa273db70b97%5E%21/"" rel=""nofollow"">https://android.googlesource.com/platform/frameworks/opt/tel...</a><p>[1] <a href=""https://x.com/GrapheneOS/status/2115848460578762757"" rel=""nofollow"">https://x.com/GrapheneOS/status/2115848460578762757</a>"	Wonderfall	1793297664	1
+50286662	"<a href=""https://android.googlesource.com/platform/frameworks/opt/telephony/+/android-4.4.2_r1.0.1%5E%21/"" rel=""nofollow"">https://android.googlesource.com/platform/frameworks/opt/tel...</a>"	dmitrijbelikov	1793267985	1
+				
+50287831	"The page mentions that an adb command is required to recover the device, but I can't find details on what exact adb this is.<p>Overall a bit frustrating to have such a fancy webpage with a dedicated address, but then no description on how to actually #1 identify and #2 recover an affected device...<p>> <i>""Once the database is corrupt, com.android.phone no longer needs a fresh message to fail: it crashes immediately on every boot as it reads the damaged store [..] a factory reset only helps temporarily""</i><p>Can't I delete the storage of com.android.phone instead of a full factory-reset?"	rickdeckard	1793276684	1
+				
+				
+50286751	We need this for opera houses. Send a few messages to each phone and we can enjoy the show without any ringing.	jpl56	1793268580	1
+				
+				
+50286460	"The Google Issue Tracker link [0] on the site shows access denied for me. Not sure if this is due to it being reappraised or because I specifically don't have access<p>[0] <a href=""https://issuetracker.google.com/issues/509520497"" rel=""nofollow"">https://issuetracker.google.com/issues/509520497</a>"	tompagenet2	1793266271	1
+				
+				
+				
+50286396	This is going to cause absolute havoc. I hope carriers move fast to block this payload.	grandfunction	1793265605	1
+50289093	"""On a device using an eSIM, where the SIM can't simply be moved to another handset, recovery would be significantly harder, and for a non-technical user, effectively out of reach.""<p>eSims are great until they are not. Give me a second physical SIM tray over an eSim any day of the week."	bossyTeacher	1793282033	1
+50285860	I remember there was a tel: link than when I clicked it wipes everything on my samsung phone	est	1793261418	1
+				
+50286685	"Reminds me of <a href=""https://en.wikipedia.org/wiki/Stagefright_(bug)"" rel=""nofollow"">https://en.wikipedia.org/wiki/Stagefright_(bug)</a>"	nubinetwork	1793268114	1
+				
+				
+50294544	"What confused the people dismissing this all over the comments here? It was clearly a DoS bug.<p>Perhaps the site's tagline was all they read and admittedly I'd have phrased differently.<p><pre><code>  > A single malformed WAP Push SMS crashes com.android.phone on Android, dropping active calls (including emergency calls), with zero interaction from the victim.
+</code></pre>
+An easier way to deliver the point across could be:<p><pre><code>  > Anyone can send an specially crafted SMS to repeatedly crash the victim's phone app on Android without user interaction. Google didn't fix it, here's an app you can download to send that SMS and disable anyone's phone remotely.
+</code></pre>
+Just my 2 cents for OP, good job on finding and reporting this and it sounds great that it was actually patched, glad you persisted through the frustration of dealing with google's triaging."	6thbit	1793302270	1
+				
+50287857	Networks still send WAP pushes but you can't just send randomly formatted WAP pushes to your friends. You can, however, use a stingray to MITM your friend's Android phone and send whatever you want to them, because now there is no network firewall to protect them. The combination of MITM and a bug like this could be pretty devastating.	dools	1793276824	1
+50314982	This was also reported to google months ago on here , see the readme<p>Www.github.com/jegly	kjfavhu	1793445640	1
+50286127	"How could they possibly give this a ""won't fix"" if it can do what is reported here?"	klhs	1793263561	1
+				
+				
+				
+				
+50286499	Golden Era of AI exploits began few days ago. Close the doors, otherwise you will get cooked.	soltanov	1793266535	1
+50287243	Does this also affect GrapheneOS?	Tepix	1793272450	1
+				
+50285812	Can we stop vibecoding a new website for every next vulnerability we find please? Thank you.	0xcrypto	1793261055	1
+				
+				
+				
+				
+				
+				
+				
+				
+50289224	SQLite data corruption needs some explanation because SQLite is normally very reliable. How do I know this isn't slop written to spread a Trojan horse APK?	cowlevel	1793282564	1
+				
+50296435	"""Download APK"" button is not downoading APK, just redirecting to repo."	shushpanchik	1793309775	1
+50291585	"So with proper tinfoil hat on: What can this be used for?<p>- targeted suppression
+- targeted disruption"	iugtmkbdfil834	1793290975	1
+50286227	> The attack is remote, needs only the victim's number, and shows them nothing.<p>err, how can I send an SMS like this? Would a mobile network even accept/forward such an SMS?<p>Little hard reading through the vibe slop here	yellow_lead	1793264227	1
+				
+				
+				
+				
+50299667	Did they remove the apk? There's no releases on github.	rcakebread	1793332212	1
+50290437	Am I misunderstanding or does this not seem particularly serious	hackersnooze1	1793287049	1
+				
+				
+50287894	"> <i>""A remote attacker can cut a phone off from Triple Zero""</i><p>Disclaimer for non-aussies (like me): That's not the newest hacker slang for something, 000 is the phone number of Australian's emergency services...<p>Replace with <i>""can cut you off from 911""</i> or 112, 999, etc. as needed (optionally wear sunglasses and add hand-gestures to amplify the effect)<p>...or just call it ""emergency services"""	rickdeckard	1793277021	1
+50287486	It’s bizarre to me that on a forum where people constantly complain about AI garbage AI slop like this always gets upvoted to the top.	paxy	1793274327	1
+				
+				
+				
+				
+				
+50287184	Is this AI security slop or a real issue? Can the phone actually receive these kind of messages from the network?<p>Also, I don't understand Googles position here. On android the phone ia not part of the OS and can be updated via an app or  framework update. Why not just fix this as a functional bug?	throwa356262	1793271963	1
+				
+				
+50285930	Shouldn’t click this reminder	villgax	1793261899	1
+				
+50286278	"Omfg I am interested in this, I'm interested in wtf a WAP push is, but all I'm getting on this website is Claude-speak ""not this, but that"" and tables of irrelevant numbers, because Claude fucking loves a table.<p>Look at this Claude shit:<p>> Zero-click. The victim does nothing. No tap, no open, no notification.<p>> Silent. Nothing appears in Messages; the attacker's number is never shown.<p>Congrats, now you sound like yet another AI YouTube advertisement. ""You control when we... ...woohoo""...<p>OP, please, if you think you have important information, please write it up yourself, I am so sick and tired of being sent LLM generated Markdown files with zero human input, and now you're just publishing that on a website.<p>FFS.<p>Oh you had Claude publish your name presumably so you'd get credit for ""your"" ""discovery"".<p>Mark Blaszczyk, please do better."	EdwardDiego	1793264606	1
+				
+				
+				
+				
+				
+				
+				
+50287081	Vanity sites...	syshyk	1793271301	1
+50287424			1793273883	1
+50285453			1793257730	1
+50287384			1793273653	1
+50290315	Now what we need is a PlayStore walled garden to protect us. Glad the big G happened already to be right on it.	mah4k4l	1793286497	1
+50287839	Good	hjadoui	1793276746	1
+50292692	[flagged]	metamicr	1793294547	1
+50287352	A DoS like this <i>is</i> quite bad (in theory at least) but I think it's the first time I've seen one dressed up with a hypeslop landing page.	Retr0id	1793273324	1
+				
+				
+				
+				
+50290306	[dead]	campbell000	1793286469	1

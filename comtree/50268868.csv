@@ -1,0 +1,101 @@
+50268868		hn-aarvin	1793156782	0
+50271289	"The writeup fails to disclose that they quietly <i>redacted</i> several open-weight models from the new benchmark. Popular ones. They're not on the charts; they're not available to manually add to the charts; and their individual model pages now display scores of ""N/A"".<p>GLM 5.3-flash: N/A<p><a href=""https://artificialanalysis.ai/models/glm-5-3-flash/"" rel=""nofollow"">https://artificialanalysis.ai/models/glm-5-3-flash/</a><p>Qwen 3.8-flash-next: N/A<p><a href=""https://artificialanalysis.ai/models/qwen3-8-flash-next"" rel=""nofollow"">https://artificialanalysis.ai/models/qwen3-8-flash-next</a>"	peri-cl	1793182419	1
+				
+				
+50272321	"I was a little suspicious last time, but even moreso this time. The slant their scores take, and the release timing is very suspect. On the other hand, new models drop on a near daily basis, so maybe there's no way to appear entirely fair.<p>An issue I think all benchmarks suffer from is regarding precision. What does a one point difference mean? How many points of difference is needed to translate into a meaningful distinction between models?<p>Among fellow humans, we often find ourselves picking what we consider to be most intelligent and then designing the tests around that. I've noticed a similar thing in AI, where whatever OAI/Anthropic decide to focus on improving becomes the new measure of intelligence. With their latest models, this seems to be 3d modeling/game making capabilities. Unsurprisingly, because that isn't what the Chinese companies have been focusing on, they appear behind on ""frontier"" reasoning tests. On top of that, older tests end up being discarded for being saturated. Makes me think that maybe unintentionally, the methodology used for these scores might be biased towards Western companies.<p>This would also fit with the widely discussed decline in writing quality from Opus and the worse readability of code produced by one of OAI's recent models, despite benchmarks continuing to show progress on all fronts.<p>Plus, if they're going to update the benchmark so frequently to discard saturated components, is there even a research-related point to keeping it private?"	hgoel	1793189379	1
+50270527	This might be the first time I’ve favourited a post without upvoting it.<p>This is really sus. I’d love a more detailed explanation and “take” from AA on what problem they felt needed correcting and why things have shuffled the way they have. And how they can claim their index has relevance if positions can be switched around so easily.	simonjgreen	1793175167	1
+				
+				
+				
+				
+				
+				
+50270115	"""The FrontierCode verifier grades each attempt with the task's tests and rubric. We use GPT-6 Luna (medium) as the LLM judge""<p>Why are they using a closed source LLM as a judge? Closed source providers can see your traffic and adjust as they see fit."	chvid	1793171328	1
+				
+50270070	I think it's pretty evident that Artificial Analysis loves to change the benchmark to place US models on the top, it's no the first time either.<p>The current placement of many models simply doesn't makes sense, GLM 5.3 is so much better than Astra at backend tasks, Astra does the most weird nonsensical bugs.<p>This is what happens when the benchmark team is funded by VC capital.	mariopt	1793170972	1
+				
+				
+50270329	It is embarrassing how much they suck up to american labs while those models only perform the first few days after release. With open weights you can be sure the quality stays the same unlike the closed source crap. How about a retest after some time?	lousken	1793173262	1
+				
+				
+50270118	The natural language choice in multilingual index seems pretty strange and biased to me, they tried to encompass a broad swath of Asian languages, but then there's like four European romance languages. They didn't include any Slavic one i.e Russian, or Nordic one like Swedish, or Finno-Ugric. And these romance ones are probably overrepresented in the training data anyways	kamov	1793171361	1
+50269859	Well either AA is biased bribed riged whatever or chinese models are benchmaxxed or maybe its both	koruse	1793168474	1
+				
+				
+				
+				
+50270683	> GLM-5.3 (max) score highest at 32, and Claude Haiku 5.5 (max) outscores all of them<p>That seems improbable	Havoc	1793176536	1
+50270686	"I'm still using DS-flash - it beats frontier model on speed and cost keeping good enough code quality. 
+It depends on the harness and constraints you give to the model but for most of the tasks its a great fit, I have not switched from DS since couple of weeks already (previously I would switch to Opus for some heavier work but I stopped recently).<p>My harness consists of multi-level AGENTS.md and SOUL.md containing ""grug brain developer"" and ""asd-ste100"" type of speech for clearer communication."	piterrro	1793176558	1
+				
+50270428	Open-weight models<p>Kimi K3.1 Pro: −9<p>DeepSeek V4.1 Flash 1017: −13<p>GLM-5.3: −13<p>MiMo-V2.6-Pro: −16<p>Proprietary models<p>GPT-6 Astra: +4<p>GPT-6.1 Sol: +3<p>GPT-6.1 Terra: +3<p>Claude Opus 5.5: 0<p>Claude Sonnet 5.5: −2<p>Claude Fable 5.1: −3<p>Gemini 4 Argon (high): −3<p>Muse Wonder Full: −6<p>Claude Haiku 5.5: −7<p>Muse Wonder: −9<p>Gemini 3.8 Flash (high): −10<p>Grok 4.7 (high): −11<p>Is there affiliation with OpenAI or coincidence?	mirekrusin	1793174156	1
+				
+				
+				
+50269960	Interesting that changes in the index always happen when „non us big tech“ models seem to be a little to good for comfort.	joennlae	1793169759	1
+				
+				
+50270831	We need an AI benchmark made in neutral Switzerland.	chvid	1793178015	1
+50269805			1793167739	1
+50269895	(EDIT: A child comment has refuted the AA score comments, AA runs using their own harness.)<p>One of the new benchmarks is FrontierCode 2.0 by Cognition. AA seems to have accepted Cognition's benchmark scores without questioning, but they should have looked more closely.<p>On this benchmark, Anthropic's models are run using Claude Code; OpenAI's using Codex, and Gemini is run using... Cognition's own Devin (not Antigravity). Thus its score is much lower than it should be, knocking ~3 points off its AA score. All open-source models are also inexplicably run using Devin, damaging their scores as well.<p>This may even be intentional, if Cognition has beef with Google, since Antigravity was built using Windsurf's technology. But aside from that, it is to their advantage to make Anthropic/OAI look like leaders in the AI market. They are a company known to lie and exaggerate again and again, so I have trouble giving them benefit of the doubt.	thereitgoes456	1793169016	1
+				
+				
+50270183	"Glancing over the methodology[1] made me curious about three things:<p>1. Is there a benchmark measuring how much better an LLM performs when you tell it ""you are an X""?<p>2. Does telling an AI agent ""you are an AI agent"" actually help? Is it the LLM equivalent of reminding a senior developer they're a senior developer, making them feel guilty about being lazy and finally getting them to do their job?<p>3. What happens when the persona conflicts with the task? If you tell it ""you are a PM"" and then ask it to write code, does it struggle? Produce worse code? Spawn a sub-agent and tell it <i>they're</i> a senior developer?<p>[1] <a href=""https://artificialanalysis.ai/methodology/intelligence-benchmarking"" rel=""nofollow"">https://artificialanalysis.ai/methodology/intelligence-bench...</a>"	alexaholic	1793171949	1
+50270060	I find it fascinating that some of the main areas people are interested in are using benchmarks with quite few questions: ~200 for coding and ~150 for science.<p>As long as that's the case, it's no surprise that there is often a perceived difference of quality between benchmarks and real-world use.<p>I know that running the full composite benchmark set is probably already quite costly, and also that the benchmarks have to be rotated regularly, but it feels like a significant untackled problem.	hobofan	1793170863	1
+				
+50269774	It's wild seeing opus 5.5 up there so high, while i'm still using Fable 5.1 because I couldn't stand how opus writes.	6gvONxR4sf7o	1793167189	1
+				
+50270039	Where is GLM 5.3 Flash?	theanonymousone	1793170617	1
+				
+50270166	"Comparing the scoring rubric for AAv5.0 vs AAv4.3:<p>AAv5.0: 
+25% Knowledge work: 
+  AA-Briefcase v1.1 - 15% 
+  AutomationBench-AA - 5% 
+  GDP.pdf - 5% (-5%) 
+25% Coding: 
+  FrontierCode 2.0 - 15% (new)
+  Terminal-Bench4.0 - 10% 
+25% Science: 
+  Terminal-Bench Science .1- 15% (new) 
+  CritPt v2 (hard subset) - 10% (new version) 
+25% General: 
+  AA-Omniscience v1.1 - 15% 
+  HLE-Diamond - 10%<p>AAv4.3: 
+30% Agents: 
+  AA-Briefcase v1.1 - 15% 
+  GDPval-AA v2 - 10% 
+  AutomationBench-AA - 5%
+20% Coding: 
+  Terminal-Bench4.0 - 10% 
+  SciCode - 10% 
+30% General: 
+  AA-Omniscience (Accuracy) - 10% 
+  AA-Omniscience (Non-hallucination) - 5% 
+  GDP.pdf - 10% 
+  AA-LCR v1.1 - 5% 
+20% Scientific Reasoning: 
+  HLE - 10% 
+  CritPt 10%<p>tldr: gained Terminal-Bench Science and FrontierCode, dropped SciCode, GDPval-AA and AA-LCR. Lowered weight of GDP.pdf."	wyre	1793171797	1
+50270463	"Why did they call it “humanities last exam”?<p>Will an LLM topping this bench be the end of humanity?
+The doomer rhetoric has no place in what should be an objective measure."	rienbdj	1793174498	1
+				
+50270912	Artificial Analysis is a 40 person company working out of Silicon Valley; who is funding them? How do they make money?	chvid	1793178796	1
+				
+50269670	Interesting to see the open weight models drop so drastically from the changes here.<p>They perform pretty badly on the new benchmarks introduced.	mindwok	1793165675	1
+				
+50269971	This seems to be a hit and a miss, there's no visual indication that opus 5.5 is better even though in 9 tests out of 10 it will outperform astra especially when it comes to niche domains and will absolutely destroy them in anything requiring raw intelligence rather than a naive search, naive search is what makes openai models extremely capable in scientific fields though.<p>The score hit on smaller models is a welcome change especially when compared to models that nearly 10 times larger.<p>Grok being punished quite a lot is also a very welcome change as the model is frankly not that good.<p>I would love to see few more points knocked off haiku by introducing steerability/creativity benchmarks.	himata4113	1793169878	1
+50269818	The drop for K3.1 Pro & MiMo V2.6 Pro is quite surprising. Are they benchmaxxed?	anakaiti	1793167924	1
+				
+				
+				
+50270073	chinese labs are probably benchmaxxing but i'd like to see when the index changes relative to the position of the best chinese models (last suspiciously-timed update was when glm-5.3-flash was looking really strong)	nelaggy	1793170991	1
+50270667	"Such a big re-ordering. 
+The same week Anthropic files its S-1. Right..."	bigbaguette	1793176355	1
+50270237	Honestly it does somewhat match what I’ve felt playing a lot with all OpenAI / Claude / deepseek models<p>One thing I’m still surprised / unsure on is haiku 5.5 max besting latest deepseek - but also I think the last haiku was so incredibly bad I still hold some bias whilst using the new one.	liquicity	1793172404	1
+50271926	This thread is the real benchmark.	kfjgi84h	1793187261	1
+50269934			1793169447	1
+50270014			1793170432	1
+50271169	[flagged]	murllpi	1793181359	1
+50275768	[flagged]	oceanz0312	1793202869	1
+50270384	[dead]	Jeeetendra	1793173797	1
+50269825	[flagged]	vinaygundeti18	1793168021	1

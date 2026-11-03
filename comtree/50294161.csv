@@ -1,0 +1,14 @@
+50294161		surprisetalk	1793300421	0
+50301042	"Another reason, which I think I wrote as an answer to the very Stack Overflow question mentioned in TFA, is because of data structure invariants and the function contracts.<p><pre><code>    Public methods usually have a contract of ""take the object in a consistent state, do
+    something sensible, leave the object in a (possibly different) consistent state"". Here,
+    ""consistent"" may mean, for example, that the `Length` of a `List<T>` is no greater than
+    its `Capacity` and that referencing the elements at indices from 0 to `Length-1` won't
+    throw.
+
+    But inside the object's methods, the object may be in an inconsistent state, so when
+    you call one of your public methods, it may do a very wrong thing, because it wasn't
+    written with such a possibility in mind. So if you plan to call your public methods from
+    your other methods, make sure that their contract is ""take the object in some state, do
+    something sensible, leave the object in a (possibly different) (maybe inconsistent — but
+    only if the initial state was inconsistent) state"".</code></pre>"	Joker_vD	1793347694	1
+50301865	This was written by AI.	NackerHughes	1793354889	1

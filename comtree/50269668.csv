@@ -1,0 +1,6 @@
+50269668		philippemnoel	1793165656	0
+50300498	Hi last time i tried using paradedb my pg cluster stopped replicating (I am fine with search queries being run on only the primary). Had to create my own fork.<p>I feel like there is an excessive push towards enterprise plans even before people are able to integrate pg_search.<p>Regardless I appreciate the work your team has been doing related to dev exp like native drizzle orm support and bringing in vectors along side bm25 search. Complete pg search is looking promising by the day!	sarkarghya	1793342047	1
+50300968	this is not solving Postgres Count problem, Use another DB is not solving the problem.	cowl	1793347075	1
+50300507	"Can we update the title here to reflect the content? ""Making COUNTs and the Rest of Search Really Fast (Part II)"""	throwaway27448	1793342157	1
+50301034	[flagged]	robbie_cox	1793347649	1
+50306407	[flagged]	digmenu	1793378258	1

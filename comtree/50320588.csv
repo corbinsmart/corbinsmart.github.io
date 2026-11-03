@@ -1,0 +1,87 @@
+50320588		Zariel	1793483347	0
+50324034	"It's amusing how desensitized we became to AI companies charging money however they like.<p>Just look at this announcement: ""your usage will be measured in tokens, which we do not define, nor give you a way to measure them. The amount of tokens you consume will depend on things you can't control"". What is left unsaid is that your subscription will contain an unknown number of those tokens you can't measure anyway, and that they will change the number whenever they feel like it.<p>You pay for… what, exactly?<p>I have no idea how this kind of sale is legal, especially in jurisdictions with consumer rights protection (EU)."	jwr	1793526545	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50322773	"I'm not going to lie, one big reason I as a researcher have been a customer of OpenAI is that on their Pro plan Pro-tier model in chat and codex are decoupled in terms of billing. Anthropic instead billed you fully. This was very useful for long mathematical reasoning for me and I could attach outputs of my simulations in the context.<p>I also recall reading the following: <a href=""https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x"" rel=""nofollow"">https://newsletter.semianalysis.com/p/anthropic-subscription...</a><p>I will see once this transition actually happens but if another provider offers more for less and a cost of switching is inherently low as most of project lives on the disk and not in cloud, then why not move? For my workflow pro astra has been very helpful, likely will be less so if it becomes far too expensive."	yurimo	1793508226	1
+				
+				
+				
+				
+				
+				
+50322544	It kills me to run out of claude code usage then my much more mundane usage, queries or web searches, is also cut off. Not doing that has been a big plus of chatgpt/codex in my mind.	furyofantares	1793505109	1
+				
+				
+				
+				
+				
+				
+50323060	They ought to reserve a very small amount of quota exclusively for chatgpt so it doesn't just shut off if you exhaust your quota using codex. If they don't it would make more sense to keep codex and chatgpt usage on different accounts, which I'm sure OpenAI doesn't intend to incentivize.	modeless	1793512822	1
+				
+50324129	6 Pro has a limited number of messages per week, from 15 to 200. It is by far the most useful feature the plans offer, and can go through hundreds of thousands of tokens if not million(s) for one focused task. If the message limit remains, and it depletes usage in the normal chat and codex, it's a massive downgrade for a service that has reduced the actual, real-world API equivalent cost anywhere between x2-5 times in the past couple months, resets included. It used to be <i>the</i> differentiator vs. Anthropic's offerings. People trying to squeeze every single token out of those services routing requests to the webui are certainly in part responsible for this, there's tons of projects that allow you to defer or split into multiple concurrent chats tasks from codex to the webui chat.	0x_rs	1793527654	1
+50323674	This isn’t good. I wish they would reverse it. It is easy to blow your codex usage — but then making it so CHAT is also busted is a shame. Please undo that.	bomewish	1793522003	1
+				
+50322319	This will hurt people who use GPT-6-Pro which isn't easily available in codex and deep research.<p>Those were 2 flagship projects that will now make ChatGPT a lot less useful to people who pay.<p>We're in trouble. OAI wanted to raise $30B and raise $11B they are cutting costs.	epsteingpt	1793501527	1
+				
+50320800	"I just got an email stating that ""Chat and Work are coming together in one experience"". Then, half way through it's the real headline: ""A shared allowance for ChatGPT and Codex"". Figured it was coming at some point..."	GordonS	1793485034	1
+50323949	They need to rollout a 50 dollar plan then. I often run out of codex 5h limit and this would lock me out of simple google like queries. Can't justify the 100 dollar plan while also paying for claude and having a github copilot at work.	Squarex	1793525704	1
+				
+				
+50323561	Well this sucks, but not unexpected.<p>I've been using Chat for all my Codex/Work tasks precisely because of the fact it didn't affect usage. Slightly less convenient and smooth but still directly against GitHub repos and other connectors so fantastic value in my Plus plan.<p>Another reason after the recent Pro 200/500 shenanigans to reevaluate my sub.<p>All good things and token-burning workarounds come to an end...	mellosouls	1793520398	1
+50325249	"Glass half-full: this is good for competition.<p>Personally, I didn't have any reason to look elsewhere because a couple of Pro accounts ensured I always had access without worrying about limits (the reason I never kept an Anthropic account active for more than a month).<p>I'm sure we'll quickly start seeing how the frontier models aren't all that necessary.<p>Combine this with the fact that you can't trust OpenAI with your data, I think they are blowing up the tiny moat they might have had.<p>It's also worth mentioning that their Dot product got nerfed in under two weeks. I went from rethinking my workflows to dropping the product completely overnight between the data loss and network firewall ""issues"".<p>It's too bad because I've been fine with using just ChatGPT since the beginning, simply because they were most generous with limits.<p>All good things come to an end I guess."	themythfable	1793538107	1
+50323428	I'm not surprised. At work, we paired devs and non-devs together, and we're sharing subscriptions, since we tend to exclusively use one or the other. It's like when Copilot was billing per query rather than per token, always bound to disappear.	lbreakjai	1793518573	1
+50321692	I got it, too. Not surprising but this was definitely one of the deciding factors keeping me with ChatGPT. Much more willing to change providers now.	sjs382	1793493682	1
+50322878	Claude Max x20 became x10 and now this? I think the demo period is ending.<p>So happy to have the open models!	egeozcan	1793509664	1
+				
+				
+				
+50323714	Everyone saying they should keep the limits separate: they should give users one limit and a setting to partition it how they want.	armchairhacker	1793522667	1
+50320635	Not surprising: Claude has behaved like this for awhile and it was only a matter of time.<p>At the least, it deters people from spinning up Astra Pro requests via the ChatGPT interface willy-nilly.	minimaxir	1793483764	1
+50322784	"In reality this is a non-issue because average chat conversations use 1/1000th the tokens of agentic coding usage (given they aren't reading their 1 million lines of generated code for every change), but at the same time... it should be a non-issue for OpenAI too. They talk about developing ""intelligence too cheap to meter"" and then go on to meter an absolutely trivial amount of usage for people already paying $100-$200 a month, embarrassing. The PR hit and psychological aversion to using ChatGPT this will instill in users will hurt them more than covering this usage could ever possibly do.<p>I say this working in an LLM startup where we serve literally unlimited usage (with the only caveat being that usage is serialized) via subscription and, unlike OpenAI, are actually profitable. I guess when you're hundreds of billions in the hole you're desperate to try anything to save the sinking ship, even if it clearly won't work."	anonymous908213	1793508371	1
+				
+				
+				
+				
+				
+				
+				
+50324410	Maybe it's time to move to an open weight model.	lwhi	1793530211	1
+50325300	The instant setting on chat will still be free, at least. It uses Sol so it's stil pretty good.<p>The truly good news is they aren't reducing the $200 plan usage. I was going to downgrade my plan after this month, now I won't.	matheusmoreira	1793538485	1
+50328399	As a Pro user, am not a fan of this.	_boffin_	1793558560	1
+50324933	I’ll turn off the Dot.<p>A Dot consuming credits passively with Astra just to deliver some low value “email says a package will be delivered” message.<p>Scheduled tasks have more control and focus.	CompoundEyes	1793535594	1
+50324299	Does it mean that the regular chat will be subject to daily and weekly limit too?<p>Hoping not	arnoldlambou	1793529210	1
+50324295	They are cutting off a workaround I have been using on the Plus plan, using it as a coding agent with unlimited usage.	35mm	1793529187	1
+				
+50325245	This is why I’m starting to shift to Google’s antigravity as my daily driver. Lagging behind in the race has made them more competitive and less prone to pull stunts like this (which seems like they’re taking because they’re in a position of power in the market).	derangedHorse	1793538094	1
+50324444	This is probably partially because people really started using the github connector in normal chat more heavily since it can also edit files. I've enjoyed using the normal quasi-unlimited chat mode as an occasional code reviewer as well for checked in code that doesn't affect codex usage, but seems that'll be gone. As will long complex conversations... What a shame, but the enshittification will continue until morale improves.	schmorptron	1793530569	1
+50324288	With everyone coming out of the woodwork and commenting about how they're effectively abusing the chat portion unlimited to do all the work, you know, I kind of get why they had to do this. At the same time, it really fucks over people like me who don't use ChatGPT for coding at all, but rather for like random personal stuff. The reason why I switched to ChatGPT over Claude was because of those five hour usage limit bullshit that Claude imposes.	rolosa	1793529093	1
+50324943	recently, I wasn't able to configure my ads because I've run out of Codex tokens. I haven't opened the ChatGPT app ever since.	singularity2001	1793535703	1
+50322567			1793505409	1
+50323936	It won't affect pro users like me as we get unlimited usage. Even when running autonomous task's, the compute is much more than required!<p>Might affect go and Plus users.	NeuraCryption	1793525558	1
+				
+50327152	How are people hitting limits?<p>I consider myself a Heavy cgpt user since 2022. To the extent where I’ve made over 30k ish in solo dev side-projects since 2024 that wouldn’t have been possible without hiring a team.<p>I have not once gotten a over limit notice from openai.<p>Alternatively, I used to max out my claude tokens very quickly even on fairly small projects.<p>The only difference I can tell from how I see other people utilizing these tools is that I never once “fire and forget.”<p>My project flow is: 1000 rounds of text back-and-forth on architecture, data structures, competitive analysis, tool use and calling, etc… and then the last 10% is code writing test development and then usually about five rounds of CI/CD iteration until I get to a MVP or something shippable.<p>Are the majority of people attempting to one shot and then when they fail they just keep trying to one shot?<p>In my experience, you can get 90% of the way to the technical solution before generating any code whatsoever.<p>That’s been true before LLM’s continues to be true now.	AndrewKemendo	1793550772	1
+				
+50322907	it should have been only one always, as in the end its model rate limits, so doesn't matter whats the client.	aigenos	1793510263	1
+50322944	I've been using ChatGPT since release and Codex since before ChatGPT was a thing (with the original Codex model). Am I the only one who didn't realize these limits weren't already merged since the current Codex app was released?	brianjking	1793511014	1
+				
+50323686	In the end, the service was maintained because of subsidies, and the service quality seems to be getting worse. There’s nothing that can be done.	jdw64	1793522284	1
+50323348	"Sama not too long ago said the ""last resort"" would be ads in ChatGPT, but maybe with cutting usage, there are more last resorts left. Maybe a useful signal for shareholders on when to bail (i.e. now)."	avaer	1793517098	1
+50325721	[flagged]	agentcosthub	1793541275	1
+50323331	[flagged]	haukebri	1793516832	1
+50324201	[flagged]	dionnam	1793528314	1
+50324570	[dead]	yje07039	1793532152	1
+50324971	[dead]	Simulacra	1793536031	1
+50322459	i wouldn't knock it till i see how it affects usage.	m3kw9	1793503687	1
+				
+50323672	"I really think that OpenAI during this period not only can't release anything good, but is doing more and more restrictions.<p>And then giving a bunch of bullshit reasons that make no sense.<p>I think everyone should start thinking about how these AI companies that have absorbed huge amounts of money are becoming more and more evil, and develop the ability to say ""We have choices.""<p>I think it's time to make these AI companies return the resources they have occupied, and seriously reflect on themselves.<p>I think we should make these companies' stock prices crash, demand a pause on unreasonable AI construction, and cancel subscriptions to those AI services that are expensive as hell and control your entire system.<p>Embrace open source, LLMs that you can privately deploy yourself, and keep your data in your own hands.<p>I think China is really doing well right now, open sourcing useful models, not letting hardware prices rise crazily, and even pushing down Token prices.<p>As for security issues, since they're already open source, we can do Fine Tune afterward to solve these problems.<p>And 4, someone has done experiments showing that 4 small models can reach the level of claude fable.<p>I really hate those arrogant AI giant companies. They act so calm and unbothered, wanting to own everything and control everything. It's disgusting.<p>I'm really looking forward to China developing a cheap, non-CUDA AI machine, keeping the price around 1000 USD, a machine that can run deepseek flash level models, becoming a dedicated AI machine rather than a training machine.<p>Then there will no longer be Token anxiety, no need to react to all kinds of decisions made by those AI companies, and no problem of giving your data to others.<p>It's time, brothers."	dennysora-main	1793521916	1
+				
+50323774	Claude is already way superior in coding than Open AI atm. So coders are mostly using Claude.<p>With this change even non-coders will jump ship. Not sure why OpenAI is doing this now. They should improve their models now to match the competition.	rampatra	1793523502	1
+				
+				

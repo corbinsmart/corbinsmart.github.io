@@ -1,0 +1,10 @@
+50273416		bouk	1793195012	0
+50282920	> I’m hoping that smarter models (surely Fable 5.5 is dropping any moment now) can do a breakthrough to reverse compile games more efficiently.<p>This seems like an oxymoron, no? What is Fable going to do that makes decompilation easier apart from chewing through token budget like there's no tomorrow? Perhaps if it internalized codegen patterns for EVERY compiler and EVERY permutation of flags, or wrote a decompiler for the same, but like..	xyzsparetimexyz	1793234304	1
+				
+50287562	"DeepSeek is just good enough by now to do it very token efficient. Hitman 2 only a handful of days of off peak usage ... And then you can do this <a href=""https://m.youtube.com/watch?v=1qsacoS2mqA"" rel=""nofollow"">https://m.youtube.com/watch?v=1qsacoS2mqA</a><p>Even since I wrote this last month, the release of DS-4.1-Flash-1017 has easily sped up the process by another 50%<p><a href=""https://georgzoeller.com/blog/posts/what-reverse-engineering-and-modernising-an-old-war-game-tells-us-about-the-econ/"" rel=""nofollow"">https://georgzoeller.com/blog/posts/what-reverse-engineering...</a>"	gmerc	1793274785	1
+				
+50285831	Mmm none of the graphic content seems to be loading on the page. Would love a virtual Zoetermeer, the real place is kinda drab :D edit: googled some pics, yeah looks cool!	thenthenthen	1793261207	1
+50280433	The comments and field names in the source code are all Dutch. Expected I guess given the context, just wonder if that was generated or if it was derived from the compiled code. I know Delphi has RTTI info.	lmz	1793219345	1
+				
+				
+50287011	I'd be curious to know what makes some games easier than others to decompile for models? Besides just how complicated the game is.	suddenlybananas	1793270820	1

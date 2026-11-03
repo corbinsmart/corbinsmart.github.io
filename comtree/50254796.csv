@@ -1,0 +1,2 @@
+50254796		theanonymousone	1793076326	0
+50261334	Good that they published an interim mitigation (TS_SSH_DISABLE_FORWARDING=1) before the full advisory instead of staying quiet until the patch. They already had an SSH issue earlier this year: in July (TS-2026-010) values passed through acceptEnv were visible to other local users via /proc and ended up in logs. Be careful when passing credentials through SSH environment variables.	alxsm	1793117247	1

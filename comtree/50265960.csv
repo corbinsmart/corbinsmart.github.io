@@ -1,0 +1,18 @@
+50265960		hauju	1793135955	0
+50267135	"Your LLM can replace your cargo build with bazel in a few sessions.  Queue the bazel-haters on HN...<p>The rust support has gotten really good, and the maintainer for the rust rules works at OpenAI, which, incidentally, is how at least parts of OpenAI builds rust and wasm: <a href=""https://github.com/openai/codex/blob/main/MODULE.bazel"" rel=""nofollow"">https://github.com/openai/codex/blob/main/MODULE.bazel</a>.<p>I have a pretty complex rust backend in my project.  I rent a capable bare-metal build server that costs about $150/mo that powers all my personal CI.  All it does is start a systemd service for gh actions self-hosted runner.  I can build and release this project in around 2-4 minutes, where before even a local dev iteration cycle would be up to around 10 minutes, much less building and releasing the whole thing, which was around an hour."	pcj-github	1793142287	1
+50266320	"><i>Caching with Swatinem/rust-cache. It helps, but there’s a trap. A workflow run can only restore caches from its own ref or the default branch, and GitHub evicts caches unused for 7 days.</i><p>><i>A self-hosted runner for the heavy builds. This was by far the biggest win, 90 minutes down to 40. It also means I now maintain a build server.</i><p>WarpBuild (<a href=""https://www.warpbuild.com/"">https://www.warpbuild.com/</a>)[1] solved this for me.<p>1. You can cache into your own s3 bucket, so you manage eviction policy<p>2. They manage the infrastructure, or you can link in your AWS account. I have builds that run on spot instances that are requested when a build starts.<p>Then for the caching issue, I just have a scheduled job that reruns a build at midnight on the master branch.<p>[1] Not affiliated, found them through Google several months ago"	nemothekid	1793137704	1
+50267175	"Thanks for the shoutout. Yes, we have a managed BYOC offering, docs here: <a href=""https://www.warpbuild.com/docs/ci/byoc"">https://www.warpbuild.com/docs/ci/byoc</a>"	suryao	1793142512	2
+50266249	since claude wrote this article and probably the app as well, i would reccomend asking claude to use sccache in ci to cut down on compile times.	slopinthebag	1793137293	1
+50266492	I tried sccache as well. But caching jobs took longer than some build steps.	hauju	1793138698	2
+50266424	This does not read like Claude wrote it.	GageBachik	1793138317	2
+50266476	"It was definitely AI-written. Has all of the usual cadence, ""impact sentences"", and pacing quirks. Pangram has it at 96% AI."	Philpax	1793138591	3
+50266500	so its AI written based on my experience.	hauju	1793138749	4
+50266440	Your detection skills are weak.	anonymous908213	1793138404	3
+50266438	maybe not claude, but definitely an AI	slopinthebag	1793138392	3
+50267256	[dead]	claudismusa	1793143095	3
+50268419	"ai written article
+toy ""product"" with no real complexity whatsoever
+90 minute compile times?
+total clownshow.
+you should be banned from touching computers."	dcj4	1793152425	1
+50266228			1793137198	1

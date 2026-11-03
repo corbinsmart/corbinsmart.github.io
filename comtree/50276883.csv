@@ -1,0 +1,39 @@
+50276883	"Why is it useful?
+- Present slides without sharing the screen and have every one be on the same page.
+- Present together with other cohosts and all control the current page.
+- Other features such as presentation collab features.<p>Why should I not just vibe code my own solution?
+- Its a hassle to maintain a version online."	denismenace	1793207229	0
+50285616	"I know Show HN rules want you to be extra nice to people, but this is indistinguishable in execution from a honeypot, so anyone uploading their company slides to some random service like this one will likely be fired on the spot for gross negligence.<p>I see your idea and I suppose there is value in it, but the problem of screen sharing is basically fictional compared to the real problem of someone just uploading company data (+ metadata!) to a random service some random person came up with.<p>Screen sharing only shares pixels and does so through parties that the economy considers trustworthy enough.<p>This is not going to work as the SaaS you seem to envision it to be.
+It might work for a self-hosted internal service thing or a group of friends though.<p>___<p>Thinking about this, I suspect that at least one naive bored corporate guy browsing HN will have tried this out with a random pptx they had lying around on their work computer. The data is now.. somewhere.<p>So this could be an actual honeypot."	hypfer	1793259580	1
+				
+50279035	Just a datapoint but Microsoft Teams (most commonly paired with users of Powerpoint) has an option to share and present just a slide deck where viewers can tag along the presenter or jump forward and back to view the rest of the deck independently from presenter.<p>But in quite a few cases presenter would want to control when information is presented/revealed to audience.	albert_e	1793213658	1
+				
+				
+				
+50278217	"This looks clever. I've seen PPT to web tools before (<a href=""https://sparkslides.com/publish/"" rel=""nofollow"">https://sparkslides.com/publish/</a>, <a href=""https://slidehtml5.com/"" rel=""nofollow"">https://slidehtml5.com/</a>), but I think the slide synchronization idea is new. I can't evaluate more than that as I don't use these.<p>In the past I have liked marp (<a href=""https://marp.app/"" rel=""nofollow"">https://marp.app/</a>) for technical slides as you write in markdown, can use version control, etc. Powerpoint always felt odd as a developer.<p>To share public slides I've published to GitHub pages (<a href=""https://github.com/robalexdev/marp-to-pages"" rel=""nofollow"">https://github.com/robalexdev/marp-to-pages</a>). I've seen professors use it for all their slides. But that doesn't synchronize slides, last I checked."	8organicbits	1793210775	1
+				
+				
+50277025	I am not sure there are many instances where I would be comfortable uploading my slides to a random website?	antonly	1793207707	1
+				
+				
+50279527	"Fwiw, having taught online for well over a decade, I keep (kept?) trying to put people on to the marvel of a virtual machine for this (minus the sharing this offers, I suppose)<p>Just have a VM that you tell Zoom or whatnot is the ""window to present"" Now you can do anything, slides and more, and also that thing can be the only publicly seen thing, your computer stays private."	jrm4	1793215771	1
+50277519	"What's the use case? Lots of people use powerpoint and can't escape the microsoft ecosystem anyway.<p><a href=""https://support.microsoft.com/en-us/powerpoint/present-from-powerpoint-live-in-microsoft-teams"" rel=""nofollow"">https://support.microsoft.com/en-us/powerpoint/present-from-...</a>"	sublinear	1793208899	1
+				
+50283294	Number 1 feature: live cursors. Yeah, it makes people go wow, but I hope it can be switched off. Nothing less useful than having random movement distracting people from whatever I'm presenting...	netsharc	1793236809	1
+				
+50281699	Side comment: i guess this is the october 2026 defaut font for Claude? (Vibe coded some landing pages prototypes very recently, always came with this exact fonts)	rmnclmnt	1793225767	1
+50277434	In a previous position, we used Adobe Connect a lot for online meetings, and the normal way of sharing presentations was to upload them to the room and control the presentation from there.<p>Webex has this as well, but I find that most people don't bother and just share their screen.	jayknight	1793208708	1
+50278685	Interesting Idea for engagement. Although I think slides suck in general and often used for one way communication, especially suck for Software Development. A doc is much more preferable and a lot of collaborative docs like Google Doc exist.	conqrr	1793212275	1
+50295534	Handing off between co-hosts without the ‘can you see my screen?’ shuffle is the best part of this. Will try it for our next team review.	cubbieapp	1793306244	1
+50278930	amazing, is this a business or just a fun project? do you have data privacy /zdr guarantees ?	htrp	1793213214	1
+				
+50283986	Thanks, it's an interesting use case.	shakewingo	1793241925	1
+50279052	this is built into teams	bbstats	1793213708	1
+50324695	[flagged]	hening	1793533285	1
+50311187	[flagged]	wenjiadecks	1793401056	1
+50311179	[flagged]	wenjia-decks	1793401005	1
+50290704	[flagged]	cash_reads	1793287951	1
+50294106	[flagged]	deckwright	1793300173	1
+50283894	[flagged]	qiyadeng	1793241121	1
+50285623	[flagged]	aburayhan	1793259681	1
+50282533	[flagged]	ayman803	1793231100	1

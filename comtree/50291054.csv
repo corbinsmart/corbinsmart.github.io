@@ -1,0 +1,86 @@
+50291054		ea016	1793289183	0
+50293621	"Had the pleasure of working with Jason Garrett-Glaser (better known as DarkShikari) circa 2011 on a patch for x264 to better utilize more cores (slice-threaded lookahead).  At the time he was working with Sony to optimize their PlayStation game streaming service, and this had the potential to lower encoding latency (critical to game streaming) even on same-core systems by spreading the frame over more cores to do more parallel work, and doing more intelligent scheduling and convergence after that tile-based work was reconverged into a frame. At the time we were using servers with 48 physical cores to do transcoding, a bit of a rarity in a single NUMA space back then and there were no instances to test this on so I flamegraph traced a few encodes at very high thread parallel counts and send back the instrumented profiles (from a custom compiled version) showing the core work being done and he used that to optimize the motion estimation code which worked on the first shot to perfectly level out cpu usage and increase encoding speed across ~24 cores (was previously topping out around 8 and running one core hot iirc).  I got a look into how exotic and complex this project was, particularly in terms how low level and advanced things like motion estimation, quantizing and perceptual compression were... it was and still is sort of magic how many smart techniques are baked into something that we barely pay attention to.  They were, even at that time, working on x265.<p>His blog, Diary of an x264 developer, was a great read too for anyone wanting to get a vantage point on how crazy that codebase was.<p>[1]<a href=""https://github.com/mstorsjo/x264/blob/master/doc/threads.txt"" rel=""nofollow"">https://github.com/mstorsjo/x264/blob/master/doc/threads.txt</a><p>(edit: was Gaikai that was acquired by Sony in 2012 and is the basis for PlayStation Now)"	tgtweak	1793298106	1
+				
+				
+50291496	"Ten years later, 2026 magic: AV1<p><a href=""https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/"" rel=""nofollow"">https://engineering.fb.com/2026/06/22/video-engineering/adop...</a><p>And soon AV2<p><a href=""https://av2.aomedia.org/"" rel=""nofollow"">https://av2.aomedia.org/</a>"	pwython	1793290739	1
+				
+				
+				
+				
+				
+				
+50292766	"One uncommonly used feature of H.264 is support for lossless video.  It's a bit hard to use due to tooling (not easy to discover and select the feature), and is sometimes incompatible with web browsers, but you can get actual lossless video using a mainstream video codec.  You can verify that it really is lossless, and doesn't have any conversion step where it's quantized to 8-bit YUV.<p>""x264vfw"" is one tool which supports this format, even inside of an AVI file.  So older software that uses Video For Windows can create those files."	Dwedit	1793294793	1
+				
+				
+				
+				
+50292056	"I really like the idea that compression is intelligence, there are so many tricks an interesting ideas related to it. A bunch of them are described in the article, but you can imagine a long tail of many more inscrutable tricks chained together to get really incredible shrinkage in data.<p>Hutter prize (I think mentioned in a 3b1b video somewhere else in this thread) is a great example. Given this was written before advent of LLM, I would love to see someone throw openAI/Anthropic levels of compute at a similar problem to see what the swarm can produce.<p><a href=""https://arxiv.org/html/2404.09937v1"" rel=""nofollow"">https://arxiv.org/html/2404.09937v1</a>"	Hasz	1793292495	1
+				
+				
+50291587	"Previous discussions:<p>4.nov.2016 <a href=""https://news.ycombinator.com/item?id=12871403"">https://news.ycombinator.com/item?id=12871403</a> 219 comments<p>17.mar.2022 <a href=""https://news.ycombinator.com/item?id=30710574"">https://news.ycombinator.com/item?id=30710574</a> 219 comments<p>24.may.2019 <a href=""https://news.ycombinator.com/item?id=19997813"">https://news.ycombinator.com/item?id=19997813</a> 180 comments<p>14.jun.2024 <a href=""https://news.ycombinator.com/item?id=40681306"">https://news.ycombinator.com/item?id=40681306</a> 205 comments"	HelloUsername	1793290978	1
+				
+50292455	"H.264 High Profile is close to Patent Free. [1] I often wonder how much more efficiency could we get if we were to increase block size outside of spec.<p>[1] <a href=""https://meta.wikimedia.org/wiki/Have_the_patents_for_H.264_MPEG-4_AVC_expired_yet%3F"" rel=""nofollow"">https://meta.wikimedia.org/wiki/Have_the_patents_for_H.264_M...</a>"	ksec	1793293797	1
+50294533	I've shared this article many times. I work in space and the vast majority of the time, new people insist that all images should be raw. After all, you go to great expense to get somewhere in the name of science, you don't want to discard any information. And that's true in some cases but typically not for a whole mission or even a whole image if you can crop a specific part. Usually 100 or 1000 images instead of one is more valuable even if the compression is lossy.<p>That's just image compression though. Very few space-grade cameras support video compression. In a lot of cases it works well even though you think you're after a series of still images.	johnwalkr	1793302200	1
+				
+50291937	Worth pointing out that PNG is also just awful and should probably die like BMP died. WebP was already available at the time this article was written:<p>PNG:         1039993 bytes - baseline<p>optimized*:    541539<p>WebP:         398974 - lossless mode, of course.<p>JPEG XL:          310778 - lossless, quick, and easy.<p>*after monumental compute effort; still probably some room for improvement but the effort is ridiculous.	MadameMinty	1793292099	1
+				
+				
+				
+				
+50291723	"This reminds me that I still haven't watched `part 2` of a very nice video from 3Blue1Brown - ""Compression is Intelligence"". YouTube suggestions, definitely failed me with this one."	tvelichkov	1793291385	1
+50294253	I remember reading this article when it was new, and I left fully agreeing, but more broadly: modern video compression is magic.<p>Like, it's baffling to me how much we can compress high-quality video nowadays.  HEVC and AV1 and VP9 are all also very cool and they still sort of break my brain.  I understand how they work but it doesn't feel like it should compress as well as it does.	tombert	1793300896	1
+				
+50292795	"This reminds me of that old nursery rhyme.
+Billy was a chemist's son, but Billy is no more, what he thought was H2O was H.264"	sacredcows	1793294961	1
+50300348	"<i>~370 MB/sec of raw data.[...]This is next to impossible to deal with.[...]You can't move it anywhere fast. Even SSDs have trouble dumping this straight from RAM to Disk</i><p>Always interesting to see what happened in ten years --- 370MB/s is well below what the slowest NVMe SSD can do today, and easily achieved over a 5Gbps Ethernet connection.<p>Incidentally, H.264 patents have either expired or will be expiring soon: <a href=""https://meta.wikimedia.org/wiki/Have_the_patents_for_H.264_MPEG-4_AVC_expired_yet%3F"" rel=""nofollow"">https://meta.wikimedia.org/wiki/Have_the_patents_for_H.264_M...</a>"	userbinator	1793340007	1
+				
+50305126	Nice article, however it seems the author started with a lot of punch, explaining Frequency Domain and it's lossy compression in high detail, but then got tired/bored to write rest of the article.   It's like a movie that starts very slow at the beginning and compensates at the end by just glossing around things.<p>I particularly would have enjoyed a detail explanation of the Chroma subsampling, with the same level of detail (graphics, examples, etc) as the first third of the article.	xtracto	1793373418	1
+50299404	In the end, YouTube still loses frames above 1080p, even if you have fiber-optic internet, the ultimate CPU and GPU, and loads of RAM, just because YouTube's code is garbage.	bugake	1793329305	1
+50294065	"I'm surprised that 10 years later, the article still teaches an incorrect conceptual understanding of ""quantization"".<p>The context heavily implies that quantization is ""discarding information"" generally (e.g. clipping, masking). The wikipedia article he links in the footnote disagrees, and so do I:<p>> quantization is the process of mapping input values from a large set (often a continuous set) to output values in a (countable) smaller set, often with a finite number of elements.<p>Quantization is a function over values, or the image itself. Clipping and masking, by contrast, are functions over the space/frequency dimensions, i.e. the pixel indices (""preimage""). A rule like ""apply a circular mask"" or ""drop the first quadrant"" does not depend on the values!<p>The most extreme example of quantization is a threshold filter. Regardless of location, output ""1"" if the pixel is brighter than X, or ""0"" otherwise. This depends only on the value, not on the location. He also misses the opportunity to point out that chroma subsampling is another application of quantization, this time to chroma values (drop the low-order bits).<p>Codecs like H.264 and JPEG use spatially-varying quantization rules to effectively discard more information at high frequencies, so his explanation of H.264 is spot on, but a non-expert encountering quantization for the first time would probably come away with the wrong idea. For an article explicitly targeted to non-experts that goes out of its way to introduce the term, it's a pretty important oversight."	dizzant	1793299999	1
+				
+				
+50292486	"One year left before the ""last major patent"" expires."	Dwedit	1793293882	1
+				
+50298291	I work with video sites and I'd never understood why an hour-long video could be so small. Saving only what changes between frames explained it all. It also explains why videos of rain or confetti look pixelated.	juanfra91	1793320041	1
+50309048	This won't be new for many people, but I've experimented with avif for github demo videos to keep the size under 1MB. The amount of video that one can squeeze into this file size with little to no degradation is genuinely mind-boggling. I think I have a 30s loop of a website scroll in 750KB.	filcuk	1793388718	1
+50296562	I wish the video presented had been one with, say, 5x higher bitrate, as it would have  sufficed to make the point without presenting a video with very glaring compression artifacts.	ummonk	1793310400	1
+50299320	It is time to make a standard neural network for video, which guesses the next frame and/or applies super-resolution like DLSS does, so the necessary information to transmit is reduced to the minimum necessary for DLSS to reproduce the image without loss.	bugake	1793328609	1
+50293201	"I wonder if an AI can make a better codec, and if we would think of it as ""magic""."	amelius	1793296447	1
+				
+				
+50292374			1793293490	1
+50291742	It is tradition to re-read this every year. Along with the m1 blackmagic one.	rishabhd	1793291445	1
+				
+50292885	"Ref.:<p><a href=""https://news.ycombinator.com/item?id=38099633"">https://news.ycombinator.com/item?id=38099633</a>"	jruohonen	1793295227	1
+50300716	Reading human written article (No LLM) is soo fun. Can't find it anywhere these days.	yashk1010	1793344513	1
+50302752	What are some areas where H.264 should be used, but currently is not?	build_with_ragh	1793361652	1
+50291934	Socrates was certainly a pioneer of conveying information efficiently	whall6	1793292094	1
+50294295	"Well, that was disappointing. Everything in that article is generic to any video compression codec, even MPEG. I thought this would discuss why H.264 compresses so much more than predecessors, but not a word about that. Should have been titled ""video compression is magic""."	Dan42	1793301077	1
+50291731	The only question I have:<p>Should I use H.264 or H.265?	shevy-java	1793291400	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50291265	Article is dated (2016).	dzdt	1793289924	1
+				
+50305311	Wait until he sees H.265...	blobbers	1793374152	1
+50297932	[flagged]	MuseRefer	1793317967	1
+50302840	[flagged]	nibbo_dev	1793362278	1
+50298651	[flagged]	rpsworld	1793322594	1
+50300380	[flagged]	msarda_23	1793340477	1
+50299153	[flagged]	jotjam	1793327283	1
+50299140	[flagged]	terranvigil	1793327160	1
+50300894	[flagged]	hexjy	1793346481	1
+50296772	[flagged]	tty_bordel	1793311248	1
+50291869	[flagged]	phi_node_48	1793291903	1
+50291663	"""The H.264 video, 300 frames long is 175KB. A single frame of that video in PNG is 1015KB. It looks like we're storing 300 times the amount of data in the video. But the file size is a fifth. So H.264 would seem to be 1500x as efficient as PNG. How is this even possible? All right, what's the trick?""<p>Mostly the trick is they're comparing lossy to lossless compression which doesn't even make any sense."	WhitneyLand	1793291212	1
+				
+				
+				
+				

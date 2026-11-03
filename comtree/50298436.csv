@@ -1,0 +1,172 @@
+50298436		cherioo	1793320961	0
+50301880	"> A native home for Claude Code, Codex and every coding agent. Every pixel is a file your agent can change. Close it, they keep working.<p>First two sentences give zero information what it does. Third one is useful but i think many harnesses do it?<p>Continuing:<p>> A new kind of agent workspace. Native and terminal first, with nothing between you and your agents. Every part of it is a plain folder your agent can rewrite, and every agent keeps running when the window is gone.<p>Okay, more of the same. Let's press on.<p>> Your agents run agents.
+And hear back.<p>> An agent hands work to helpers and keeps going. When they finish, their reports land in its input. No copy-paste between windows: herdr-core carries the messages.<p>Are there modern harnesses that don't do subagents/subthreads/whatever the same way?<p>---<p>There are some interesting bits but the vibed copy is for me offputting and a sign even the author might not understand what he made."	ShinyLeftPad	1793355004	1
+				
+				
+				
+				
+				
+50298958	"I switched to herdr this year after a decade of using tmux, and I haven't looked back since. Herdr is wonderful, not only because of the coding agent integrations, but also because it uses libghostty under the hood. So no terminal-emulator-inside-another-terminal-emulator shenanigans.<p>If you prefer GUIs, I can recommend herdr-gpui which connects to a herdr daemon. It has a bunch of goodies like remote phone pairing, and a built-in browser integration to send screenshots and notes to coding agents.<p><a href=""https://github.com/penso/herdr-gpui"" rel=""nofollow"">https://github.com/penso/herdr-gpui</a>"	flippant	1793325473	1
+				
+				
+				
+				
+				
+50299783	"Really happy to see this!<p>herdr is by far the most polished tool in its category. Software geared towards agents is usually vibe coded -- and you can tell. There will be bugs and edge cases and it feels like no thought/care was put into it.<p>herdr doesn't feel that way to me. The marketing/landing page definitely has LLM-isms, but the application itself is very stable and well thought out.<p>A true UI is the next logical step and they seem to have done the obvious things. The one surprising bit that nobody seems to be talking about (yet) is the entire UI looks like its controlled via ""recipes"", so you can customize the UI in ways that you couldn't with traditional software: <a href=""https://herdr.dev/layouts/"">https://herdr.dev/layouts/</a><p>I hope this means an official mobile app is on the horizon!"	shepherdjerred	1793333409	1
+				
+				
+				
+				
+				
+50305540	People should put a screenshot of their desktop app in the README of their GitHub repos	z3ugma	1793374959	1
+				
+50326964	"Still a work-in-progress[1], but I have a mobile app for herdr also built with a native GPU interface (but not using gpui), optional LLM usage (outside of the agents themselves), designed for a hands off voice-enabled approach to development. The STT/TTS are both on-device. Yes, I used agents to build it, and you can see the development record in tree under docs/design.<p>[1] <a href=""https://github.com/flankrapp/flankr"" rel=""nofollow"">https://github.com/flankrapp/flankr</a>"	tmzt	1793549621	1
+50299644	"Related:<p><i>Herdr Studio</i> - <a href=""https://news.ycombinator.com/item?id=49652188"">https://news.ycombinator.com/item?id=49652188</a> - Sept 2026 (20 comments)<p><i>Connecting the machines</i> - <a href=""https://news.ycombinator.com/item?id=49612818"">https://news.ycombinator.com/item?id=49612818</a> - Sept 2026 (35 comments)<p><i>Herdr now connects to multiple servers with a single client</i> - <a href=""https://news.ycombinator.com/item?id=49602323"">https://news.ycombinator.com/item?id=49602323</a> - Sept 2026 (3 comments)<p><i>Herdr is joining Y Combinator. The runtime stays open</i> - <a href=""https://news.ycombinator.com/item?id=49201003"">https://news.ycombinator.com/item?id=49201003</a> - Aug 2026 (189 comments)<p><i>Herdr: One terminal to rule them all</i> - <a href=""https://news.ycombinator.com/item?id=48756578"">https://news.ycombinator.com/item?id=48756578</a> - July 2026 (178 comments)<p><i>Herdr: Agent multiplexer that lives in your terminal</i> - <a href=""https://news.ycombinator.com/item?id=48714802"">https://news.ycombinator.com/item?id=48714802</a> - June 2026 (110 comments)"	dang	1793331895	1
+50305935	"<a href=""https://github.com/jkuepker/herdr-layouts/blob/main/lcars/preview.png"" rel=""nofollow"">https://github.com/jkuepker/herdr-layouts/blob/main/lcars/pr...</a><p>This alone is worth trying the Desktop app<p>I'm sure I'll get bored once the novelty wears off<p>I'm already a happy user of herdr CLI (or whatever it is called. I use it from Ghostty)"	desipenguin	1793376457	1
+50327376	"I loved Herdr at first and got a massive productivity boost. Installed a bunch of plugins and created a few myself, but felt a bit messy after a while. When working on 10+ tasks I had a hard time getting a proper overview of the agents and high cognitive load when swapping between the tasks.<p>I built my own app based on what I liked with herdr and added some other things, but with this new herdr update I might switch back
+<a href=""https://svall.dev/"" rel=""nofollow"">https://svall.dev/</a>"	laserlinus	1793552272	1
+50301030	I've been using Orca for this as it's the most popular on GitHub and seems to have more features. Is there anything notable that this offers over it?	ajvs	1793347632	1
+				
+				
+50301494	Herdr looks awesome, exactly what I need. However, automatic updates worry me in the light of recent supply chain attacks. I don't want be in a situation where one day I just find out I'm running malware on my computer. I'm not sure if there's an option to turn it off.	Sandman	1793352001	1
+50300042	"In this vein I’ve started using Tern (<a href=""https://stencil.so/tern"" rel=""nofollow"">https://stencil.so/tern</a>), but it’s closed beta, from the creator of Oh My Pi.<p>This space seems to be heating up, everyone wanting to build the single pane of glass for agentic work."	indemnity	1793336617	1
+				
+				
+				
+				
+50299174	Darn, title had me thinking they released a mobile app to compliment the TUI daemon.<p>termux+mosh is <i>fine</i>, but especially on a phone I'd love a slightly more intuitive (or really, efficient) UI. Especially as mosh breaks touch/mouse input on the remote host.<p>I've never understood the point of the desktop GUI harnesses to run TUI (or at the very least, primarily text-based) programs anyway, but perhaps they're better for onboarding less tech-savvy users.	DaSHacka	1793327516	1
+				
+				
+				
+				
+				
+				
+50300314	Having used herdr since its release, the recent 'Emacs is 50' made me decide to go back to it and just vibecode herdr features i use into an emacs package.<p>It works great so far. I can just ask it to update its layout whenever i think something better is possible. I wont be going back, but the one thing that might change that is a mobile app.	athrowaway3z	1793339575	1
+				
+				
+				
+50299217	This is the first time I have even hear of Herdr, and I try to make an effort to follow ai.<p>It's getting very difficult to keep up with all the agent harnesses coming out. I love ai but wow its hard to keep up.	game_the0ry	1793327831	1
+				
+				
+50300195	"The Herdr website [1] has one of the best demos I have seen, one that I think would blow away those who aren’t nearly as AI-brained as I am. Why are we locked into old, boring UIs when I can just ask the agent for something like cows in a pasture or Windows 98?<p>[1] <a href=""https://herdr.dev"">https://herdr.dev</a>"	nullishdomain	1793338392	1
+				
+50299048	What’s the planned monetization model for all the terminal multiplexers backed by VC funding like Herdr, Rex, etc?	tiffanyh	1793326325	1
+				
+				
+				
+50299197	> Usage telemetry is on by default in releases. Turn it off in Settings → Privacy.<p>Probably a good idea if you work with sensitive data (and you’re already on Zero Data Retention)	ziofill	1793327685	1
+				
+50320678	Installed Herdr's Desktop App. Opened new Terminal. Opens bash from /bin/bash instead of bash from Homebrew (/opt/homebrew/bin/bash)<p>Spent a while searching for how to change this.<p>Finally asked the claude session inside of Herdr how to do this.<p>Burnt through like 10% of my weekly limit with Pro writing a mod to do this.. which seems kind of like overkill	pcthrowaway	1793484054	1
+50316027	"I recently searched for an application to manage my agents and work streams, on top of Claude Code. Chat called them ""task cockpits"", but I'm sure I've seen other terms used for this category. I found a bunch that were abandoned already. And I didn't see Herdr until I already selected Pane, and committed to giving that one an honest try. It makes me wonder, is there any winners in this space yet, or is it just as fragmented as it seems?"	sverhagen	1793453355	1
+50299280	Supports SSH to remote machines out of the box, cool. I wonder if the protocol is more efficient than the TUI over SSH, would be nice on crappy connections when traveling.	oefrha	1793328393	1
+				
+50301503	"Does anyone have experience in how herdr compares to Zed?<p>I'm currently using Zed as my main ""agent orchestrator"" and IDE because it handles various simultaneous agents quite well, using different harnesses. I'm especially a fan of the diffs for code review and the ability to easily highlight code and add it to context. The way it handles worktrees and git is also nice, IMO."	ezrabuenk	1793352145	1
+				
+50299071	"If you like Herdr, you might also appreciate <a href=""https://github.com/BrokkAi/mjolnir/"" rel=""nofollow"">https://github.com/BrokkAi/mjolnir/</a>, which is similar in its multiplexing features (although built on ACP) but offers cross-provider subagents, memory and session log sync, live migration of sessions across profiles and providers, and load balancing across multiple subscriptions."	jbellis	1793326568	1
+50305903	I have had much better experiences with the desktop apps for managing LLMs compared to the terminal.<p>Tasks like switching between multiple sessions, copying and pasting, viewing diagrams/web pages, and resuming remote sessions I have found significantly more polished when using the desktop app equivalents.	stwrt	1793376348	1
+50304426	"I left tmux+vscode a few months ago and haven’t looked back. Clearly this new thing is better than flipping between a dozen tmux panes and other windows.<p>But I’m using my own “IDE” inspired by herdr and pane, worktrees down the left and panes on the right, but besides terminals the types of panes also include:<p>- A native Obsidian-level markdown editor with support for comments that agents can see
+- Claude code with chrome for context size, and a custom UI that looks more like the web
+- A diff viewer with support for comments
+- A browser
+- Can tag worktrees with PRs and issues
+- Everything (except the browser) works seamlessly over ssh<p>It’s all zig+gtk, all vibe coded. I rarely open vscode these days.<p>Maybe the herdr plugin ecosystem can support all this too. I kinda want to get out of the business of hand-polishing UI."	physicles	1793370483	1
+				
+50299010	How does it compare to CMUX?	pupppet	1793326000	1
+				
+50302345	I can’t seem to understand if this is something that could also be used without agents. I see the appeal of having first support for agents but I’d also like something I can use myself like I use tmux, without agents.<p>If agents didn’t exist, would herdr provide a nice UX as a terminal multiplexer?	FacelessJim	1793358425	1
+50299023	I don't think I need it, but Herdr has been absolutely rock solid for me. And I have this app Pairfob that I can check things up on the phone if I really want to. And while I don't use it quite as often, seems to be more solid then Chatgpt (Codex) and other apps.<p>I have 2 machines and laptop linked together and running things have never been easier.	desireco42	1793326108	1
+50301643	Does herdr have a mobile app like Orca?	swingboy	1793353291	1
+				
+50299572	"If you like the idea of herdr, but want something that isn't opinionated on terminal vs. desktop app and has mobile support, you might like <a href=""https://github.com/codealong/codealong"" rel=""nofollow"">https://github.com/codealong/codealong</a>"	ghempton	1793331081	1
+50299335	Nice! I have been using herdr for a few months, love it and for me it is a step up from years using tmux. The new native Herdr app is yet another step up. I use multiple Macs with Tailscale connections and the Herdr app makes jumping around to different projects and different machines easier.	mark_l_watson	1793328741	1
+50300305	The relevant question: is herdr going to be sunset by herdr-app backed by herdr-core?<p>To me this is a valid signal.	_bobm	1793339529	1
+				
+50298966	"Haven't used Herdr before - was looking at README and was looking to check screenshots and documentation. However, Chrome reports the SSL cert to the site <a href=""https://herdr.dev"">https://herdr.dev</a> as invalid. Will wait till it gets resolved."	sangupta	1793325557	1
+				
+50304449	I understand this got funded by YC. But how is it supposed to make money?	swoorup	1793370619	1
+				
+50300466	How does it compare to Rex? (I use Rex but haven’t tried herdr so cant compare yet)	lexoj	1793341529	1
+				
+				
+50306797	"This new GUI looks awesome, however it's not clear how to do the agent integration? With the TUI I installed the skill via `npx skills add <a href=""https://github.com/herdrdev/herdr"" rel=""nofollow"">https://github.com/herdrdev/herdr</a> --skill herdr` and the agent knew what I was talking about when I said herdr, now I have to tell the agent 'Read `herdr-app --skill` and ...' - seems like extra steps?"	gkfasdfasdf	1793379730	1
+50301474	Didn't have much time to try it this morning, but so far the Herdr app looks fantastic. I am already using herdr on the console to control Claude on my Mac Mini, but having to log in again after closing my Macbook was always annoying. And I missed seeing the code diffs and being able to commit changes in VSCode, which is still my preferred development environment today (with the Claude VSCode extension).<p>But Herdr app addresses both issues. I don't need to reconnect, and it has a diff tool that allows me to review and commit. Looking forward to work with it!	tjansen	1793351801	1
+50303731	"I just got started with <a href=""https://www.onorca.dev"">https://www.onorca.dev</a> and I like it, how is herdr.app different if anyone knows?"	perarneng	1793367543	1
+				
+50299479	Is anyone else finding that it doesn't pick up Claude Code agents? My Agents pane stays empty no matter how many instances I start and work in. Appears to continue to work fine in herdr, though.	steve_adams_86	1793330215	1
+50299685	I hope they release a mobile app too	kelvinjps10	1793332379	1
+				
+				
+				
+50299248	A native app is definitely a good thing.<p>herdr is great, and the original runs-in-a-terminal vision was cool, but at least on OSX it has a ton of selection management bugs that are pretty sucky.	yodon	1793328083	1
+50312005	Not having a normal installer/uninstaller is a weird trend, I dislike these powershell scripts that dump stuff all over and have no way to uninstall it after.<p>Especially when it's an AI agent tool and an AI agent can probably make an EXE installer in a few minutes.	Saris	1793406754	1
+50313991	"kinda related, anyone using simpler workflow orchestrators like dagu? (<a href=""https://github.com/dagucloud/dagu"" rel=""nofollow"">https://github.com/dagucloud/dagu</a> I am not affiliated)<p>at the end of a day I started to one-shot some simpler workflows; e.g. I already have various scripts for spinning work-trees, setting up deps, picking up a clearly defined issue, waiting for some delayed CI checks, doing reviews with different agents, workflow waiting for another workflow etc. - without passing context between"	_rwo	1793432255	1
+				
+50301816	As I understood, this is a completely different thing from what we had so far (herdr TUI), fully incompatible - so technically the only common thing between them is the team and the name.<p>It doesn't see the sessions in my already-running remote herdr server, you cannot access the Herdr App remote sessions from your mobile phone (previously you could via SSH client like Termius).	nlitened	1793354418	1
+				
+				
+50299375	Which of these various new multiplexers (herdr, cmux, etc) work over ssh, and which have protocols underneath?<p>I've been scripting tmux for a while now, and it's not the greatest. And when I have a bunch of opencode sessions rolling along often my tmux could usage is smoking. I'd be happy to try other things. But I'd way rather get into something with protocols, that is open to play.	jauntywundrkind	1793329063	1
+				
+				
+				
+50306029	Looks good but doesn't have a browser yes, like all the desktop applications of major harnesses have. Having a browser accessible to both the user and the model is extremely useful. I know you can do it via MCP but still, having a baked in one is better.	lifty	1793376857	1
+50301826	"I just had a look at the site and screenshots, I usually run my coding agents containerized (one per project), anyone else doing this and wiring it to herdr? is it possible?
+from a quick glance it seems to me it installs cc/codex/opencode/etc on it's own and just does multiplexing"	dada216	1793354519	1
+				
+				
+50304427	It's hard to beat Claude Code with /remote.  I can easily keep things moving from my laptop, phone, or another desktop.  I realize Herdr can technically do that too and across more agents, but it's more to setup and I really don't need that.	aaronschroeder	1793370484	1
+50300786	I've been building something similar except it uses iroh for P2P instead of SSH.  Would really like to use this but I don't want to use SSH.<p>edit: nevermind I see it presents a console rather than wrapping the agent with a native GUI. This won't work well on high latency connections.	cedws	1793345387	1
+				
+				
+50306673	"Just finished ricing herdr-app with pi, damn it looks good!<p><a href=""https://github.com/kyle-avrett/herdr-square-dracula"" rel=""nofollow"">https://github.com/kyle-avrett/herdr-square-dracula</a>"	kyle-avrett	1793379252	1
+50300473	Glad to see the desktop app and after did some research seems its like rex and with some once feature and it even have a Win98 easter egg if you can find it:)<p>Currently I am not switch to it because I just have my own app talk to the herdr daemon via my apps builtin tailscale and it works great	mintflow	1793341636	1
+50299534	"while they do this, i hope they do not drop support for regular/other terminals<p>ignoring ALL the AI/agent features, herdr has been a decent replacement for tmux with saner defaults<p>so much so that i'm reaching for installing herdr instead of tmux
+and i would like to not be locked to a ""desktop app"" for it"	thewisenerd	1793330736	1
+				
+50305870	The app doesn't even work as advertised. Opened the app, started a new session, closed the app, and my session was gone. I thought this was supposed to be persistent sessions. I think i'll keep using Cmux.	sonar_un	1793376216	1
+50301700	Hmmm I tried it, but it didn't detect my open herdr sessions in the added machine. I don't see much benefit over herdr in Terminal/Ghostty, and I need to reconfigure my agents to make it work too.	ernsheong	1793353607	1
+50299049	There is a Windows 98 mode w/ minesweeper, solitaire, and clippy!<p>Edit: oh neat! Its self editing.	Skunkleton	1793326349	1
+50301301	Anyone using this or similar with self-hosted models/engines (not on local machine)? Didn't immediately see anything about that anywhere in the documentation.	withinrafael	1793350112	1
+50300233	Fantastic news, I may have to switch back (or combine this with Paseo on my phone). I hope the RAM usage is a lot better as Paseo tends to OOM now and again (the desktop app).	kelvie	1793338741	1
+50306745	This is just so cool. I've been spending all morning having my agents mod and tweak herdr to fit my workflow exactly	unreal6	1793379550	1
+50305826	I've done a little poking around and there is one glaring annoyance. Why didn't they keep the keymap from the tui?	fridder	1793376078	1
+50301111	"The tabs mechanism didn't do it for me so I rolled my out (self-plug at [0]).<p>While it's not ""agent-first"" thanks to rich MCP I often use direct terminal control from one orchestrator agent to drive another one, and I haven't seen any generic solution like that.<p>Since I'm moving my work VM yesterday I even started working on ssh persistence using planted cross-compiled PTY host library. If anyone's interested check it out, I expect to roll it out within a week or so.<p>[0]: <a href=""https://race-term.com"" rel=""nofollow"">https://race-term.com</a>"	xlii	1793348348	1
+50307482	Can someone tell me if I should invest in any of these or just wait until mitchel's multiplexer is out?	kkukshtel	1793382226	1
+50303564	But can I install herdr desktop app and connect to my SSH sessions? I'm not running herdr on desktops usually	slenk	1793366766	1
+				
+50300310	How does it compare to cmux and wave terminal?	febed	1793339558	1
+50300261	It works great in Ghostty not sure if I need another standalone app. I’ll definitely try it out but my expectations are low.	jdorfman	1793339046	1
+50302457	I prefer the TUI in ghostty and even that’s just a stopgap until superlogical is out of alpha.	dimbletimbers	1793359259	1
+				
+50306536	Am I missing something, or is there no way to use plugins with the herdr app?	abroadwin	1793378762	1
+50302551	From my limited understanding it's fancy tmux?<p>Please correct me if I'm wrong.<p>Please lmk what the advantages are!	the_real_cher	1793359976	1
+50299065	Yep it’s awesome. I’m going to integrate the core engine to my mobile app so I can control it remotely.	adamisnotroman	1793326505	1
+				
+50299090			1793326737	1
+50299134	I've been holding this at arms length. Interested, but I'm so stuck on tmux.	Hitech-Redneck	1793327080	1
+50306722	the fork from the original herdr tui (without any explanation of the plan or reasons) is quite confusing given that they are using different backends	aheilbut	1793379450	1
+50319113	"My cat decided to sit on the power button of my laptop, and upon restart herdr-app greeted me with empty terminal panes, whereas herdr-tui was just fine.<p>And seems like they use ""herdr-core"" (hc) to actually run sessions instead of herdr server, that flushes events only every 100ms -- the agent output is quite jittery with that.<p>Meh :/"	_kblcuk_	1793474026	1
+50311027	Looks like someone is going after Rex	spaquet	1793399839	1
+50302408	Is herdr in the similar park as superset?	sawyna	1793358987	1
+50302007	I use herdr daily. One thing I’ve always missed from all of these solutions, though, is the ability to actually make code changes..none of them seem to offer that properly. Am I the only one? Is the goal to abandon code entirely?	mtrx	1793355954	1
+50300939	Another desktop application without a screenshot in the Readme.. sigh..	sammy2255	1793346752	1
+				
+50299527	feels like they're trying to get ahead of superlogical's rex.<p>took all of installing it on windows and setting up my mac as an SSH machine to see the slop all through the UI. i'll just wait for rex's windows client i guess.	pdantix	1793330657	1
+				
+50299611	I really enjoyed herdr at first but ever since they got VC funding I am avoiding it. Enshittification and cloud features due to vc/monetization pressure incoming.	loveparade	1793331535	1
+				
+50300181	is this similar to zmx?	sharts	1793338238	1
+50299433	I love herdr, nice work team!	lucas_the_human	1793329674	1
+50301161	u can do all this with react and tailwind tho lol.	lerp-io	1793348884	1
+50303276	"2004 called. They want to return their disemvoweled penultimate ""e"".<p>2004 - The Big Bang (Flickr) - Co-founder Caterina Fake wants to buy Flicker.com, but an offline beer brewer refuses to sell it. Out of options, she suggests dropping the ""e"". It works, and Flickr is born, instantly setting a precedent that typos equal modernism.<p>2005–2006 - The YC Copycat Flood - Paul Graham launches Y Combinator, and the application form might as well have had a checkbox for ""did you delete a vowel to look disruptive?"" Scribd (YC S06) drops the E because buying a real dictionary noun requires actual revenue. Twitpic and Pixlr emerge to capture that sweet, sweet pre-seed funding. Even Twitter originally launches in 2006 as ""Twttr"" because the actual domain is owned by a bird enthusiast. (They buy the ""e"" back six months later once they realize they look ridiculous).<p>2007 - The Peak of Style - Tumblr launches, proving the vowel-less trend isn't a passing fad but the official language of the new internet. Dropping the ""e"" becomes shorthand for ""we have venture capital, a minimalist mobile interface, and absolutely no monetization strategy.""<p>2009 - The Aggressive Pivot - Grindr launches. The convention branches out of pure utility and enters cultural lifestyle apps, cementing ""-r"" as the universal suffix for a location-based mobile service. Every YC batch now features at least three ""Uber for X"" startups named after a mangled verb.<p>2011–2012 - The Saturation Point - Companies like Blendr and Fiverr continue the trend, but the public begins to push back. Every SaaS tool on Hacker News looks like a typo. Critics and users start pointing out how incredibly annoying it is to vocally explain a business name (""It's called Taskr... no, without the E"").<p>2015–2018 - The Death Kneel & Corrections - The joke gets old. Brand consultants begin labeling creative misspelling a ""cardinal sin"". Startups realize they are losing millions of organic visitors to the properly-spelled domains owned by domain squatters. The internet enters the ""-ify"" (Spotify, Shopify) and ""-ly"" (Bitly) eras, completely abandoning the broken suffix because pg wrote an essay saying missing vowels hurt your SEO.<p>2019–Present - The ""Adult in the Room"" Era - The trend is officially dead. Modern YC startups pivot toward ultra-literal names (The Browser Company) or aggressive, serious abstract words (OpenAI, CoreWeave) to pretend they are enterprise-ready AI infrastructure rather than a wrapper wrapper wrapper.<p>Postscript - The Ultimate Regression - The convention reaches its absolute, braindead rock bottom with Elon Musk. After burning 44 billion dollars to buy Twitter just so he could unban literal Nazis and amplify white supremacist conspiracy theories to the front page, he rebranded the entire platform to ""X.com"". It turns out ""X"" is just ""Ex"" without the penultimate ""e"" -- a fittingly hollow, single-letter monument to a sociopathic tech bro who couldn't innovate a functional name if his taxpayer subsidies depended on it."	DonHopkins	1793365322	1
+50323354	[flagged]	osbull	1793517198	1
+50302470	[flagged]	jp1016	1793359368	1
+50302648	[dead]	sick_of_slop	1793360739	1
+50323396	[flagged]	indo_yoon	1793518094	1
+50307569	[flagged]	Jeeetendra	1793382537	1
+50299662	[dead]	justinko	1793332171	1
+50300974	[dead]	mmndaniel	1793347204	1
+50302456	[dead]	tdi	1793359257	1
+50301841	[flagged]	mickeyp	1793354659	1
+50300060	"Herdr is truly awesome. Game changing almost. If you think of all the overly complex agent setups[1] and overly complex software factories[2] to write code... herdr and a pick-your-coding-agent replaces all that with a very simple one thing which just works.<p>There are many ways to do what herdr does, like tmux, and rex, but in a nutshell:<p>You launch cli things (claude code, cli tools etc) anywhere inside a herdr process. On your own laptop you magically stay connected to all of them and can monitor, send commands etc. And those processes can talk to each other and control each other too if u want!<p>For a single person with herdr+tailscale, you can make your own evolving software thingamajig across all the possible computers u have access to (pls don't call it a factory, we didn't call your fingers a factory in the dinosaur days did we).<p>[1]: <a href=""https://www.8090.ai/"" rel=""nofollow"">https://www.8090.ai/</a>
+[2]: <a href=""https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04"" rel=""nofollow"">https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16d...</a><p>p.s if someone from cloudflare reads this, would love to have a herdr process in a worker so it appears on my laptop as a thing i can do stuff with. while idle it goes dormant, i send a keystroke and it wakes up, stays awake for a bit.<p>p.p.s herdr team if u read this can you have a built in so i can instantly launch a vm in one of the many provide a instant vm (or sandbox or whatever the cool kids call it these days). I have been using the railway TS sdk to quickly spin up and throw away sandboxes, but why not just integrate <choose-your-sandbox-provider> in herdr and that is one way to charge money - pay herdr or provide my API key for vm/sandbox provider. Bonus points if it can sleep and charge less. Sort of like fly's sprites but more awesome."	77ko	1793336960	1
+				

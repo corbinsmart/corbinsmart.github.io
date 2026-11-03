@@ -1,0 +1,98 @@
+50324371		n_plus_1_acc	1793529860	0
+50324384	"Looks like HN broke the URL after submitting. Let's try again:<p><pre><code>    https://ₛᵖ.ⓜ/
+</code></pre>
+Here is the backup link:<p><a href=""https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-unicode-characters/"" rel=""nofollow"">https://shkspr.mobi/blog/2018/11/domain-hacks-with-unusual-u...</a>"	n_plus_1_acc	1793530033	1
+				
+				
+50324773	"Tangentially related - 20+ years ago I managed to register a π domain under one of the primary TLDs.<p>As in, the registration form was accepted and the fee was charged.<p>Then, few days after they emailed to say that ""due to technical difficulties"" the registration can be registered and they have no choice but to unregister it.<p>I was so close, damn amateurs."	huhtenberg	1793534063	1
+				
+				
+50326078	Not sure why so many things use the compatibility form of normalisation.<p>Some older RFCs even recommended using it for passwords, which needlessly reduces entropy (yes we need to normalise passwords because of combining characters, but we don’t need to collapse symbols that a user can choose from, like ſ and s).<p>In my opinion, the compatibility form makes mostly sense for searching text, and even then it’s sometimes annoying (I want to search exactly for ss and not ß, browser). If you know of other good use cases let me know.<p>It also OK to disallow registering two identifiers with the same compatibility normalisation form (edit: this does not prevent all homoglyph attacks BTW, that is another can of worms), but I don’t see the need to normalise the identifier when it’s used.	brewmarche	1793543585	1
+50327925	"Note that, in addition to normalizing domain components, the process also maps U+3002 IDEOGRAPHIC FULL STOP (。) to U+002E FULL STOP (.) for use as a separator, a nice touch for domain names encoded in blackboard bold.<p>Also, the author's one-liner, updated for Python 3:<p><pre><code>  python3 -c 'import sys;print(sys.argv[1].encode(""idna"").decode(""ascii""))' ""℡""</code></pre>"	jasomill	1793555793	1
+50325416	My favorite unicode character is zero width space. One of its funniest properties is that it's not a whitespace.<p>Also, some programming languages treat it as a valid identifier.	Aozora7	1793539260	1
+				
+				
+				
+				
+50325537	Firefox doesn't even let me open the link, wow.	debugnik	1793539920	1
+				
+				
+				
+				
+50324931	On Firefox, hover-over of the link doesn't show the URL in the bottom left of the browser.	mmsc	1793535563	1
+50326704			1793547744	1
+50324839	I click on the link on Android Firefox and nothing happens.	waltbosz	1793534777	1
+50325890	This has given me a lot of trouble with emails.<p>I have a domain that contains Nordic characters and it is a crapshoot if the email client will accept and send.<p>Meanwhile I have not encountered problems with http access.	wodenokoto	1793542356	1
+50326638	"There have been some additions since 2018 when this article was written; here is the current list, from what I can tell:<p><pre><code>  ㍳ │ 003373 │ SQUARE AU │ AU │ Australia
+  ㍴ │ 003374 │ SQUARE BAR │ BAR │ Bar, Punto 2012 Sociedad Anonima Promotora de Inversion de Capital Variable
+  ㎈ │ 003388 │ SQUARE CAL │ CAL │ Google
+  ㏄ │ 0033C4 │ SQUARE CC │ CC │ Cocos (Keeling) Islands
+  ㏅ │ 0033C5 │ SQUARE CD │ CD │ The Democratic Republic of the Congo
+  � │ 01F12D │ CIRCLED CD │ CD │ The Democratic Republic of the Congo
+  ㎝ │ 00339D │ SQUARE CM │ CM │ Cameroon
+  � │ 01F190 │ SQUARE DJ │ DJ │ Djibouti
+  ㍷ │ 003377 │ SQUARE DM │ DM │ Dominica
+  Ǳ │ 0001F1 │ LATIN CAPITAL LETTER DZ │ DZ │ Algeria
+  ǲ │ 0001F2 │ LATIN CAPITAL LETTER D WITH SMALL LETTER Z │ DZ │ Algeria
+  ǳ │ 0001F3 │ LATIN SMALL LETTER DZ │ DZ │ Algeria
+  ﬁ │ 00FB01 │ LATIN SMALL LIGATURE FI │ FI │ The Republic of Finland
+  ㎙ │ 003399 │ SQUARE FM │ FM │ Federated States of Micronesia
+  ㏿ │ 0033FF │ SQUARE GAL │ GAL │ Galicia, Spain
+  ㎇ │ 003387 │ SQUARE GB │ GB │ United Kingdom
+  ㏉ │ 0033C9 │ SQUARE GY │ GY │ Guyana
+  ㏌ │ 0033CC │ SQUARE IN │ IN │ The Republic of India
+  ㎏ │ 00338F │ SQUARE KG │ KG │ Kyrgyzstan
+  ㎞ │ 00339E │ SQUARE KM │ KM │ Comoros
+  ㏎ │ 0033CE │ SQUARE KM │ KM │ Comoros
+  ㎾ │ 0033BE │ SQUARE KW │ KW │ Kuwait
+  ㋏ │ 0032CF │ LIMITED LIABILITY SIGN │ LTD │ Binky Moon, LLC
+  ㎃ │ 003383 │ SQUARE MA │ MA │ Morocco
+  � │ 01F16A │ RAISED MC SIGN │ MC │ Monaco
+  � │ 01F16B │ RAISED MD SIGN │ MD │ The Republic of Moldova
+  ㎎ │ 00338E │ SQUARE MG │ MG │ Madagascar
+  ㏕ │ 0033D5 │ SQUARE MIL │ MIL │ United States Military
+  ㎜ │ 00339C │ SQUARE MM │ MM │ Myanmar
+  � │ 01F16C │ RAISED MR SIGN │ MR │ Mauritania
+  ㎳ │ 0033B3 │ SQUARE MS │ MS │ Montserrat
+  ㎷ │ 0033B7 │ SQUARE MV │ MV │ Maldives
+  ㎹ │ 0033B9 │ SQUARE MV MEGA │ MV │ Maldives
+  � │ 01F14B │ SQUARED MV │ MV │ Maldives
+  ㎽ │ 0033BD │ SQUARE MW │ MW │ Malawi
+  ㎿ │ 0033BF │ SQUARE MW MEGA │ MW │ Malawi
+  ㎁ │ 003381 │ SQUARE NA │ NA │ Namibia
+  ㎋ │ 00338B │ SQUARE NF │ NF │ Norfolk Island
+  № │ 002116 │ NUMERO SIGN │ NO │ The Kingdom of Norway
+  ㎀ │ 003380 │ SQUARE PA AMPS │ PA │ Panama
+  ㎩ │ 0033A9 │ SQUARE PA │ PA │ Panama
+  ㎊ │ 00338A │ SQUARE PF │ PF │ French Polynesia
+  ㏗ │ 0033D7 │ SQUARE PH │ PH │ The Republic of the Philippines
+  ㏚ │ 0033DA │ SQUARE PR │ PR │ Puerto Rico (U.S.)
+  ㎰ │ 0033B0 │ SQUARE PS │ PS │ Palestinian Territory, Occupied
+  ㎺ │ 0033BA │ SQUARE PW │ PW │ Palau
+  ₨ │ 0020A8 │ RUPEE SIGN │ RS │ Serbia
+  � │ 01F14C │ SQUARED SD │ SD │ Sudan
+  ℠ │ 002120 │ SERVICE MARK │ SM │ San Marino
+  ㏛ │ 0033DB │ SQUARE SR │ SR │ Suriname
+  � │ 01F14D │ SQUARED │ SS │ SS │ South Sudan
+  ﬆ │ 00FB06 │ LATIN SMALL LIGATURE ST │ ST │ Sao Tome and Principe
+  ㏜ │ 0033DC │ SQUARE SV │ SV │ El Salvador
+  ℡ │ 002121 │ TELEPHONE SIGN │ TEL │ Contact data
+  ™ │ 002122 │ TRADE MARK SIGN │ TM │ Turkmenistan
+  Ⅵ │ 002165 │ ROMAN NUMERAL SIX │ VI │ Virgin Islands, U.S.
+  ⅵ │ 002175 │ SMALL ROMAN NUMERAL SIX │ VI │ Virgin Islands, U.S.
+  ㌽ │ 00333D │ SQUARE POINTO │ ポイント │ Amazon Registry Services, Inc.</code></pre>"	teddyh	1793547373	1
+				
+				
+50326069	"Looks like that it could be exploited by some means for nefarious purpose.
+I wonder why it's even implemented in the first place."	jan_Sate	1793543524	1
+				
+50325916	Here is the URL encoded in base64 so HN does not break it:<p>aHR0cHM6Ly/wn4WC8J2WjfCdkKTigpvhtZbwnZKTLuKTnPCdlaDwnZKD8J2Tsi/wn4aG8J+Gg/CfhbU=	basilikum	1793542582	1
+50326358	Is it too late to say most Unicode characters should not be permitted in domains?	jonwinstanley	1793545643	1
+50325138	My browser refuses to open this link. It couldn’t find the server.	kccqzy	1793537256	1
+50328603	I know it's not inclusive, but DNS should be ASCII only.	jgalt212	1793559886	1
+50325544	"Which of course Bruce Schneier predicted in 2000:<p><a href=""https://www.schneier.com/crypto-gram/archives/2000/0715.html#9"" rel=""nofollow"">https://www.schneier.com/crypto-gram/archives/2000/0715.html...</a><p><i>""Unicode is just too complex to eve be secure""</i><p>As to me I'm running my own DNS resolver (I use <i>unbound</i>) and everything goes through port 53 UDP (and AIUI technically 53 TCP should be allowed, but nothing will happen if you just block it), unencrypted. What then unbound does on the Internet, that's up to you: you can encrypt those requests...<p>The nice thing with everything being in the clear, is that you can null route / NX DOMAIN every single domain that uses Unicode (punnycode) characters and you can even do that at the firewall level, by inspecting UDP packets.<p>Of course you gotta be sure to really block DoH / DoT internally but it's all doable.<p>I set that up years ago and I've been running like that since then without any issue.<p>Just as entire countries's IP blocks do not exist in my world, domains using Unicode characters do not exist. And I really don't care about your feelings about it: I'm just explaining that technically it can be done to block them all and that the Internet keeps working just fine.<p>Unicode <i>really</i> is just too complex to ever be secure. And those who don't understand that are part of the problem."	TacticalCoder	1793539995	1
+				
+50324936	"Now, please present a list of these to your grandmother, and ask her which ones are phishing, and which are legitimately from the government.<p>Now, present the same list to an I.T. professional with the same questions. Perhaps make sure they are not carrying any weapons before you try.<p>This is just one reason why visual inspection of URLs and ""hover over this link"" haven't been useful defenses for a long time."	ButlerianJihad	1793535613	1
+				
+				
+50325986	[flagged]	ihateaislop	1793542989	1

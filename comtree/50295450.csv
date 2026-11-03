@@ -1,0 +1,24 @@
+50295450		airinei	1793305948	0
+50297311	I might have missed it in the readme, but what hardware did the training take place on? This is really neat.	boustrophedon	1793313971	1
+				
+50295825	This is incredibly cool! Fascinating to see looped transformers be necessary for mini-Doom, but not for simpler games.	dannyw	1793307419	1
+50296260	Very cool. I didn't know NNs were capable of such determinism, that's very interesting. Is this a similar effect to overfitting? Also, it's the same model for all the games, right?	andai	1793309056	1
+				
+				
+50298618	Is the actor trained on world model's mistakes as well? If so, it should learn to force hallucinations that force it into an easier state.	xpct	1793322321	1
+				
+50295451			1793305948	1
+50296197	"Honestly fascinating. I almost feel like you'd be better off avoiding any discussion of the fact that this runs on a Raspberry Pi Pico 2 W because it takes away from the crazy world model capabilities (of course, the fact that this <i>does</i> run on a Pico 2 makes the whole thing much more impressive).<p>There's gotta be a good way to incorporate this logic into a larger, more ""traditional"" game in a meaningful way. Seems like an approach for procedural generation that could solve some of the issues usually found with actual procedural generation."	nater5000	1793308847	1
+50301254	I honestly believe that these neat projects (smallest possible, locally run LLMs) are the real future of AI on the long run.	skrellm	1793349629	1
+				
+50304969	This is really interesting! How hard would it be add this into like, sort of a traditional game?	mervikhaums	1793372808	1
+				
+50299683	If this runs on a PI... can it run on webgpu ?	cchance	1793332366	1
+				
+				
+50304034	[flagged]	learntoplaypitc	1793368921	1
+50298652	[flagged]	rpsworld	1793322603	1
+50298995	[flagged]	gaiya365	1793325844	1
+50299036	[dead]	lanmu	1793326204	1
+50296765	[dead]	tty_bordel	1793311217	1
+50298917	[dead]	sophia96087	1793324998	1

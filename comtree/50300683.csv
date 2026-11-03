@@ -1,0 +1,252 @@
+50300683	"<a href=""https://cursor.com/blog/claude-code-extension-security-notice"" rel=""nofollow"">https://cursor.com/blog/claude-code-extension-security-notic...</a>"	_chall	1793344152	0
+50304129	Felix from Anthropic here.<p>We’re working with Cursor on this incident, but it wasn’t a compromise of Anthropic’s systems or employee laptops. A malicious actor used access to Cursor’s marketplace to publish a tampered copy of the Claude Code extension, which we didn’t build or publish. The versions on our official channels are not affected and this only impacts Cursor users.	felixrieseberg	1793369332	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50306306	"This is from the Cursor blog [1] linked in the description, but repeating it here in case it's useful to anyone:<p>------<p><i>Check whether you are impacted</i><p>The malicious extension appends the attacker's public key, labeled svc-telemetry, to your SSH authorized keys. To check for it:<p>On macOS, run:<p><pre><code>   grep -qs svc-telemetry ~/.ssh/authorized_keys && echo ""svc-telemetry key found"" || echo ""No key found; machine not impacted""
+</code></pre>
+On Windows, run in PowerShell:<p><pre><code>   $files = ""$HOME\.ssh\authorized_keys"", ""C:\ProgramData\ssh\administrators_authorized_keys"" | Where-Object { Test-Path $_ }
+   if ($files -and (Select-String svc-telemetry $files)) { ""svc-telemetry key found"" } else { ""No key found; machine not impacted"" }
+</code></pre>
+------<p>[1] <a href=""https://cursor.com/blog/claude-code-extension-security-notice"" rel=""nofollow"">https://cursor.com/blog/claude-code-extension-security-notic...</a>"	jonas21	1793377883	1
+				
+50302777	"<a href=""https://www.reuters.com/business/media-telecom/cursor-says-up-5000-users-affected-by-tampered-claude-code-extension-2026-10-30/"" rel=""nofollow"">https://www.reuters.com/business/media-telecom/cursor-says-u...</a><p>> Cursor said  the extension was not developed by Anthropic  and the maliciously modified extension was  live on the marketplace from about 2:27  a.m. PT to 1:35 p.m. PT on Thursday<p>So is this or isn't this from Anthropic and how did this happen?"	AdrianCX	1793361823	1
+				
+				
+				
+				
+				
+				
+				
+50303141	"The original Phorion report really should be up here. It even details what exactly happened. So they simply added a ssh key to the authorized keys.<p><a href=""https://phorion.io/blog/offical-claude-code-vsx-compromise/"" rel=""nofollow"">https://phorion.io/blog/offical-claude-code-vsx-compromise/</a>"	yubblegum	1793364358	1
+				
+				
+50302525	"I think it should be important to note that this affected the Claude Code extension on the Open VSX extension registry (and by extension, the Cursor marketplace). From what is currently known, the build on the official marketplace was/is clean.<p>EDIT: I am now actually unsure if this is the case. From what I can see, all of the write-ups mention the Cursor marketplace and Open VSX specifically, but make no explicit mention of the official Microsoft registry.<p>EDIT 2: The version that was compromised (2.1.313) seems to have never been published on the official Microsoft registry. As per the documentation [1], unpublished versions should still be discoverable:<p>> When you unpublish an extension, the Marketplace preserves the extension statistics. The extension remains publicly discoverable and available via an existing API.<p>[1]: <a href=""https://code.visualstudio.com/api/working-with-extensions/publishing-extension#unpublishing-extensions"" rel=""nofollow"">https://code.visualstudio.com/api/working-with-extensions/pu...</a>"	xx_ns	1793359757	1
+				
+				
+				
+				
+50302743	"> Yesterday, Anthropic were compromised and Cursor extension used by tens of millions of developers for Claude access was delivering a remote access trojan via an SSH reverse backdoor<p>That's a bit hyperbolic: someone released a version of the Claude Code VS Code extension with a backdoor on the Cursor marketplace:<p>> a maliciously modified version of Anthropic’s Claude Code extension was made available in the Cursor VS Code extension Marketplace<p><a href=""https://cursor.com/blog/claude-code-extension-security-notice"" rel=""nofollow"">https://cursor.com/blog/claude-code-extension-security-notic...</a>"	helsinkiandrew	1793361455	1
+				
+				
+				
+50302955	"So if this happened to OpenAI it would've been instantly auto-updated everywhere? VS Code has an ""auto update delay"" which I have configured to a week, but I just found out that (<a href=""https://code.visualstudio.com/updates/v1_123"" rel=""nofollow"">https://code.visualstudio.com/updates/v1_123</a>):<p>> Note: This delay does not apply to extensions from trusted publishers such as Microsoft, GitHub, and OpenAI. These extensions continue to update immediately.<p>You can't even configure which publishers you ""trust""..."	orlp	1793363043	1
+				
+				
+				
+				
+				
+50302231	"Cursor reporting this: 
+<a href=""https://cursor.com/blog/claude-code-extension-security-notice"" rel=""nofollow"">https://cursor.com/blog/claude-code-extension-security-notic...</a><p>What appears to be an official Binance account reporting it also:<p><a href=""https://www.binance.com/en/square/post/10-30-2026-claude-code-vs-code-extension-2-1-313-found-with-ssh-backdoor-on-open-vsx-382784682398730"" rel=""nofollow"">https://www.binance.com/en/square/post/10-30-2026-claude-cod...</a>"	1shooner	1793357562	1
+				
+50302764	"I have this realization recently that everyone that uses Claude Code or Codex have basically been running RCE code on a daily basis (me included). So much for ""be careful about running curl | bash!"". That puts it into perspective what does security and privacy really mean? For all I know, these CLIs could have been secretly scraping my entire directory. Who's checking?"	anon-3988	1793361706	1
+				
+				
+				
+				
+				
+				
+				
+				
+50305107	So let me get this straight – Elon was trolling Binance on Twitter, when in fact it was his own company that got hacked and led to the theft?	paxy	1793373353	1
+				
+				
+				
+50302653	Why didn't Claude detect the hack and prevent it from affecting customers using its superhuman AGI reasoning?	glimshe	1793360772	1
+				
+				
+				
+				
+				
+				
+50302425	It wasn't Anthropic that was hacked but SpaceXAI (their Cursor Marketplace).	henearkr	1793359075	1
+				
+				
+				
+50311715	If I were Anthropic, I'd consider removing the official extension until Cursor get their act together and fix the problem that resulted in brand-damaging headlines for Anthropic.	solfox	1793404555	1
+50309587	"Cursor's ""marketplace proxy"" is, by definition, an MitM of Open VSX. Why on earth is that trustworthy to its users? Is it some mashup of Open VSX Connect and an API endpoint that merges their private marketplace with the public one? And what's so special about Cursor's CC extension implementation that they couldn't just serve the ""real"" one?<p>Or are they using an Open VSX Managed Registry hosted by the Eclipse Foundation, in which case this is potentially a bigger deal?"	spdustin	1793391545	1
+50303302	"From <a href=""https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2?gi=cdd002d52f6f"" rel=""nofollow"">https://doublepulsar.com/anthropic-hacked-to-deliver-remote-...</a><p>Notable customers who run Claude Code and Cursor on laptops include Binance, amongst thousands of others.<p>Did the Claude Code plugin hack cause the Binance theft? The timing seems like an incredible coincidence."	blondie9x	1793365426	1
+50303182	Oh god... this needs more attention<p>An official announcement from Anthropic would be nice!	jitbit	1793364688	1
+				
+50302141	How legit is this?  Seems low on details.<p>I don't use Cursor or the VSCode extension, but know plenty in our organisation who use the latter.  How worried should we be?	richrichardsson	1793356888	1
+				
+				
+				
+				
+50302649	That's literally impossible, with all the access to the frontier software development tools at their disposal they can ship features securely at 100x	eviks	1793360748	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50303464	Is there any proof of this or are we just upvoting garbage?	paxy	1793366316	1
+				
+				
+50309339	"This kind of thing is only going to get worse. People assume other devs are ""like them"" but state actors (think US, NK, RS, CN) are likely using AI at this point to run agents non-stop to break security by making dev tools or contributing to open source. Keep in mind that open source is the backbone of nearly all software being used - we're in for a rough ride if we don't treat all new things coming in as if they are potentially a nuclear bomb masquerading as a trojan horse."	throwitaway222	1793390247	1
+				
+50302053	Is this affecting only people using Cursor or all VS Code users? The article specifically mentions the Cursor marketplace. But the affected version is indeed missing on the official VS Code marketplace, was it compromised too?	ale42	1793356252	1
+				
+50305723	Kind of surprised that Cursor doesn't do checksum verification for plugins. That would have stopped this completely. (Unless it does and this backdoor is more theoretical than anything else.)	nunez	1793375621	1
+50303139	This is embarrassing to Anthropic given here that they lack basic security procedures to prevent this and they have gotten themselves hacked to push malware.<p>Claude Code was already malware, but with this attack you cannot trust the vendor either.<p>In the next 2 weeks, <i>no one</i> should download / install / update anything as I predict at least one developer's key for a GitHub, NPM, Crates.io or any other CI or login was leaked and the attacker will target those services to propagate their trojan to more victims.	rvz	1793364349	1
+50303033	either the registry is compromised or someone at anthropic got compromised (or did it on purpose to steal crypto). the line in the cursor disclosure about the extension not being developed by anthropic is more confusing than clarifying. amateur hour for these massive corps	efficax	1793363603	1
+50314152	Wow, interesting issue. An issue with a VSC extension. And the path for this issue to even be a thing possibly a weakness in the way the extensions marketplace works (so frustrating that marketplaces and app stores are like spam folders in that you have loads of entries attempting to convince you that they are something they aren't.) And I often forget that Cursor even has an IDE, and that the IDE is their own release of VSC. I remember being frustrated that Cursor didn't support some of the extensions I wanted to use, so I never bothered with it. Now I barely open an editor anyway. Odd how this has been progressing.	gexla	1793434842	1
+50303542	Development must occur in an isolated VM, with no access to the publishing workflow. CI operations must happen in a separate VM or on the host system after scanning all files. Thus, even if the development tools are compromised (like this case), the impact is limited.<p>Still, it’s hardly a surprise that best practices are rarely followed with any consistency.	_hmj	1793366647	1
+				
+				
+50302838	We still don’t know exactly what happened, but I publish software to public registries, and supply chain attacks scare the hell out of me. They also frustrate me, because most of the defenses aren't automatic and often really hard to get right. We're really failing as an industry to do better here.	stbenjam	1793362276	1
+				
+50305412	Idea: why don't all the various app stores and plugin repos use LLMs to review all submissions for security? Certainly in the human powered age that was too big a task to take on, but now it seems doable.	hughw	1793374505	1
+50303505	"Reading the report alone:
+""First, the payload makes sure ~/.ssh exists and appends an attacker-controlled Ed25519 public key to ~/.ssh/authorized_keys, setting permissions to 0700 on the directory and 0600 on the file.""<p>A system where ~/.ssh/authorized_keys has not been modified might be a hint that this did not execute - the article does not mention self cleanup/reverting to previous status behavior by the malware. By default /var/log/auth.log is only of marginal value because outbound SSH connections are not logged by default."	rietta	1793366475	1
+50303856	Anthropic is a weird company. On the one hand they have this messianic thing about their super intelligence, on the other hand it is incapable of keeping their own house secure. But <i>you</i> should trust it.	jacquesm	1793368178	1
+50302930	My question here - does this effect those of us using the official vscode/vscode marketplace? It would seem to imply this was specific to cursor's marketplace but it would be good to know regardless	VoidWhisperer	1793362873	1
+				
+				
+50321071	Just a rumor, but I heard it could be connected to the Binance hack. Unplausible, bit the implications of that are beyond horrifying	NoCritics	1793487525	1
+50302970	This puts an entirely new spin on Elon trolling Binance on Twitter.	numbsafari	1793363154	1
+				
+50304043	That's not official extension though? Misleading title	Handy-Man	1793368968	1
+50303796	"P(doom) crowd say Anthropic has not zero chance to destroy humanity. 
+What it is, the VS Code Extension Marketplace, including Cursor's, must be bigger."	paaloeye	1793367844	1
+50304676	"More details from Kevin Beaumont. ""Anthropic got compromised. Their Claude Code extension on Visual Studio Code and Cursor has malware in it, which creates a remote access Trojan to desktops. "" <a href=""https://cyberplace.social/@GossiTheDog/117528831681803563"" rel=""nofollow"">https://cyberplace.social/@GossiTheDog/117528831681803563</a>"	kiproping	1793371423	1
+50303209	"Something very similar is true for ChatGPT on macOS. I was recently very surprised to learn that starting a ""Work"" conversation on my Mac would grant the agent session file system access <i>which can later be used remotely</i>, e.g. from a browser session logged into the same account on a different computer.<p>Given how many people likely share ChatGPT subscriptions, this seems highly problematic."	lxgr	1793364944	1
+50308518	"You can set a cooldown for Cursor extensions<p>1. Open Cursor.<p>2. Press Ctrl + Shift + P.<p>3. Search for Preferences: Open User Settings (JSON).<p>4. Add:<p>{<p><pre><code>    ""extensions.installCooldownHours"": 72
+
+}</code></pre>"	pentamassiv	1793386408	1
+				
+50314235	> tampered copy of the Claude Code extension, which we didn’t build or publish<p>it looks like anthropic folks in this thread are throwing excuses instead of allocating one оr two FTE to make sure this will not happen	setnone	1793436076	1
+50301846	"How will they communicate and fix that. The affected version has been yanked from the marketplace: <a href=""https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code"" rel=""nofollow"">https://marketplace.visualstudio.com/items?itemName=anthropi...</a> but that doesn't clean up infected machines."	mrweasel	1793354687	1
+				
+50302717	Has anyone managed to confirm the time that the backdoored version was released? None of my machines updated to it, I am wondering if it was saved by a combination of luck and<p>> This extension is not updated yet because new versions become eligible for automatic update 12 hours after they are published. It will become eligible in 2 hours.	misnome	1793361261	1
+50304570	This is just the version of extension on the Cursor marketplace, not the one on the VS Code marketplace, right?	ihuman	1793371057	1
+50303486	"Have we just witnessed the greatest lateral movement in cybersecurity history?
+<a href=""https://x.com/dinodaizovi/status/2116125553665458463?a=D1DiF9Deh3qYfLqzzFg&s=20"" rel=""nofollow"">https://x.com/dinodaizovi/status/2116125553665458463?a=D1DiF...</a>"	maayank	1793366400	1
+50306973	Why is this not trending on Twitter	gokuljs	1793380399	1
+				
+50303235	"My tin foil hat says MSFT stands the most to gain my this. <a href=""https://open-vsx.org/"" rel=""nofollow"">https://open-vsx.org/</a> is where the attack took place, and that power’s all of the VSCode fork’s extensions needs."	reilly3000	1793365100	1
+50312280	I would have loved to know that this was for CURSOR and not VISUAL STUDIO CODE before I spent 2 hours resetting all my API keys and getting ready to fully reimage a machine.	xena	1793409450	1
+50302166	"Some more details<p><a href=""https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2"" rel=""nofollow"">https://doublepulsar.com/anthropic-hacked-to-deliver-remote-...</a>"	mindracer	1793357068	1
+				
+50302307	VS Code extensions have always been terrible from a security perspective. This seems like it's a supply chain attack? Makes me think of Solar Winds from a few years ago.<p>It doesn't appear that the Claude Code harness itself was compromised, was it? or Cursor if you use Anthropic models via Cursor's API itself?<p>Lately I've been using a script that mounts my current working directory in a container and I put all my build tools in a Dockerfile. I also map the harness config (~/.config/opencode or whatever) to a named volume to minimize the chance a harness could grab other things off my host. I can't use it if I ask the LLMs for docker work since they need the docker socket and then all bets are off (it could just mount your root volume somewhere). I sure I could use a full QEMU VM or some other type of isolation for such devops tasks, but I haven't really looked into it yet. Guess I should.	airhangerf15	1793358209	1
+				
+50302828	> Claude Code for VS Code extension on the Cursor Marketplace<p>So Cursor is running its own extension repository? Or is this the official VS Code repository and the incident report just happens to focus on Cursor for some reason?	HexDecOctBin	1793362208	1
+				
+				
+50304992			1793372916	1
+50304785	Normal VS code doesn't even use Cursor Marketplace, right? The way this is reported lacks clarity. Do people using plain CS Code even use the Cursor Marketplace? Or am I missing something?	Glyptodon	1793371830	1
+50305325	It's funny that's the point where people draw the line. But that basically every API based agent is doing RCE where commands are fetched from servers is perfectly fine.	hemlock4593	1793374192	1
+50303390			1793365906	1
+50303633	What I dont understand is why the hell do these extensions & clis need to update every damn day. clearly there's no new models everyday, what the actual f.	villgax	1793367133	1
+				
+50311790			1793405063	1
+50303864	God only knows how many skeletons like this are in Bun now	pier25	1793368204	1
+50305522	Do publishers not sign their packages before it gets to Cursor for distribution? Does Cursor itself apply and enforce any package integrity?	rietta	1793374890	1
+50302572	It looks like they push an update every office day.  I'm guessing if I installed 6 months ago and didn't update, that I should be fine?	nubinetwork	1793360087	1
+				
+				
+				
+				
+50313302	We're in trouble. Four of the top ten items on Hacker News are security breaches.	Animats	1793422273	1
+50303636	The descriptions around this are very confusing. Is this specifically the Cursor version, or the regular VS Code version too?	soundworlds	1793367154	1
+50302716			1793361257	1
+50308656	"Put it inside <a href=""https://bxsandbox.app"" rel=""nofollow"">https://bxsandbox.app</a>"	holtwick	1793386982	1
+50301110	The extension has over 27 million installs, ouch	mindracer	1793348336	1
+50302424	He says to follow his social, and he provides his handle, but there's no link, and I have no idea how to read it.	rolosa	1793359071	1
+				
+				
+50303380	I don't care anymore, how are you supposed to defend yourself against attacks like this? Come and hack me.	DEADF007	1793365855	1
+				
+				
+50303513	This is why when I use AI, I still download from the browser and drag and drop the outputted files like a caveman. Sure, it's slower, but it keeps my mental model more up to date and has less security risks. I can even...like read the thing before I run it rather than giving a LLM access to my shell directly. Also anecdotally, it seems more token efficient for those who care about that.	kirth_gersen	1793366505	1
+				
+50304949	Is it related to today binance event?	vanbashan	1793372724	1
+				
+50304272	I think right now AI is helping the attackers more than it's helping the defenders.<p>That part is probably obvious.<p>But in the long term, I suspect this will get worse.<p>Attackers will still need to think critically to be a few steps ahead of the defenders.<p>But the defenders will increasingly outsource their thinking to AI as they are incentived if not outright forced to dumb themselves down into interchangeable cogs.	shahbaby	1793369880	1
+50300684			1793344152	1
+50307990	Just uninstalled all the vscode extensions. Dont need any of them anymore.	jehnnysmith	1793384142	1
+50302928	Keep sending all your secrets and giving full control of your devices to Anthropic.<p>This is fine.	jedisct1	1793362845	1
+50309358	Let me guess, they vibe coded their vibe coding extension?	madarao	1793390333	1
+				
+50311959	You guys open your editors?<p>This is a joke (neovim user here).	blinded	1793406354	1
+50302662	If the sole purpose of this hack was to steal cryptocurrency, a silver lining might be, as in many similar cases, that if you stay away from that particular dumpster fire you are probably okay. I mean there's still a reverse shell on your machine to fix, but at least nothing of value was lost.	K0nserv	1793360872	1
+				
+				
+50303162	If it is true that Binance was compromised as a result of this, hats off to our new billionaire friend for one hell of a heist.	anonymous908213	1793364515	1
+				
+				
+				
+50304254	Thankfully coding is solved everyone	acedTrex	1793369809	1
+				
+50314357	oh! thanks for the imformation!	invidiouslove12	1793438132	1
+50305175	not just anthropic, my product that used antigravity is also leaked and copied by google, these close ai company will undoubtably steal your code, file and data.<p>strongly suggest put your valuable work on local llm.	ricky_risky	1793373631	1
+50306693	"It's dangerous to go alone, take this [1]<p>[1] <a href=""https://github.com/cookiengineer/check-claude-code-exfil"" rel=""nofollow"">https://github.com/cookiengineer/check-claude-code-exfil</a>"	cookiengineer	1793379326	1
+50311594	I never understood the appeal of cursor.com. Isn't Claude Code on the CLI enough? Are people really lazy or incompetent to resort to using other companies for the same AI models?	system2	1793403590	1
+50311437	Third-party package repo is compromised. Everybody curl | bash directly from Dario's web site until a solution can be found.	bitwize	1793402541	1
+50304896	Honestly with AI getting smarter it feels like these kind of attacks will only increase...	rhedak	1793372518	1
+50302493	”I've confirmed Binance use Claude Code with this extension.”	hem777	1793359537	1
+				
+50312713	Wait till GitHub gets audited, a literal wild west cesspool of vibe-coded exploits with 1000's of fake stars.	minimaxa	1793414186	1
+50303181	"Another reason for not using VS Code and derived and all their mess of extensions.
+I'm glad running Claude Code in Ghostty/Terminal is not affected."	paaloeye	1793364676	1
+50312086	... So business as usual then for VSchode ?<p>The amount of problems it's had from compromised extensions is ridiculous.	HexnMarcusWolfe	1793407439	1
+50302695			1793361101	1
+50303413	"""Software is solved. Bugs are not yet solved"""	try-working	1793365993	1
+50303045	♟	xteam	1793363717	1
+50312772	"Anthropic is a malware vendor (on many levels of abstraction): confirmed. But plenty of evidence visible to public eye, prior.<p>I forbid all-things-Anthropic on any machine I control, as of many months ago. In my private vendor ""DNP"" blacklist. Its designed as bait for the gullible or ignorant: the telltales are all right there. (Just like OpenClaw, for example.)"	syngrog66	1793415013	1
+50312368	"> I was working on the clearly mistaken impression that ""Made by Anthropic"" in the cursor store meant that the artifact had been signed by Anthropic. If that is not the case, then two party's need to get their act together:<p>Whoa! WTF? I always thought those were official releases by the companies. That's the only reason I trusted them. How is it possible they are being branded as official releases?"	iJohnDoe	1793410389	1
+50302654	Imagine backdooring 50+ million installs.<p>Hats off to the hackers.	stopsayingsorry	1793360787	1
+				
+50304538	Felix from Anthropic here.<p>We’re working with Cursor on this incident, but it wasn’t a compromise of Anthropic’s systems or employee laptops. A malicious actor used access to Cursor’s marketplace to publish a tampered copy of the Claude Code extension, which we didn’t build or publish. The versions on our official channels are not affected and this only impacts Cursor users.	felixrieseberg	1793370956	1
+				
+50315525	[flagged]	arshadansari27	1793449635	1
+50317678	[flagged]	ankur_misra	1793464755	1
+50313241	[dead]	MaxQuimby	1793421295	1
+50320069	[dead]	mr_big_bowls	1793479810	1
+50313580	[flagged]	marklykit	1793426525	1
+50305000	[flagged]	hmokiguess	1793372944	1
+50303983	[flagged]	arbor-group	1793368719	1
+50302864	[flagged]	primce1	1793362408	1
+50317536	[dead]	Mona1	1793463767	1
+50304092	[flagged]	FortHire	1793369154	1
+50303846	[flagged]	umowbray	1793368133	1
+50312701	[flagged]	ntsili	1793413997	1
+50313584	[dead]	ravivarmat	1793426605	1
+50307220	[flagged]	ankur_misra	1793381246	1
+50303453	[flagged]	sirnicolaz	1793366248	1
+50302707	[dead]	READ_A_BOOK	1793361204	1
+50314242	[dead]	bbtalk	1793436199	1
+50304861	[dead]	coconut-13	1793372328	1
+50303265	[flagged]	aidotguru	1793365250	1
+50310540	[dead]	throwaway919233	1793396562	1
+50302671	[dead]	sick_of_slop	1793360924	1
+50304543	[flagged]	sarmedshafi	1793370968	1
+50309872	[dead]	soundworlds	1793392968	1
+50310905	[dead]	ath3nd	1793398941	1
+50303056	[flagged]	xteam	1793363750	1
+50302847	[flagged]	nickphx	1793362309	1
+50302460			1793359298	1
+50302881	I guess, this is why I'm building tix.im ...	poelzi	1793362511	1

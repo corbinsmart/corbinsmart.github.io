@@ -1,0 +1,49 @@
+50282544		sashk	1793231146	0
+50282759	> Upgrading to GitLab 19.3.6 on October 22 didn’t fix the vulnerability. The fix isn’t in GitLab’s own code but in a patch to Ruby, which GitLab applies only in its official packages. Our image used standard Ruby, so it didn’t get the patch.<p>> The bug is in Ruby’s regular expression engine, so any program that compiles regular expressions from untrusted input is exposed, not only GitLab.<p>I feel like this era of constant exploits/patches is really bad for those who build from source or make their own images vs those who rely on provided images and upgrade them often. I really can't think of a decent solution for those people other than being plugged in 24/7 to the latest news which is really unfortunate and must be exhausting...	JLO64	1793232908	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50283089	The bug is integer overflow in a random C data-processing library (specifically regexes) leading to RCE.<p>Who else is tired of C libraries since this week?	cowlevel	1793235421	1
+				
+				
+				
+				
+50284297	> If you use our alpinelinux/gitlab container image, pull alpinelinux/gitlab:19.3.6 again. The image published on October 27 contains Ruby 3.3.13. Any 19.3.6 image you pulled before October 27, and all older tags, are vulnerable.<p>shouldn't they tag a new version instead of re-releasing a fixed 19.3.6, if earlier 19.3.6 are vulnerable?	akersten	1793245163	1
+				
+50283324	This is a fantastic write up on the security incident. Almost any incident like this will have unknowns. It's good to make it explicit. I especially liked the part of what would have been leaked if the attacker was successful. Maybe they could include what type of hash was used.	jtchang	1793237033	1
+50285496	With the eMudhra situation we saw e.g. Go doing an emergency release that blacklists the certs, while they aren’t shipped with Go, as a protection of dependencies that haven’t caught up.<p>In this situation, wouldn’t the more responsible behaviour of gitlab be to blacklist Ruby runtimes that enable the CVE?	rollulus	1793258359	1
+50285171	If Alpine prides themselves on focusing so much on security, they probably shouldn’t use GitLab - the attack surface is too great and it’s never going to be easy to keep safe and up to date fully, unless you have FTEs whose main job is just maintaining it.<p>Just get the source code of Forgejo, audit it thoroughly and run an instance of that.	KronisLV	1793254991	1
+				
+				
+				
+				
+50283939	I feel like this title downplays the scenario. I read “attempted” as unsuccessful, not as maybe entirely successful.	literallyroy	1793241519	1
+50283619	"Does anyone know for sure which unsupported versions of ruby are affected? Best I can tell 3 of the four affect old versions of ruby that are not getting a security patch for this. Update your ruby!<p>I do think CVE-2026-89078 - the double free one - may only affect ruby 3.3.11 and above. It relies on a bug introduced in ruby 3.4/4 via <a href=""https://github.com/ruby/ruby/commit/8cd295ecf0"" rel=""nofollow"">https://github.com/ruby/ruby/commit/8cd295ecf0</a> and backported (maybe accidentally?) in 3.3.11/12 in <a href=""https://github.com/ruby/ruby/commit/e02c892ade"" rel=""nofollow"">https://github.com/ruby/ruby/commit/e02c892ade</a>. So that one is getting patched on all rubies it would have affected."	stevepike	1793238946	1
+50284852	This was happens when you don't trust existing well-maintained packages, and rather rewrite it by your own. Onigmo should not exist.<p>Linux has the very same disturbing not invented here syndrome, rewriting good features by their own, making them worse.	rurban	1793251253	1
+50285581	pretty nice to see that despite suspecting it wasnt really successful, a rebuild and thorough process was followed. lack of evidence doesnt mean nothing happened. better safe than sorry. classy response, hats off!	saidnooneever	1793259238	1
+50284839	Is there any scanner that would catch this?	ab_wahab01	1793251122	1
+50289708	wait can this happen inside a VPN?	hemalathamadesw	1793284220	1
+50284526	The nasty part is that a version scan would have called that 19.3.6 image fixed. The CVE is filed against GitLab, and 19.3.6 is past the fixed version. The actual fix is in Ruby, and Ruby shipped it without requesting a CVE, so anything scanning the Ruby in the image has no advisory to match. If you build GitLab yourself, you had to read GitLab's release notes and then check which Ruby you were on.	wilson-draugr	1793247606	1
+				
+50290310	[flagged]	Shekhartester	1793286479	1
+50288403	[flagged]	bigoupea	1793279386	1
+50288228	[flagged]	giozadi	1793278686	1
+50284922	[dead]	vinaygundeti18	1793252145	1
+50282632			1793231769	1
+50282627			1793231738	1
+50285058	[dead]	udev4096	1793253848	1
+50285114	use stupid software, win stupid prices. gitlab is overbloated human slop.	z3ratul163071	1793254434	1
+				
+				
+				
+				
+50283248	Have researchers coined the term `Superbug` or `MegaVuln` yet?<p>Surely we're approaching a point where an LLM discovers a critical, unfixable vulnerability in every device running any version of $OS, then irresponsibly discloses it, triggering mass collective trauma among admins worldwide, significant downtime in critical infrastructure and scores of deaths.	andrewinardeer	1793236356	1
+				
+				

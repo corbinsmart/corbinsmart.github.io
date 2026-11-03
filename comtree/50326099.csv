@@ -1,0 +1,70 @@
+50326099		entryleveljobsc	1793543683	0
+50327530	I'm not sure what codex helped with for the Lenovo case, if all that was required was open the stick and stick the sdcard into a computer.<p>It's crazy that Lenovo will still be trusted to build secured hardware after that. It's not even a vulnerability at this point, I'm not sure how this could pass any form of security review, let alone having anyone review the design and approve it. They must have known it was nothing they pretended and still decide to sell it.	charles_f	1793553235	1
+				
+				
+				
+50326344	Does <i>anyone</i> actually trust these products? Always seemed like a terrible idea to me. The correct solution is to use free software cryptography on top of these things.	matheusmoreira	1793545509	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50326286	"Linked article: <a href=""https://www.tomshardware.com/tech-industry/cyber-security/lenovo-fingerprint-usb-stick-sold-as-aes-256-encrypted-had-a-plain-sd-card-inside-ai-assisted-follow-up-finds-a-backdoor-and-hardcoded-keys-in-other-secure-usb-products"" rel=""nofollow"">https://www.tomshardware.com/tech-industry/cyber-security/le...</a>"	mzajc	1793545003	1
+				
+50326870	"I can imagine some ""Hollywood hacker"" scene where the guy steals an encrypted USB and proceeds to break into it.<p>""How did you get the data?""<p>""It was just an unencrypted SD card inside""<p>Not very exciting, but I guess just as accurate as reality!"	aliasxneo	1793549078	1
+				
+				
+				
+50326512	Why a link to Reddit instead of the link to Tom’s Hardware?	jagged-chisel	1793546582	1
+				
+				
+50328304	After the Superfish scandal Lenovo went on my “never buy anything from this company” list.	regus	1793558072	1
+				
+50327280	Interesting those those news are quite late, probably because it (and the entire ThinkPlus USB lineup) wasn't available outside CN. The product was first announced 2019, the flaw was found Aug 2025, CVE-2025-13453 was issued early Jan, and Li's presentation was in Mar.	forgotpwd16	1793551732	1
+50326937	This should be illegal. And maybe it already is? What consequences will Lenovo face, if any?	Retr0id	1793549512	1
+				
+				
+50328598	I always said that in-device encryption that you cannot verify is useless and considered those SATA drives with built-in encryption to be useless. Famous HN luminaries disagreed with me.	jwr	1793559874	1
+				
+				
+50328147	Seems like a high-school project or a counterfeit item? If not, Lenovo messed up badly.	BatteryMountain	1793557149	1
+50327730	So basically fraud? I’m sure the responsible people are getting fired and fined/jailed.	hosteur	1793554551	1
+50326439	Marketing wank made to sell e-waste to middle management.	nik282000	1793546146	1
+50328790	"The name ""FU100"" makes this seem like it is a joke product, at the customers expense. Interestingly, I haven't been able to find a product listing for this except on chinese websites like Alibaba."	thayne	1793561105	1
+50328126	I feel like there’s a mismatch between what this is designed for and what people are assuming it’s for (plus no doubt hyperbolic marketing). Clearly this was designed to keep your files from your roommate or kid’s prying eyes, and not to keep military secrets or your plans to overthrow the government.	xp84	1793557054	1
+				
+				
+50326961			1793549605	1
+50329419	I don't know why, but I find it pretty funny.	dennysora-main	1793564693	1
+50326576	Can anyone find a product listing where this was actually for sale? I couldn't.	untessela	1793547005	1
+				
+				
+				
+50326914	"This could've been rendered <i>relatively</i> secure had the USB stick been potted, but I guess that would've cost an extra few cents. <a href=""https://en.wikipedia.org/wiki/Potting_(electronics)"" rel=""nofollow"">https://en.wikipedia.org/wiki/Potting_(electronics)</a>"	RobotToaster	1793549380	1
+				
+				
+				
+50327079	Why would they do it this way? If they're going to add a custom controller on the outside, why not make it encrypt before writing to the SD card?	aftbit	1793550288	1
+				
+				
+50329762	"<a href=""https://github.com/hparadiz/nexus-6p-biokey"" rel=""nofollow"">https://github.com/hparadiz/nexus-6p-biokey</a><p>I turned an old android into a fingerprint USB and a fido2 in one shot.<p>The fingerprint USB is actually legit since it's backed by a closed bio metric on device."	hparadiz	1793566422	1
+50326551	Were semicolons in subheadings common before AI? This subheading of the TomsHardware article just seems very artificial:<p>> The fingerprint only switched the USB connection on; nothing on the card was encrypted.	judge2020	1793546910	1
+				
+				
+				
+				
+50326673	How much hardware and even software that is supposedly used for encryption is actually backdoored?<p>We know that Microsoft's bitlocker had at least one backdoor. Lenovo's fingerprint USB also has backdoors.<p>It seems like only  open source solutions actually provide encryption, like LUKS and Veracrypt. Then again, who guarantees that the executables are actually build from the source? Or that the keys aren't somehow sent over to agencies by the operating system?<p>TLDR, we cannot realistically trust anything in this dictatorship of mass surveillance.	l0new0lf-G	1793547562	1
+				
+50328048	Surely this is straight fraud?	throwaway27448	1793556573	1
+50326441	Didn't expect something this crazy but I will not trust stuff like this until I've seen a teardown. Imagine being the product manager who approved this shit	ctkhn	1793546174	1
+				
+50327356	Just buy a standard USB drive and encrypt it with Bitlocker. If you hate MS then use Veracrypt.<p>What am I missing here?	jqpabc123	1793552170	1
+				
+50326516	Just use veracrypt or ecrypt on any memory card. These devices don't deserve the premium they charge for on-device encryption which in this case is not even encyrypted	dpacmittal	1793546632	1
+50326556	Well it's called FU after all...	mytailorisrich	1793546925	1

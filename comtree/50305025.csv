@@ -1,0 +1,107 @@
+50305025		js4ever	1793373031	0
+50309243	"I hope this is a real wake-up call for teams running anything remotely SaaS-shaped. I count at least six substantial, lightning-speed attacks against multi-tenant as-a-service vendors since September. Not this year--just since last month. PingCAP/TiDB, Fireworks AI, Zeabur, OpenCode Console, Railway, now Northflank. All of them modern ""we keep your content safe"" players with high hopes and probably pretty good protections.<p>This is a full infosec emergency unfolding here. No matter how grinding it is to motivate a team to invest in protection or resilience (and it is grinding): We gotta get ready. Stat! The AI-accelerated attacker apocalypse has begun. It's boom, boom, boom, thanks for everything, on to the next. They have us sighted and are firing for effect.<p>So credential rotation, tripwire secrets, DFIR on standby, solid vulnerability and intrusion detection, real listening to that signal, minimized blast radius, spending caps and time limits and tight scoping on credentials, fast incident alerting... We need to get on a real war footing here."	jonathaneunice	1793389737	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50305558	"Unfortunately for infra startups, I think we're going to see a convergence back to hyperscalers as a result of incidents like this and railway.<p>There's no amount of ""nicer to use"" that can replace security, at least certainly when selling to enterprises"	dangoodmanUT	1793375024	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50310012	A trick i've started doing is encrypting my env vars, then hard-code the decryption key in the code<p>that way if the provider gets popped, they need my binary to decrypt it<p>it shouldn't be necessary and it sounds stupid, but in cases like this, it proves invaluable (it appears they don't have customer code/binary access, but maybe that wasn't important enough to mention)	dangoodmanUT	1793393620	1
+				
+				
+				
+				
+				
+50310079	This could all go multiple ways but one of them is we end up in a place where technical security is just not possible to implement any more. What does that world look like?<p>Presumably it means much more behavioral security and inherent friction built in to everything we do. Maybe high value transactions will just inherently have to take multiple days to do, just to slow down things enough that human reaction time can equal what LLMs can execute?<p>On the technical side, I can see zero trust becoming completely saturated through every layer. The passkey you authenticate with isn't opening a gate to a trusted tier within which components trust each other - even within the same software component. Every internal function call at every layer doing hardware signature verification against continuously minted private keys (since we assume exposure, the lifetime can't be longer than milliseconds now).<p>It's really interesting to think through what a fundamentally robust security environent does look like if you bake in an assumption that technical security is impossible.	zmmmmm	1793394040	1
+				
+				
+				
+50305388	What is Northflank? I am surprised at the amount of new business out there	hmokiguess	1793374412	1
+				
+				
+				
+				
+				
+				
+50308833	I think all of these companies need to let you separate secrets from other env vars and not let you ever read your secrets once they're written down.	maherbeg	1793387701	1
+50308353	"We're observing a worrisome speed up in security breaches. 
+To me it's clear that weaponized AI will cause more harm than some productivity benefits.<p>It’s the death of homegrown software."	highspeedbus	1793385666	1
+				
+				
+				
+50320120	My first question with BYOC would be: if the vendor gets hacked, what can the attacker do in my account? Read secrets? Push a new image? Run commands? Having the servers in my account sounds nice, but if they vendor still has the keys to everything, how much does that actually buy me?	just60sec	1793480080	1
+50310062	> The runtime platform for autonomous software<p>Well, at least they were honest I suppose	throwrioawfo	1793393954	1
+				
+50310294	i wonder if there is a chain reaction point, when one compromised vendor holds secrets to another one and that becomes the next target. Northflank lists Sentry as their customer. So if Northflank secrets are decrypted and Sentry used them for deployment, you have a starting point to attack Sentry next which then opens up a lot more.	ksajadi	1793395190	1
+50305644	How these Paas (Railway before) are being breached? Poor choices or something else? Scary Nonetheless. I thought AI advancement will make the self hosting painful. If PaaS are no good, then what can be done?	ankit70	1793375311	1
+				
+				
+				
+				
+				
+				
+50308098	"I'm curious what people think of BYOC (bring your own cloud) as an option offering to customers or buying it as a customer. Looking at Northflanks website they list it as an offering, I presume those customers are not affected by the breach.<p>What are your opinion on the concept? Growing trend that should be encouraged or a mistake for most startups? Would you choose one provider over the other because of it assuming price was about the same?<p>I get that this is often a super expensive ""call us"" option today, but in theory it doesn't have to be, so for the sake of discussion let's assume it can be delivered at a reasonable cost for the provider at reasonable price for the customer.<p>If people from Northflanks is reading this, I'm sorry for the incident and I hope you recover as soon as possible."	Scorpiion	1793384544	1
+				
+				
+50308322	Unfortunately, this is going to be an everyday story. More and more bugs and breaches will be discovered and this move fast world more and more will be continued to be made.<p>Security is a perception, but right now it seems like it needs good PR.	anuptalwalkar	1793385517	1
+50308569	The Hacker News front page is just becoming a security incidence status page at this point. Everything seems pretty fucked.	jdprgm	1793386630	1
+				
+				
+50305570	i'm surprised at the growth of all these neoclouds given the current security risk climate...	carimura	1793375043	1
+				
+50306599	"<p><pre><code>    Run agents and everything they build. Secure execution from the first sandbox
+
+</code></pre>
+Getting hacked while in the business of selling a <i>secure</i> sandbox isn't really a good look. It seems like can't even trust anything these days. The other day OpenCode got hacked and leaked everyone's secrets inside .env to attackers and now this. Sigh."	neya	1793378987	1
+				
+50311992	If the banks don't hold, nor will the center.	SubiculumCode	1793406662	1
+50316802	"9 days ago, Northflank was having fun with Railway getting breached and urged their customers to migrate to them instead.<p><a href=""https://northflank.com/blog/how-to-migrate-off-of-railway"" rel=""nofollow"">https://northflank.com/blog/how-to-migrate-off-of-railway</a>"	SG-	1793458982	1
+50310373	Is the Network Infrastructure Hiding Protocol work at IEEE going to help thwart AI assisted attacks, if adopted?	mlhpdx	1793395632	1
+50314203	Lots of panic around these incidents. This is a healing process. Companies who sacraficed on security for a long time are incurring the consequences, they'll adjust their posture or go out of business. In a year I think platforms will be a lot more hardened. Its not because AI is unstoppable, its just revealing holes and the importance of hiring competent people.<p>(or things will stay messy because people will throw AI at the problems instead of hiring real security professionals)<p>The sky isn't falling.	lifeisloving	1793435533	1
+50307711	So if you want to judge as a customer for selection and figure out how likely a new(ish) PaaS company going to get breached, how would you evaluate them?<p>1. Ask them about what percentage of their own resources goes towards cybersecurity, audits etc. Would they even tell you.<p>2. Technical stack maturity. If the details are available, because they won't reveal any of it to you.<p>3. Other signals: Do they give talks on platform security, who is incharge of their cyber security.	itissid	1793383030	1
+				
+50315331	Audit logs being behind-paid-plan feature is crazy.	rpunkfu	1793448280	1
+50306003			1793376750	1
+50309830	The bigger the task, the bigger the surface, the bigger the risk.	loa_in_	1793392682	1
+50317555	Kudos to the title	adithyassekhar	1793463904	1
+50307872	not a good time to be a PaSS or SaSS ...	insane_dreamer	1793383647	1
+50312448	Not a great way for me to hear about Northflank for the first time.	bdcravens	1793411045	1
+50313250	south ass riker maneuver	loveandhelp	1793421442	1
+50306475			1793378541	1
+50309511	doppler next?	yieldcrv	1793391193	1
+50312748	[flagged]	ntsili	1793414671	1
+50307270	[flagged]	CreepyHunterX	1793381443	1
+50313590	[flagged]	ravivarmat	1793426665	1
+50305717	[dead]	gavxn	1793375603	1
+				
+				
+50313234	"How to cut a piece of the left ribs? \s<p>Not in English majority speaking place at the moment so not surprised ""runtime platform"" for ""autonomous software"" is not immediately understood as the somewhat etymological contradiction that it is. Runtime doesn't even have a definition, really. but autonomous implies independent and not ran / hurried like bison off a cliff...<p>platform and software"	loveandhelp	1793421193	1
+50306369	I feel like these breaches started to accelerate after Anthropic wrote a full post about how easy it is to abliterate glm 5.3 to make a frontier-level cyber model.<p>Now, to be clear, abliteration was no state secret, but that blog post was pure accelerationism.	postalcoder	1793378108	1
+				
+				
+				
+				
+50306342	So sad...<p>Unfortunately I'm not longer using PaaS tools. Instead I use Azure for work and vps now for all my personal stuff. With AI it's easier than ever to lock a server down tight and mitigate this kind of exposure.<p>I'm actually pretty pissed at this now. I have a throwaway appstore app that uses northflank for the backend, now I have to go in and rotate revenuecat secrets, apple secrets, ai secrets. For an app with basically 2 users.<p>Can I even delete the app on apple's app store or whats the process like what a pain in the ass. I'm pretty done tbh.	sergiotapia	1793378003	1
+				

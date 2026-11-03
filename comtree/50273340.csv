@@ -1,0 +1,32 @@
+50273340		6thbit	1793194684	0
+50302088	"I wish AA benchmarked the models at the reasoning efforts people actual use them at. For example, it's very rare for people that I know to use the ""max"" reasoning setting - specially because Claude Code itself scares you away from using it. But all of these coding benchmarks are based on just that reasoning effort.<p>I get it, they can only benchmark so much. But I'd rather have a benchmark of how the model is actually used and offered to customers rather than the best case scenario for it."	lordofgibbons	1793356469	1
+				
+				
+				
+				
+50301837	"<i>""The final point I need to make, which does flatter the closed labs, is that the likes of Anthropic and OpenAI moved on from caring about these indices months, or even years, ago. Their focus is to a large majority on supporting internal uses – like AI R&D automation – and the use-cases of customers who are spending billions of dollars.""</i><p>Is this true? If yes it makes a lot of sense. Time and time again, when I try some newly released open weights model I am disappointed. Even some older Claude models are beating them on quality of answers, even though they score less on intelligence in benchmarks."	matesz	1793354592	1
+				
+				
+				
+				
+				
+				
+50306287	I believe we should treat AA results as just a data point and not the overarching 'authority' they may intend to be.<p>If we had access to neutral raw benchkmark data in a useful way to compare apples to apples, then we could each define our own 'index' to get the slice of perspective we find useful.<p>Trying to define or compare 'intelligence' through a single index will always be off.	6thbit	1793377799	1
+				
+				
+50303925	AA has dramatically altered their methodology twice in just a few weeks. I really don’t see the utility in their composite scoring anymore - it’s basically the US News college rankings of LLMs.<p>For the time being, LiveBench seems to provide a better calibrated signal.	anon373839	1793368418	1
+				
+50302586	How does AA make money? Who are their investors?	chvid	1793360284	1
+				
+				
+				
+50302150	We just need transparency. It's okay if you change criteria, but pre-register the trigger for when you're going to change them.<p>Example could be, we'll update X criteria when top-N models are within 2 points of each other.	pcwelder	1793356938	1
+				
+50302310	I just realized benchmarks are the trading card PSA of AI.<p>The numbers are fuzzy and hard to verify, especially if benchmarks are private, putting authenticators in a powerful position to determine market value of AI in countless ways; a recipe for corruption. I'm not saying it's happening, I just realized the social ingredients and temptation are there.	avaer	1793358228	1
+50302354	Tangent but the fact that quen3.8 27B even places on these top rankings versus hundred B and T models is incredible.<p>It’s the crow of current LLMs: tiny brain, outsized performance.	api	1793358486	1
+50302387	Bench switcherooing seems worse than bench maxxing, at least goodhart law shenanigans still has target everyone agrees on.	maxglute	1793358784	1
+50302070	"Mentioned in the article: <a href=""https://www.intelligence.ai"" rel=""nofollow"">https://www.intelligence.ai</a><p>Not sure if the scores are better, but the website is nicer to use.<p>AA has such terrible UX, especially on mobile, trying to select a subset of models you care about is an exercise in frustration."	dist-epoch	1793356341	1
+				
+50302289	I’m tempted to say that ideally, we’d have more in-depth, qualitative reviews of AI models so that it’s possible to form an impression of how suitable each model would be to one’s particular use case (instead of just “this model gets you 34 intelligence per dollar; this one, 38” as if they could be reduced to such numbers), but that would be a lot of effort given the sheer number and frequency of model releases.	spider-mario	1793358076	1
+				
+				

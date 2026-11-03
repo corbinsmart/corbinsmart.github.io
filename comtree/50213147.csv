@@ -1,0 +1,3 @@
+50213147		adityaathalye	1792779133	0
+50255613	This title could mean so much... It's a Clojure Talk.<p>> Building flexible systems means embracing the ever-changing shape of information as it flows throughout. How can we document and enforce our expectations without making things brittle? This talk examines some new features coming to Clojure that aim to address this challenge.	SeriousM	1793085393	1
+50257611	Great observations on dynamic vs static typing. I often feel that there is a math envy between static vs dynamic types because dynamic types feel simpler as opposed to category theory. However the more I deal with dynamic types, its clear to me that the mathematical roots of dynamic types is in control theory. Its just a hunch that I have.	xyzzy_apps	1793101013	1

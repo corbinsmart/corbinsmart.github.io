@@ -1,0 +1,182 @@
+50238739		vardhan1237	1792985345	0
+50241196	"Why do people try to vibecode PDF engines that already exist in Rust? <a href=""https://github.com/yfedoseev/pdf_oxide"" rel=""nofollow"">https://github.com/yfedoseev/pdf_oxide</a> which this project builds on completely misses <a href=""https://github.com/fschutt/printpdf"" rel=""nofollow"">https://github.com/fschutt/printpdf</a> which was already developed with tons of fixes over years (both with and without AI). MIT license and also builds on WASM with a demo running on <a href=""https://fschutt.github.io/printpdf/"" rel=""nofollow"">https://fschutt.github.io/printpdf/</a><p>One Google search (yeah I'm old, sorry, nobody ""Googles"" anymore) for ""rust pdf library"" shows this. Yet people now redo and redo and redo everything again just to have ""their"" semi-broken copy of a HTML -> PDF renderer (and then run into the same edge cases that were already fixed before). There are lots of edge cases in typography especially, I recently had a lot of fixes as I was trying to ocr-and-cleanup a 1732 scan of some books with Claude auto-extracting the font. There were a <i>ton</i> of edge cases in the layout, esp. related to column, footnote and sidebar handling, or things like ""Hebrew RTL text accidentally disappears if text breaks weirdly"", ""1-bit image compression"", etc.<p>I have nothing against AI, I use it heavily myself, but what is annoying is people completely ignoring the years of work of existing projects that do the exact same thing - instead of just forking, but instead re-tokenizing the exact same work again. Most likely the author didn't research ""does this already exist"" and that's annoying, then you get 100 of similar projects reinventing the world with tokens again and again. Sometimes its beneficial and can lead to faster exploration of new approaches, but in most cases its not and misses edge cases that were solved before."	fschuett	1793006639	1
+50241971	">  <a href=""https://github.com/yfedoseev/pdf_oxide"" rel=""nofollow"">https://github.com/yfedoseev/pdf_oxide</a> which this project builds on completely misses <a href=""https://github.com/fschutt/printpdf"" rel=""nofollow"">https://github.com/fschutt/printpdf</a> which was already developed with tons of fixes over years (both with and without AI). MIT license and also builds on WASM with a demo running on <a href=""https://fschutt.github.io/printpdf/"" rel=""nofollow"">https://fschutt.github.io/printpdf/</a><p>It seems like fschutt/printpdf is your project. You should definitely at least disclose it in your comment, if that's the case."	tchalla	1793013773	2
+50242356	It‘s my repo yeah, I thought that was obvious from my username, sorry.	fschuett	1793016760	3
+50242403	It is obvious	rubyfan	1793017144	4
+50242405	Huge respect for your work on printpdf, and thank you for chiming in!<p>When we evaluated the Rust PDF landscape, printpdf was actually one of the first crates we looked at for PDF generation. The reason we opted for a stack centered around lopdf and pdf-writer was architectural: PaperPilot's primary focus is heavy manipulation and non-destructive AST transformation of existing, arbitrary, often malformed real-world PDFs (re-ordering cross-reference tables, granular /P permission bitmask hashing, raw object streams, page imposition, booklet folding, and outline splitting).<p>For document synthesis (HTML/Markdown to PDF), typography and edge-cases (like the RTL/footnote issues you mentioned) are notoriously hard, and we'd love to learn from or collaborate with printpdf's battle-tested approaches there. Thank you for the feedback and all your contributions to Rust's PDF ecosystem!	vardhan1237	1793017151	3
+50241783	LLM performance increases substantially when the exact software you’re writing is already in the training data.	NullifyNAN	1793011930	2
+50243583	I was thinking the same thing when another PDF library popped up in the .NET subreddit a few hours before this post.	whizzter	1793022253	3
+50242173	"Because this isn't a library, but an ambitious commercial headed [1] tool. If your needs and use cases match the feature set they're aiming for, and their market research and projections are able to undercut Adobe by an order of magnitude, then they might be on to something.<p>> Strategic Vision: Evolve PaperPilot from a best-in-class PDF workstation into the Universal Document Operating System for humans and AI agents. [2]<p>[1] <a href=""https://github.com/KrushnaVardhanReddy/PaperPilot/blob/main/pricing_strategy.md"" rel=""nofollow"">https://github.com/KrushnaVardhanReddy/PaperPilot/blob/main/...</a><p>[2] <a href=""https://github.com/KrushnaVardhanReddy/PaperPilot/blob/main/PHASES.md"" rel=""nofollow"">https://github.com/KrushnaVardhanReddy/PaperPilot/blob/main/...</a>"	thadt	1793015449	2
+50242404	„3.6 Gemini? He‘s delusional, take him to the infirmary.“	fschuett	1793017146	3
+50241901	"I can't wait to exploit all of the known and new pdf CVEs from all these new vibe coded pdf engines. Unless they managed to put in the secret phrase ""and don't make any mistakes, especially on security!"""	ashkankiani	1793013137	2
+50242631	"Completely agree, it doesn't help that the models all seem to promote this behavior by writing everything from scratch most of the time.<p>I explicitly start most programming projects with a request for existing libraries and explicit instructions to the model to prefer using them and keep our logic exclusively to what we need beyond that.<p>People are forgetting and/or don't realize that just because the actual generation is zero cost does not mean the code is zero cost. Every line of bespoke code is a liability. Every piece of duplicative software you produce for no reason other than ""this one is mine"" is polluting the ecosystem and creating a noisy landscape in which such problems will just get worse. We are seeing the complete erosion of collective contribution models which has negative implications for the collective maintenance and enhancement of shared knowledge over time."	voidhorse	1793018399	2
+50254845	Maybe people are having fun reinventing the wheel? Maybe they want to try other ways to solve the same problem or pick different trade-offs. Maybe they don't like the license, plenty of software has been written from scratch just to avoid the license of existing software.	rererereferred	1793076938	2
+50241680	"> <i>One Google search (yeah I'm old, sorry, nobody ""Googles"" anymore)</i><p>Maybe that's your answer.  Search is so bad and LLM so good that it's faster and easier to re-implement than reuse.<p>The only thing that slows down the new paradigm is the apparent requirement of posting the output to HN so others will find it.<p>That irony is not lost on me."	frumiousirc	1793010894	2
+50242388	> Search is so bad and LLM so good that it's faster and easier to re-implement than reuse.<p>This is a scary level of AI mania.<p>Even if you're being assisted by the best frontier model, there is no way that reimplementing a PDF engine from scratch is faster than just using the one that's already there. AI-driven coding still takes time and tokens. A web search takes maybe 60 seconds to search and find the existing implementations?<p>You could even tell the LLM to configure (or even fork) one of the existing implementations for you, and that would still be way faster than a from-scratch implementation.	anhyz	1793017043	3
+50245672	LLMs will miss a lot of edge cases. This is critical for a library that parses PDFs. Ask it to review the code for issues and by the 20th time you ask, it still will find issues. How's that faster (or safer)?<p>I use AI heavily but it's not this omnipresent deity that knows everything at all times.	gtirloni	1793029376	3
+50241787	Fast, easy, safe. Choose two	croes	1793011970	3
+50242719	Vibecoding your own PDF engine is choosing none of them.	jeltz	1793018894	4
+50255817	Maybe because yours is listed as having its latest release five years ago, and the one it builds upon only two months ago? Not saying this is the only metric that counts, bit it is easy to check when comparing.	suhlig	1793087451	2
+50241588	Is it people ignoring years of work, or the AI they're using? The people haven't read and digested the human history of PDF engine development, that's their excuse, what's AI's?	SecondCrack	1793010138	2
+50241722	"The readme says: ""Small and dependency-light. Pure Rust, built on lopdf, pdf_oxide, rten, and friends."", and paperpilot-pdf/Cargo.toml confirms that."	teh	1793011375	3
+50242641	As someone whose commercial software needs to ingest PDFs: I stay away from things like lopdf because of how they fail to handle broken pdfs.<p>The first project you linked explicitly calls out broken pdf handling.	swsieber	1793018478	2
+50247037	I just want a really exhaustive one in .NET land to be honest, some of these paid companies are getting wild with their pricing schemes.	giancarlostoro	1793033869	2
+50249870	Possibly using AI as a search engine which it's not always great at, and then deciding why not.	j45	1793044008	2
+50242825	And unfortunately, these posts goes on frontpage, because AI, but no ai posts are largly ignored.	t_mahmood	1793019446	2
+50241701	Redoing is almost free today, you can try to redo a lot of stuff, try to gain traction/publicity and maybe that will be <i>your</i> solution that will stick. People were trying this strategy with a lot of stuff (think smartphone cases) but in case of software this is soo easy and dead cheap.<p>I see the outbreak of PDF readers, AI TUI harnesses, etc.	piokoch	1793011103	2
+50241780	> Redoing is almost free today<p>Can I get some of those free tokens you’re having?	geraneum	1793011894	3
+50242613	"You may have missed the bulk of the ""free"" ride: ChatGPT Pro 200 is both being imminently nerfed (even for those who signed up before) and reaching the end of a month of reset candy as they quell that backlash/end a month of ""ailu major features or resets"". Yes, it was $200... but hear me out first!<p>In the last 5 days alone I've had the equivalent of 2+ years of ChatGPT Plus Codex quota given for free via resets. I literally leave my PC running in Codex with 8+ Sol 6.1 Max sessions jamming away most of the day writing a desktop environment from scratch (and other things) just because the reset tokens will evaporate if I don't use them. I've even had days with > 1 billion tokens used where it was reset by the morning.<p>That said, who knows what free ride will appear with AI capital next month!"	zamadatix	1793018299	4
+50243685	You’re right. As you noted, “free” is not the same as heavily subsidized. The chickens will have to come home to roost.	geraneum	1793022602	5
+50246531	"The more optimistic hope is that actual prices continue to drop at the rate they have been and then by the time the subsidization runs out (even if that's not far from now) it's because there is nothing for the chickens to come home and roost to anymore.<p>After all, a year ago and doing these same tasks would just fall on its face. The hard part of the problem is solved, now it's not even ""do LLMs continue to get better"" but ""do LlMs keep getting cheaper""."	zamadatix	1793032074	6
+50242169	Lots of people do lots of things.	ecto	1793015417	2
+50241994	> Why do people try to vibecode PDF engines that already exist in Rust?<p>Nothing surprising here; pre-2022/2023, Rust was used primarily for rewriting things (compared to, for example, Go, which was used to write new things, not replacements).<p>I don't find it surprising that the pattern is continuing.	lelanthran	1793013995	2
+50242053	"It's not a rust specific thing at all, HN has had it's share of “<something> but written in JavaScript” (as well as in Go[1]) back in the day, it's just a common thing when a language becomes popular, as their are more people wanting to show off that they did something than people with genuinely original ideas worth posting on HN.<p>It's not that Rust or Go aren't used to write new things, it's just that the bar for reaching the HN front page with new things is much higher 
+than for mere copycats.<p>[1]: <a href=""https://hn.algolia.com/?q=written+in+Go"" rel=""nofollow"">https://hn.algolia.com/?q=written+in+Go</a>"	stymaar	1793014554	3
+50242514	"> Rust was used primarily for rewriting things (compared to, for example, Go, which was used to write new things, not replacements<p>How could you possibly know this, for either languages?<p>FWIW, I've only worked and written greenfield software with Rust, and have only worked professionally with Golang to replace existing services. I'm sure I'm not alone in this, nor in the complete opposite. But I don't think either of us could say how either of the languages or ""primarily used"", that's a bit too much."	embedding-shape	1793017712	3
+50242571	Anecdotally, it's not representative of your experience.<p>But... Rewrite-it-in-Rust is a meme, while rewrite in Go is not.	lelanthran	1793018021	4
+50242745	"> Anecdotally, it's not representative of your experience.<p>I'm glad you got the gist of my comment :)<p>> But... Rewrite-it-in-Rust is a meme, while rewrite in Go is not.<p>Today no, but it definitely was when it first became popular, ""X but in Go"" was fairly common on the HN frontpage and elsewhere. Just like ""X but in Ruby"" used to be a thing too, but isn't anymore."	embedding-shape	1793019039	5
+50248705	"Ditto.<p>I just ran an security analysis on the repo. As is, it's not looking great (again nothing against vibe/agentic coded projects) the lack of security consideration is astonishing (not suggesting a malice). Definitely NOT production ready.<p><pre><code>  Context: about 98% of the commits are by AI bots (Antigravity, Google Jules).
+  That explains the bugs below.
+
+  Security bugs
+
+  1. High: the local web API lets any website use the user's files.
+  - paperpilot-gateway/src/server.rs:95-98 allows requests from any website, and
+    there's no login or authentication.
+  - POST /api/v1/pdf/mcp-exec (handlers.rs:233) runs any tool with any file path
+    on the machine.
+  - So while the API is running, any web page the user visits can make it
+    overwrite files with PDFs, create folders, and read back text from any local
+    PDF.
+  - In the desktop app the user has to switch the API on. But docker-compose.yml
+    opens it to the network with no authentication.
+  - There's also no limit on request size (usize::MAX), so one huge request can
+    exhaust memory.
+
+  2. High: a malicious document can run code in the desktop app.
+  - Search results display text from the user's own documents as raw HTML
+    without escaping it:
+    - WorkspaceSearchModal.svelte:297
+    - workspaceSearch.ts:84
+    - WorkspaceSearchModal.svelte:118
+  - The app has no Content Security Policy, and lets its window read any file on
+    disk (tauri.conf.json:28-33, scope ""**"").
+  - So a PDF or DOCX carrying an <img onerror=…> payload could read any local
+    file and send it out once the user searches it.
+
+  3. Medium: downloaded models and add-on packs are never verified.
+  - There's no checksum check on models (ai_commands.rs, ocr_commands.rs). Some
+    come straight from the repo's live main branch, so whatever lands there
+    ships to users.
+  - Pack downloads (pack_commands.rs:147-151) put pack_id straight into the file
+    path. A value containing ../ writes outside the app's data folder.
+  - Packs come from huggingface.co/paperpilot/packs, an account I didn't confirm
+    the project owns.
+
+  4. Medium/Low: the protection against fetching internal addresses can be
+  bypassed (paperpilot-core/src/url_fetch.rs:24-40).
+  - It only checks IP addresses typed directly into the URL, not what a domain
+    name resolves to.
+  - It follows redirects, so a public URL can redirect to an internal one.
+  - IPv6 addresses ([::1]), 0.0.0.0 and the 100.64.0.0/10 range get through.
+  - The impact is limited because the response must start with %PDF.
+
+  5. Low: CI supply chain.
+  - release.yml installs wasm-pack via curl | sh.
+  - GitHub Actions are pinned to version tags, not commit hashes.
+  - The Android build ignores the lockfile (--no-frozen-lockfile).</code></pre>"	devy	1793039655	2
+50255105	[flagged]	vardhan1237	1793080148	3
+50251069	[flagged]	vardhan1237	1793049281	3
+50241831	You got to give it to the AI mega corporations’ pr efforts. They have convinced people that paying them to regenerate something they can get for free, is a sensible idea.<p>Like this case, the open source project here could be used as a base for further development by AI!	geraneum	1793012350	2
+50243769	"<a href=""https://github.com/KrushnaVardhanReddy/PaperPilot/commit/63d2824d9e9b8ca9f7133c09a8fccfbde3517862"" rel=""nofollow"">https://github.com/KrushnaVardhanReddy/PaperPilot/commit/63d...</a><p>I like to check out everyone's first commits :)"	djoldman	1793022904	1
+50241501	RUST PDF engine have already exist for months. People should stop building wheels. People should contribute to great projects that already exists. Submit PR instead of making another again.	pinyencheng	1793009440	1
+50239947	I use mostly typst for pdf generating today i have written different frontends and connectors to transform everything into typ files and templates. I eben use it with sphinx as a backend	Surac	1792996973	1
+50240075	How do you use it with i18n and theming and templates? Do you define all of these outside of typst and (e.g.) add a shadow file to the typst compiler?<p>Asking because I've recenly been doing something similar, but since my typst files are templates, which with the same inputs can differ and may need different translations as well, I've written a small i18n library in typst (but I guess you could require a set of translations to be present with a given typst file as well).	foresterre	1792997885	2
+50248623	U have a typst template file mostly containig functions and variable defs. Then i have a docutil -> typst rewriter that makes use of the functions of the the template. i18n is a non problem for me, because i have source files containig the correct text, but i have created ttf fonts containing may international glyphs using fontutils. As sphinx and typst support unicode it just works. the PDF are then postprocessed and all glyphs not used are striped out of the pdf, also some pdf streams are removed to shrink the pdf	Surac	1793039370	3
+50242099	I'm interested in knowing how you do the i18n in Typst. Seems interesting	evilmonkey19	1793014960	3
+50241636	"I too have created a set of tools which runs in local. Can use it here <a href=""https://toolbit.app/"" rel=""nofollow"">https://toolbit.app/</a> and the repo is at <a href=""https://github.com/alwin-augustin/toolbit"" rel=""nofollow"">https://github.com/alwin-augustin/toolbit</a> . Working on the desktop apps. The mac silicon app is ready and working."	alwinaugustin	1793010473	1
+50239092	Is this PDF engine vibe-coded and derived from reading the MuPDF source code? (Written from C to Rust) I see some slight references to MuPDF in certain places.<p>If it is you should disclose it and the license should be AGPLv3 instead of Apache.	colesantiago	1792988564	1
+50240811			1793003548	2
+50240082	It's using hayro in Rust	ligarota	1792997975	2
+50242395	Definitely not! There is zero MuPDF code, FFI, or transpilation in PaperPilot.<p>The core PDF parsing and AST manipulation is built on pure Rust libraries: lopdf (0.45), pdf-writer, hayro, and image. All of these are Apache 2.0 or MIT licensed.<p>Any mention of MuPDF in the documentation/planning notes was strictly part of an architectural trade-off analysis (evaluating existing Python/C extraction pipelines like PyMuPDF vs. pure Rust). The entire crate stack in paperpilot-pdf is 100% Apache 2.0 / MIT clean.	vardhan1237	1793017078	2
+50240362	[flagged]	salahalhaismawi	1793000218	2
+50239247	Licenses are <i>so</i> yesterday. /s<p>Seriously though, can you list some examples?	jacquesm	1792989995	2
+50239773	"Unless they meant vaguely similar code (which I can't judge), the only mentions of mupdf are in the AI instructions:<p><pre><code>    > **The Opportunity:** Capturing the high-growth enterprise AI engineering market by replacing bloated, slow Python extraction pipelines (`Unstructured.io`, `Docling`, `Marker`, `LlamaParse`, `PyMuPDF4LLM`) with a pure-Rust, sub-10ms, multi-format ingestion kernel.
+    - This structure guarantees that if we ever swap the PDF engine to `pdfium` or `mupdf`, not a single line of business logic in `paperpilot-core` or CLI tools will need to be rewritten.
+    > Directly captures the high-growth AI Engineering & RAG pipeline market (displacing bloated Python stacks like Docling, Marker, PyMuPDF4LLM, and Camelot) with sub-10ms, pure-Rust, on-device parsing.
+    | A.2.5 | `MuPdfBackend` adapter (Future) | Use MuPDF for OCR-heavy workflows via FFI |</code></pre>"	tredre3	1792995332	3
+50242675	That's not vague. That's derivation. To use an AI-ism.	jacquesm	1793018653	4
+50249193	"Without context, just reading the above, it sounds more like they're attempting to create an abstract interface for pluggable PDF engines, which shouldn't pose any licensing issues assuming all the licenses are AGPL v3 compatible and builds that include AGPL engines are only used under the terms of the AGPL, sort of like how ffmpeg works with the ""--enable-gpl"" switch."	jasomill	1793041215	5
+50240756	[dead]	darkwater	1793003123	4
+50244694	"been using <a href=""https://github.com/SimonBure/presse"" rel=""nofollow"">https://github.com/SimonBure/presse</a> for all my pdf needs for a while - works great thus far (not affiliated); simple cli is in most case all you will ever need"	_rwo	1793026089	1
+50239387	Would be useful to have a remove password feature (for a known password) and support for adding signatures	febed	1792991277	1
+50242439	Both are actually already supported! We have pdf_decrypt (which unlocks password-protected PDFs given the password) and pdf_sign for applying cryptographic signatures, as well as pdf_validate_signatures for verifying certificates.	vardhan1237	1793017310	2
+50241510	"I'd like to point out Bento PDF: <a href=""https://www.bentopdf.com/"" rel=""nofollow"">https://www.bentopdf.com/</a><p>It runs in the browser, is private and no-fuss. You can also host it locally if you like."	Latitude7973	1793009494	1
+50241712	"i like the interface but the bugs are irritating:
+1)click on a text box (using IRS form 1040 as an example), change the character spacing from the default (0) to something then change it back to zero. You dont get the original text
+2) add a text box, you cant move it around even when the 4 way arrows are showing when you hover over it or even try to move it using the arrow keys
+3) add a text box, enter text, highlight it, change line spacing, the spacing changes but the number in the box stays at 1.25
+4) character spacing and word spacing dont work
+5) last update a year ago"	bawana	1793011291	2
+50253593	the gif in the readme has visibly broken ui (the text on the right in the header is not vertically aligned)<p>i'm not convinced a human has ever actually looked at this project; this must be the work of someone's overzealous openclaw agent or something.	ffin	1793064143	1
+50246633	I'm amazed to learn from these comments that there are so many local PDF solutions (and opinions on them).	efields	1793032456	1
+50240534	I started building things like this as browser extensions to make the hosting simpler.	totetsu	1793001519	1
+50240215	Can I use it with Open-Webui instead of Apache Tika?	Tepix	1792998971	1
+50242784	[flagged]	R1ck404	1793019220	2
+50251142	[flagged]	vardhan1237	1793049579	2
+50239903	I think there's a difference between a standard PDF viewer and basic functionality, vs a full PDF authoring suite like Adobe. For some of the basic features in one of the comments, I'm not quite sure how tried and tested tools that are simple like Foxit PDF don't fit the bill for most things. Unless you're trying to process gobs of PDFs in headless mode or do some sort of analysis... eh.	darksim905	1792996589	1
+50240364	Is there a real use case for manually authoring a PDF directly? I assumed everyone would either use a word processor or some other tool that exports as pdf rather than editing a pdf as if it was a word doc.	Gigachad	1793000237	2
+50255000	Modifying existing PDFs in my limited experience is to make some changes or remove security or add a stamp and it make it seem official.	darksim905	1793078598	3
+50240638	The feature i like about this is privacy focused	aidotguru	1793002205	1
+50240647	Sorry I just realized it is private running in browser only. thats the feature i am looking for	aidotguru	1793002309	2
+50239648	Nice work.	measurablefunc	1792994055	1
+50240537	interesting，but will it have official GUI？	chiharukiryu	1793001551	1
+50242433	"Yes! We have an official desktop GUI for macOS, Windows, and Linux built with Tauri 2 and Svelte 5 (with native dark mode, visual diff, and a visual pipeline builder). We also have the full browser-based GUI running client-side via WASM at <a href=""https://usepaperpilot.com/"" rel=""nofollow"">https://usepaperpilot.com/</a>"	vardhan1237	1793017288	2
+50244499	FYI the box with the tool you've selected (where you upload and set parameters) is way too small on mobile. By scrolling you can use it, but you can only see a tiny bit of the interface at a time. Firefox on Android.	mkl	1793025480	3
+50251131	[flagged]	vardhan1237	1793049517	4
+50239999	"Love the web interface! But can it be done better?<p>First, how do you ""sign"" a PDF using this tool?<p>If you're going to build this, can you find a small, even tiny model that has decent tool calling and, effectively turn that in combination with this tool into a single HTML page that I can use everywhere?<p>Literally something I could save on a work laptop or cloud desktop and would actually work (even if it would be slow, it'd still be a great improvement)"	spwa4	1792997349	1
+50251138	[dead]	vardhan1237	1793049556	2
+50240158			1792998613	1
+50256600	[flagged]	Nightbowl12	1793093955	1
+50247216	[flagged]	artiz	1793034480	1
+50244369	[flagged]	usefulbasis	1793024997	1
+50240762	[flagged]	djellicoe	1793003145	1
+50239619	[flagged]	deakmisra	1792993763	1
+50239259	"In case you don't have showdead on, the OP writes:<p>""""""
+I built PaperPilot because I was frustrated by the privacy trade-offs of modern PDF utilities.<p>Whenever you need to split, merge, compress, or sign a confidential document (tax forms, legal contracts, medical paperwork) using online tools, your files are transmitted to a third-party server. Most ""free"" tools retain copies or run in closed-source cloud environments.<p>PaperPilot is a 100% zero-cloud, local-first engine written in pure Rust (built on top of lopdf, pdf-writer, and image). 0 bytes are ever sent to an external server.<p>Key aspects of the project:<p>1. Penta-Interface Architecture: Instead of building just another web app or CLI, the same core Rust operations run across 5 surfaces: - Terminal CLI: High-throughput local processing and bash scripting. - Local Desktop App: Native cross-platform GUI built with Tauri 2 and Svelte 5. - Client-Side Web: Runs 100% inside your browser via WebAssembly (<a href=""https://usepaperpilot.com/"" rel=""nofollow"">https://usepaperpilot.com/</a>). - REST / Gateway API: Standalone local daemon (localhost:7823) for local microservices. - Model Context Protocol (MCP): Connects local AI agents (Claude Desktop, Cursor, OpenCode) directly to local PDF tools so LLMs can inspect, redact, and sign PDFs on disk without cloud upload.<p>2. Capabilities (75+ Tools): - Standard operations: Merge, split, rotate, reorder, burst, booklet imposition, and N-up grid. - Privacy & Compliance: Local PII regex redaction (SSNs, cards, emails), metadata striping, and digital signature verification. - Document Extraction: PDF to structured Markdown tables (no coordinate loss), PDF to JSON, and pure-Rust layout analysis. - Offline RAG: Embedded vector store (libsql_vector) with an actionable visual citation canvas.<p>3. Performance & License: - Average operation latency is ~20ms to 130ms. - 100% Free and Open Source under the Apache 2.0 license.<p>The GitHub repository is at <a href=""https://github.com/KrushnaVardhanReddy/PaperPilot"" rel=""nofollow"">https://github.com/KrushnaVardhanReddy/PaperPilot</a> and the browser-based WASM sandbox is live at <a href=""https://usepaperpilot.com/"" rel=""nofollow"">https://usepaperpilot.com/</a>.<p>I’d love to hear your feedback on the architecture, performance benchmarks, and any edge-case PDF formats we should test against!
+""""""<p>Which reads very much LLM produced."	jacquesm	1792990075	1
+50240419	> Native cross-platform GUI built with Tauri 2 and Svelte 5<p>That's not native, and if you pointed it out to the LLM that wrote this, it would agree. It's just dumb so it didn't think of the fact that that's entirely the wrong term.	lionkor	1793000691	2
+50239644	"It read to me as a case of: ""only webpages are software, and I'm afraid of the command line"".<p>Really. All he wants was very easy to do already."	Shorel	1792994033	2
+50239951	"> It read to me as a case of: ""only webpages are software, and I'm afraid of the command line"".<p>I think you've missed this part:<p>> Terminal CLI: High-throughput local processing and bash scripting."	selcuka	1792996994	3
+50240079	Woah, I certainly did!<p>I am interested in the following use case: convert the PDF to e-pub, then edit it with Calibre to fix some issues that always happen.<p>Currently using pandoc.	Shorel	1792997920	4
+50251162	[flagged]	vardhan1237	1793049659	5
+50257843	[flagged]	postbye	1793102451	1
+50238740	"Hi HN,<p>I built PaperPilot because I was frustrated by the privacy trade-offs of modern PDF utilities.<p>Whenever you need to split, merge, compress, or sign a confidential document (tax forms, legal contracts, medical paperwork) using online tools, your files are transmitted to a third-party server. Most ""free"" tools retain copies or run in closed-source cloud environments.<p>PaperPilot is a 100% zero-cloud, local-first engine written in pure Rust (built on top of lopdf, pdf-writer, and image). 0 bytes are ever sent to an external server.<p>Key aspects of the project:<p>1. Penta-Interface Architecture:
+Instead of building just another web app or CLI, the same core Rust operations run across 5 surfaces:
+- Terminal CLI: High-throughput local processing and bash scripting.
+- Local Desktop App: Native cross-platform GUI built with Tauri 2 and Svelte 5.
+- Client-Side Web: Runs 100% inside your browser via WebAssembly (<a href=""https://usepaperpilot.com/"" rel=""nofollow"">https://usepaperpilot.com/</a>).
+- REST / Gateway API: Standalone local daemon (localhost:7823) for local microservices.
+- Model Context Protocol (MCP): Connects local AI agents (Claude Desktop, Cursor, OpenCode) directly to local PDF tools so LLMs can inspect, redact, and sign PDFs on disk without cloud upload.<p>2. Capabilities (75+ Tools):
+- Standard operations: Merge, split, rotate, reorder, burst, booklet imposition, and N-up grid.
+- Privacy & Compliance: Local PII regex redaction (SSNs, cards, emails), metadata striping, and digital signature verification.
+- Document Extraction: PDF to structured Markdown tables (no coordinate loss), PDF to JSON, and pure-Rust layout analysis.
+- Offline RAG: Embedded vector store (libsql_vector) with an actionable visual citation canvas.<p>3. Performance & License:
+- Average operation latency is ~20ms to 130ms.
+- 100% Free and Open Source under the Apache 2.0 license.<p>The GitHub repository is at <a href=""https://github.com/KrushnaVardhanReddy/PaperPilot"" rel=""nofollow"">https://github.com/KrushnaVardhanReddy/PaperPilot</a> and the browser-based WASM sandbox is live at <a href=""https://usepaperpilot.com/"" rel=""nofollow"">https://usepaperpilot.com/</a>.<p>I’d love to hear your feedback on the architecture, performance benchmarks, and any edge-case PDF formats we should test against!"	vardhan1237	1792985345	1
+50239653	Is there anything in this project that was not already easily available with command line tools?	Shorel	1792994097	2
+50240101	Yes, it's wasm. So you can run it in any browser. Super useful when no cli. Example on friend phone	ligarota	1792998115	3
+50241654	"I really like the approach with WASM and the browser sandbox. That alone makes this very usable. iam also working on an agent harnes in the browser sandbox called ""hermit"" using a local inference endpoint. It runs Python in WASM with a virtual file system.<p><a href=""https://moooff.github.io/HermitUI/hermit-agent/"" rel=""nofollow"">https://moooff.github.io/HermitUI/hermit-agent/</a><p>So this Tool comes in very handy and will try to integrate it."	moooff	1793010614	4
+50240912	who doesn't need to merge and compress bunch of pdfs on a friend phone on a saturday morning	metchio	1793004312	4
+50240147	Yeah, it has to be a friend phone as mine has command line via ssh (and tailscale).	Shorel	1792998507	4
+50239683	"Congrats with your product, hope it works out well. Nice competitor analysis & (future) features list at <a href=""https://github.com/KrushnaVardhanReddy/PaperPilot/blob/main/COMPETITORS.md"" rel=""nofollow"">https://github.com/KrushnaVardhanReddy/PaperPilot/blob/main/...</a>, IMHO easier to read than your above list.<p>Question: seemingly you’re using Antigravity, an harness not many use. Please tell use about the choice of LLM and your experience with it."	smartbit	1792994440	2
+50242458	Thanks for checking out the docs! We used a hybrid workflow: Antigravity IDE paired with Jules for asynchronous sub-tasks (like spinning up isolated unit tests and docs in parallel containers).<p>Having a strict test-first harness where every PR has to run against real PDF byte fixtures (zero mocks) and compile across CLI, WASM, and MCP kept the codebase consistent even when moving fast.	vardhan1237	1793017368	3
+50258986	"Thanks for your reply. Will look into <i>Jules</i> [0] [1].<p>Are you using Antigravity IDE v2.5.5 that hasn't been updated since 2026-08-13 and that supports 3 legacy models + Gemini Flash 3.8? I assume you're using <i>Gemini Flash 3.8</i>?<p>[0] <a href=""https://news.ycombinator.com/item?id=44034918"">https://news.ycombinator.com/item?id=44034918</a>
+[1] <a href=""https://news.ycombinator.com/item?id=44813854"">https://news.ycombinator.com/item?id=44813854</a>"	smartbit	1793107785	4
+50240032	Is this a port of MuPDF?	sreekanth850	1792997595	2
+50251224	[dead]	vardhan1237	1793049978	3
+50242771	[flagged]	PavelGIL	1793019161	1
+50239536	[dead]	hackerbone	1792992951	1
+50241572	Vibecoded and Rust, name a more iconic duo.	mrheosuper	1793009952	1
+50240457	Great work. But why you are using AI for build such a service, it does not need an AI.	mashally	1793000952	1
+50242425	[flagged]	vardhan1237	1793017248	2

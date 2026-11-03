@@ -1,0 +1,48 @@
+50319169	"Based on vermiceli's annotated disassembly of Contra: <a href=""https://github.com/vermiceli/nes-contra-us"" rel=""nofollow"">https://github.com/vermiceli/nes-contra-us</a>. Thanks for the great work.<p>I ported it in two steps. First to C: the game logic is translated routine by routine from the 6502 assembly, and checked frame by frame against the original in the Mesen emulator. Then the C code to WebAssembly so it runs in the browser.<p>The cherry on top: online multiplayer, so two players can play co-op over the internet.<p>Source: <a href=""https://github.com/epoyraz/nes-contra-us"" rel=""nofollow"">https://github.com/epoyraz/nes-contra-us</a>"	tevlon	1793474328	0
+50323412	"Wow, the source 6502 assembly <i>with</i> comments is incredible: <a href=""https://github.com/vermiceli/nes-contra-us/blob/main/src/bank0.asm"" rel=""nofollow"">https://github.com/vermiceli/nes-contra-us/blob/main/src/ban...</a><p>The whole thing (all banks) is more than 10,000 lines of assembly code.  When I wrote assembly code for a university computer science course, it was hard to manage even 200 lines.  I cannot imagine writing and managing 10,000 lines!"	throwaway2037	1793518352	1
+				
+				
+50320248	"But the Japanese Contra was so much better! <a href=""https://www.youtube.com/shorts/CiXzONyCDW0"" rel=""nofollow"">https://www.youtube.com/shorts/CiXzONyCDW0</a>"	raldi	1793480843	1
+				
+				
+				
+50323935	"Nice! Can you speak to your process? How much structure did you give the agent? Did you have to ""discover"" the right way to do the port? Perhaps you just asked Claude, and then iterated? How do you feel about the final architecture/layout of the code, and would you approach a similar project in a new way given what you've learned?<p>You said in another comment:<p>> Then, i spent some time in building a harness and collect telemetry data in Mesen. Once, i had that: i just played the game in the emulator and asked Claude Opus 5.5 to use this as verification.<p>Can you comment on how this verification process worked?<p>You'll have to forgive me for not trying to answer these questions myself by investigating the code/git history, but... I hope you understand.<p>Actually, I am peeking around the code a bit and it's a bit disappointing, but it's what I should have expected having tried a project like this myself with a Game Boy game. I would like to see what an AI-produced <i>semantic</i> (?) rewrite of a retro game would look like. That is, what a port/rewrite that wasn't so faithful/wedded to the original ROM layout or platform architecture. For example, the agent (and you, presumably) was satisfied with writing a sort of RP2C02 emulator facade instead of doing the hard work of translating the bytes into platform-agnostic graphics rendering code. So now any customization/extensions you write to the game are fundamentally constrained to the abstractions of a specific chip from the 80s."	incr_me	1793525528	1
+50320687	Is the audio not supposed to work? I was hoping to hear the legendary tracks!	shinryudbz	1793484114	1
+				
+50322282	Unfortunately, I'm a bit concerned that cool labor of love hacker projects like this will become much less common now that Anthropic (and possibly soon others) is moving to restrict this kind of usage. Oh well, so much for cool fun stuff.	davesque	1793501001	1
+				
+				
+				
+				
+				
+				
+				
+50321448	"A couple months ago I wrote about this kind of transcompilation hop-skip-jump: <a href=""https://news.ycombinator.com/item?id=49643284"">https://news.ycombinator.com/item?id=49643284</a><p>I used it to get games written in Lua running on SNES and in my own language/engine running on Dreamcast, Wii, Web and more."	msephton	1793491062	1
+50319721	One of the things that I'm curious about: How easy / hard is it to use the same NES game with higher resolution / color graphics, and sample-based sound?<p>Are there any emulators out there that let you swap in higher resolution assets so a game can be freshened without a complete port?	gwbas1c	1793477944	1
+				
+				
+				
+				
+				
+50319440	Cool, how did you build the multiplayer mode? And how much AI was used?	BSPtree	1793476189	1
+				
+				
+				
+				
+50320829	Contra is my favorite game of all time so this is a real treat, and the co-op idea is fantastic. Not to be greedy, but how hard would it be to add music? :)	egonschiele	1793485228	1
+				
+50322329	No sound and the a and b buttons should be the other direction (a is to the right of b) on the keyboard.	sfblah	1793501679	1
+				
+50321866	Where's the sound? You can likely ask AI to emulate the sound hardware with WASM!	pmarreck	1793495801	1
+50327086	> I ported it in two steps<p>You didn't port it at all. You had Claude do it for you.	bigstrat2003	1793550361	1
+50320602	All that work and then somehow transposing the A and B keys at the very end.	Dwedit	1793483448	1
+				
+50321948	Nostalgic!! Took me a few tries to beat the first level haha	erictheguy	1793496727	1
+50321073	No controller support?	pxx	1793487561	1
+50320710	thanks for bringing back my childhood memories!	gosen	1793484298	1
+50319880	Most of the keys aren't working for me in Firefox though :-(	einpoklum	1793478760	1
+				
+50322096	[flagged]	smjy_studio	1793498505	1
+50321475	Whenever I see a game that uses the arrow keys and doesn't offer WASD as well, I can't help but see a game written by a non-gamer. I consider these fundamentals, and a shibboleth of whether I should care.	jasonlotito	1793491358	1
+				
+				

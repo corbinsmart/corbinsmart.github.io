@@ -1,0 +1,17 @@
+50299004	"Lasm has been my dream for a good part of 2026.
+I firmly believe that formal verification is the next evolution of software engineering and programming languages. This next wave will largely be enabled by the incredibly intelligent LLMs that understand formal verification and its programming languages.<p>Lean is one of the most popular languages that allow for formal verification, and to me is incredibly powerful because it is a general purpose programming language with formal verification built directly into it.<p>You can build general purpose software in Lean, and formally verify it in Lean. Amazing.<p>Lasm brings Lean to the browser, Node, serverless, and edge environments (and more). The idea is that you can now write web apps, frontend to backend, in Lean and formally verify these apps.<p>Imagine an Express server or Hono server, running on Cloudflare Workers, with formal verification of its specification.<p>I'm an agentic engineer with an emphasis in software engineering, and Lasm was built mostly by Claude Opus 5.5 with my high-level direction."	lastmjs	1793325941	0
+50300120	> I'm an agentic engineer with an emphasis in software engineering<p>This is odd. You wouldn't consider yourself a software engineer with an emphasis in...agentic engineering, or something like that? What is your background?	orsorna	1793337688	1
+				
+				
+				
+50300430	"I think this is very interesting, but what are you specifying when you build a website?<p>I feel like this is the new ""test driven development"", which is totally a good idea, but also not totally useful for the actual process of building web apps, where most of your failure modes are weird CSS, JS, or server issues.<p>I would be happy to be proven wrong though"	sroerick	1793341137	1
+				
+50300076	Oh boy! My favorite thing about vibe coding is when agents write tests that assert whether certain strings exist in the codebase. Now we can formally verify that they do!	anonymous908213	1793337226	1
+				
+50301194	Interesting! Would've loved to see more frontend proofs, for example you have proofs about behavior but none on layout or design.	alexhixon	1793349125	1
+				
+50299954	This is wild, I had no idea Lean could be used for things like this.	treyd	1793335607	1
+				
+50301450	> AI agents: this README is complete on its own. llms.txt is the short index, and docs/AI.md lists the rules that save you from wrong turns.<p>The fall of technical writing.	poly2it	1793351577	1
+50300742	[flagged]	gebortme	1793344881	1
+50303944	[dead]	Rmwalke	1793368503	1

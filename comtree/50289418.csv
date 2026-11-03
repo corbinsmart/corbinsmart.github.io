@@ -1,0 +1,174 @@
+50289418		kuberwastaken	1793283201	0
+50289701	"They slashed pricing, it's now nearly half vs the preview (Input: $0.7/M Tokens, Output: $2.1/M Tokens vs Input: $1.36/M Tokens, Output: $4.18/M Tokens).<p>At the original pricing in my evals, Mistral Large 4 Preview was not competitive. With this price point and some improvements on top, this full release warrants a major reassessment.<p>[0] <a href=""https://docs.mistral.ai/inference/pricing"" rel=""nofollow"">https://docs.mistral.ai/inference/pricing</a>"	Topfi	1793284174	1
+				
+				
+				
+				
+				
+				
+				
+50289898	"""Cyber benchmarks, while achieving an average refusal rate of 96.6% on malicious cyber requests, the highest we measure among open models.""<p>I feel like stating the obvious here and hence like I'm missing something. Where is the statistic about not refusing the non malicious requests? I can achieve the same performance with refusing when random(1000) < 967."	3form	1793284939	1
+				
+				
+				
+				
+				
+50289555	"Kind of buried down at the end:<p><a href=""https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"" rel=""nofollow"">https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B</a><p><a href=""https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B-NVFP4"" rel=""nofollow"">https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B-NVF...</a>"	strictnein	1793283662	1
+				
+				
+				
+				
+50294837	I'll never not cheer for Mistral.<p>The more countries are in this game the better for us all.<p>Much like other stuff when there isn't enough competition the consumer gets wrecked	Havoc	1793303589	1
+				
+				
+50294557	"It's interesting how all the recent SOTA models are in the 1T-3T range. This even has a large number of active parameters (A52B). It is also likely that OpenAI, Anthropic, et. al. have similar sized models.<p>This has two effects: 1) it prevents effective use of these models on consumer-grade hardware; and 2) it pushes the requirements to train and run these models on existing and future data centres, making them more expensive to run.<p>It would be nice to have more slimmer models and more active research that isn't just ""let's throw more compute at the problem"". Maybe they'll train smaller models from the large model like Qwen have done in the past."	rhdunn	1793302337	1
+				
+				
+				
+				
+				
+				
+				
+50290261	Mistral has been great for us as a provider for our EU-based company. We use Mistral Large 4, GLM 5.3 Flash and DeepSeek v4.1 Flash 1017 through their API for our B2B2C app for complex work around building blocks for documents and custom tools. A few months ago we weren't sure which EU provider to use, but since they introduced 3rd party models, added more features (now Responses API etc.) and improved their own model, we are quite happy-	d2kx	1793286241	1
+				
+				
+				
+				
+50290476	"> 2. If the Licensee or any of its affiliates operates a Model as a Service business, the Licensee must enter into a separate commercial license with Mistral before using the Model or its derivative works for any commercial purpose. The Licensee may contact Mistral, using this form: <a href=""https://mistral.ai/contact/"" rel=""nofollow"">https://mistral.ai/contact/</a>, to request a commercial license. [0]<p>Calling this ""open weight"" is misleading. That's why we had huge backlash when Redis, Elasticsearch, and Terraform went source-available, right?<p>Weight-available is a better adjective for this kind of licensing. Same for Qwen, GLM, Kimi, MiniMax, etc. If they really want to be open source, they should pick an OSI-approved license.<p>[0]: <a href=""https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/blob/main/LICENSE"" rel=""nofollow"">https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/blo...</a>"	maxloh	1793287196	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50290022	I have access to a server with 4 x h200 cards - 540 GB in total memory, but it appears I have to go to 4bit or 3bit even to serve it. Any idea if that is feasible/desirable (we have restrictions that we can't use a chinese model!).	jamesblonde	1793285360	1
+				
+				
+				
+				
+				
+				
+				
+				
+50290450	Their last 2 models were a disaster and didn't live up to their self reported evals.   I hope this time around is much better.   I'm happy tho that they are still figuring out how to get better even if only measured against themselves.   This is great, the more options we have the better for everyone.	segmondy	1793287112	1
+				
+				
+				
+50290705	Ughh the overly positive and cheerful comments here from what is usually the most critical/pessimistic audience on the internet is a huge tell.<p>If we cut through the political bias and wishful thinking for a second, here’s the truth: The model is not competitive. I would never waste my time using it for coding work, and I’m someone in the EU.<p>Great effort, but keep at it. This just isn’t good enough.<p>I’m sure you guys can make a boatload of money with regulatory capture and compliance games in the EU, but please don't give up trying to produce something thats actually competitive.	pembrook	1793287953	1
+				
+				
+				
+				
+				
+50289652	"It's not open weight, it's weights available as they use a modified MIT license that is not OSI. It's the common ""if you're serving it as a business you need a license"" difference, for what it's worth."	rcr-anti	1793284004	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50289734	Finally, Le Chaton Fat. However, I'm not sure how well Mistral is doing in comparison to the other open-weight models, particularly Chinese ones, and I guess one would only really use Mistral if they want to have EU provenance for models.	satvikpendem	1793284309	1
+				
+50289584	Unrelated to Large 4, but why is it so hard to give money to Mistral? Now they finally have a model that might be worth using, but I cannot for my life figure out how to give them money and be allowed to use their model. Its really shouldn't take more than a couple of clicks to get to a payment option.<p>edit: I can see that I'm alone in thinking a company should communicate their business offers publicly, sorry for the question.	tokai	1793283759	1
+				
+				
+				
+				
+				
+				
+				
+50293063	This is significant. Almost every regulated business in the US cannot run Chinese  models, which was the only real option for self-hosted inference and agents. They do run gpt-oss or Gemma, but a near frontier-level model like this being available opens a lot of doors while giving Mistral a lot more social capital.	nunez	1793295929	1
+				
+50292910	When I last tried Mistral Large 4 for a code documentation task, it ignored my SKILL.md files and it had a few hallucinations. I wondered if I had failed to prompt it properly or if there was some problem with my harness. If it's gotten better since launch, then I'll un-cancel my Mistral.ai subscription.	evanjrowley	1793295304	1
+				
+				
+50291329	"I added this to my weird little personal benchmark (  <a href=""https://botbowlbench.com/"" rel=""nofollow"">https://botbowlbench.com/</a>) a couple of weeks ago, and it's...fine, but certainly not up to the best Chinese or US open weight models."	crimsoneer	1793290131	1
+				
+50289715	That's really great! Congratulations to everyone working at Mistral!<p>Now, perhaps Kimi 3.1 is missing from the benchmarks, and Deepseek 4.1 Flash is still has impressive!	jiehong	1793284242	1
+50298043	I wonder that even though I don’t have personal hardware to run these at the moment, if it makes sense to download and keep a copy of some models like these in case access/licensing changes in future and/or hardware becomes cheaper.<p>Can always replace the backup copy with a better one on next release.<p>Or is someone running an initiative like this, such as Archive.org folks?	yumraj	1793318721	1
+				
+50292706	"It looks specialized models of 27B to 52B active size are currently state of the art.<p>I think we will not see any significant increase of that numbers in next 4 - 5 years.<p>Does MoE depth justify itself to be stored and served as ""one"" model for particular tasks like agentic coding vs same active params non-MoE model?"	novaRom	1793294612	1
+50296211	In fact only weights available is still better than the closed llms. We can check neurons and confirm that the model is not malicious. However we still need to develop methods to confirm the models that are being served are matching those whose weights we can observe.	0xjosephx10	1793308900	1
+50304003	Hard to get excited for this when it's 20% worse than DeepSeek V4.1 Flash on Artificial Analysis, yet is double the parameters (ignoring engram tables) and 10x more expensive on OpenRouter (input token pricing). I know that many organizations cannot use Chinese models, but it's sad how far behind non-Chinese open weight models are.	EliasWatson	1793368790	1
+50299951	"slightly off topic --<p>Mistral has ""Mistral Vibe CLI"" that is similar to Codex / Claude Code -- and it is supposed to have some small quota to allow free usage.<p>I tested it a few months ago and it seems okay -- no where close to SOTA but still a fall back for very simple tasks. I tried it again this week and it times out and says requests are rate limited even when we start with just a ""hi"".<p>Anyone knows if this is still an active project or abandoned."	albert_e	1793335583	1
+				
+50297894	Very nice. I always expected it to beat z.ai's model by at least a little bit, since it's so similar and that it would be slightly behind Kimi. Maybe this can change with better post-training, but it's great to go from not having a model in this size class to making something competitive with z.ai, who of course have made several good large models.<p>A first step on a trip which will hopefully go quite far.	impossiblefork	1793317714	1
+50289993	It's great that Europe finally has a good open-weights model.	risphere	1793285256	1
+50290065	I see the logo of my company in this picture and I don't have it my harness dropdown. I guess they hallucilied (vibe truthed?) the list just a little bit.	Muromec	1793285496	1
+50299728	We gave a go for cyber on botsbench.com , and this is both more expensive and less capable than Reflection's Beam 1.0 . It'll take a lot of price cuts for us to care on this particular one. Instead, I view more directionally: similar to glm 5.2 -> glm 5.3 flash, I'm curious what Medium 4.1 will look like.	lmeyerov	1793332803	1
+50292013			1793292360	1
+50300887	"The model does not seem to be good enough to be used here: <a href=""https://chat.mistral.ai/work"" rel=""nofollow"">https://chat.mistral.ai/work</a>
+Why should I trust if Mistral does not trust their own model?"	ceving	1793346372	1
+				
+				
+				
+				
+50300490	"""Open-weight hybrid instruct-and-reasoning MoE with multimodal input""<p>What does that mean?"	VerifiedReports	1793341908	1
+				
+50299490	I am curious about the comparisons. One thing I would like to see is score vs speed and cost. I don't know how big glm and kimi models are and what are their speed and cost. So I don't know if comparisons are apple or apple.	Krishansubudhi	1793330309	1
+50304212	I wish they released a flash variant that is no more than 200B (120B preferred). Something to compete with Qwen3.8-Flash-Next - my favourite local model.	Roark66	1793369668	1
+50301527	It seems they had to choose very a specific benchmark to come out on top of. But at least there is _something_ coming out of Europe. Maybe not all hope is lost.	sadilek	1793352362	1
+50289628			1793283922	1
+50294311	Sorry for the dumb question, but is there any useful non-trivial LLM that is open-source where you could bit reproducibly train it from sources?	Pet_Ant	1793301120	1
+				
+50304337	Now if only they could fix their website: last year I tried to sign up for a paid plan and I couldn't activate it using my phone number, since my phone number had been used for another account - after deleting the phone number from the other account it didn't work, neither did it after the other account itself.	dunefox	1793370088	1
+50289956			1793285139	1
+50293412	I think the effect the page has when you move the mouse is brilliant; it’s really eye-catching and makes you want to use it.	trildiegobm	1793297354	1
+50300780	It’s time for 8TB Ram to become the norm. 640KB didn’t do the job after all.	thundoe	1793345331	1
+				
+50296604			1793310587	1
+50291920	Who cares? It's a crappy model and not even truly open-weight. Mistral gets absolutely mogged by Deepseek and GLM. They have never been competitive and never will be. While China and US are competing for the olympic podium, Mistral is still in the kiddy pool.<p>At least the FLUX vision models from Europe are pretty good.	tsss	1793292059	1
+				
+50300465	I would love to see a really competetive european model.	rampida_com	1793341510	1
+50291746	"this ""open weights"" stuff is tantamount to shareware in the olden times... i hope it will soon be replaced by proper free software, where the actual training base is also given"	enriquto	1793291454	1
+				
+50293001	"I have switched to Mistral free app just from US apps completely recently - it beats for me absolutely all alternatives:<p>ChatGPT - stopped using it like a year ago, it feels they deliberately made it ridiculously stupid (for fun?). I know, they were first, but today it's a joke.<p>Claude - tried it out of curiosity few times, but it's close to nothing when it's about non coding questions. I don't understand how anyone can like its gibberish answers?<p>Gemini - like many, switched to it like a year ago and it was best choice for daily usage. Nice, clear answers, never nonsense. Somehow they made it faster recently, but answers have become shorter, and it feels slightly stupid (but yet smarter than Claude or ChatGPT).<p>This was my motivation to try Mistral and I am absolutely amazed how good it is. It answers ""in full"", smart, search, research, full assessment, examples - looks very much like Pi/Opencode with subagents forking here and there (maybe OpenClaw is what they use?).<p>I am based in EU, so maybe others geographicly experience is different - again it' all no-subscription just free apps."	novaRom	1793295659	1
+				
+				
+50290413	> 1-trillion-parameter<p>I'm going to pass, but nice to know it's open now.	pyrale	1793286911	1
+50292996	I am comparing Mistral and Claude for a company of programmer at the moment. Problem isn't so much the model but the harness and skills. Claude offers very good tools here. Mistral is behind. So a new model isn’t so interesting for me	Surac	1793295639	1
+				
+				
+50292012	How much would it cost to self host this model?	sidcool	1793292357	1
+				
+50295513	Open weight is always good for developers	ndqpc	1793306154	1
+50291278	It's nice they recently added acclaimed open models at a fair price like DeepSeek and GLM Flash, that way it's less of a gamble to try this new model out.	dadoum	1793289978	1
+50293386	Isn't this inviting abliteration?	htrp	1793297270	1
+				
+50293056			1793295895	1
+50292041	I love how demanding the Hacker News always becomes when it comes to non-american models	VeejayRampay	1793292453	1
+				
+50291473	... under specific circumstances	alansaber	1793290663	1
+50326781	[flagged]	meghanainti14	1793548424	1
+50307202	[flagged]	ankur_misra	1793381180	1
+50306454	[flagged]	arshadansari27	1793378473	1
+50289933	[flagged]	hizlikovboy27	1793285073	1
+50290095	[flagged]	shin_lao	1793285564	1
+50292050	[flagged]	xfcgv	1793292476	1
+50294559	Meow! Did nobody read the license?	throwdbaaway	1793302345	1

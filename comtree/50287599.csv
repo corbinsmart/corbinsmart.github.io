@@ -1,0 +1,77 @@
+50287599		luke8086	1793275141	0
+50288877	"To promote this to a top-level comment, because I think it's important context: nothing in the README file says the point is to be ""beginner-friendly"". As far as I can tell, that's something that Hacker News or whoever submitted this used as a description. Neither the word ""beginner"" nor the word ""friendly"" appear in the README; its goal is to ""be the smallest functional Emacs in less than 2000 lines of C.""<p>I think somebody incorrectly described Atto as comparable to nano/pico, and these comments are dragging it because it's not something that it was never intended as."	chipotle_coyote	1793281241	1
+				
+				
+				
+				
+				
+				
+50289533	"OpenBSD also has an Emacs-y non-extensible editor, mg(1):<p><a href=""https://man.openbsd.org/mg"" rel=""nofollow"">https://man.openbsd.org/mg</a><p>Just noting for completeness, as I didn’t catch any mention of it."	MonkeyClub	1793283582	1
+				
+				
+				
+50291133	"> <a href=""https://man.netbsd.org/atto.1"" rel=""nofollow"">https://man.netbsd.org/atto.1</a><p>> atto is not the standard editor.<p>Hah. That is clearly a reference to <a href=""https://www.gnu.org/fun/jokes/ed-msg.en.html"" rel=""nofollow"">https://www.gnu.org/fun/jokes/ed-msg.en.html</a>"	Fil0sOFF	1793289454	1
+				
+50288667	"The source code and README are here: <a href=""https://github.com/NetBSD/src/tree/trunk/usr.bin/atto"" rel=""nofollow"">https://github.com/NetBSD/src/tree/trunk/usr.bin/atto</a><p>You are welcome!"	markusQi	1793280310	1
+				
+50288020	"NetBSD isn't the first to use the name. My pet text editor is also called atto: <a href=""https://git.levitati.ng/Levitating/atto"" rel=""nofollow"">https://git.levitati.ng/Levitating/atto</a>"	Levitating	1793277718	1
+				
+				
+50289472	Who knew a little emacs-like editor would be so controversial.<p>I think it looks great. Syntax highlighting, multi-buffer, splits, standard emacs commands... For new users in the emacs camp, this seems like a nice editor to include in the base install. Even as a vi user, I'd be pretty happy being stuck with this in a rescue system.	Gracana	1793283396	1
+				
+50287982	NetBSD has beginners?	itomato	1793277527	1
+				
+				
+				
+				
+50288085	Why not just add nano?	OnlineTux	1793278085	1
+				
+				
+50297007	"<a href=""https://www.netbsd.org/~ktnb/ait.html"" rel=""nofollow"">https://www.netbsd.org/~ktnb/ait.html</a><p>(If don't want to link curses and terminfo)<p>For me ait is a 277.3K static binary (musl)<p>Here's an earlier ""Anthony's Editor"" by Anthony Howe of MK Systems for IOCC 1991<p><a href=""https://www.ioccc.org/1991/ant/index.html"" rel=""nofollow"">https://www.ioccc.org/1991/ant/index.html</a><p>Here is a message about writing editors he sent to comp.editors in 1991<p><a href=""https://web.archive.org/web/20031214211718if_/http://ned.rubyforge.org:80/doc/editor-101.txt"" rel=""nofollow"">https://web.archive.org/web/20031214211718if_/http://ned.rub...</a><p><a href=""https://web.archive.org/web/20040221091356if_/http://ned.rubyforge.org:80/doc/editor-102.txt"" rel=""nofollow"">https://web.archive.org/web/20040221091356if_/http://ned.rub...</a><p>The later Anthony's Editor upon which atto is based, from 1993:<p><a href=""https://web.archive.org/web/20101130024855if_/http://sites.google.com/site/texteditors/Home/files/Anthonys_Editor.zip"" rel=""nofollow"">https://web.archive.org/web/20101130024855if_/http://sites.g...</a><p>The atto author got it to compile on GNU/Linux:<p><a href=""https://github.com/hughbarney/Anthonys-Editor--for-Ubuntu-Linux-11.04"" rel=""nofollow"">https://github.com/hughbarney/Anthonys-Editor--for-Ubuntu-Li...</a><p>According to the above Usenet communication, Howe was not a CS major<p>Perhaps this explains why his IOCC entries are so good IMHO<p>His 6086-character grep-like utility, ""ag"", from 1993 is all-time favorite<p>It still compiles today: 30.6K static binary (musl)"	1vuio0pswjnm7	1793312377	1
+				
+				
+50291633	I always thought the essential feature of an emacs was its extensibility. I never felt that emacs was just a collection of keybinds and split buffer windows.<p>Note, I'm not talking about Lisp per se, just some kind of mechanic within the editor to allow the user to make extensions to it.	whartung	1793291133	1
+				
+50288044	"For me the most easy-to-use editor for cli / ssh and relatively lightweight is <a href=""https://github.com/sinelaw/fresh"" rel=""nofollow"">https://github.com/sinelaw/fresh</a> everybody can just use it intuitively."	Rucadi	1793277864	1
+				
+				
+				
+50288302	">making it suitable for inclusion in the rescue system<p>People seem to be missing the point.  Also NetBSD has what I call a ""real single user mode"".  Last time I had to boot single user, ed(1) was the only editor available without some work.  My guess is this new editor will be useful for people who do not want to deal with ed(1).<p>I have not seen it yet, but I guess it will be included in 11.1."	jmclnx	1793279003	1
+				
+50289738	"Is this the same editor that is used in the open-source Moodle LMS?<p><a href=""https://docs.moodle.org/400/en/Atto_editor"" rel=""nofollow"">https://docs.moodle.org/400/en/Atto_editor</a>
+<a href=""https://github.com/moodlehq/moodle-editor_atto"" rel=""nofollow"">https://github.com/moodlehq/moodle-editor_atto</a>"	mig39	1793284313	1
+				
+50289237	To be beginner friendly they should call it text editor. Or notepad, or quickwriter. No beginner is going to guess that something called Atto lets you write words on a computer.	cowlevel	1793282602	1
+				
+				
+50293483	"How do you exit atto? 
+Gotta make it hard:)"	hoppp	1793297601	1
+50294861	I guess it has poor (or nonexistent) unicode support in 48kb. My only gripe with NetBSD was its lacking UTF-8 support for many core tools (eg. wscons, vi) when I used it as daily driver beck in the days (NetBSD 5 RC2 times :P)	fodkodrasz	1793303681	1
+				
+50290801	"Genuine question: Are there a lot of ""beginners"" hopping on NetBSD?<p>I feel like most people who even know about NetBSD would be technical enough to at least function at a basic level in something like vi or nano."	dkenyser	1793288334	1
+				
+50295337	stings to see emacs keybinding hardcoded<p>unless someone can offer a custom keybinding mechanism.. and custom dynamic functions the user can bind to..	agumonkey	1793305482	1
+50299262	Ironically, the best text editor for *nix may be Microsoft Edit.	LeFantome	1793328233	1
+50295955	I appreciate this in the man page:<p>> atto is not the standard editor	talideon	1793307881	1
+50289538	Badly editorialized title.	bmacho	1793283598	1
+50289154	The beginner-friendly label seems to be obscuring what atto actually is, which is a very small Emacs-like editor meant to live in the base system. At roughly 48 KB and under 2,000 lines of C, it fits places nano and the larger alternatives do not, especially a rescue environment or single-user mode where you still need something more usable than ed or a stripped-down vi. That constraint also explains the choices people are arguing about here: Emacs bindings come with the design, and a permissively licensed C program can be maintained with the tools NetBSD already ships, unlike a Go editor such as micro. For someone new to NetBSD but already comfortable at a Unix terminal, that is a reasonable trade. It is less a first editor for a general beginner than a safety net that happens to be approachable once you are already in that world.	arbor-group	1793282274	1
+50295890	[dead]	scottchiefbaker	1793307663	1
+50295767	[dead]	scottchiefbaker	1793307206	1
+50288273	[dead]	georgestones	1793278890	1
+50288043	> Perhaps all that needs to be known to use atto at a basic level is that holding the control key, pressing x, then pressing w will write the currently open file, and holding the control key, pressing x, then pressing c will exit the editor.<p>Very beginner friendly lol. These people have no idea.<p>Micro is a beginner-friendly console text editor. This isn't.	IshKebab	1793277846	1
+				
+				
+				
+				
+				
+				
+50288762	Why are they using weird key combinations instead of traditional Ctrl + S, Ctrl + A, Ctrl + C used in desktop applications? Why every console program wants to be a special snowflake and not use standard key combinations, please explain. I do not care that 40 years ago someone used Ctrl + C to send SIGINT, it is 2026 now.	codedokode	1793280741	1
+				
+				
+				
+				
+				
+				
+				
+				
+				

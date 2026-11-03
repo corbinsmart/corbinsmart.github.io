@@ -1,0 +1,35 @@
+50310038		nmjenkins	1793393756	0
+50325443	">OpenPGP uses a decentralized “Web of Trust” where users vouch for each other’s keys.<p>This article fails to mention WKD [1] (Web Key Directory) which is supported by Proton Mail, doesn't rely on the ""Web of Trust"" and allows seamless PGP encryption of sent emails. Here is an example of how this works (and how it can get annoying) [2].<p>[1] <a href=""https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-service/"" rel=""nofollow"">https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-s...</a><p>[2] <a href=""https://matduggan.com/why-cant-my-mom-email-me/"" rel=""nofollow"">https://matduggan.com/why-cant-my-mom-email-me/</a>"	savant2	1793539392	1
+50324914	"The article on end to end email encryption:<p>>Contrast all this with Signal or WhatsApp, where encryption works automatically because a single organisation controls the full software stack rather than using open protocols.<p>In a usability study involving Signal[1], 21 out of 28 computer science students failed to establish and maintain a secure end to end encrypted connection. There seems to be a tradeoff. We can do either usability or security, but never both at the same time.<p>[1] When SIGNAL hits the Fan: On the Usability and Security of State-of-the-Art
+Secure Mobile Messaging <a href=""https://www.ndss-symposium.org/wp-content/uploads/2018/03/09-when-signal-hits-the-fan-on-the-usability-and-security-of-state-of-the-art-secure-mobile-messaging.pdf"" rel=""nofollow"">https://www.ndss-symposium.org/wp-content/uploads/2018/03/09...</a>"	upofadown	1793535423	1
+				
+				
+50323762	> <i>Additionally, servers don’t verify certificates by default. […] This is because verifying the certificate adds no security when an active attacker could just fall back to an unencrypted connection.</i><p>But surely the eventual goal is encrypted-only, at which time that’s no longer the case. Not verifying certificates feels like it may just slow down the process, because now when it <i>looks</i> okay you may actually find it’s not, the error is just masked for now.	chrismorgan	1793523276	1
+				
+				
+50326925	"This is a good overview of email encryption, but it doesn't cover what Fastmail actually supports which I think makes this misleading.<p>Fastmail does not enforce MTA-STS for outbound messages. I just checked here (<a href=""https://email-security-scans.org/view/jktrld5e73b2dyxz0h1swutlre5vjt"" rel=""nofollow"">https://email-security-scans.org/view/jktrld5e73b2dyxz0h1swu...</a>). You can see how your email provider compares at <a href=""https://email-security-scans.org"" rel=""nofollow"">https://email-security-scans.org</a>.<p>Fastmail does support MTA-STS for inbound messages... sort of. For inbound MTA-STS the email provider needs to use a TLS certificate issued by a trusted certificate authority, which Fastmail does. Additionally, the domain name in the ""to address"" needs to enable MTA-STS using some DNS records. Fastmail does not provide the documentation for setting this up, although they have decent adoption by folks who figured it out on their own. I'm seeing about 0.2% of domains using Fastmail enforce MTA-STS inbound:<p><pre><code>    SELECT mta_sts_mode, COUNT(*) AS ""count""
+    FROM read_parquet('dns-analytics-2026-q3-*.parquet')
+    WHERE exchange_suffix = 'messagingengine.com'
+    GROUP BY mta_sts_mode
+    ORDER BY count DESC;
+    ---
+    mta_sts_mode  count
+    -             174,877
+    enforce       354
+    testing       313
+    none          11
+</code></pre>
+This is about the same as Protonmail (~0.2%), but higher than Outlook (~0.1%) and Google (<0.1%). I suppose this reflects Fastmail's popularity among technically minded folks.<p>I'd like to see Fastmail improve this by clearly documenting MTA-STS support, setup instructions, and validate MTA-STS in their custom domain dashboard. It looks like they may be adding MTA-STS policy hosting, which is a really promising sign, but I don't see this documented yet so this is probably being tested internally.<p><pre><code>    $ curl -k --resolve mta-sts.example.com:443:103.168.172.47 https://mta-sts.example.com/.well-known/mta-sts.txt
+    version: STSv1
+    mode: testing
+    mx: *.messagingengine.com
+    max_age: 86400
+</code></pre>
+With that said, I've been extremely happy with Fastmail for several years now and recommend it."	8organicbits	1793549455	1
+50325066	I just had my first foray into S/MIME. Tons of mail providers and software hide it behind enterprise licensing and I didn't want to do that for ~2 emails a year. I'm extremely thankful to the Thunderbird team and the OpenSC projects.	havnagiggle	1793536694	1
+50326196	> [...] Contrast all this with Signal or WhatsApp, where encryption works automatically [...]<p>This is an incredibly overconfident statement, given that no one can definitively prove WhatsApp or production consumer builds of Signal actually encrypt anything <i>(note: this is unrelated to Signal builds compiled by users themselves)</i>.<p>Existing reverse-engineering papers on WhatsApp merely confirm the presence of cryptographic primitives and function markers. They fail to prove actual runtime encryption or decryption of user messages, nor guarantee the absence of a cryptographic bypass or secret switches embedded within the builds.<p>To maintain strict factual accuracy, the author should have instead mentioned Delta Chat and SimpleX Chat, that publish fully reproducible builds.	user09812037	1793544376	1
+				
+50326986	(2025)	brycewray	1793549751	1
+50327784	"If Fastmail offered a CA certificate, then whenever I use Fastmail I would run another separate browser instance or mail client with all CA certs removed and Fastmail's CA certificate loaded.<p>This behavior, or lack of it, and resulting functionality is what differentiates the ""follow the best practices consensus"" security teams and the upper tiers of security teams."	jon128	1793554856	1
+50329836			1793566890	1
+50326164			1793544129	1

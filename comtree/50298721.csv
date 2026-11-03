@@ -1,0 +1,10 @@
+50298721		shcallaway	1793323142	0
+50307376	> <i>repurposes the high-speed commercial processor inside the Ingenuity Helicopter Base Station ... This radiation can induce “transient bit flips” in memory the software needs to function, and the team developed an effective software-based approach to radiation hardening</i><p>Anyone know what they're doing?<p>It sounds like a single processor, so no best-of-three or similar systems. Software solution only, possibly running on the same bitflipping CPU that's being checked. I'd be <i>very</i> interested to know how it's solved.	vintagedave	1793381832	1
+				
+50309169	> After running thousands of simulations, the team raised the rover’s tilt limit to 24 degrees and reduced the clearance required under the rover’s belly pan to 20 centimeters (about 7.9 inches). The team also updated the rover’s braking software to avoid rock hazards, nearly doubled steer motor current limits, updated flight software with “dynamic slip tables” to model expected slip, and used cross-slope driving to better anchor wheels on exposed bedrock.<p>I wonder why they didn't model and use these parameters in the original design (I'm not at all suggesting a mistake on their part; I wonder what their thinking has been):<p>Were Martian environmental parameters less well-known (e.g., how gravity, air resistance / wind, and scree dynamics interact)? Bot performance in Martian environment (e.g., motor power output) less well-known?  Were they being understandably conservative with their irreplaceable bot?	mmooss	1793389322	1
+				
+				
+				
+50314691	>generative SI<p>Eyeroll. Terrible that NASA must kowtow to the orange moron.	cedws	1793442523	1
+				
+				

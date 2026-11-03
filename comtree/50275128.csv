@@ -1,0 +1,20 @@
+50275128		wondersky	1793200673	0
+50281777	ASR = automatic speech recognition.  I think this is the same as STT, speech to text?<p>It seems to want an NVidia GPU.  I didn't look closely to find out if it can run usably without one.  For me, usable might mean 10% of realtime, i.e. an overnight run on my old x86 box for 1 hour of transcription.  Of course faster is always nice. YMMV.	throwaway81523	1793226186	1
+				
+				
+50277985	> Transcribe is built for recorded audio, not live streaming.<p>Bit unfortunate! Nemotron Streaming in Handy has basically solved dictation for me. It recognizes German mixed with English terms and brand names really well.	solarkraft	1793210070	1
+				
+50276742	From the model card, this supports near-field only speaker transcription, experimental but still something not available in any other OSS Speech LLM.	AkashKaStudio	1793206672	1
+				
+50279791	I played around with Nemotron 3 recently. It's OK, but makes an error every few sentences, at least on the data I worked with (standard vocab). I'm sure we'll get there, but I was pleasantly surprised by how I can recognize words better than it can.	xpct	1793216696	1
+				
+50289421	"Yes if parakeet would work then thats the answer and the code has already been written.<p>Otherwise the answer is really mechanical. It's will run as fast as you can get the weights into your cou's ALUs. since it's 30b-a4b, if you have 30G spare ram you can load the whole thing and it will run about as ""fast"" as any 4b model (qwen3.5-4b, gemma4 e4b etc).<p>Otherwise you will be streaming from disk/SSD which may or may not be very slow."	Farmadupe2	1793283210	1
+50311051	kinda makes sense how Nvidia gets more distribution after acquiring hugging face, right?<p>i believe OSS STT is amazing but htings break udring mulaw and turn detection where closed source models still are ahead	iharnoor	1793400084	1
+50288764	Voxtral 3 is probably the better product, but this is cheap!	drewbitt	1793280748	1
+50277817	How is it for Japanese	wahnfrieden	1793209676	1
+				
+50279717	[dead]	jiehong	1793216457	1
+50277705	[flagged]	mrkn1	1793209387	1
+				
+50280402	I have a few thousand audio interviews as MP3, around an hour each and with specialized vocabulary. Typically there are no more than 2 to 3 speakers. Audio quality ranges from mediocre to fair to good.<p>I was thinking of creating a local app that calls OpenAI’s VTT model. In my most recent evaluation, the OpenAI model was best for my use case. But is that indeed the case?	vjulian	1793219233	1
+				

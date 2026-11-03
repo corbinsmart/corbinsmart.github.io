@@ -1,0 +1,20 @@
+50314085		signa11	1793433746	0
+50314563	> The switch in sparse_8 could be simplified by dividing x by eight before the jump. Interestingly, gcc doesn't find this simplification.<p>It could not because that would ensure that 7 values for each case would be handled by function calls instead of the default case - 0/8 is 0, but 3/8 is also 0	LarsKrimi	1793440997	1
+				
+				
+50314612	What a shame for clang and gcc! They still don't implement perfect hashes for large sparse switch tables. I did that recently for my rcc C compiler, and it was just a single day of work. Esp. beneficial for unicode work. The LLVM patch was rejected a decade ago. Gcc has several unicode patches sitting in branches, which would also need that	rurban	1793441550	1
+				
+				
+				
+				
+50319142	I once played around with having a very large switch statement (all mac address manufactors in one switch) and in LLVM it would compile fine without optimizations, but if I turned optimizations on it would just spend around half an hour compiling it. I think GCC did it faster, but its been some time ago since I did it.  In the Rust crate that was the reasons for all this I just ended up doing perfect hashing which compiled much much faster.	erk__	1793474186	1
+50321306	> The compiler is able to implement them as a decision tree (even though maybe it shouldn't)<p>Sometimes a decision tree is definitely faster. When developing System.HashCode, I used a switch (which I think always compiles to a jump table in .Net - at least my case did back then). This was for the trailing non-block sized bytes, I think. It was either suggested, or I decided to try, a decision tree and it was significantly faster. This was _many_ years back, so I don't have the figures, but they can be better in some scenarios.	zamalek	1793489707	1
+50314741	Why the indirection? - why not have the jump table reference f0..fX directly rather than jumping to a jump?	tsukikage	1793443084	1
+				
+				
+50314912	I remember having implemented similar things in JavaScript (by generating code), for immutable Maps and Sets - no significant performance gain in modern engines. For regular expressions of complex unicode ranges, the speedup was around 2x!	Andi	1793444954	1
+50317666	I assume 34 in the compact_7() one was supposed to be 35, and edx was supposed to be used at some point in the bittest() one (unless i'm missing something lol)	p-t	1793464700	1
+50314583	In order to peak into hardware speculation/BTB, having a look atswitch lowering seems a good way. Big switches will go into serious convolution to please that hardware since by definition this is a source of a lot of branch mispredicitions.	sylware	1793441248	1
+				
+50314372	This one was interesting, especially its name :)	arsalan17	1793438346	1
+50316486	[flagged]	yarkwright	1793456577	1

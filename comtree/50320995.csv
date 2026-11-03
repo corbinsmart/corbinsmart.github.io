@@ -1,0 +1,93 @@
+50320995		guregodevo	1793486772	0
+50321623	We desperately need to keep local models competitive with the hyper scalers. I won't want to be beholden to them and their whims forever. With anthropic now restricting game reverse engineering I think we're about to cross a Rubicon of censorship.	fedpost	1793492917	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50326126	I spent several weeks working on trying to get swarms of cheap models to match the coding ability of a single expensive one. My take: it's remarkably easy to build a harness that improves a single eval, and remarkably difficult to build one that generalizes.	jbellis	1793543806	1
+				
+50325359	"If Qwen is so great, why did they use Claude to do the write-up? This text is pure, unfiltered Claude. (e.g. ""Ten problems, five passes, not the authors' 100. On a sample this small, 9.8 and 9.6 are the same number. The claim is parity with their harness, not a gain on it."")"	StilesCrisis	1793538910	1
+				
+				
+50321604	"Remember those gpus into chips <a href=""https://inference-docs.cerebras.ai/models/qwen-3.8-27b"" rel=""nofollow"">https://inference-docs.cerebras.ai/models/qwen-3.8-27b</a> , where you have this chip that implements a model that run at those extremely high speeds... the ones that people ask ""why do we need that""... if this is true... one of those chips with the correct harness is all that's needed to get fable like intelligence in every single computer in this planet...<p>Happy hallowen Tax Ramltman and Amowhateverwayyournameiswritten..."	xlayn	1793492695	1
+				
+				
+50321420	"That's pretty interesting, because with the Bonsai 2 quantisations it is quite achievable to get Qwen 27B running at 50 t/s on reasonably priced gaming machine [0]. Which in turn suggests that Fable 5 coding performance can be achieved locally with a bit of clever harnessing.<p>Although the same harnessing should also improve Fable's performance. The important thing here is the cap for local performance looks like it could be quite high.<p>[0] <a href=""https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam"" rel=""nofollow"">https://store.steampowered.com/hwsurvey/Steam-Hardware-Softw...</a> suggests 16GB VRAM, 32 GB system."	roenxi	1793490730	1
+				
+				
+				
+				
+				
+				
+				
+50321428	"GVS5H, which this is based on, was discussed here a week ago: <a href=""https://news.ycombinator.com/item?id=50228167"">https://news.ycombinator.com/item?id=50228167</a>"	mkl	1793490830	1
+				
+				
+50326567	I use a similar approach for some types of work. I use a planner (read only), researcher (read only), implementer, and reviewer (read only).  I allow the implementer to spawn researchers and reviewers to help it with its work.  I interact with a controller to manage the subagent trees. The agents use a file-based communication system.  I get really good results on real work. Coworkers (using Claude with fable) can’t tell the difference.<p>The benefit of Claude is purely team  collaboration and some basic QoL features.	robertkluin	1793546972	1
+				
+50326143	How do we know Fable 5 is not secretly a swarm of models?	amelius	1793543956	1
+50327339	"That's the point I am really convinced today that few small size agents actually better than one remote begemoth. I switched fully to local models (from claude, sol, and deepseek). A 27B model can be served on any modern PC or laptop with 64 GB or RAM (or VRAM on non-Macs). A bunch of Qwen coding agents is fantastic with opencode, works great also with pi. The only disadvantage is required compaction due to limited 256k context size, so it stops for few seconds once every hour or so. I am able to produce remarkable things similar to ""see what I vibe-coded"" posts here on HN but using only open weights, open source, and run everything locally."	novaRom	1793552091	1
+				
+				
+50321749	"I'd wait for more benchmarks before making any conclusions since this benchmark has only ""The first ten problems of their LiveCodeBench Hard list"". And LiveCodeBench Hard is a several years old benchmark. Could be very saturated"	zihotki	1793494350	1
+				
+50328738			1793560727	1
+50326430	"I’m skeptical of the result as claimed BUT I really do think model diversity really helps.<p>Depending on the feature, I often these days have opus plan first and work with it on business specs, then have it reviewed by 1 or all of the cheaper models:
+ haiku, sonnet, terra, sol, grok, muse spark,<p>Then take the updated plan in opus and forward to Astra and Fable, once you have the final plan in place execute.<p>Then have the same batch review code after created.<p>I am surprised how often one of the smaller models catch things. Despite so many things having eyes on."	mchusma	1793546098	1
+50322802	There is something to say about the power of brute force approaches. Right now scaling multi agent is seemingly what is becoming the next important axis, though very strongly constrained by quality of communication protocol and compute. Even if one model is not strong enough individually, more models and more attempts as well as differing opinions may nudge the models into a better solution basins.<p>Kind of an extension of the effect where you talk to a model, it is super confident (but wrong), you correct it not directly but perhaps with a question and asking it to clarify. This then in turn leads to a better approach overall.	yurimo	1793508595	1
+50322446	Benchmarks are one thing, but I've yet to see anything substantial actually built with local models. Most of the posts on X are about benchmarks and tok/s. Has anyone actually built a quality production app or game with real users?	cloudking	1793503523	1
+				
+				
+				
+				
+				
+50327263	If this worked then a team of five fable models should crush al of its benchmarks, no?	conception	1793551571	1
+				
+50323233	"Maybe slightly off-topic from the main article but is there a good resource or site that clearly helps understand which of the ""open"" models are good for programming tasks, like C, C++, Python, Java?<p>I've looked and there are tons of sites that aggregate models vs. benchmarks but I'm not sure how much of that is trust worthy."	vrinsd	1793515389	1
+				
+50321925	This is good timing. My setup at home involves a two servers with 5080s each and an Rtx spark laptop with 128gb. I plan I have qwen flash next on the latter and the 27b variant on the former. I would’ve preferred to have purchased a dgx spark but everything is just ridiculously expensive now. My own setup would be 3x the cost to buy again.<p>I’m mainly trying to replicate Gemini flash and muse agent for my family of 4 without breaking the bank (already had a 5080 for gaming and the other for image gen).<p>It is unclear if this memdoor works for agentic tasks, e.g.: “check daily if dune 3 tickets are for sale and if they are buy tickets for 4 where all 4 seats are next to each other in the same row and as center as possible.”<p>There is a huge cliff once you go past 128gb. Basically you need either Rtx 6000 pros (20k+) or a cluster of dgx sparks (15k+)	74948494i4	1793496439	1
+50321409	"This also appeared on HN last week: <a href=""https://news.ycombinator.com/item?id=50228167"">https://news.ycombinator.com/item?id=50228167</a>, it's the other method they mention, GVS5H"	egeres	1793490661	1
+50323087	This working journal is so much slop it’s basically impossible to read. Perhaps the author could write a short human written and readable summary so we can evaluate if this is interesting or not.	vessenes	1793513134	1
+				
+50323019	This is probably not a novel idea but I wonder how it would work if you just stacked a bunch of smaller models on top of eachother and used that as the base to train a much much larger model. Maybe more efficient than starting from scratch?	bad_haircut72	1793512040	1
+50324771	"<p><pre><code>    > Five small models solve a programming problem together: a planner, two ideators, a solver and a manager, plus a repair worker. Each starts from a fresh context and talks only through files on disk. 
+</code></pre>
+This seems to tie back to the paper <i>Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams</i>[0].<p>In the Emory paper:<p><pre><code>    > We reduce this loss by expanding Φ with a stateful four-phase multi-agent evolver, temporal-reveal feedback, and cross-cycle memory. This design targets the unbounded-stream failure where a single-agent evolver must absorb growing trajectories, delayed labels, and prior research within one context window
+</code></pre>
+TL;DR: the solution approach uses ""multi-agent evolution"" and ""multi-agent with distinct roles and objectives"" for ""solve-time adaptation"" and improves performance with streams of heterogeneous tasks.  The Emory team overall has congruent findings:<p><pre><code>    > The experiments further show that...multi-agent evolution constructs benchmark-specific capabilities
+</code></pre>
+Intuitively, the reason this works seems to be simple: multiple agents results in context spread to each agent by specific role.  Each agent role only outputs the final, relevant result and not the noisy thinking tokens, tool calls, etc. so subsequent agents get smaller, more focused context, auto-adapting to each new task with prompt refinement at each step as the solution approach emerges.<p>4 weeks back I switched over to Paseo and started using the agent profiles on a whim and have observed similar outcomes and behavior (seat of the pants): the win in my use case is that it feels like I can get higher autonomy without sacrificing quality (less input from me required to get quality output).  The Emory paper and this team-solve seem to reinforce that role-based, multi-agent setups can improve  solve performance.<p>For the curious, I shared a bit of my setup in a blog post[1]<p>[0] <a href=""https://arxiv.org/pdf/2606.01770"" rel=""nofollow"">https://arxiv.org/pdf/2606.01770</a><p>[1] <a href=""https://chrlschn.dev/blog/2026/10/larping-with-agents-and-why-it-works/"" rel=""nofollow"">https://chrlschn.dev/blog/2026/10/larping-with-agents-and-wh...</a>"	CharlieDigital	1793534050	1
+50320996			1793486772	1
+50321363	"I'd like to see this done with qwen 3.8-flash-next (Q8 or full precision) which beats 3.8-27B on just about every coding/command line use benchmark. In particular comparisons like terminalbench 4.0.<p><a href=""https://artificialanalysis.ai/models/comparisons/qwen3-8-flash-next-vs-qwen3-8-27b"" rel=""nofollow"">https://artificialanalysis.ai/models/comparisons/qwen3-8-fla...</a>"	walrus01	1793490128	1
+				
+50321891	"So far, the comments have focused on hopes for the effectiveness of open-weight models versus proprietary frontier models. That's fine, but I'm thinking about the approach and the results, as opposed to the model.<p>Taking the results at face value, what is it about the ""team"" that makes the system so effective? That's the key here: presumably, the approach should work regardless of the model, open-weight or otherwise.<p>My guess would be that the division of labor makes the separate contexts more effective. This is an optimization around the limits of context. Some of that is simply the net amount of context brought to bear: each team member has a context, so the net amount of context is multiplied by the number of team members. Also, since the division limits the scope of each team member's focus, the context a team member has is used more effectively."	topspin	1793496168	1
+				
+50324459	Why such an old benchmark?	jacmilts	1793530904	1
+50326095	There was some other research out there that says a weaker model can't just think forever and become a smarter model.  What is different about this setup?	tjwebbnorfolk	1793543664	1
+				
+50322257	So someone used a small model with many requests & a massive amount of tokens, to eventually beat a large model with a single request & tiny amount of tokens. .....Cool? Were they not expecting that to work?	0xbadcafebee	1793500742	1
+				
+50321807	can it bet a team of 5 fable 5's?	m3kw9	1793495078	1
+				
+50322997	"Now do this for speed and correctness: <a href=""https://gnosh.ai/head-to-head.html"" rel=""nofollow"">https://gnosh.ai/head-to-head.html</a>"	jaekwon	1793511840	1
+50328263	[flagged]	ankur_misra	1793557784	1
+50325956	[flagged]	aitin	1793542827	1
+50324836	[flagged]	HUMAN-X	1793534757	1
+50322414	[flagged]	drix10	1793502985	1
+50323066	[flagged]	anonimus664jaja	1793512876	1
+50321795	Fable 5 is not anymore frontier and even if, I hardly believe five very small 27b models can do like Fable 5. I think this is whishful thinking more than a fact	BrandoDev_it	1793494918	1
+				

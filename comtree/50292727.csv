@@ -1,0 +1,71 @@
+50292727		nathanfig	1793294665	0
+50296210	Am I missing something, how is there any sort value in these assistants acting as agents on your behalf when they are basically a black box? Like if it can't use my drivers license or my phone number or my credit card, it can't do 75% of things people claim it can do without being massive security issues. What am I missing?<p>For the record I use OpenClaw but it has its own services (gmail address, phone number, etc.) and I don't give it any of mine, which inherently limits its capabilities.	mbesto	1793308898	1
+				
+				
+				
+				
+				
+				
+				
+50295126	I have to agree. I've been using it for a few days now after coming from GrokBot, then Muse, then Dots. None really clicked for me within the first day. Duet seems different. I haven't quite pegged it, but off the top of my hand:<p>1. Yes, channels really are useful<p>2. It does seem to be using Opus 5.5 behind the scenes because, shockingly, it's not screwing everything up like the others usually did<p>3. Agree that the answers are short and to the point. If you want more info, you just pop open whatever task (separate from channels) it started and you can see what it's doing.<p>Seems like more time in the oven might have paid off here.<p>Also, to be clear, this is purely used as a personal assistant by me. I still use omp+Paseo for all of my day to day work. I find the separation of concerns kind of nice.	aliasxneo	1793304754	1
+				
+				
+50295697	I’m excited to try this. I got Instinct after hearing all the hype and it is basically completely useless. Fails at the most basic browser navigation type tasks.<p>Right now the consumer agent players are trying to pretend they have decent functionality that will exist 3-6 months so they can get marketshare. So hopefully Anthropic is sticking to their underpromise and over deliver.	ianm218	1793306930	1
+50295312	I dunno, Hermes has been real hard to beat lately.	ActionHank	1793305382	1
+50295820	Well, I guess this is the point I start getting left behind.	baron3dl	1793307397	1
+				
+				
+				
+50296542	Sounds like Duet is more like Grokbot than Muse? Haven't used it but the author is talking about channels, github policy access for specific channels, etc. That doesn't sound like the Muse use case.<p>I actually use Claude's agents on the Claude platform for all things work related and it works pretty well. It's not cheap though if you use the more expensive models and setting it up requires currently some initial effort for connecting integrations like Slack the average user is unlikely to do. It also doesn't let you change things. Every change requires a new deployment. As a cloud agent that runs on a schedule it's pretty good. I think they just need to figure out a single place for this. Currently you can set up agents on the claude platform, as part of claude code, and as part of regular claude.	tinyhouse	1793310298	1
+				
+50297468	"Current flavor of the week variant of OpenClaw ""feels useful"". Now that's an endorsement."	root_axis	1793314920	1
+				
+50296141	I disagree on the voice interaction point. I DO want voice modes to be glorified STT-TTS.<p>The OpenAI AVM is uncanny and over-eager to me. You can run Anthropic voice on Opus since a handful days and it's incredibly snappy without feeling weird.	TomGarden	1793308621	1
+				
+50296823	"Just got access today. I like the channels, but I'm actually finding a few things frustrating compared to Dots: no phone calls (convenient to braindump and have it clean up later) and I don't have shell access to its underlying VM like with Dots. It's also weirdly hard / impossible to spawn Claude Code for Web workers and I can't connect the agent to a desktop and have it spawn jobs there. It doesn't seem all that faster than Dots.<p>It's early and obviously they'll keep iterating. It definitely feels less ""make it yours"" than Dots and that does feel intentional."	dovin	1793311507	1
+				
+50300576	"It's a shame that it's not yet available outside the U.S. I'm using Dots; it's great that they keep me developing, but it still doesn't seem to be progressing well because it hasn't fully matched the quality I want or my context. (I may need to redesign the workflow with Dots)
+I want to try a Duet soon, too."	kimseungyong	1793342953	1
+50296041	Yeah sure. Let's talk again in 3 months once a new paradigm has been invented to further abstract and alienate us from the work we are doing.	hangrybear666	1793308190	1
+				
+50297847	All the features the author describes here are present in Grokbot, which I find the best by far, and I've tried Hermes Agent, OpenClaw, NanoClaw, IronClaw, Instinct, Muse, dots, and many others at length. The simplest and best overall package so far is Grokbot, by a respectable margin. Although I haven't tried Duet!	lazzlazzlazz	1793317349	1
+				
+50297489	I would be much more tempted to switch over to this from Hermes if I didn't have to deal with claudese.	quixoticelixer-	1793315090	1
+				
+50296043	"Can't use it, won't log me in on GrapheneOS. (""Can't be verified via Google Play"")"	teekert	1793308201	1
+				
+50298345	I will be shocked if anything can beat Grok Bot for usefulness at this point.<p>It took me 2 days to hit “how did I ever survive without this” and it’s only gotten better.	brightball	1793320456	1
+				
+50295306	Sounds like things the competition will copy in a few days? Or am I missing something?	dgellow	1793305357	1
+				
+				
+50295683	my rpi5 + wireguard + pi.dev is my 'duet'	aniceperson	1793306867	1
+				
+50298576	I am not having good luck with it when using it the same way I used Open AI Dot. It will not even download from dropbox.	Computer0	1793321881	1
+				
+50296552	no	fHr	1793310356	1
+50295302	I'm amazed anyone on HN is willing to run Muse that isn't a FB employee or tech journalist.	imagetic	1793305348	1
+				
+				
+				
+				
+				
+50295035	"Note to everyone writing blog posts: Please start your post with one or two sentences explaining what you're posting about.<p>What is Duet? I have no idea even after skimming the article.<p>Edit: first google result is <a href=""https://www.duetdisplay.com"" rel=""nofollow"">https://www.duetdisplay.com</a>"	andix	1793304410	1
+				
+				
+				
+				
+				
+50318565	[dead]	web-frank	1793470885	1
+50301184	[flagged]	MichaelTestGrid	1793349045	1
+50295214	[Anthropic Claude] Duet is the future of chatbot interaction	xnx	1793305030	1
+50295925	Once the novelty wears off it goes in the drawer next to the rest of AI innovation	hmokiguess	1793307770	1
+				
+50295082	"Every time I see an article about another agentic harness all I can think is ""people still run other people's code?""<p>In all seriousness, the complaints here just feel like UI friction you can address yourself if you just build your own harness (e.g. snappy replies -> parallel threads and appending to common context)."	thisisnotauser	1793304602	1
+				
+				
+				
+				
+				
+				
+				

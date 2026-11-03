@@ -1,0 +1,14 @@
+50314508		kevs3d	1793440182	0
+50330101	Wow, that is amazing, these demo's are exactly the same demo's Claude keeps buildings for me for any 3d engine I try with it.<p>Even most comments in the code look exactly like my Claude output!<p>I guess they've must have trained on your codebase or something!	mg794613	1793568568	1
+50330127	Yup, this is rad.	realitylabs	1793568749	1
+50327346	"Wasn't expecting `chart({ mark: ... })` primitives in a 3D WebGL 2 library that cover timeseries, heat-colored hour/day surface charts, and tiled dashboards off the bat—that’s quite a pleasant surprise!<p>There were two things in particular about the landing page that caught my eye:
+1. Views that only render when there’s something to update (this is especially important for financial/trading dashboards when there are 8+ chart views open all day long and no way to afford 60fps render loop chewing up the GPU without any data).
+2. Errors in option validation designed specifically to inform coding bots what to do.<p>Now, as far as `TIMESERIES` and `SURFACE` chart types go, how effective is `tween` when it comes to updating geometry buffer in live stream mode (e.g. adding new candle/bucket in real time)?"	Arkada	1793552124	1
+50326650	"This is super cool, and I loved seeing the FPS stay locked at 120 on my phone. I didn't see this on the website, but do you have any docs that detail how your library compares to other popular options such as Three, Babylon, etc? Definitely giving this a try today.<p>One thing I noticed is that the ""hover"" functionality in most of the demos doesn't behave well on mobile. Taps don't stay active for long after interacting with something. Not sure if this is intentional or just a browser compatibility quirk (Fennec on Android 17). Happy to make a contribution if it should be a little more persistent!"	taylor-tg	1793547415	1
+50326611	Ok, the bricks demo is laugh out loud fun, thanks!	gmmachine	1793547233	1
+50328690	This is insanely performant, wow!	pmkary	1793560400	1
+50326610	Really, very nice, some good aesthetic taste here, woooowy!	hellojomp	1793547231	1
+50328506	That's very nice, but... why WebGL2 instead of WebGPU?	thrance	1793559393	1
+				
+50327420	Wow, the demo is really great. It’s impressive that even these demos run fast enough on my phone.	jdw64	1793552506	1
+50326371	[flagged]	airaai	1793545711	1

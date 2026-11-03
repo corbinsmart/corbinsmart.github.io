@@ -1,0 +1,132 @@
+50284255		NikZaal	1793244822	0
+50285046	"While we're modding Claude Code, Anthropic includes your email in the system prompt and Opus _constantly_ includes it in request headers.<p><a href=""https://www.reddit.com/r/ClaudeCode/comments/1xhqvzn/opus_55_just_shared_my_email_address/"" rel=""nofollow"">https://www.reddit.com/r/ClaudeCode/comments/1xhqvzn/opus_55...</a><p>You can remove it with a simple plugin <a href=""https://github.com/AlexErrant/claude-code-no-email/blob/main/.claude/skills/no-email/hooks/register.ts"" rel=""nofollow"">https://github.com/AlexErrant/claude-code-no-email/blob/main...</a>"	AlexErrant	1793253743	1
+				
+				
+				
+				
+50285008	Claude Code burning a large amount of tokens for no good reason is a headline we've seen more than a few times now.<p>Time to start questioning the motivations of model providers shipping their own harnesses.	franticgecko3	1793253232	1
+				
+				
+				
+				
+				
+				
+50286504	Oh wow! I showed Opus the gist and asked it to analyze my own transcripts, and since those summary calls don't show up there, it calculated an estimate based on the 30 second timer.<p>I'm on the 20x Max plan and my quota is at 98% (resets today), so I had a quite heavy week of usage, including a bunch of orchestrated subagent runs (no workflows).<p>API equivalent spending for this week: $1,970<p>Hidden status-label calls: ~$380<p>Share of the true total: 16%<p>That's incredible...	simon83	1793266592	1
+				
+				
+50284556	If they are literally sending the entire transcript and asking for a summary, wouldn't almost all of the tokens be cache hit, and therefore fairly cheap?	HeavenFox	1793247911	1
+				
+				
+				
+				
+				
+				
+50285830	"I’d like to take a moment to appreciate how horrible (but crafty) this patch is. Calls to setTimeout globally are patched to check to for this code before being honoured or discarded.<p>There’s something reassuring about seeing the true hacker spirit still at work here.<p>I approve.<p><a href=""https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce#the-fix-how-it-works"" rel=""nofollow"">https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa...</a>"	aidos	1793261205	1
+50284567	I was surprised the usage issue wasn't mentioned here before this based on my searching on hn.algolia.<p>I'm on pro. Two days ago, 100% 5 hour was using 25% of my weekly. Today, 100% 5 hour is like 13% so something was fixed.	gym	1793248067	1
+				
+				
+				
+				
+				
+				
+50284964	This is the harness’s job.  Incentives are not aligned for inference providers to own the harnesses.	dozerly	1793252641	1
+50284683	I tested it, and it looks real but more nuanced. It is just for subagents; workflows do not seem affected. I guess many new users prefer workflows (ultracode), so the impact is less than the report suggested.<p>Moreover it is mostly cached reads, so subagents with short context cost little, while long-context ones cost much more.<p>In my Claude Code sessions, it looks more like ~8% at most.	jakozaur	1793249312	1
+				
+				
+50287389	As an aside that Gist is pure Claudeish, endless paragraphs of barely relevant waffle about what is at its core a fairly simple patch, which manages to make it all harder to understand by burying the point in needless timelines, version tables, and hallucinated speculation about why things are as they are.	jon-wood	1793273673	1
+50284590	At least they seem to have fixed their free-revenue feature-bug, where they randomly invalidate your cache (~$8 a pop (turn))	apt-apt-apt-apt	1793248327	1
+				
+50284507	Bloat. I like Pi much better with it's minimalism	messh	1793247433	1
+				
+				
+				
+50284641	"Background agents only have 5 minutes' cache TTL, but I'm guessing this doesn't help extend it (not that it would be too useful anyway, especially considering the extra burn).<p>Also, the claim ""15-20% of your tokens"" seems unclear; of all tokens, or of tokens spent on background agents? Poorly edited AI writing strikes again!"	creamyhorror	1793248802	1
+50288423	If they are literally sending the entire transcript and asking for a summary, wouldn't almost all of the tokens be cache hit?<p>Maybe. But the 16.4% is from Claude Code's own cost_usd estimate, so cheap per token still adds up when it's 1 in 5 requests.	Asyakguen	1793279473	1
+50284811	Just looked and we're burning around ~3%, but that's across everything / everyone.	_boffin_	1793250831	1
+50287671	The Claude plans (or whatever they’re called) are the only reason to use Claude Code.<p>Otherwise, it’s just obfuscated spyware that inserts ads into Git commits by default, and has been shown to consume far more tokens than other harnesses for the same tasks and models.<p>I really see no valid reason to use it. I tried a recent version to see whether things had changed since last year, and it’s just even more bloated.	jedisct1	1793275625	1
+				
+50286887	This is exactly why the model and the harness should not be built by the same entity.<p>The model maker has zero incentive to prioritize efficient token use.	paxy	1793269721	1
+				
+50286355	I think claude code is bloated as a harness now. It was clean when it launched but now anthropic is bombarding it with features.	bprathamesh2003	1793265154	1
+				
+50306116	Claude Code and Codex still fall short in a lot of ways compared to how smart the models are.. even though models above Opus 5.5 or Astra are probably involved.	zzunkie	1793377180	1
+50297213	Created a Windows runner for anyone to use. It's dead simple. Comes with logger, tests and controls to adjust the traffic or completely turn it off. Result can be seen directly in terminal or by generating html reports.<p>Share your number folks!	zaknreed	1793313416	1
+50300332	"<a href=""https://news.ycombinator.com/item?id=50300097"">https://news.ycombinator.com/item?id=50300097</a> - I had something similar. Subagent behaviors are concerning."	mwiki	1793339840	1
+50286670	"> the module ships as precompiled Bun bytecode, so editing its JS text inside the binary changes nothing<p>It's actually not super difficult to ""decompile"" it, tweak some stuff, and recompile. I use this method to change some ridiculous hardcoded instructions in the system prompt."	skerit	1793268014	1
+				
+50287787	"Doesn't Codex too have a ""guardian"" agent sending a session transcript whole to the model to help in auto approvals ?.. I believe I saw these session histories alongside my regular chat transcripts."	albert_e	1793276404	1
+				
+				
+50287640	Is this not just part and parcel of how summarisation works?	robinduckett	1793275396	1
+50284817	Does this happen in the VS Code extension? or only in the terminal?	ab_wahab01	1793250869	1
+50285041	Opus 5.5 burns tokens like there's no tomorrow! Meanwhile, GPT 6.1 Sol on Extra High feels unlimited! Opus (on Max 20x) munches my weekly quota in a day, or two at best. Meanwhile, working with Codex and reviewing with a $50/mo Muse Code Wonder Full seems like it can go own forever (on the same codebase, the same skills, etc.) I am highly disappointed by the overly glorified Opus and Claude Code in general - there's no commit in which Codex or Muse Code or GitHub Pilot don't find critical flaws! I have long sessions of Claude Code having over 100 review cycles of Codex and still not addressing all the valid issues that Codex finds in Claude Code's work! Claude Code keeps injecting British English into prose and identifiers with nothing being able to stop it! Of course, there are almost never resets for Claude Code either - they would rather me focus on Codex being my primary and Claude Code being the reviewer (it works much better than in reverse). Anyway, enver trust a single model! Always review with another frontier one!	nikolay	1793253676	1
+				
+				
+				
+				
+				
+50290027	Is there a GitHub issue in Anthropic's repo for this? I'd rather not mod yet if they can give some hope that they'll fix this soon	meisel	1793285376	1
+50287564	I will never understand why people willingly install software from a company that built on stolen information. Why are the leaopards eating my face?	nickphx	1793274800	1
+50285092			1793254182	1
+50284537	i think its not the status line at the bottom of the terminal, but actually the few words summary claude generates for each background agents in the agents panel. so if we mostly run one plain session we wont pay for this? i do run claude code with disableAgentView on in my settings. does anyone know if that helps to stop the summary calls or just hides the panel?	quantbuilder	1793247658	1
+50288499	of course it does, that's the point of it.<p>The notable discovery here isn't that the AI agent has access to its own transcript, it's that 20% extra tokens are used to generate the status line. Leave it to LLM writing to focus on something inconsequential though.	Vaushite	1793279768	1
+50288124	"The newer the CC cli is, the more tokens it burns. I use a very old version and killed its ""no matter what I'm still gonna autoupdate myself to the latest version"", because new ones do all kinds of useless tasks in the background. If you are on a tight budget use an older version (1+ year) of the cc cli, and it saves you a lot of money."	lofaszvanitt	1793278267	1
+50286922	"its long past the point where I've ""seen enough"" about Anthropic's competence/intent with respect to security and privacy. if Claude bites you by now its because you let it. there are alternate choices available"	syngrog66	1793270052	1
+50285204	"Claude lovers tend to be either early adopters not well informed/lazy to experiment (""why, it's still the best, right?""), or millionaires or devs with unlimited budgets, who often ask on HN ""why would you use anything else than Opus on xhigh"".<p>I was handed 150$/mo budget and no subs, and while it was frustrating at first, with better tooling, context management and especially OAI models it's a breeze now and not even using 70% mostly while achieving a lot in a small team.<p>Having limited resources teaches you a lot."	poisonborz	1793255336	1
+				
+				
+				
+				
+50284844	At the base there is a conflict of interests- what we pay for	leroman	1793251186	1
+50285442	Claude code has to be the worst harness I've ever used. Has anyone figured out how to rip the subscription auth/verification out so that it can be used within Pi yet?	xyzsparetimexyz	1793257662	1
+				
+50285138	I now run Jev in front of claude code and the results so far have been very good. It picks Haiku far far more often than I would think to use it and it works very well.	tluyben2	1793254636	1
+				
+50284935	Not good. Please fix.	nullbio	1793252217	1
+50284633	Isn’t this prompt cached? Then it’s not that big of a deal	simianwords	1793248762	1
+50284529	does this happen for Claude Desktop too?	rsalus	1793247612	1
+50285125	those i guess are all cache hits.	z3ratul163071	1793254530	1
+50287121	"Claude is a spy.<p>One can reason that it is useful, e. g. saves the time of people (see
+how Claude is now the number #1 committer in Ruby) but ultimately all
+that data is used by private companies, making them richer in the
+process. So, first you pay for the tokens; and then others benefit from
+it without giving you any money. It is a brilliant scheme since it works
+so well. People are sold to their AI overlords now."	shevy-java	1793271503	1
+50285877	"""The agent's own model"", huh?<p>I hope Anthropic's next model is capable of better writing.<p>I find the way it adds this unnecessary ""own"" very grating in explanations.<p>For example: ""Two benchmarks, each with its own score"".<p>Of course the author could also just write at least the summary himself."	user43928	1793261532	1
+50285175	"Another reason why CoPilot seems more ""honest"" than CC"	raverbashing	1793255070	1
+50285139	It's how they finally become profitable: You burn through your token quotas so you have to buy them per request now. Oh, and also Enterprise seats are selling like bubble gum.<p>It's the same addiction script again and again.	moezd	1793254645	1
+50284699	I work on Claude Code. You've got the basic mechanism right, but to be super clear, this only applies to background agents that are actively working. They get a summary call about every 30 seconds, and idle background agents don't. These summaries are used for both you and Claude Code to track what each background agent is working on, without reading transcripts.<p>Your 16.4% sounds like it was for a team running mostly background agents, and doesn't seem like a typical session. (Feel free to send me the session ID at edwinarbus@anthropic.com and we can dig further.)<p>Last week, across Claude Code users who send us telemetry, agent_summary was about 2% of cost at API list prices and just under 4% of requests. In the terminal, where nearly all of these calls happen, it was about 6% of cost.<p>That said, we agree that's a lot for a status line. We just rolled out a fix for the most expensive case, summaries that miss the prompt cache (2.1.311+), and right now we're working on a much cheaper mode that sends short notes to a smaller model instead of the full transcript.	edwinarbus	1793249527	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50284256	"Claude Code's (CC) status summaries used 16.4% of our token spend in a week! We have investigated a source of overhead in CC: it's an agent_summary query that calls your current session/subagent model approximately every 30 seconds for a few words in CC’s status line.<p>Our DRIM system flagged the anomaly in CC's OTEL traces. Grouping requests by query_source showed that over one measured week agent_summary accounted for: 16.4% of total estimated spend (versus 15.7% for the main conversation), and 19.7% of all API requests with approximately 9,000 input tokens per output token.<p>Most requests reuse the prompt cache, but repeatedly reading a large cached transcript still has a cost. Longer contexts and more concurrent agents increase the overhead.<p>We couldn’t find a supported setting that disables only these summaries while preserving background agents and forks. Disabling those capabilities also stops the summaries, but changes the workflow we want to keep.<p>Our workaround is a small Bun preload that intercepts the summary timer without modifying the CC binary. It identifies the timer callback by source-text anchors and leaves other timers alone.<p>In controlled tests on Linux (from ver 2.1.257 to 2.1.312), the same workload produced five summary calls without the hook and zero with suppression enabled. On our current production setup, agent_summary calls remained at zero with the hook enabled. Background agents and forks continued running. The only visible change was that their generated status summaries stopped updating.<p>The workaround depends on implementation details. An update can break the callback matching and silently restore the requests. macOS and Windows are untested. If someone could help us with testing there, it would be much appreciated.<p>If you want to try it - the script, full technical explanation, test results, and installation instructions are on GitHub: <a href=""https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce"" rel=""nofollow"">https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa...</a>"	NikZaal	1793244822	1
+50326068	[flagged]	Furox-Art	1793543517	1
+50289225	[flagged]	sarmedshafi	1793282565	1
+50290964	[flagged]	NikZaal	1793288885	1
+50288226	[flagged]	giozadi	1793278679	1
+50285480	[flagged]	appsbymo	1793258042	1
+50287587	[flagged]	msarda_23	1793275060	1
+50291152	[flagged]	deeprouter	1793289537	1
+50292466	[flagged]	ankur_misra	1793293823	1
+50284960	[flagged]	lostsock	1793252548	1
+50284917	[flagged]	vinaygundeti18	1793252088	1
+50287791	[flagged]	tinykerneldev	1793276452	1
+50286120	[dead]	asmakhatun945	1793263507	1
+50286121	[dead]	asmakhatun945	1793263519	1
+50285389	Yep, that's why we should use harnesses like pi	mokto	1793257133	1
+50284721	It’s almost like they are trying to go public. Burn those tokens.	digitaltrees	1793249777	1
+50284867	That's why people are using pi, not Claude. What a waste of money	rurban	1793251435	1
+50284543	I’m sure they release a decision model that alleviates this problem in due time.	helsinki	1793247762	1
+50285181	This is fraud. Unknowing to its customers a company is running a daemon that wastes a commodity it sells to said customer.	emsign	1793255115	1
+				
+50284877	"With the ever-increasing amount of paper cuts one gets from using their products, I wonder how long this will really go on?<p>After all, for most of the work people seem to be doing daily, Claude kinda isn't.. necessary?
+In fact, for a lot of tasks, not using it leads to better results in my experience.<p>There are things that only it can reasonably accomplish, but if every interaction with it hurts you in various ways (like this one), then, eventually, I do not see that working out for them anymore.<p>But perhaps this is just a way to push the numbers a bit further up for the IPO?
+That would make a lot of sense to me."	hypfer	1793251530	1
+				

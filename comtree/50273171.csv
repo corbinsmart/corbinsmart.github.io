@@ -1,0 +1,122 @@
+50273171		internet_points	1793193911	0
+50273757	I have been using Emacs for more than 30 years now. Other editors have come and gone, Emacs stayed. Parts of my configuration are more than 30 years old.<p>There were better and worse times in Emacs history. Recent times, however, are really good. Emacs is maintained and developed actively and there are many external packages which are impressive. Magit and ghostel are good examples of packages that I use on a daily basis to get my work done.<p>Recently, AI completely changed how I use Emacs, and in a very good way. I now treat AI as a fairy that can fulfill any wish. I describe how I want my editor to work, and boom! it works that way.<p>Examples: window and tab management, difftastic integration, markdown previews with beautifully rendered tables, markdown previews as PDFs, and many more.<p>What is most important, however, goes back to Stallman's original ideas. I am in control of my editor and my environment. I decide how it will look and behave. No corporation decides for me. No corporation builds in a new AI assistant. Nobody introduces ads or tracking. This is something I've learned to appreciate over the years.	jwr	1793196231	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50276668	"50 years old and feels more modern than any of the crap folks try to sell you ""as the editor of the future"". Emacs is the true editor of the past, present and distant future.<p>Modal editing was supposed to pull users away - Evil mode made vimming better. LSPs were supposed to kill it - only made it better. Electron-based crap was supposed to make terminal-native editors look ancient with a built-in terminal, extensions, and a polished UI. Emacs got vterm, eat, and ghostel. GitKraken-like GUIs were supposed to make the git CLI unnecessary. Magit is widely considered better than any git client that exists, GUI or not. Tree-sitter was supposed to require a ""real"" language server architecture to get accurate parsing. Emacs 29 absorbed it natively, and font-lock, indentation, and structural navigation across major modes got noticeably better. Obsidian and Notion keep trying to overcome it - Org-mode just keeps getting better. AI was supposed to make it outdated - only enhanced it.<p>For half a century, humanity has been searching for an Emacs-killer. All the while, Emacs has been a killer app all along."	iLemming	1793206308	1
+				
+				
+				
+				
+				
+				
+				
+50274224	"Is anybody here consciously trying to keep their Emacs configs/setup ""lean"", minimalist, as small as possible?<p>I'm not a coder, but I did use Emacs daily around 2010-2012, with brief returns later. I always gave up eventually because the complexity of addons, the org-mode-can-do-everything-so-I-should-do-everything-with-it etc just grew over my head. I've discovered that I like Plan9 Sam, Acme and, in general, the one-thing-well camp better. Each their own, I guess.<p>That said, I did often like how ""immersive"" using Emacs can actually be at times. I'm a trained journalist, and it made managing bits of information, including PDFs etc, really streamlined, almost like a wonder. And, I had my own little OS on a USB stick that way (though the minimalist in me always whined that ""an editor"" should not weigh 100+ megabytes).<p>Incredible that it has been around for 50 years, with no signs whatsoever of being a ""paradigm of the past""."	marttt	1793197755	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50282135	I programmed in Emacs in a myriad of different languages, I used it to write my thesis, to write my homework and later to grade them. I’ve used it to publish countless blog articles, wiki pages and technical documents.<p>I read that I was hired at my first job from en email received inside Emacs, I’ve used it to send countless emails to colleagues, employers and business partners. I planned both my personal and professional life inside it, I’ve used it to track the time spent doing a certain task when no such software was yet available.<p>Most of the time I’ve spent in front of a computer over the last 20 years, was inside Emacs. Happy Birthday, Emacs! You’re the best thing that happened in the computing world.	RedCinnabar	1793228247	1
+50273820	I started using Emacs at the AI lab in 1978.  It's still my main development tool and probably still the program I spend most of my time in today.	gumby	1793196430	1
+				
+50275795	Hats off to Stallman. It's absolutely crazy how it stays relevant for such a long time.<p>We should all learn from Emacs about software longevity.	paaloeye	1793202983	1
+				
+				
+50273610	After a couple of years of detour I’m back to using Emacs since all the fancy lsp, debugger etc stuff in VSCode and Zed doesn’t matter as much for me anymore and I am just more productive with Emacs. But I am still using  it like it is 2020. I hear people using coding agents to make crazy customizations to their emacs config and I can imagine Emacs is particularly suitable for this.<p>Curious what are the biggest things that have come out in the last year or two, and what emacs based personal software have others reading this made?	osener	1793195741	1
+				
+				
+				
+				
+50277444	"What a deeply strange article. It starts out deep in the details of Emacs' origins, then suddenly gives up, fast forwards and ends with a whimper.<p>ps. My first sight of the author was in a basement lab at the Weizmann Institute in 1986, sitting cross-legged on a chair working in front of the then-wondrous brand new Sun workstations - the so-called ""3M standard"" (1MB of RAM, 1MHz CPU, 1M pixels). Good times but old times!"	PaulDavisThe1st	1793208724	1
+				
+50273432	emacs is really something apart, by far the best software I ever had the chance to interact with, the closest thing we ever got of a lisp machine, a completly hackable, self documenting programming environment where you can change anything without limits.<p>It's unfortunate its underlying ideas aren't more widely used in our industry, the very idea that you don't need to expose a separate API for people to create and extends things since code is the api is a idea that put emacs on a league of its own .... Thank you to anyone who has been involved in developing it.<p>Also I would love to hear Stallman view of labs using (A)GPL code and not contributing back to the world since this is completly against not only the ethos of free software but what Stallman teached to the world about the very purpose of its license	mickael-kerjean	1793195058	1
+				
+				
+				
+50274094	"About 10+ years ago I found a guide on Helm [0] and a guide on Org-mode [1] when I was just getting into Emacs. This helped me move on from using Spacemacs to making my own configuration.<p>I no longer use Helm (I'm doing Vertico/Orderless/Consult), but I've stuck with Org-mode since then. I sometimes venture out to other apps (like Joplin, Obsidian, Apple Notes, Apple Reminders, etc), but Org-mode just works best for me.<p>I don't even use it's most advanced features. The most complicated thing I do is maybe recurring schedules and using the agenda. I don't even have agenda view defined (although I really should at this point, it would be really helpful).<p>I use it every day at work with a daily log.org file keeping track of what I did each day, a habits.org file for recurring tasks I want to make sure I do (check my email, find a PR to review, etc).<p>I have various files to help organize my personal life - I heavily rely on Beorg [2] for that.<p>Looking back on my years with Org-mode, I feel like the primary reason I use it is for the ease of use with keybindings and dealing with plain text. I don't need to dig through menus or swipe around. I just go in and type, write, and delete.<p>[0]: <a href=""https://tuhdo.github.io/helm-intro.html"" rel=""nofollow"">https://tuhdo.github.io/helm-intro.html</a><p>[1]: <a href=""https://doc.norang.ca/org-mode.html"" rel=""nofollow"">https://doc.norang.ca/org-mode.html</a><p>[2]: <a href=""https://www.beorgapp.com/"" rel=""nofollow"">https://www.beorgapp.com/</a>"	cyrialize	1793197301	1
+50274941	My biggest regret in life was that I was introduced to vim before emacs and got really comfortable with it.<p>Did not realize that everything I was building in my vim configs to make it better was already default in emacs i.e dired, compile mode, magit, org mode, etc.<p>If I wasn't able to multiplex with tmux I would have switched to emacs a long time ago.	lopotubez	1793200037	1
+50280306	"I have yet to find a reason to switch away from emacs as my primary work flow editor.   I've been using it for at least 30 years now.<p>Why do I prefer it to (say) Turbo Pascal or Borland C++?  Both of whom ""Visual Studio"" style environments have inherited a lot from?  Well, those two worked well when one didn't have multiple consoles or terminals, and on a single tasking OS (DOS).<p>I do not want or need my editor to be my whole UI.  (I know Emacs can do it, it's just not something I either want or need).   And I am not comfortable with a UI that demands changes from Emacs in order to function, as any such UI suffers from blocking effective development, especially for (say) embedded code spaces.<p>Can there be better than Emacs?  Yeah, probably.  It's certainly not the most intuitive interface, for instance.<p>Is there?<p>No."	teunispeters	1793218764	1
+50275245	"Good opportunity for us Emacs users to proselytize: send an intro video to a few people who don't use Emacs but should  :-)<p><a href=""https://www.youtube.com/watch?v=mJZDmO5yOxE"" rel=""nofollow"">https://www.youtube.com/watch?v=mJZDmO5yOxE</a>"	floathub	1793201090	1
+				
+50273943	I started using Emacs 30 years ago. Used it as my main code editor for 15 years, and as my note-taking editor a little longer. I did write my share of elisp code, had a lot of fun with it, posted on gnu.emacs.sources back in the day, and shared a lot.<p>Emacs is still my main editor over ssh, so I happen to use it on a regular basis, and the commands are all imprinted on my fingers' muscle memory, so that's quite the comfort zone.<p>Happy Emacs anniversary to everyone!	invaliduser	1793196795	1
+50274714	"So here's an embarassing confession for the occasion:<p>I code in Emacs almost every day. I read and write e-mail in Emacs almost every day. I take notes in Emacs almost every day. I maninpulate data in Emacs almost every day. Yet I don't know LISP (any LISP!) <i>at all</i>, I barely use any packages beyond ""whatever it is that Debian ships by default"", and I'm quite bad at fancy Emacs shortcuts. My Emacs config file is a hodge-podge of little snippets I don't properly understand – and it measures in at just about 100 lines, including comments and whitespace, with a significant part of that being just mundane configuration data for the mu4e Emacs client!<p>This has been the case for about 15 years now. And I'm the kind of person who really likes to <i>know</i> my tools. It's such a ridiculous situation! I somehow never get properly around to sitting down and learning, and I really struggle to make LISP click.<p>Sigh. I hope I'm not alone. I really really really should <i>learn</i> this thing!<p>Anyway, the most important part is: Despite all of this, Emacs is still <i>fantastic</i> for me! Here's to the next 50!"	gspr	1793199268	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50277049	I started using the original TECO based Emacs on TOPS-20 at CMU in maybe 1980, so much better than the line editor of the time.<p>And I used Emacs (on Linux) this morning.<p>Let me know if you remember the DEC20 and the dreaded “not running” message that happened to everyone in the room when it went down.<p>Also interested if you remember Gosling Emacs, the first rewrite for Unix. James Gosling of Java fame.	Isamu	1793207764	1
+				
+50276511	"Good times of ISPF on IBM 3090/TSO. First you had to allocate a file on a dataset (ibm hates simplicity) and then you edited the text or copied with the pair ""cc/mm"" followed by a/b. No keyboard shortcuts, no interactive shell, only a data-entry panel and the incessant ""tlac tlac"" sound of the 3270 keyboard"	nicfio	1793205659	1
+50280157	Finally, because of the LLMs, i'm in Emacs Religion.  I traed it before many many times, being defeated always by a config file, by a module not working, etc. But with WSL, Claude and Doom Emacs, problem is solved.<p>I realidad that integraron it with tmux and claude cli, it is un unbeatable program.	esFran	1793218098	1
+				
+50280381	I was very fortunate: Yale CS already used emacs in 1981, and offered local high school students the chance to take their classes.  By the time I got to MIT a year later, I didn't know that there were any other serious editors available!	jpmattia	1793219104	1
+50284380	I've been using Emacs since the early 80s, first Gosling's Emacs and shortly after switch to GNU Emacs when it was first released in 1985. In college we had a DEC-10 system and I used Teco on that one.	not2b	1793246093	1
+50276554	Thinking someone has made the wrong editor choice is a great example of feeling strongly about something that’s meaningless and likely uninformed.<p>Find it useful to conjure up cognitive dissonance and practice letting it go.	WhitneyLand	1793205818	1
+				
+				
+50276040	I love emacs and have been using it daily for about 5 years now.<p>Many people have mentioned magit and org mode. I just want to give another shout out to consult.el which is a wonderful way to grep and search through text.<p>Happy birthday emacs!	lukehandcool	1793203948	1
+50273673	TFA begins before GNU Emacs proper, but, still: does age and portability make Elisp the ultimate write-one-run-everywhere language?	nxobject	1793195962	1
+50278107	"If you're feeling curious at trying Emacs out for the first time (or just want to see what's new in the past decade or so), may I humbly suggest you take a look at my starter config: <a href=""https://codeberg.org/ashton314/emacs-bedrock"" rel=""nofollow"">https://codeberg.org/ashton314/emacs-bedrock</a><p>When I first started using Emacs, my dad gave me his config. (Yes, I actually experienced <a href=""https://xkcd.com/297/"" rel=""nofollow"">https://xkcd.com/297/</a> irl.) A few years ago a friend of mine asked for some help getting a simpler Emacs setup—they wanted to move off of Doom Emacs. I made Bedrock as a bare-bones <i>starting point</i> that focuses on built-in customization and understandability. Even if you're comfortable in your own setup, you might find something useful in the files there. :)"	ashton314	1793210472	1
+50274642	Been using an Org file containing <i>all</i> my projects as the tracker for each, with a little custom tool that wraps emacsclient as the driver which my agents use. It's been pretty great, but the single-thread bites as it can get wedged sometimes and then I have to go hit C-g.	skeledrew	1793199050	1
+50284103	> By the early 1960s, programmers with interactive computers could use a “line editor” to type their code on teletypes<p>That's quite a condition ... very few of us had access to interactive computers -- punch cards still ruled for another decade.	jibalt	1793242964	1
+50282858	When I started using emacs it already felt past well-established and perhaps past its prime. Decades later it feels perhaps more relevant than it did the then. The easier-access defaults kits of the mid-2010s got a lot of new user investment, and it feels like the community really ticked up around COVID. Yes, agentic development has us spending a lot of time in harnesses; relevance-wise, things that aren’t an editor feel more threatening than alternative editors. We’ll see how that lands over time! Most of the reason I use a harness outside Emacs is to take advantage of a Claude subscription.	Arubis	1793233788	1
+50275445	I quit being an emacs tourist about 5 years ago, this year I started rewriting my init.el with use-package and the popular packages (vertico, eglot, etc). My config is still a mess and there’s always something new I want to do. Sometimes I think about trying neovim or trying some editor that I wouldn’t have to config stuff that much, but I think I’d want to customize things a certain anyway.<p>For LLM stuff I’ve been using eca, or claude code in a vterm or ghostel. I’m still experimenting with this stuff but I don’t think emacs is getting in my way. Not sure if I’d recommend to everyone, though.	9999gold	1793201786	1
+50287677	"Epsilon 1982 was very much Emacs, but programmable in C. But it loaded superfast in MSDOS palmtop HP100LX. I made lots of Epsilon programs, which were easy to translate to real Emacs, of the fake Unix, made by Linus.<p><pre><code>  command palidro() {
+   set_mark();
+   forward_character();
+   kill_region();
+   down_line();
+   yank();
+   up_line();
+   backward_character();
+   }</code></pre>"	timonoko	1793275669	1
+50280420	I got a nice case of emacs pinky back in my early 30's. Had to take disability, get physical therapy to rehabilitate, etc. Been vi all the way since then.	heddhunter	1793219307	1
+				
+50289156	I think I bought the Emacs Manual from Richard Stallman in 1979, give or take a year. I still live in Emacs, even writing my own AI coding harness inside Emacs.<p>I suspect that I am slightly more productive in VSCode for large code bases, but it just makes me feel happier and content to use Emacs.	mark_l_watson	1793282278	1
+50282274	The best thing that my PhD advisor did was to require me to learn emacs and latex, 32 years ago.	bsoles	1793229093	1
+50273462	Emacs is awesome, but it is unfortunate that on Windows it still only supports x64, which is a legacy platform at this point. Hopefully arm64 will be supported soon as well!	flowerlad	1793195152	1
+				
+				
+50279663	For me one of the main attractions of Emacs is I can use it in a terminal over a shitty wire, or on the desktop with all Gui bells and whistles.<p>Same in both places. Bliss	worik	1793216232	1
+50296166	Which means that Stallman is, what, in his early 70s? Which means that I'm... uh-oh...	tomcam	1793308751	1
+50288930	Somehow I never realized Emacs existed before GNU Emacs. Nice little piece of historical trivia.	cykros	1793281446	1
+50276621	It was great to use during college years.<p>I regret ever using X/Emacs for 5 years with two reasons.<p>The biggest reason is, I have arthritis on my left pinky thanks to Emacs.  Now I need to use an expensive ergo keyboards (thumb for ctrls)<p>The second reason being, vi is what I am forced to use for many linux default editors. I never learned it, and always look up google for commands.<p>(optionally, extending Emacs is pain as I never understood the point of lisp).	yipinwong	1793206130	1
+				
+50287712	Emacs saved my novel. Org mode gave it a home. For that, I’m forever grateful.	tinkelenberg	1793275832	1
+				
+50273633			1793195843	1
+50279655	M-x animate-birthday-present Emacs! RET	suprfnk	1793216204	1
+50283571	recently our company swithed from cursor -> codex. but we only can use the cli or vscode pulgin. with a few hours, i come back to emacs + codex, and ask codex to do a little tweak. everything works perfect.<p>there is program called 'doctor' in emacs, it's a rules based 'AI', pretty dumb. and it's like 40 years old. 40 years later, people are still using the same editor, just with diffnert AI program.<p>this is the most elegant and beautiful software i have ever used. and i wish after a 100 years, people will still love it.	yanhangyhy	1793238570	1
+50285296	"I'm slowly getting into it.  I only got into vim (neovim) a couple years ago (been computing as a kid since early 80s).<p>But have been enjoying learning alot of emacs (oh god so much to learn :))<p>I'm not ready to make the jump (not sure I will jump at all, but...) I am gonna mess with guix in a vm to see how I roll with that.<p>I've got a lot of digital versions of various books on lisp/scheme but only played with them.  Eventually I think it'd be great to do more with slime/sly and sbcl.  But for now sticking with the basics.  It's a real head trip to see the power of emacs, and it feels like it's hard to explain to people why it's so fascinating (to me).<p>I have a feeling I picked a good time to hop in, because a lot of the quality of life features seem to have only come in the past few years.<p>(my experience is specifically to use vanilla and build up from there, to both learn, and to get used to the ""proper"" way.  I was afraid doom or space would end up getting me into their mental models, and didn't want to feel ""locked in"")<p>Of course shout out to systemcrafters, joshblais, protesilaos, sacha chua, mickey peterson (and mastering emacs).<p>God, I haven't even mentioned org-mode or magit (though magit is still a bit rough, I'm used to lazygit - in some ways using magit is making me understand some things about how git operates better).<p>The other thing is - I feel like I'm walking on unstable ground when using emacs - maybe it's just because I'm learning, and it's so easy to modify, I always feel like I'm about to break something.  I know ""backup stable config"" and reset from that if it breaks, is obvious; but there's a feeling of looseness that comes from it that's a bit intimidating.<p>I guess I had that feeling with vim at first to.  Obviously it's not going to ""break"" but as a noob, sometimes it's intimidating and feels that way.<p>The other thing I need to work towards is mastering workspaces/projects (and maybe tab integration)  right now I run server/client windowed, no chrome (no tab, title bar).  May add tabs for project management, but I wanted to get used to using M-x for things first (and man does vertico, consult, orderless and marginalia help with discovery!)  Embark is another big tool I have so much to learn about.<p>And seeing how people use emacs for publishing.  Linkarzu interviewed an author who talked about he used LaTeX for publishing.<p>One of my favorite facts is telling people that emacs is one of the oldest actively maintained piece of software still at large.  It makes me feel like I'm part of an ancient tradition LOL.<p>Happy Bday Emacs!"	wormius	1793256233	1
+50275201	I lived in Emacs for most of my professional live, but IDEs and now Claude have taken over. Sad, but perhaps justified? Back in my academia days, there was much less pressure to use a uniform tech setup across staff, so people were happily using Emacs, or vim, or whatever -- and frankly, there was never any issue because of that.<p>But I can see there is a value (mostly for the admins, but also for debugging if you work collaboratively in a team) in enforcing the same setup for everyone. Sigh. Strangely, I could never convince my coworkers to ditch their IDEs for Emacs.	kleiba2	1793200932	1
+				
+				
+				
+50274554	one day, one of my teachers convinced me to try Emacs, and I’ve been using it ever since. At first, Emacs looked repulsive, but once you fall down the rabbit hole, you become addicted.	Gabano	1793198784	1
+50274421	"The reason Emacs survived 50 years while countless modern IDEs rose and died is architectural: Emacs isn't just a text editor with a plugin API—it's an interactive Lisp runtime that treats text buffers as first-class citizens.<p>Modern editors build layers upon layers of IPC, JSON-RPC protocols, and sandboxed extensions to keep the user from touching the core. Emacs did the opposite: it gave the user direct access to the live execution state. You don’t ""configure"" Emacs from the outside; you mold it into the exact operational extension of your own thought process.<p>In an era where modern developer tools consume gigabytes of memory just to render a UI tree, there is something deeply grounding about a piece of software from 1976 that still offers the most malleable computing medium on earth."	badr47	1793198341	1
+				
+				
+				
+				
+50275766	[flagged]	stamich	1793202863	1
+50280970	[dead]	EmX_3000	1793221976	1
+50283583	[dead]	thecloudlet	1793238661	1
+50275578	The so called editor wars seem to be over and emacs has lost. I've been involved with it since the early 2000s and it's still my primary editor. I feel that the users have reduced into a smaller but more dedicated/passionate group which is probably for the best.	noufalibrahim	1793202254	1
+				

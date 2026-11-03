@@ -1,0 +1,34 @@
+50290533	I've been working on a fun little app that paints geologic maps over landscapes using augmented reality. You can use it to identify what the mapped rocks are, read descriptions about them, and view the earth as it looked when they formed by turning back the continent positions. It spun out of some augmented reality work I was doing on my other side project app - Flyover Country, which tells you about the view from the airplane window.<p>I'm in Minnesota, so i haven't had a chance to test it on a huge amount of terrain (the best I've found is the Mississippi River gorge in the twin cities... I need  a trip up north), so anyone that's somewhere with some more bumps: please help!).<p>It's stuck in the Apple review queue, but it's up on testflight for anyone interested. Google approved it quickly and it's fully out on android (links to both on the marketing site).<p>edit: got a report that testflight was asking for an install code. Seems like a testflight app issue, but dismissing it and installing as normal seems to work!	headsupernova	1793287361	0
+50328505	Very cool. Does this mean any chance AR features are coming to Flyover Country? I've used that app for years, but matching what I see onto the map is the trickiest part.	nsilvestri	1793559375	1
+				
+50305736	Is there a web version? I don't like to install apps if avoidable.<p>When the page loads, it shows a blinking animation [1]. I didn't realize it was a loading an interactive background example. Perhaps load a default photo of the grand canyons and add a clock or something until the full version loads.<p>[1] In my phone in the subway, not a very good WiFi nearby.	gus_massa	1793375680	1
+				
+50329444	Very cool project! I also wonder if a web version is plausible. Are there any specific native app features in it?	thingfyi	1793564883	1
+50325246	Very well done. The animation of plate movements give me a real sense of vertigo! Earth is old. o__O<p>For me at least, it would feel more intuitive to have the distant past on the left and the current date on the right. I'd also love an option to keep the current location centered while manually dragging the slider.<p>EDIT: Also, could optionally overlay lat/lon lines to help anchor the globe as it rotates? It's hard to understand the plate movements relative to the Earth.	naftalibeder	1793538095	1
+				
+50327782	This is timely. I am on my way to the Grand Canyon today. Will install and give it a go with my son. I think he will be excited.	hsparikh	1793554833	1
+				
+50325981	This is really well done! My 9-year-old and I have been going down the rabbit hole for the last 2 hours. We simply love the ‘Where it formed’ feature. Great job!	timothevs	1793542953	1
+				
+50326741	This is very cool! Great use of augmented reality. Now have a narration mode that gives you LLM-based Roadside Geology explanations of what you’re seeing as you drive.	tectonic	1793548071	1
+				
+50327119	Very cool. Really like having the soils and quaternary layers for those us in the Midwest without a lot of bedrock exposure.	ballen	1793550539	1
+				
+50326334	"I don't see it on the Play Store for my Pixel 11. There are two marked ""Outcrop"" but not by these people."	assimpleaspossi	1793545466	1
+				
+50325548	No WAY I have wanted this exact thing all for years!!! I am so stoked to try this out later. This is so sick.<p>Got the test flight version installed no problem!	chamomeal	1793540055	1
+				
+50324973			1793536050	1
+50324737	"Whenever I try live view I get ""tracking did not start. Try again"" on android"	RobotToaster	1793533715	1
+				
+50326135	This would be insanely awesome if I could add a data layer or two atop the geologic unit map. This combined with processed ASTER and LANDAST data overlaying the geologic units would make surficial mineralogy so much more exciting when you're out in the field.	lightedman	1793543876	1
+				
+50327604	"Shameless other project plug: if you have a flight coming up and are a window seat fan please try out <a href=""https://flyovercountry.app"" rel=""nofollow"">https://flyovercountry.app</a> ! it has a similar augmented reality view so you can figure out what you're seeing out the airplane window (and a bunch of other fun features)"	headsupernova	1793553753	1
+50327214	This is very interesting!! I just pointed at a landscape from a high ground and it said this river was formed around 460million years ago! Which it seems is that old in earth’s life!	tamimio	1793551214	1
+				
+50327652	"atleast re-write your subheading ""each rock named"" most ai smelling shite ever."	Aeroi	1793554117	1
+				
+50328448	[dead]	ZeroDayDreamer	1793558952	1
+50329496	[dead]	rafram	1793565100	1
+50290585	Neat idea. Does it work offline? Up north there's often no signal, and I'd guess phone compass drift near steel bridges or cliffs would throw the overlay off too.	tomshafer	1793287560	1
+				

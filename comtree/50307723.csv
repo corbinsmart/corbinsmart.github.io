@@ -1,0 +1,44 @@
+50307723		damontal	1793383055	0
+50308183	"The shape of this HN duplicate detector actually works as a GitHub uptime chart:<p><a href=""https://news.ycombinator.com/from?site=githubstatus.com"">https://news.ycombinator.com/from?site=githubstatus.com</a><p>It's driven by aggregated user complaints, so it's pretty high-quality. Comment counts are a proxy for ""how bad was the outage"" + ""how long was the outage thread topical for"".<p>edit to add: Here's a scatterplot of the same,<p><a href=""https://files.catbox.moe/hhfh4l.png"" rel=""nofollow"">https://files.catbox.moe/hhfh4l.png</a>"	peri-cl	1793384901	1
+				
+				
+50307878	"I think all they have to do is stop giving free CI to everyone and this reliability issue will be solved immediately.<p>Disclaimer: I am building a code forge myself at <a href=""https://juju.bi"" rel=""nofollow"">https://juju.bi</a>"	pksunkara	1793383679	1
+				
+				
+				
+				
+				
+				
+				
+				
+50308234	It bugs me how there can be an acknowledged live incident happening today with Actions, and yet down the page where it shows last 30d uptime for actions, today's little rectangle is a chipper green.	montroser	1793385097	1
+				
+				
+				
+				
+50308524	Lesson for every infra provider: physically separate your free tier infra from your paid tier infra.	senderista	1793386431	1
+				
+50308291	"Self-hosted GitHub Actions on AWS spot are still working.<p>After many outages we had to build our own free runner <a href=""https://github.com/supercorp-ai/superci"" rel=""nofollow"">https://github.com/supercorp-ai/superci</a>"	Nedomas	1793385400	1
+				
+50309016	Ever since I switched to Forgejo (could do Gitea or other self-hosted too), my outages have gone down to basically zero. It’s only down when I do maintenance but since I’m not pushing code at the same time it doesn’t matter	huijzer	1793388557	1
+50309275	"Has anyone tried <a href=""https://tangled.org/"" rel=""nofollow"">https://tangled.org/</a> for simple projects on their home server? Is it easy enough?"	itissid	1793389961	1
+50309015	I wonder if I can hook failed git push into betting on github's status on polymarket.	time0ut	1793388555	1
+				
+50308844	"No way, is it a day ending in ""y"" again?!"	TavsiE9s	1793387742	1
+50308337	I'm sure there is a good meme to use for such a frequently occurring problem, but it would be too over used by this point.	m4rtink	1793385582	1
+50307734	My Actions are stuck waiting :-/	uneekname	1793383093	1
+				
+50307938	"like clockwork! right now on the frontpage:<p>The federated code forge (<a href=""https://news.ycombinator.com/item?id=50305573"">https://news.ycombinator.com/item?id=50305573</a>)"	nerdypepper	1793383936	1
+50307947	No way I don’t believe it	talon8635	1793383972	1
+50309042	I was confused why the github file browser was falling over.	Pxtl	1793388676	1
+50308440	Giving Github more attention	enjoyyourlife	1793386090	1
+50308821	It's getting to be hilarious at this point, honestly.	the_real_cher	1793387644	1
+50307788	Another day another GHA incident	dc3k	1793383315	1
+50317401	[flagged]	crawlwise	1793462758	1
+50307933	[flagged]	mosesman	1793383920	1
+50307934	[dead]	parkerhiggins	1793383924	1
+50307796	[dead]	OsamaJaber	1793383346	1
+50308202	Nice graphic on that page of a bunch of cartoon workers tending to what looks like a Rube Goldberg contraption. It's all just lighthearted fun and games.	SoftTalker	1793384970	1
+50307843	"Last time these intermittent incidents happened was days ago and for this <i>exact same</i> incident was 11 days ago. [0]<p>After everything announced in GitHub Universe and with that to improve the reliability of GitHub overall, yet we have another incident afterwards.<p>It doesn't matter what GitHub does, only you can decide for yourself to self-host rather than going all in on GitHub and it continues to go down.<p>Predicted this 6 years ago and self hosting has aged perfectly well. [1]<p>[0] <a href=""https://news.ycombinator.com/item?id=50154406"">https://news.ycombinator.com/item?id=50154406</a><p>[1] <a href=""https://news.ycombinator.com/item?id=22868406"">https://news.ycombinator.com/item?id=22868406</a>"	rvz	1793383540	1
+				
+				

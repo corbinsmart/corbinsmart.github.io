@@ -1,0 +1,73 @@
+50312922		timr	1793416964	0
+50313528	The problem with AI is that, this time, nobody was caught off guard. From small startups to tech giants, everyone bet heavily on it. There are very good open-weight Chinese models, and even a French miracle. There is no winner-take-all.<p>So models are already a commodity, and will remain one for years. Companies must balance capex with very long payback periods against strict austerity everywhere else.<p>Good news for customers, BTW.	esFran	1793425779	1
+				
+				
+50313262	Welp that’s not a good sign for the anthropic IPO. Curious what happens now that both OpenAI and Anthropic will face budgetary pressure. I don’t think they can raise prices, as it’d just open ppl to switch to Open source models.	bushbaba	1793421655	1
+				
+				
+				
+				
+				
+				
+				
+50314227	I think a lot of companies are struggling to move beyond this being a thing developers use to something everyone can use. Developers have to go really far out of their way to build agents and tools that apply the capabilities to their specific business. Someone in accounting cannot simply fire up chatgpt.com or copilot and use it in the same way a developer can. There is no instruction manual or historical precedent for how to do this. Very few people are currently in the right situation to make this work.<p>My observation is that most development teams are still in panic / survival mode, spending all day stacking sandbags instead of bringing these capabilities to the broader team. The fear of job loss in this particular market is crippling. No one will admit it publicly but you can feel the adversity on every AI status call. I've managed to convince a few that AI won't take their jobs, and these people have become indispensable at enabling deployment of AI beyond the weird nerd part of the org chart.	bob1029	1793435973	1
+50313291	How does this affect OpenAI's prospects in the next few quarters?<p>Unlike Anthropic, OAI does not have an S-1 to pore over. Their finances are shrouded in rumor and speculation. I can't assess how much of a death knell a ~15B financing shortfall is.	stuxnet79	1793422085	1
+				
+				
+				
+				
+				
+50313589	it’s kinda crazy but i do think we’re seeing a turn<p>my company was easily spending $1m/month on tokens<p>sonnet 5.5 drops - we barely cracked half this month<p>it has to go down too, carbon is interesting, china has qwen 4 soon<p>coding isn’t sustainable growth - RLRVF is really effective for software development - labs are cracking the code, these models will have to get better at other things to be worth it	c0rruptbytes	1793426663	1
+				
+				
+				
+50316646	"I think Steve Jobs' quote sums this up beautifully:<p>""This is a field where one does not write a Principia which holds up for 200 years. This is not a field where one paints a painting that'll be looked at for centuries, or builds a church that will be admired and looked at in astonishment for centuries.<p>No, this is a field where one does one's work and in 10 years it's obsolete...""<p>And it's even harsher for AI where we're witnessing the release of a new model every hour these days"	khalidkhair	1793457799	1
+50313423	If an open source model locally does one job correctly, lets say writing the code, then what really do we need OpenAI and Claude for? But I guess there might be some time in that.	vedanshchauhan9	1793424004	1
+				
+				
+				
+50323882	"From what I can find, the 
+previous round was in March at 852B. Not being able to raise at 1.4T a mere 7 months later isn't so big a problem the reporting around this makes it out to be..."	dchftcs	1793524906	1
+50327035	Look. Some say AI improves speed. It might also improve quality - if you use it as a tool, with a full understanding of what's happening in your system and preserved ability to maintain that system even if AI disappears one day for whatever reason. But since all the competitors are jumping into AI, most won't focus on quality, but on delivering speed, as you have to be competitive and justify AI cost, right? So if AI doesn't improve relative speed, and in many cases doesn't improve quality, then why is it there? The possible answer is: to consolidate the means of production under one's own control. With AI and robots involvement, humanity might be forced into an anti-utopia.	vladimir-y	1793550043	1
+50313279	Wow! Its bursting...	seahawks78	1793421874	1
+				
+50313401	Not looking very good fellas, Bot Swarm breaches, microslop laying off 27% of their workforce.<p>If you have a billion users and 90% + are freeloaders, you need social media style ads to support growth, which no one likes.<p>Plus they are all out of data training sets, they are buying zombie companies for their data.<p>There are dozens of distillated clones, which are getting better every release.<p>The only moat is expensive data centre builds with on-loan Nvidia inference and the Chinese embargo fears.<p>Good luck out there.	minimaxa	1793423566	1
+				
+				
+50313722	The market has chosen to crown $ANT as queen.	seydor	1793428048	1
+50313411	What else can you expect? Look the markets right now. Its bleeding. Started with China and now US.	vedanshchauhan9	1793423741	1
+50313648	I thought Masayoshi Son would step in to back them?	ddk_	1793427307	1
+50313752	Why do I sense a schadenfreude here?  It's like people are rooting for their failure.	sidcool	1793428444	1
+				
+				
+				
+				
+				
+				
+50313288	The end state is OpenAI as a division of Microsoft.	xnx	1793422031	1
+				
+50313560	this is more about the supply and demand of capital in any given moment than it is about the outlook of the company.<p>as a litmus test: would you turn down the opportunity to buy OpenAI shares at this current valuation?	lasky	1793426184	1
+				
+				
+				
+50317006	"No archive.{today,is,ph,md}, no wallhop.io, no Javascript, no User-Agent heaader, no cookies, HTTPS optional<p>Text-only (simple HTML)<p><pre><code>   tnftp -o/dev/stdout https://assets.msn.com/content/view/v2/Detail/en-in/AA2grM9h \
+   |grep -o ""<p.*</p>"" \
+   |tr -d '\134' \
+   |sed '1s/^/<meta charset=utf-8>/' > 1.htm
+   firefox ./1.htm
+</code></pre>
+Text-only (JSON)<p><a href=""https://assets.msn.com/content/view/v2/Detail/en-in/AA2grM9h"" rel=""nofollow"">https://assets.msn.com/content/view/v2/Detail/en-in/AA2grM9h</a><p><pre><code>   links https://assets.msn.com/content/view/v2/Detail/en-in/AA2grM9h</code></pre>"	1vuio0pswjnm7	1793460269	1
+				
+50313652	the liquidity is drying out.	m00dy	1793427335	1
+50313171	No no no, don’t burst that AI bubble just yet. I haven’t finished all my side-projects.	bronlund	1793420420	1
+				
+				
+				
+				
+				
+50313444			1793424376	1
+50314856	Is anybody missing the Pelicans posts at the top of the AI threads? I don't.	owebmaster	1793444418	1
+50314222	ruh roh	brhn	1793435907	1
+50314173	LLMs not needed for programming or software engineering, and overall harmful in many dimensions. I look forward to the hype bubble popping and the AI industry collapsing.<p>Hopefully more of humanity's clearly vast amounts of discretionary wealth liquidity can be re-directed to better areas like health/medical, carbon crisis climate mitigation, clean/renewable energy, democracy defense and truly useful common infrastructure for society.	syngrog66	1793435133	1
+50313749	I haven't read that article, but looking at WSJ, I'd take it with a pinch of salt.  It's not a reliable source.	sidcool	1793428374	1
+				

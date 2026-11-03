@@ -1,0 +1,9 @@
+50302686		modinfo	1793361024	0
+50322608	"For context, kernel panics seem to sometimes be encoded as a URL in the QR code by distros. The panic text is encoded as a numeric parameter. For example:<p><pre><code>  https://jexposit.fedorapeople.org/drm-panic/#?a=x86_64&v=6.17.0-rc2+&z=64016708045408584681305161836175901065787789727173061004041671633088591186286363786562987653814347942450168430510852681524688435157911241621365859153819732690406649525043247774110913752991389170560320455163781439079986337356710273501164645667555084821480237326301207073831710176482850121513079951455217310046422632328303510474264780788030301611164774573122018172510304672562667379831349924441560360997679573341401750485619388375493[... many more digits]
+</code></pre>
+That's from the QR code image at:<p><a href=""https://discussion.fedoraproject.org/t/f45-change-proposal-drm-panic-frontend-selfcontained/182239"" rel=""nofollow"">https://discussion.fedoraproject.org/t/f45-change-proposal-d...</a><p>This script is to decode such kernel panics without needing to provide it to an external service.<p>In the particular URL example, the panic is not necessarily sent to a server, because it's in a URL fragment (`#`), but still."	jolmg	1793505988	1
+				
+50324012	I hope this is Windows-inspired satire. If I get a kernel panic I want something I can actually read.	userbinator	1793526398	1
+				
+50322158	I think that's a really good idea! Would love to see this upstream	natas	1793499422	1
+				

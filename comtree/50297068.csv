@@ -1,0 +1,30 @@
+50297068		sebg	1793312696	0
+50319696	"""A simple cache returns None both for a missing key and for a key that maps to None.""<p>No, it returns KeyError. Or at least it should."	RantyDave	1793477765	1
+				
+				
+				
+				
+50320195	So much trouble to avoid introducing the optional monad.	pwdisswordfishq	1793480512	1
+				
+				
+				
+50319854	When I was writing a bunch of Lua, I was a big fan of having a None sentinel value (Lua uses 'nil' for representing absence) and it was useful for a lot of things similar to Pydantic's MISSING.<p>This distinction is something that I think is actually handy about JavaScript, and distinguishing between 'null' and 'undefined' is sometimes useful for similar reasons.	lpghatguy	1793478687	1
+				
+50319616	I like it. I can't see how to do better while remaining compatible with Python idioms.	chowells	1793477235	1
+				
+50321201	"Here is the sample code from the article:<p><pre><code>    > MISSING = sentinel(""MISSING"")
+
+    > def update_email(user_id: int, email: str | None | MISSING = MISSING) -> None:
+    >     if email is MISSING:
+    >         return  # nothing to update
+    >     elif email is None:
+    >         db.delete_email(user_id)
+    >     else:
+    >         db.set_email(user_id, email.lower())  # narrowed to str
+</code></pre>
+I see this style frequently from long time Python programmers.  The language is so dynamic that people begin to think this is a good way to program.  Hot take: It is not.  Why not two different functions called delete_email() and set_email()?  That would be more clear."	throwaway2037	1793488688	1
+				
+50322658	"I hate sentinel values. Even/especially with AI-generated code.<p>1. If your date does not have a value, do not return 0, an empty string, or None. Use a discriminated union and model your domain rigorously.<p>2. If your data model accepts None/undefined as a value, that should translate to your business model as well. For example<p>3. Do not make your `name` field as `string | undefined` just because there might be an intermediate loading or processing state. It's better to model that as something like `Loaded<string>` where Loaded is something like a Result or Optional type (though ideally more rigorously defined)<p>Here is what I've done for years in TypeScript, though now in a nice package thanks for AI: <a href=""https://github.com/shepherdjerred/monorepo/blob/main/packages/loaded/src/index.ts#L50-L63"" rel=""nofollow"">https://github.com/shepherdjerred/monorepo/blob/main/package...</a>"	shepherdjerred	1793506503	1
+50321859	I just return a customized Exception type. Works about the same.	est	1793495675	1
+50321972	"I have a library that's approximately half joking that I use for (sentinel and other) special value constants.  If you like reading test suites, this one will get ya:<p><a href=""https://github.com/nucypher/constantSorrow/blob/master/tests/test_the_whole_story.py"" rel=""nofollow"">https://github.com/nucypher/constantSorrow/blob/master/tests...</a>"	jMyles	1793497013	1
+50324405	Ah Python. The leaking sieve that keeps on giving problems to solve.	DarkNova6	1793530187	1

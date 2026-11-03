@@ -1,0 +1,152 @@
+50326821	Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5).<p>It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page.<p>To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc.<p>It counts mentions, so it's not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.	roansh	1793548708	0
+50327092	"The site is <i>really</i> fast. I see HTTP/3, OpenGraph, and Cloudflare. Can you expand on the technologies used?<p>Also... ""Each book links back to the comments that mentioned it.""<p>> Please don't put generated text in HN posts.<p>Claude speak gives me a gag reflex these days."	jchook	1793550408	1
+				
+				
+				
+				
+50328127	"I remember there were multiple such websites before being shared in HN. I bookmarked them, and a couple years later when I finally wanted to find a book, the only thing I got is 404.
+I hope this one lives longer."	361994752	1793557060	1
+				
+				
+				
+				
+				
+				
+50328810	"I think the concept is amazing, so don't take the rest of my comment too seriously.<p>But why do we anchor naming to someone who made something popular? Why do we upvote similar names too? For example, openclaw became popular then there were similar projects with the ""claw"" naming.<p>It's just a very fascinating psychological thing to do, and I don't understand why. Because if you copy part of a name, generally you'll never get more popular than the original name. So why do this?"	tabs_or_spaces	1793561208	1
+				
+				
+				
+				
+50328528	You all are tip toeing around HackerMedia.	mycall	1793559504	1
+				
+50327283	"This was done already, back in 2021!<p><a href=""https://news.ycombinator.com/item?id=28595967"">https://news.ycombinator.com/item?id=28595967</a>"	MYEUHD	1793551743	1
+				
+50327185	I swear there used to be a hackernewsbooks website some years ago?	polishdude20	1793551017	1
+				
+50328268	"May be we need single webapp that shows all intellectual artifacts shared in hackernews since its inception and updated hourly or daily and also make a social media app to for consumption:<p>1. youtube
+2. books 
+3. podcasts 
+4. blogs
+5. articles 
+6. etc..."	LaFolle	1793557828	1
+				
+50327129	"I like the idea, but the wording might need to change as to how it counts a recommendation. As it stands Mein Kampf has been ""recommended"" by 651 HNers, a troubling statistic!"	drayfield	1793550598	1
+				
+				
+				
+				
+				
+				
+50327103	The “mentions since” picker appears to be broken, nothing in the list changes as far as I can see. Also I wish it wouldn’t add another page to my history.	vigilantpuma	1793550469	1
+				
+				
+50328271	Love this! Pls add amazon.com links and a 2020s filter button. You could probably pull all the missing covers from Wikipedia. Would love to have this for TV/Movie/Podcast recommendations also.<p>Thx.	Flemlord	1793557860	1
+50328063	I'm beginning to like this new internet…	JKCalhoun	1793556666	1
+				
+50327140	This is wonderful. I'm delighted to see that Wittgenstein's Philosophical Investigations has been recommended over 100 times.	RGS1811	1793550682	1
+50329513	"Great idea and nice implementation, please keep it going! 
+I'm waiting for HackerMusic and HackerNet now :)"	gosen	1793565188	1
+				
+50328459	"More filter options please?<p><pre><code>  # Author
+  # Date published (like enter a from-date and/or to-date)
+  # License
+  # Free download available y/n
+  # Sample chapter available
+  # Format: softcover / hardcover / ebook / audiobook etc
+  # No. of pages
+  # Language(s)
+  # Can you watch the movie? (if so: IMDB/Wiki link)
+</code></pre>
+Just to name some off the top of my mind."	RetroTechie	1793559076	1
+				
+50327191	Slightly different take - use the Claude / OpenAI / muse desktop navigation integration to actually go into your YouTube account and like all the videos and watch them for a bit to seed your algorithm.	fnordpiglet	1793551042	1
+50329488	Why not open source the repo ? People find something interesting and will built on top of it.	rushil_b_patel	1793565067	1
+50327497	"After clicking an entry, below, ""What Hacker News says"", we see comments with mentions and surrounding text. It's now squashed, maybe you can add a function to expand on click, to see the comment with newline separation if such exist. Cause very often these comments presents a list of their favorite book, and an explanation of why. When these are squashed, it's not clear which explanation is preceding or following the entry.<p>Also, clicking the link ""On ""...."""" it doesn't bring to the exact comment, only that thread or topic, so  you need to search for it. It could bring directly to that comment."	5555watch	1793553016	1
+50327064	I love this idea and hope the trend continues. It could even lead to finding niche communities to join.	jmathai	1793550230	1
+50327165	"The next stage is ""HackerTime"", a startup providing enough time to watch all the video and read all the books and play all the game and read all the news on ""HackerZ for Z in tube, books, games, news"".<p>With AI, in rust, invest before it's too late, etc..."	phtrivier	1793550878	1
+				
+50329207	Nice, I like it!<p>Feedback: I don’t understand how the rising category works. I looked up a couple of books and they seemed to have peaked a while ago.	baxtr	1793563524	1
+50327434	I need to understand how do you guys build such slick or decent UI for websites. I get the backend but the front end, I have yet to crack. I know there is impeccable  repo but I'm unsure how to go from here	mattfrommars	1793552578	1
+				
+				
+				
+				
+50327148	I want this but for podcasts. I pick a podcast I subscribe to say the Tim Ferris show and I see book mentions by episode/theme/tim/guest with links to favorite/library/amazon. Life's too fragile for me to make something public like that but it's fairly easy is'nt it. Every passing year I'm surprised it doesn't exist yet, especially nowadays given how easy it is to obtain transcripts.	srik	1793550760	1
+				
+				
+50327238	"Nice. I did something similar ranking the top 100 software/tool request of HN since 2008.<p><a href=""https://stillunbuilt.shiptiffin.app/"" rel=""nofollow"">https://stillunbuilt.shiptiffin.app/</a>"	bilater	1793551412	1
+50328171	"""Regulation of Pharmaceutical Innovation"" by Sam Peltzman
+<a href=""https://www.amazon.com/Regulation-Pharmaceutical-Innovation-Amendments-Evaluative/dp/0844731285"" rel=""nofollow"">https://www.amazon.com/Regulation-Pharmaceutical-Innovation-...</a><p>I've mentioned it a couple times."	WalterBright	1793557279	1
+50328349	"Inspired by this, I made the same thing for dev tools, counting only comments that actually recommend the tool (not just mention it): <a href=""https://shouvik12.github.io/hackertools"" rel=""nofollow"">https://shouvik12.github.io/hackertools</a>"	shouvik12	1793558298	1
+50327971	It would be cool if you could filter by books my local library has (no idea if that info is publicly available)	bawolff	1793556062	1
+				
+50327553	"Not a fan of ""For you"" based on supposed similarities to what I've clicked before. Especially when e.g. ""Scratch Programming Playground"" has nothing to do with ""Brave New World"". I'd remove it but that's me.<p>Maybe language filters for non-English titles? Or if a book is in public domain already then links to the sources could be presented?"	pndy	1793553401	1
+50328581	It seems the published dates need tidied up. Brave new world is showing as published in the 2000s.<p>Very cool though and love seeing all of the covers in various forms of condition.	aunty_helen	1793559766	1
+50327451	"Add a way to suggest the correct author, sometimes just reading the first comment linked in the page has the right one, for example:<p><a href=""https://hackerbooks.org/#/book/OL999456W"" rel=""nofollow"">https://hackerbooks.org/#/book/OL999456W</a><p>>  HIS DESIRE WAS FIERCER THAN A ROCKY MOUNTAIN STORM... HERS WAS RECKLESS AND DANGEROUSLY WILD"	DuncanCoffee	1793552679	1
+				
+50329866	"You know, one thing that I think is interesting in tech circles is how much interest we have in maths in general, except that there is almost nothing on the ""top"" list that I saw that was related to probability and statistics. It's like P&S, which is probably the most useful math for most people who need to make decisions in life, is just not that interesting to people with a technical bend.<p>I wonder if it is because simulation can often allow you to get around needing P&S techniques in general? Or maybe it is that (Neural Network) ML models allow you to often approximate the things you might do with P&S in terms of making decisions?<p>No real point, I just think it is interesting."	stephen_cagle	1793567095	1
+				
+				
+50329674	There's been a few of these already, and it feels a bit off, I'd suggest you do one more prompt and weight by karma	comboy	1793565916	1
+50328844	The Science Fiction section is pretty much spot on, and in roughly the order I’d do it myself :)	rcarmo	1793561418	1
+50328308	This is the best HN day EVER since I stumbled on the site 10 years ago: first HackerTube and now this! Thank you SO much, both of you!	bookofjoe	1793558086	1
+50328018	I assume that like Karpathy you used Claude Code Desktop. The harness seems to be more capable than VS Code or terminal. Could you have done it with TUI alone?	hbarka	1793556383	1
+				
+50329340	Liked HackerBooks! My college algorithm professor always recommends the Concrete mathematics book.	clara04	1793564319	1
+50328916	Do you guys really trust the taste of users on here? I don't	soleman	1793561805	1
+50329338			1793564306	1
+50327225	Don’t tell anyone, but I’m working on HackerHack, like HackerBooks and HackerBooks, but with comments and other posts and news and stuff. Some say it’s just HackerNews, but those are just Luddites who don’t get it.	alex_young	1793551292	1
+50327496	"I like the responsiveness of the website.<p>But there's no way Vanity Fair by Thackeray so high on ""top all-time"" list. It turns out that a lot of comments are about Vanity Fair magazine."	Erlangen	1793553006	1
+				
+50328000	this has already existed for a long time, but I think it would be cool if it was really recommendations, instead of just mentions	el_psy_congroo	1793556265	1
+				
+50329294	Good for me. Thank you!!!	blcsntb	1793564064	1
+50328375	Compared to HackerTube, this is pure gold! Design books, it is!	lcnmrn	1793558442	1
+50329165	having 16.5k recommendations is the same as having 0 recommendations	drsalt	1793563282	1
+50327985	I love this and feel it would be greatly enhanced with semantic search.	drittich	1793556191	1
+50327632	Have AI create a clean room rewrite of each book, so we can read them on the site.	addandsubtract	1793553943	1
+50327131	Thats pure gold. Thank you my friend!	sleiben	1793550611	1
+50327646	Gold gold  . Thanks .now i need one for yt and one for only science papers	laxisOp	1793554082	1
+				
+50328362	"I used <a href=""https://hackernewsbooks.com/"" rel=""nofollow"">https://hackernewsbooks.com/</a> for years, it was fantastic for personal buys and gifts. But then it disappeared a few months a go.<p>Glad someone has created a new one."	pipes	1793558384	1
+50327899	"apparently angry birds is a book?  and it's more popular than the new testament in the ""other"" category."	notatoad	1793555632	1
+				
+				
+50327157	I expected way more books for software engineering.	alexpadula	1793550792	1
+50327203	Don’t tell anyone, but I’m working on hacker hack	alex_young	1793551148	1
+				
+50327359	HackerMovies someone with free tokens please	amiune	1793552186	1
+				
+				
+50328756	"Great site, thank you for sharing.<p>Now, all we need is diff-book-order(1), a command which takes as input your personal ""library.bib"" file and it orders all books mentioned on the parent's site that are not already part of the personal library."	jll29	1793560870	1
+50329112	Your book cover images are trash and I don’t blame you. There isn’t a good compendium of high-quality cover images and metadata for books that you can use for commercial purposes. Google books is amazing but they won’t let you use it for commercial purposes so there is a huge hole in the market if someone is willing to solve it. Calibre does a pretty good job, but it has its own algorithm that is very convoluted and involves searching Google images and multiple other sources and compiling them.	dyauspitr	1793562885	1
+50330002	Everyone should read Blackshirts and Reds: Rational Fascism and the Overthrow of Communism	zapataband1	1793568005	1
+50327658	Hacker Music tomorrow?	yreg	1793554140	1
+50328465	I think now we need 'HN-News - HackerBooks, but for news mentioned on HN'<p><i>SCNR</i><p>Even though I like HackerTube as well as HackerBooks. However, for HackerBooks, I am missing the summary of why people on HN recommend it.	arendtio	1793559110	1
+50329080	Atlas Shrugged in the top of all time? So so.	esher	1793562673	1
+50327370	I don't know if this is in  there, but I wonder if books have a kind of 'eb and flood', where books raise to the top, stay there a while, then go away again.  Could you plot some graphs?  I'd expect some alrounders to stay around in the background forever, and other books come and go according to the average HN trending mood	hyperman1	1793552250	1
+				
+50327656	I'd love to see a books and youtube thing for metafilter too. It has a similarly good recommendation history for me.	oidar	1793554131	1
+50327027	I am really loving what people are building on similar ideas close to HackerTube and I am tinkering something of my own as well with these new ideas.<p>Awesome Idea and I would love to see what else community tinkers with things like these :-D<p>Hackernews is really a gold-mine in many ways.<p>Edit: I will try to read thinking fast and slow because of HN recommendations. I have heard some good things about the book but I will try to read it in future given HN's immense recommendations, so your website has already had a negative net positive for me :-D	Imustaskforhelp	1793549987	1
+				
+50328769	i like this idea	badmonster0	1793560953	1
+50327032	Ayn Rand so high, though!	LeComedien	1793550032	1
+				
+50327921	[flagged]	nzjrs	1793555777	1
+50328662	> I mostly steered and made calls, bought the domain name, etc.<p>Correct move on handling the financial aspect yourself. I asked my mine to do everything but forgot to give it some dough. It sorted it all out but ended up with $6.3B on its account and I think it might have done something dodgy.	bita_nidir	1793560219	1
+				
+				
+50327201	Next idea, build HackerNews, a website that features actual news from HackerNews.	low_tech_punk	1793551116	1
+				
+				
+				
+50326995	[flagged]	deployvet	1793549784	1
+50328714	[dead]	gawacer	1793560545	1
+50328098	[dead]	betamagel	1793556815	1
+50326869	[flagged]	beanjuiceII	1793549065	1
+				
+				
+				
+				
+50327942	[flagged]	bosshawg	1793555866	1
+				

@@ -1,0 +1,5 @@
+50264368		mashally	1793128860	0
+50299437	"Recently I've been musing about how to harden my home desktop setup, and perhaps Qubes is still something to look into. At present, I still feel a little pang of paranoia/guilt whenever I use sudo from the same account I do most of my web-browsing on.<p>I can put most software-development stuff into a rootless Docker container to deter supply-chain attacks--I'm not sure how that compares to Qubes virtualization--but if some 0-day gets in through a desktop app I'll be in trouble.<p><a href=""https://xkcd.com/1200/"" rel=""nofollow"">https://xkcd.com/1200/</a>"	Terr_	1793329700	1
+				
+50299313	"Looks like Qubes OS is still alive: <a href=""https://github.com/QubesOS/"" rel=""nofollow"">https://github.com/QubesOS/</a>"	kristianp	1793328570	1
+				

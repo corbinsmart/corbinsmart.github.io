@@ -1,0 +1,2 @@
+50312408		soheilpro	1793410736	0
+50312516	I guess the real challenge is figuring out how to scale verification, cause discovery isn't the bottleneck anymore. Generating more bug reports doesn't necessarily translate into faster fixes if the same small group of maintainers still have to validate the reports, review fixes, etc.	droppedasbaby	1793411793	1

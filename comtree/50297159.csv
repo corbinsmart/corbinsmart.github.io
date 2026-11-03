@@ -1,0 +1,9 @@
+50297159		merksittich	1793313166	0
+50297564	"We put out something that describes our new approach to handle the patch gap: <a href=""https://blog.mozilla.org/en/firefox/privacy-security/defending-patch-gap/"" rel=""nofollow"">https://blog.mozilla.org/en/firefox/privacy-security/defendi...</a>"	mozdeco	1793315444	1
+				
+50303082	There are some heavy limitations worth highlighting here.<p>Firefox compromises also depended on a separate, previously unpublished vulnerability. Mozilla patched that vulnerability in Firefox 159.0 on October 27, 2026.<p>The researchers were unable to reproduce comparable results against Chrome, despite spending roughly $100,000 testing it.	holystatesman	1793363973	1
+50297481	What is the solution implied here? Attackers - whoever they are - already have them, so perhaps it's time we close the patch gap instead.	zb3	1793315004	1
+				
+50297460	The article doesn't establish whether AI ultimately benefits attackers more than defenders. Open weight models give defenders access to the same capabilities. At the very least the community has a level of symmetry they wouldn't otherwise have.	armcat	1793314863	1
+				
+				

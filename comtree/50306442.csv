@@ -1,0 +1,62 @@
+50306442		dbreunig	1793378422	0
+50307402	"A couple thoughts on the process here…<p>First off, Opus 5.5 built working weights and code with only two prompts:<p>1. Read this article and any relevant source code: <a href=""https://divagr.com/blog/qwenputer"" rel=""nofollow"">https://divagr.com/blog/qwenputer</a>. Then explore if you could emulate the chip and ram in a Nintendo Entertainment System (as people do today with FPGAs in MISTRs) using this technique. If so, what size model would you have to build and if you could use smaller faster ones, could you get it to be at the standard clockspeed.<p>It returned charts well illustrating any model would be _slow_. But it's still fun, so the second prompt was:<p>2. I think we should build it! Just for fun. It's okay if it's not fast. We want to be able to have the weights, and a cli to run them that we can point at a ROM.<p>Now while this was an _epic_ run by Opus (5.5 is a crazy capable model), this is a surprisingly well-structured challenge.<p>There is a long-lived and incredible community of classic gaming emulation work online for it to reference. And that community has created…conformance tests! Opus found them and built against one, that has >3k golden instructions: <a href=""https://github.com/christopherpow/nes-test-roms/blob/master/other/nestest.txt"" rel=""nofollow"">https://github.com/christopherpow/nes-test-roms/blob/master/...</a><p>Also, there is the original Qwenputer repo that Opus used to drive the weight writing. That was essential.<p>But this is a great example of what these models can do with proper reference materials, great specs, conformance tests, and clear direction."	dbreunig	1793381948	1
+				
+				
+				
+				
+50307314	"This opens up so many interesting opportunities. In principle one could compile a small VM inside the LLM weights. The VM can host for example a Python interpreter, a shell and tools like sed, cat, grep etc. Instead of LLMs having to do slow autoregressive token emission with the current ""external"" tool calling, it could literally execute everything except web search, inside the LLM, with just matmul operations. You could probably optimise this so it runs in batches. You could have a gdb like application that can step through the LLM forward pass. Anyway, just a crazy thought. Have a great weekend everyone!"	armcat	1793381603	1
+				
+				
+				
+				
+				
+50306736	I love these hacks, even though from an efficiency point of view it is horrifying to my assembly-code-golfing-brain. And it also gives some new appreciation for how much more efficient deterministic programs are compared to AI.	jacquesm	1793379510	1
+				
+				
+				
+50307246	>Overall, nesformer runs 150–290× slower than the real console.<p>I like these kinds of projects because it helps to show the massive compute requirement between LLMs and ordinary programs.<p>A while back I saw some people saying we would just have LMMs hallucinate an entire operating system <i>every single frame</i>. I guess technically it's now proven to be technically possible, but it would be thousands of times slower while requiring thousands of times more compute (a multi-million x difference from an ordinary OS!).	pbohun	1793381342	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50307070	I expected this to only simulate the CPU itself, but was surprised to find they actually simulate the RAM as well (contained in the model itself via the gated deltanet architecture).  So in my understanding, the CPU, ROM, and RAM are all handled internally by the model, and the only inputs after initialization are the controller events, wild.	cafebeen	1793380709	1
+				
+50306860	I guess I don't understand the point of this. Of course a set of digital logic circuits can be reduced to a set of weights. Am I missing something?	WoodenChair	1793379966	1
+				
+				
+				
+				
+				
+50307760	> nesformer builds on Qwenputer by Divyansh Agrawal, which compiled a CHIP-8 and then a RISC-V CPU into Qwen3.5-4B. It reuses Qwenputer's compiler and its central trick: the model's Gated DeltaNet state is the machine's memory<p>This is amazing, love it! Qwenputer is very cool too	nico	1793383212	1
+50313150	Sorry, I couldn't parse the obviously AI written README. If the author can't be bothered writing it, I can't be bothered reading it.<p>Maybe the bots will appreciate it more, after all, it seems to be written for them.	publlus_enigma	1793420056	1
+50309525	"B-but ""there's no such thing as a Nintendo"".<p><a href=""https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F583pp5xbvy7y.jpg"" rel=""nofollow"">https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F5...</a><p>""Mario thanks you""."	dormento	1793391252	1
+50308216	I'm guessing it's safe to say that LLMs can run Doom.	akie	1793385024	1
+50316657	"I'd be curious to know how the ""weights are conscious"" crowd interpret this model!"	vkgcr	1793457846	1
+50308347	It mentions a greedy decoder in the readme, I'm curious what would happen if you run it stochastically with T>0. Vibe NES? Or does it just crash.	lachlan_gray	1793385622	1
+				
+50307368	Woowww this is cool, not trained is even cooler--maybe I'm probably a bit naive, but to me it demonstrates an understanding of how an LLM can compute	munro	1793381812	1
+50323126	i have a nintendo in only a couple of kilobytes of x64 instructions!	vrighter	1793513665	1
+50308346	Has anyone tried training a diffusion model for speed ?	vorticalbox	1793385612	1
+50307108	Omg what is this sorcery?!	creposukre	1793380831	1
+50306834	"How do they know it's ""working""?<p>Did they test every possible input/output combination?"	amelius	1793379880	1
+				
+				
+50306884	Can someone give a TL;DR ?  What's the input to the model? What's the output?	mlmonkey	1793380079	1
+50312919	so, are LLMs going to be come the universal computing medium?	fnord77	1793416888	1
+50306705	It's NES	dizhn	1793379381	1
+				
+				
+				
+50314065	Next up: 1999 peak civilization compiled into the weights of an LLM.	j3th9n	1793433444	1
+50314298	oh boy, how amazing.. stolen code can be regurgitated by the black box of bullshit... such amazing, so wow.	nickphx	1793437244	1
+50314859	[flagged]	PhilippeRobert	1793444453	1
+50314315	[flagged]	invidiouslove12	1793437466	1
+50306878	This is like when people used to make tetris using only CSS or whatever in the 2010s. But it's less impressive because Claude Code can slop it out in an afternoon.	woah	1793380051	1

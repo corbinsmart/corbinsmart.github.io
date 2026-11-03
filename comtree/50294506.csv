@@ -1,0 +1,61 @@
+50294506	This popup has been a constant gripe of mine for years.  I almost NEVER want to allow this permission and there is no system setting to disable it globally and prevent the popup from interrupting your typing, etc.  This tiny swift app I built will autoclose it in 1/4th of a second and leave behind a little notification that it did so.  Would love to hear feedback!	johncassil	1793302064	0
+50295753	"The big problem with these permission dialogs, is their lack of technical detail about what the app is actually trying to do which triggers them.<p>How do I know whether to say ""Allow"" or ""Disallow"" when it gives me no idea what either option actually means in concrete?"	skissane	1793307160	1
+				
+				
+				
+				
+				
+50295801	"> Chromium browsers (Chrome, Brave, Edge, Island, Arc) copy their own app bundle into a random temp folder at launch so the code signature survives in-place updates. macOS keys the Local Network decision to that random path, so the next launch looks like a brand-new app.<p>OH DEAR GOD that explains so much other cursed behavior, including the ""do you want to allow google chrome helper to show notifications"" always reappearing. or teams. or anything that does autoupdates.<p>> Nothing on a typical Mac needs this permission except a printer or scanner utility, a media server, or a LAN-discovery tool, and those you answer once and they're done.<p>This is wrong. Browsers and media players need it because that is how multicast discovery for stuff like Chromecast works. Spotify, same thing. And Steam plus virtually all games with LAN multiplay for the same reason. Did I note already that Steam also has an autoupdater and so does Spotify and... argh.<p>Apple really needs to fix the very first point, preferably in a way that doesn't force app developers to ship a ""helper"" binary.<p>(Side note: it might even be the case that opening the file picker may be enough, if you got network-discoverable paths in your Finder Locations sidebar, but i'm too tired to test that one out...)"	mschuster91	1793307340	1
+				
+				
+				
+50295252	Have a problem with pesky permissions dialogs from sandboxed apps? This unsandboxed unverified app that requests Accessibility permissions, to the rescue!	ShinyLeftPad	1793305155	1
+				
+				
+				
+				
+50295069	"Can I have the opposite, a tool that automatically clicks on ""allow""? I installed the app, it's fine."	InsideOutSanta	1793304543	1
+				
+				
+				
+				
+				
+50295399	I'd rather something tell me exactly why this popped up in the first place, as every new OS version seems to introduce more triggers. I have apps that now pop this up when I quit, which doesn't make much sense.	jshier	1793305721	1
+				
+50295416	Says a lot about the state of Mac OS.	tobi_bsf	1793305805	1
+				
+				
+50298357	"Amazing. I'd LOVE for you to expand it, to also auto-dismiss ""Foo.app would like to access data from other apps.""<p>Adobe programs ask for this every time they start, and Claude Code randomly asks me this daily out of nowhere. It doesn't matter how many times I click ""Don't Allow"", it never gets remembered. (But of course if I ever mistakenly click ""Allow"" even once, that gets remembered for eternity and I never get asked again...)"	crazygringo	1793320505	1
+				
+50294763	side note but what is the consensus on figuring out whether small brew packages like this one are malicious?<p>I'm sure this one probably isn't, but I have no clue how I would know whether it is without reviewing the source code myself (or pointing an agent at it etc)	HughParry	1793303226	1
+				
+				
+				
+				
+				
+				
+50306344	I went down this rabbit hole three weeks ago. The alert is raised by rapportd when it’s called by nehelper two seconds after you log out.<p>Log com.apple.networkextension persistently, log out, wait for it, then log in again to read back your logs and catch it.	JumpCrisscross	1793378013	1
+50294667	Yes. Thank you. This is such a simple thing that should be a part of the operating system, and in the ideal world it would be. This is the perfect problem for the LLM to solve, because the reason it does't exist in the system is a decision by some stupid PM at Apple, and not an actual system constraint.	poszlem	1793302765	1
+				
+				
+50297957	Permissions consent prompts are broken.  they are far too coarse, and out of context.  The customer is forced to consent without knowing the scope or what will break.<p>A better experience would be an async consent screen, with placeholder content and calls to action until permission is granted.<p>For example, a network ping scanner could show placeholder host names & status until the user clicks to allow access.<p>The operating system could easily stub the sensitive APIs with placeholder content and a flag indicating the content is false.  So even legacy apps could work.	tonymet	1793318179	1
+50299792	"I'm surprised nobody here is saying ""what if your staging server is on the LAN, or you want to test a website from another machine?"" Somehow Safari allows it, and Chrome has to go through this system that prompts you. I try never to miss one of these permissions (""yes""), because having Chrome blocked from local websites is just no good."	herf	1793333550	1
+				
+				
+50294716	"""One Swift file"" except it's two Swift files"	LoganDark	1793302992	1
+				
+				
+50297277	This is the sort of classic MacOS situation that has mandated the use of Hammerspoon scripts and the like for more than a decade by now (this is not a sectarian point btw, Windows requires winutil just the same according to my optics)	dingdingdang	1793313796	1
+50294679	Thanks. It’s macOS' own cookie banner and dick bar.<p>It’s weird they haven’t just made this a menu flag…	browningstreet	1793302804	1
+50299949	Can’t we not have some OS level thing which suppresses all intrusive dialog and puts them in a nice inbox so I can decide which I want to answer or ignore in bulk…	anonzzzies	1793335560	1
+50294930	"Hmm another gripe of mine. Mac OS's vnc brings a popup that steals your focus when someone connects to the machine while you're physically in front of it.<p>I know it's well intentioned but I have this weird setup where I am almost constantly keeping vnc on from my laptop to my desktop. And the mbpro randomly wakes up to do whatever, even when not used, which reactivates the vnc connection, which pops up a warning on my desktop, which steals my focus.<p>Anyone knows a way to disable that? Possibly just for connections from a specific other machine.<p>Edit: as for this app, I think the OS only asks once for a new app? I don't remember being asked a second time even when denying it.<p>I could also whine a bit about ""this app wants to access files on a removable volume"" since my desktop has a thunderbolt ssd plugged in for extra space..."	nottorp	1793304032	1
+				
+50326589	What is wrong with you people, Just use Arch.	oneandonley1	1793547108	1
+50300016	There should be a third option: allow but give fake data<p>And it should be default.	est	1793336430	1
+50313343	Safari is exempt.	15155	1793422782	1
+50294767	this is exactly the type of app that makes me excited to see what the future will hold with ai. any regular joe or jane can now realistically solve many of their small annoyances with little effort and no experience.<p>(not saying this is ai or not, i have no idea, just speaking generally)	john_strinlai	1793303243	1
+				
+50323295	[dead]	lakshreddy_48	1793516393	1
+50323222	[dead]	maliroq	1793515155	1
+50305829	[flagged]	julietalfredes	1793376094	1
+50299407	[dead]	vancekai	1793329385	1

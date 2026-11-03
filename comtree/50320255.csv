@@ -1,0 +1,78 @@
+50320255		firesteelrain	1793480878	0
+50320483	If they didn't want us to use other people's ideas without permission then why did they use other people's ideas without permission to make the ideal tool for using other people's ideas with permission?	TrevorFSmith	1793482655	1
+				
+				
+				
+50320568	These guys are no fun at all.<p>Is this really the same cowboys that recklessly broke into others networks and instead of apologising proudly told the world how they did it?<p>Every 6 months Anthropic publishes a report telling us how closer they have gotten us to extinction as if human life was just a game, yet now they draw the line at computer game modding??	throwa356262	1793483202	1
+				
+				
+50320319	Is this.. The right approach? Who decides what gets to be reverse engineered and what doesn't? I don't have a solution to offer, but I bristle at the idea of one indistry deciding which other industries suffer the negative externalities of their product, while others they decide are spared.	genldd	1793481352	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50322673	I wanted to reverse engineer a win-xp era game with boring music and make it play my own selections--inherently a fair-use activity.  The game was somewhat obfuscated, so while I've used ghidra successfully at work, I wasn't able to work out how the game's system design even after a saturday of poking at it.<p>Claude has already refused to perform incredibly not-security-relevant tasks, so I'm guessing it will simply not help with this now either.  Today, I am, for the first time, looking into my own LLM hardware.	elevation	1793506652	1
+				
+50320304	Game REs & crackers are probably the most persistent personality types you can find in software world. They are also one of the most technically sophisticated software engineers around. I expect we will see a new AI system pop-up soon, made by RE, specifically trained to RE games/software, thanks to this ban. Pandora box is open.	newprint	1793481248	1
+50320650	They really didn’t though. They put it in a client side modification to the system prompt. You can just rip it out with a proxy or a small local modification to your client, which Claude will be happy to do for you. They took a token step so that people would write these headlines in the hope it would stave off more negative attention in the video game world without actually doing anything meaningful.	mirashii	1793483885	1
+				
+				
+				
+				
+50322105	The things that normal people will want to use AI for (game mods) will be made illegal or a ToS violation until the only thing allowed is to consume veiled advertisements.<p>Behind closed doors the elite will use the tech for (biological) weapons and reverse engineering though. Military applications, OK but don’t you dare put Sonic in Super Mario.	klipklop	1793498646	1
+50320771	I think that, excepting part of the HN crowd and linkedin, literally the only positive comments I've heard about AI have been related to game mods.<p>I'm saying this as a completely orthogonal conversation to regularisation, ethics, etc. It's just amazing to see how little value these companies place in the general public's perception of them.<p>Can you think of any other companies selling to the mass marker that care so little about it?	torben-friis	1793484815	1
+				
+				
+50326670	This is a good canary of what people were discussing in the past. Left to its inevitable outcome, centralizing AI development of software in a central player will inevitably generate over control and abuse. Its fortunate that openai or other party did not get to monopolize the Ai coding game and we have a way out in commoditization and open models.	guax	1793547544	1
+				
+50325534	I wonder if you can sort of decompile the assembly into basic blocks first, and then only run LLMs on batches of those basic blocks.<p>How would they know who's the original author or what the rights situation is?	hobo123	1793539913	1
+50320676	i ported the whole DungeonMaster 2 to .net. 90% with the first few 20 prompts, then quite some many to make it perfect. Just from the executables from those DosBox sites. Amazing.	zedascouves	1793484034	1
+				
+50320322	"Small discussion (20 points, 9 comments) <a href=""https://news.ycombinator.com/item?id=50316635"">https://news.ycombinator.com/item?id=50316635</a>"	gnabgib	1793481368	1
+50324270	They should be careful not to kneecap their product which would damage their valuation and number of subscribers in favor of trying to stop the inevitable.	testbjjl	1793528926	1
+50321627	Very sad. I'm about 50% in taking the old Red Alert 2 and get to something that would've resembled the original source code.<p>Given the rumors that the source code has been lost (and the fact that they open sourced the games before Tiberian Sun & Red Alert 2, and the ones after those), I felt like I was using the tokens for 'good'.<p>We'll see when it actually stops.	OptionOfT	1793493017	1
+				
+50320937	I am busy working on an embarrassingly ambitious game reverse engineering project. (To the point where admitting what it is feels like telling someone you’re working on a perpetual motion machine).<p>It’s a new tool to reverse engineer games in a specific context, and I’ve been using anthropic models to work on it.<p>I haven’t seen any increase in safeguards triggering or any negative effects in how quickly agents are able to make progress in this space.<p>To give an idea of scope it’s about 5000 commits, 500k lines of rust code, 100 Ghidra patches of work so far. Made in around 6 weeks worth of 8-15 agents working continuously.	pierrekin	1793486179	1
+				
+50326827	"""Anthropic's Claude AI has quietly started restricting the kinds of work it will do, including modding, decompiling, or reverse-engineering video game code.""<p>Uh, we're not allowed to use Claude to even mod games that fully support mods?<p>Based on how every time I ask it a virology question about SARS-CoV-2 and I get a refusal, I'm quite worried about how far-reaching this will be."	dualvariable	1793548753	1
+50324164	I don't get it. What does this solve? Wasn't this tool just a skill file with a bunch of scripts? Can't any above-average harness and model drive it?	umutsevdi	1793527929	1
+50320724	The most visible productivity gain I've seen from AI is in this kind of cool hoby RE stuff that just wasn't worth the time investment/resources before.	Guillaume86	1793484408	1
+50320528	Are they trying to push more users towards Chinese models?	geraneum	1793482916	1
+50321413	"They probably have reverse engineered the stuff for themselves and now closing the door behind them.  That type of thing is quite common. For
+ example MSFT copied some other operating system itself but theirs was holy. OpenAi used google's open source ai tools before openAi.<p>Fable of The Scorpion and the Frog should always apply ."	silverFork	1793490680	1
+50320566	Unfathomably lame	neko_ranger	1793483197	1
+50320871	So they own a bio lab but we cant even reverse engineer? Touché, Anthropic	lousken	1793485573	1
+50324226	they haven't seen anything yet, this is just the beginning. reverse-engineering is here to stay and there's nothing anyone can do about it. they brought the idea of AI to make us jobless, now the same AI is reciprocating the same energy and they don't like it?	jayces	1793528588	1
+50322715	This is why we need open models.	DustinPo	1793507409	1
+50320893	Oh no little piglet, you’re not supposed to be eating at the dinner table with us. Your place is at the trough. Make sure you eat all your slop to grow up big and fat. Do that and I’m sure you’ll find yourself on the dinner table in no time.	fwlr	1793485819	1
+50321239	The new copyright protects vibes	visarga	1793489059	1
+50320560	"It's not a surprise after so many IP violations recently that big guys will start blocking this stuff. But people who wants to reverse-engineer will just use Chinese or local models for that ¯\_(ツ)_/¯ 
+I don't think it's going to help Anthropic / OpenAI with that fight, but this is something that have to do to make their investors happy"	gosen	1793483172	1
+50323358	anthropic can go suck it	demo4567	1793517294	1
+50322138	"[dupe]  <a href=""https://news.ycombinator.com/item?id=50304358"">https://news.ycombinator.com/item?id=50304358</a><p><a href=""https://news.ycombinator.com/item?id=50315987"">https://news.ycombinator.com/item?id=50315987</a>"	ChrisArchitect	1793499098	1
+50321917	Its not reverse engineering video games.  Its being trained on them	BatchJob	1793496387	1
+50320697	Why does anthropic feel the need to babysit every one of their users? its so disgusting. Look - i get bioterrorism, weapons, etc and why you may need guardrails on those, but RE' games? come on.	dayone1	1793484184	1
+50320628			1793483725	1
+50320596	I wonder when someone will offer a truly uncensored model subscription. For some reason, it seems that nobody's been brave enough to find a country that wouldn't take them down for offering that service.	LoganDark	1793483395	1
+50320555	This is just prompt noise that any RE will be able to easily coax claude to ignore. It exists to get the big loserly game companies like Nintendo and Sony off their back.	phendrenad2	1793483134	1
+50321184	Wait until they block what your business does.	bcvvvy	1793488572	1
+50320457	"Also from Anthropic:<p>> Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But GLM-5.3 is unlike other frontier models in that it has been released without meaningful safeguards to limit misuse. <a href=""https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"" rel=""nofollow"">https://www.anthropic.com/research/glm-5-3-and-the-spread-of...</a><p>Just sayin'..."	bigyabai	1793482471	1
+				
+50320797	The irony is...	2TOUCH	1793485020	1
+50320957	More paternalistic nonsense	nsingh2	1793486383	1
+50326412	[dead]	billgates666	1793545959	1
+50323667	[dead]	honkostani	1793521884	1
+50320541	First, they came for the people who wanted to make kinky art, and I did not speak out, for I am a Sports Illustrated Swimsuit Edition kinda dude...<p>Then, they came for the people who wanted to reverse-engineer video games, and I did not speak out, for I find no amusement in seeing Mario take down Elden Ring bosses...<p>Finally, they banned me for a politically incorrect/inconvenient prompt (like asking for help defending Luigi in a debate or something), and there was no one left to speak out for me.	fuzzythrowaway	1793483021	1
+				
+				
+50320623	"No ""fair use"" claims this time? /s"	YmFzZTY0ZGFkZHk	1793483681	1
+50320574	"A very rational choice by Anthropic.<p>The cost of blocking videogame reverse engineering is trivial. They added three lines to the system prompt to exclude it and probably made a small update to their backend training classifiers. They give up the videogame reverse engineering market, which is a tiny future revenue stream and not worth much financially.
+In exchange they avoid hundreds of millions, maybe billions, in future copyright lawsuits.<p>Providing this service has negative expected value. It's better to cede the market to someone else."	tristanj	1793483257	1
+				
+				
+				

@@ -1,0 +1,77 @@
+50287001		ljf	1793270689	0
+50287703	In Australia, the real value of these big batteries is not necessarily to provide emergency power, but more to respond in milliseconds to variations in demand and to smooth out the 5 minute spot market.<p>Having a sink and a source for spikes aids grid stability and somewhat helps to reduce the need to build more infrastructure to handle transmitting power from the generators during those peaks.<p>It also helps avoid the viability of gas powered generators which are very expensive and carbon intensive.	nicois	1793275788	1
+				
+				
+				
+				
+				
+				
+				
+50287421	I'm glad they're reporting it as the energy storage capacity and not the power output capacity.  Too many news sites like to report the power output capacity in stories like these, which is horribly misleading, and then often they also frame it as though this is equivalent to adding actual power generation to the grid, which is even more misleading.	bradfa	1793273844	1
+				
+				
+				
+				
+50288158	Politically force datacenters to consume <i>only</i> solar and battery. Instead of total collapse, we now have tremendous amounts of cheap energy when the bubble implodes. That seems like the only way to hedge the bet on AI.	1970-01-01	1793278431	1
+				
+				
+				
+				
+50287826	"That's one third of what China added in December, 2025:<p><a href=""https://cleantechnica.com/2026/07/16/chinas-batteries-move-beyond-capacity-scale-up-utility-scale-storage-could-have-shifted-23-twh-more-clean-power-in-2025/"" rel=""nofollow"">https://cleantechnica.com/2026/07/16/chinas-batteries-move-b...</a>"	cisc	1793276678	1
+50287215	Makes sense. With battery technology improving and being the cheapest it's ever been, why not? This is probably the direction most countries will go in the future.	Synaesthesia	1793272210	1
+				
+50288673	One thing that would really help batteries is permitting reform. The BAAJA reform bill would really help not just the batteries themselves but the transmission lines which are far more difficult to construct thank to an insane system and lots of lawsuits.	daedrdev	1793280331	1
+				
+50289833	"It's impressive to see the battery capacity growing on ElectricityMaps over the years :
+<a href=""https://app.electricitymaps.com/map/zone/US-CAL-CISO/yearly"" rel=""nofollow"">https://app.electricitymaps.com/map/zone/US-CAL-CISO/yearly</a><p>But why is the utilization rate so low? It was barely 0.8% of electricity in California last year.<p>Edit: Got the answer, the batteries fire up around 6pm during the evening peak at around 9GW for ~25% of the total consumption. We would need approximately 5x more batteries and renewable power to move out of carbon-intensive production entirely."	goldenarm	1793284705	1
+				
+				
+				
+				
+				
+50287416	"For comparison, US grid capacity is about 1250 GW, average usage 500 GW.<p>So, this adds over two minutes of average usage.<p><a href=""https://seia.org/research-resources/energy-storage-market-outlook/"" rel=""nofollow"">https://seia.org/research-resources/energy-storage-market-ou...</a> says total storage now is about 200 GWh, or about 25 minutes of average demand."	Someone	1793273821	1
+				
+				
+				
+				
+				
+50287438	Obviously there are a variety of sizes and configurations, but if you assumed 3.5MWh per 20ft container, that's 5771 containers, and if you assumed a PCS container per two battery container, that's 8656 containers, just for an idea of the scale.	jonatron	1793273964	1
+				
+50287251	Presumably this is only capacity connected to the grid, and doesn't include isolated data centre builds?	walthamstow	1793272524	1
+				
+				
+50287706	Am I correct to assume all these grid batteries are all made in China as well?	ksec	1793275796	1
+				
+				
+				
+50287428	It's nice to see more storage being added, but we have keep thr order of magnitude in mind: the peak electricity demand for the US is 750GW, so the added storage for the past 3 month corresponds to just 96 seconds of peak consumption.<p>There's still a very long way to go !	stymaar	1793273909	1
+				
+				
+50289301	Lots of folks are going with lithium, including myself. I'm adding two more 16 kWh batteries to my home system. It just makes sense.	tomsellin23	1793282837	1
+				
+50288210	"For comparison, 20.2 GWh is what the Grand Coulee Dam can produce in 4 hours of operation.<p><a href=""https://en.wikipedia.org/wiki/Grand_Coulee_Dam"" rel=""nofollow"">https://en.wikipedia.org/wiki/Grand_Coulee_Dam</a>"	antiquark	1793278630	1
+				
+50287975	I wonder how much medium- to long-term storage has been installed this year. Batteries are fantastic, but we need better ways to store excess wind and solar for dark winter days when there's no sun or wind.	kilroy123	1793277454	1
+				
+				
+50288500	I am long on EVs, battery power and solar. Among the few silver linings in the otherwise dystopic hellscape timeline we're heading down now.	syngrog66	1793279773	1
+50287430	Batteries are great but every country still needs generation to charge them up. Some of the big gentailers build very little new generation capacity.	seb1204	1793273927	1
+				
+				
+50289160	That's 60 Wh per person in the U.S.	EricFrost	1793282310	1
+50287503	How many batteries in parallel would you need to capture the power of a lightning strike?	nomercy400	1793274394	1
+				
+				
+				
+				
+50287936	How many minutes does your average AI data center last on that amount?	zombot	1793277245	1
+				
+				
+50288558	Building out batteries and solar farms. Balancing the need for peak load demands against the steady state of steam generators. Racing to get nuclear going before running out of space for solar panels.<p>Is this real or are we living in a Factorio livestream?	sandworm101	1793279949	1
+50297994	I think the GWh unit is misleading. 20.2 GWh is a 5MW power plant supplying power for 1 hour.	redleader55	1793318443	1
+				
+50290850	[flagged]	tianji-astrolog	1793288509	1
+50290772	[flagged]	tianji-astrolog	1793288205	1
+50290700	[flagged]	tianji-astrolog	1793287943	1
+50291131	[dead]	chmorgan_	1793289444	1
+50288046	[dead]	krylonmae	1793277874	1

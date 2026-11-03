@@ -1,0 +1,113 @@
+50323088		luu	1793513179	0
+50324912	The are some very real costs to JavaScript frameworks. These frameworks do not exist to empower developers. They exist to:<p>* so that employers do not have to invest in training developers.<p>* to ease candidate selection at hiring, which greases the wheels of hiring/firing<p>In the big corporate world, especially at non-software companies, there is a culture that strongly believes internally written software sucks. This is <i>Invented Here</i> syndrome, and it reflects that internal developers cannot write software and employers will not invest in maintenance.<p>The larger costs there are human costs, the inability to efficiently solve any problem outside the constraints imposed by the framework.	austin-cheney	1793535399	1
+				
+				
+				
+				
+				
+				
+				
+				
+50326912	> Frontends are rewritten because some framework or another is “better for agents.” (Did anyone think to ask the agents?) The resulting code is “faster,” the agents make “fewer mistakes,” etc.<p>Yes, of course they asked.<p>The agents responded with how this framework is X, not Y. How creating it was a sharp commentary on other frameworks. A couple honest caveats, and a succinct bottom line that adequately kissed the user's ass.	julianlam	1793549378	1
+50324532	"Besides a rewrite to another framework using AI, another option is to modernize the framework with AI instead. Personally, I started to like Mithril after having worked with it for a few years. Instead of rewriting it to a better maintained alternative (mithril doesn't have much active development going on since 2015), I used agents to add signals, proper state management, typing, ssr, computed properties, Bun tooling and more to it. Thanks to the existing test suite, changes landed quite reliably. Source: <a href=""https://code.garage44.eu/jeroen/mithril"" rel=""nofollow"">https://code.garage44.eu/jeroen/mithril</a>"	jvanveen	1793531835	1
+				
+				
+				
+				
+50324006	This is buried at the end.<p>> My goal here is not to write the end-all-be-all benchmark for “I’m a vibe-coder, which framework should I choose?” The point of this post is to demonstrate that it’s possible in the era of AI coding to still make decisions based on evidence rather than vibes.<p>But it’s obvious that the article will be understood as a useful benchmark, so author probably should have addressed that point earlier and more thoroughly.<p>Taking the authors pov for a moment, they just showed you how to put all your criticisms to work in making a newer better benchmark :)	shermantanktop	1793526345	1
+50324621	"It's astonishing to me that even after a decade of SPA frameworks, most authors don't understand how a browser engine like Chrome works. There's enormous cost of manipulating the DOM from JS, as HTML elements get bound to JS objects lazily.<p>An actual high performance framework should manipulate HTML as a string directly, or through HTML templates (another feature that has existed in most browsers for a decade).<p>If you're not building a complex application on top of the web stack (interestingly these increasingly use WASM and their own GUI frameworks, so another moot point), but building an interactive consumption website (scrollable lists of static contents), I'd say instead of fronted frameworks, what most people actually would need is Chrome's experimental declarative partial updates:<p><a href=""https://developer.chrome.com/docs/web-platform/declarative-partial-updates"" rel=""nofollow"">https://developer.chrome.com/docs/web-platform/declarative-p...</a><p>Which basically stream HTML fragments from the web."	torginus	1793532709	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50323580	This benchmark is too simplified to be meaningful. The choice of a framework is rarely based on speed alone, it factors in other elements like the user's domain knowledge, long term maintainability and the framework's track record itself w.r.t security and development of features.<p>In this regard alone, it will make a lot of sense to spend extra $2 and 2 mins to trade off for a long-term maintainable codebase and code you can reason about than just something made quickly just to get it deployed fast.<p>In my personal use case, that would be Svelte 5 for me and I'm sure it will be something else for everyone.	neya	1793520677	1
+				
+50323448	Astro comes out on top with the best time, #2 lowest spend and <i>zero</i> client side JS. I know what I'm using for my next project.	tancop	1793518836	1
+				
+				
+				
+				
+				
+50328509	I guess the conclusion is Angular was the worst choice pre AI and continues to be post AI	jatins	1793559406	1
+50329036	"This experiment could be reframed as: which framework's abstractions are best suited to building ""the Pokémon app.""<p>The results might differ if you were building Facebook, or Instagram, or X, or a static web page for the local coffee shop ...<p>There will always be trade-offs, but tailoring your abstractions to the project is usually a better decision than not doing so.<p>Communication has lately proven itself to be as important as ever. If your team has to approve and maintain the result, then using abstractions the team already knows could be the difference between approving the PR today and mythical-man-monthing yourselves as release-blocking capacity -- yet-to-be-onboarded -- for a project that only the AI understands."	odyssey7	1793562490	1
+50324047	HTMX is interesting.<p>I have most of my apps in it without much trouble.<p>One of my recent ones had a very complicated form and state management.<p>AI really struggled with HTMX in that use case.<p>Like the form might work but the page would take 30s to load. Or some state would randomly drop or a toggle wouldn't work after changing a dependency.<p>If I rewrote that in react it would have one shot it without a doubt. Some things are just better models for different problems.<p>For the record I eventually got enough tests in place to keep the agent honest and the HTMX version is now a lot faster anything I could have got out of react but yeah, it was an adventure.	unsloppable	1793526703	1
+				
+				
+				
+50325769	"I just used Astro yesterday for a static website I am deploying to cloudflare pages. I must say I was really impressed by the whole experience! From claude being super fast and diligent to the site structure being “decent” for the tokens and effort spent on it.<p>If anyone interested here is the source code all done by Opus 5.5 
+<a href=""https://github.com/ramigb/esdara"" rel=""nofollow"">https://github.com/ramigb/esdara</a>"	ramigb	1793541660	1
+50326749	Weirdly, this underscores my personal non-AI experience of Nuxt, which is that it is almost easier than you'd like it to be.<p>I'd prefer not to have used Nuxt for front-ends that don't need it, because it's chunky and a greater migration burden, but once a couple of patterns are in place, it's actually rather fun to use. A bit too much fun.<p>Also it's modestly large up front, which is the downside.<p>I suspect what is going on here, the same as with Laravel — which LLMs seem to really enjoy writing — is that the documentation is good, clear and ironically human-focussed,  more oriented towards understandable recipes and reference, and the middleware setup is not absolutely arcane; at a glance of a Nuxt page's code you can kind of see mostly what it is going to do.	dofm	1793548156	1
+50323821	> in the agentic era, when developers are no longer typing code by hand<p>I hope I'll be the last person on Earth writing code by hand.	iperov	1793524142	1
+				
+				
+50323777	Java script frameworks are just extra boiler plate that isn't needed in the age of ai-coding.<p>Server side page generation with a sprinkle of js will give you the same results with GBS less of packages and comple time	mmusc	1793523542	1
+				
+				
+				
+				
+				
+				
+				
+				
+50323551	Just use plain HTML for God's sake. HN demonstrates very well that you can do plenty without some Javascript monstrosity. At the very least, make your your websites degrades gracefully when JS is turned off.	drnick1	1793520287	1
+				
+				
+				
+				
+				
+50329749	interesting article. i think there is still benefit to well maintained ones like react, it will be well tested and maintained by specific people with expertise to it	badmonster0	1793566354	1
+50328482	A significant part of the cost is that newer framework APIs are not known to the current agents. So they need to discover them and learn them on the fly. Eventually future models will have them trained into their weights and efficiency should increase. In the grand scheme of things, the cost might be negligible if it makes up for it in performance or quality.	ef2k	1793559195	1
+50323639	Interesting, I’m just sad svelte didnt behave better because of the LLM reading migration guide on every answer	iammrpayments	1793521431	1
+50324894	"I enjoyed reading this article. I think it's an important article. Even though people might disagree about certain definitions like ""maintainability,"" I liked what the author did by sticking to objective measurements which do correlate somewhat with the things we care about: Ability to implement the product fast, with few tokens and with as few lines of code as possible in the final product. These are well chosen metrics IMO.<p>Fewer lines of code (per piece of functionality) does, in fact, correlate strongly with maintainability. The downside of this metric to watch out for (as Goodhart's Law would have it) is to ensure that the framework isn't compromising (current or future) flexibility in an unacceptable way. I imagine if this kind of benchmark becomes popular, people would start coming up with low code frameworks which are extremely rigid and inflexible. Because rigidity is a good way to cut lines of code. There needs to be a way to ascertain the flexibility limits of the framework too.<p>Would be good to have a similar benchmark for a more complex application; one with authentication, access control (with individual ownership of records and group ownership).<p>Also would be good to compare the security of different frameworks in this way. See which frameworks leave security gaps. Would be good to set up a benchmark where an AI agent is made to impersonate different users (with different roles) and test access to all possible data types and views in an exhaustive way.<p>A while ago, I showed Claude a relatively complex application I had built with my framework <a href=""https://saasufy.com/"" rel=""nofollow"">https://saasufy.com/</a> and asked it to estimate how many lines of code and how long would be required to build the same application with a stack like React + Node.js + Postgres and it estimated that it would require 4 to 5 times the amount of code and amount of time so I'm keen to actually test it out with a benchmark like this.<p>I was not surprised that HTMX lead in a lot of the benchmarks. I suspect it would do even better with a more complex application. IMO, its design is closer in spirit to where the industry needs to go. There are a lot of maintainability and security gains to be had by standardizing frontend and backend interactions; though I believe there are other way to do this which can yield even more gains (though obviously with some tradeoffs depending on the use case)."	socketcluster	1793535240	1
+				
+50324146	The point of using a framework is to reduce mental load at expense of customizability. The moment you need to change something in the framework - this mental model falls apart.<p>Obvious solutions are to vendor your dependencies (compile the framework from owned source) or to drop to the lower level of abstraction.<p>LLMs should have no problem using browser/node APIs directly since they're very well used, well documented, and not changing as much as higher level software does.	ivanjermakov	1793527803	1
+50328419	"I don't want to sound overly harsh here, but this is the kind of nonsense that shows why ""vibes"" are so much more trustworthy than ""benchmarks"" for assessments of what tools to use. The author has self-awareness about how flawed this benchmark is, but he still presents it as ""evidence""."	bilalq	1793558766	1
+				
+50323646	Glad to see Astro doing well here. It's by far my favorite way to build sites of all kinds, both content rich MPAs, and react heavy web apps.	genshii	1793521516	1
+50323819	Interesting article. Kind of seems like you'd want a more complex task, there's not much differentiation here.	andai	1793524133	1
+50325450	"If you want to see how to write a maintainable application without a huge framework here's an example: <a href=""https://github.com/wisercoder/eureka/tree/master/webapp/ClientApp"" rel=""nofollow"">https://github.com/wisercoder/eureka/tree/master/webapp/Clie...</a><p>It uses two 500-line libraries, one for using JSX syntax, and the other for MVC."	flowerlad	1793539429	1
+50325281	Interesting that the lines of code are basically the same across all frameworks, including vanilla JS.	actinium226	1793538350	1
+50325403			1793539153	1
+50324809			1793534438	1
+50329023	> But in the agentic era, when developers are no longer typing code by hand and are thus less constrained by DX, I still see vibes ruling the day (and not just in the sense of “vibe-coding”). Frontends are rewritten because some framework or another is “better for agents.” (Did anyone think to ask the agents?) The resulting code is “faster,” the agents make “fewer mistakes,” etc. Once again, these claims are often made without evidence. Whenever I read one of these accounts, I think to myself, “Where are the benchmarks?”<p>Again the law is laid down. Developers no longer X. They Y.<p>Feign dismissal over vibes all you want. Same old inevitability posting.<p>Enlightenment will be achieved when agents set up the benchmarks for what JS frameworks are good for agents. Other agents will interpret the results. Modern, peer-reviewed science.	keybored	1793562392	1
+50326216	not a surprise - frameworks or libraries that were easier for humans e.g htmx, hono (expressjs like) are also easier for agents.	dzonga	1793544516	1
+50324067	Solid work, but it would be really cool if we can also test Pokemon motions and how the game responds in real-time. Is an agent able to think about reactions, directional movements and attack patterns of each Pokemon is where the real intelligence test lies.<p>Traditional languages may have their limitations, but [C++, Rust, JavaScript, TypeScript etc] can still do pretty well.	samayashar	1793526992	1
+50323810	Nice to see Nuxt holding its own.  Astro or Nuxt are my gotos for client work and personal projects.	jawngee	1793524052	1
+50323510	Angular sucks, I always knew it, and now we have some data that it’s broken even for agents. I’m not surprised	usernametaken29	1793519749	1
+				
+				
+				
+				
+50324184	my experience is that one-shotting a simple front end works great. Then you want to add features and move things around and each turn starts getting slower and the single page with JS and CSS and HTML starts to turn into a 3000 line monster and your context window starts to creak under the strain of even simple changes, because the LLM has to keep more and more of the application in its head just to make relatively small changes without breaking something else. Either you should have started with some kind of framework with hygienic rules on how to separate concerns or at minimum a good set of coding standards that force the LLM to start building clean components from scratch. The benefit isn't necessarily cleaner code for its own sake, it's that the LLM can work on one part of the application without having to understand the whole thing every time. That being said, once you have a 3000 line prototype it's not that complex to simply ask the LLM to refactor it into a set of orthogonal components. As long as it was building unit tests using playwright or something this can turn your slop into <i>framework</i> code cleanly. The interesting question is whether you saved anything by putting off that structure in the first place.<p>I run into this problem turning claude artifacts into things I might want to maintain longer term.	injidup	1793528195	1
+				
+50323719	where is jquery? :(	electroplankton	1793522743	1
+				
+				
+50325516	"This was very interesting and I was fortunate to have my bias validated further for HTMX ;)<p>I would like to also point out from a small sample of vibe coder friends who are ignorant to tech stacks and just let their agent decide, the default stack is always Next.js, Vercel, and Supabase.<p>Why are agents when given control to decide, almost always choose Next.js? SEO/AEO?<p>Aside from a more complex web app for the future benchmark, I have suggestions of what else I'd like to see included:<p>- Lines of code / surface area of the framework - easier for an agent to find the ""right"" API when there are fewer
+- Security surface: number of dependencies per framework - help keep the vibe coders secure
+- ""Number of non-blank source file lines"", show both numbers with and without comments included."	h0rv	1793539801	1
+50326418	AI is quite good at vanilla as well. Do you actually need a framework? If most of your pages are static with a tiny sprinkle of interactivity, React might be overpowered. TS + HTML + CSS is all most sites need (that's my hot take).	umvi	1793545978	1
+50328332	Nuxt continues to be under-rated, considering how much you get from it.	etchalon	1793558213	1
+50325970	"Interesting... Training data is really the same as experience in human developers. I favour frameworks I have experience in, the thing is most AI models have similar weights of ""experience"" and hence certain frameworks are accelerating in popularity."	elijahglass	1793542885	1
+50323980	I mean it just seems like even in the agentic era, you should know when to use the right tool for the right job. The site shown seems perfect for htmx style websites, so idk why you would use an SPA. Still very cool experiment, appreciate the data and human writing!	borzi	1793526004	1
+50327319	"Anecdotally, sveltekit 2 was super quick to use for me.  I tried building a somewhat interactive app with htmx and found the user experience was often incorrect on the Claude 4 family models.  I switched to sveltekit 2 and it produced what wanted almost immediately.  Features were added instantly.  Even today with React and Opus 5.5 it couldn't match the development performance of version 2.<p>That said, both are ""fast enough"" and if you're on an enterprise plan, the cost difference is neglible.  I waste way more more tokens due to poor or imprecise requirements than I do on development."	smrtinsert	1793551948	1
+50327180	If you are working on a typical web app, you either use a canned framework or write your own. Models are trained on existing frameworks, so they don't have to hold it all in their context to reason about it; it's baked into the weights. Same goes for the humans reviewing the code. I don't see the benefit of writing your own framework for most companies.	esafak	1793550958	1
+50324027	htmx for the win, as always	sachahjkl	1793526487	1
+50323739	It is fairly obvious that it is all going to be some kind of React/JSX with tailwind.	chvid	1793522931	1
+				
+50323433	Unfortunately the author is not only correct about front end development vibes, but due to this state of affairs, I ceased to recognize browser based UIs as being software development at all.  Too much browser tech is broken to call it software.  As for agents, good for them!	BatchJob	1793518630	1
+50329329	[flagged]	CosmicLaw1895	1793564260	1
+50329214	[flagged]	humainlogic	1793563566	1
+50328272	[flagged]	PropWorld	1793557860	1
+50326296	[flagged]	arbor-group	1793545101	1
+50329247	[flagged]	alonharpaz	1793563824	1
+50325975	[flagged]	aitin	1793542934	1
+50324877	[flagged]	HUMAN-X	1793535101	1
+50323956	[flagged]	mastic	1793525814	1
+50323896	[flagged]	dceniac	1793525042	1
+50325047	How's about no JS framework and just use the browser APIs? If you want token efficiency, that's the way to go. If you want web app efficiency, that's the way to go too. JS frameworks were always for the horde that does not do the homework, and the horde that wants to talk about it all day long rather than whatever the fuck is the purpose outside of this damn computer.	bsenftner	1793536596	1

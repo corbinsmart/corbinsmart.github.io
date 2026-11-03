@@ -1,0 +1,9 @@
+50276613		b_llc	1793206103	0
+50316044	I think this is a clever happy path solution, but it isn't very defensive against problems. If the cloud cron doesn't fire on time or the consumer fails then the queue won't be drained in time. That will cause the events to be batched in the wrong hour.<p>I don't see how you are building the batches, but there's a lot of complexity around batch sizes, acknowledging that the messages were consumed, etc. Having a single dataset.json.gz per hour feels like a hint this isn't done safely. I'd double check that carefully to avoid losing data.<p>One tip about compression, I've been really pleased with zstd compression of json/jsonl data.	8organicbits	1793453526	1
+				
+50313660			1793427394	1
+50316601	"- your blog page has errored out<p>- <a href=""https://bellone.com/blog"" rel=""nofollow"">https://bellone.com/blog</a>"	vivzkestrel	1793457472	1
+				
+50276614	A stateless pattern I use to batch telemetry at the edge while driving Cloudflare write costs to zero.	b_llc	1793206103	1
+				
+				

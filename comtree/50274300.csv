@@ -1,0 +1,8 @@
+50274300	Feel free to give me feedback or discuss what you have on your mind. I had lots of fun building this, so I hope you have too reading this!	sharktheone	1793197949	0
+50281159	"Congrats on the public launch!<p>The repo description says ""A JS/TS Engine"". What are your plans on integrating/implementing TypeScript? Also I see the codebase is in Rust but there's some setup/tooling for Go. Are you planning to release it as a Go package?<p>Oh, the first question is answered in the post:<p>> Yavashark’s CLI can run React with TypeScript<p>Nice, curious to see how that works internally - is it type stripping? I wonder about source mapping, for example, line numbers in error messages."	lioeters	1793222923	1
+				
+50285113	Congratulations on this release!	keane	1793254428	1
+50281130	[flagged]	oyadoti	1793222782	1
+50285488	[flagged]	sebastienburel	1793258192	1
+50280742	[flagged]	meltveln	1793220755	1
+50281734	[flagged]	mersbyte	1793225989	1

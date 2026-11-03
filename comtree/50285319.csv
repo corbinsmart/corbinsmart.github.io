@@ -1,0 +1,30 @@
+50285319		austinallegro	1793256448	0
+50286550	"Orange is a legend and this chain is extremely impressive here.<p>No memory corruptions, no heap shenanigans, just pure logic bugs, almost made easy to understand for the reader.<p>As a bonus, they also posted a reverse chain: popping Edge from calc [0].<p>[0] <a href=""https://www.youtube.com/watch?v=Bh1zglq4mLE"" rel=""nofollow"">https://www.youtube.com/watch?v=Bh1zglq4mLE</a>"	darkamaul	1793266985	1
+				
+50286124	I always felt bad about the whole site/browser cross integration that chrome and edge and others do. Now I feel really really really bad about it. Can almost see the marketing team's emails about what features to add, and the developers unwantingly writing the code not expecting such things to open so many holes	its-summertime	1793263533	1
+				
+				
+50290707	"Oh dear god, at each further chain link I was laughing so hard that my poor cats got disturbed!<p>This entire chain is nothing but a lesson of shame for Microsoft - if you fork a thing, better be prepared to <i>thoroughly</i> understand and review each corner you touch. Or you might miss important cross-references that you <i>should</i> update but that aren't mentioned in comments by the original developers.<p>As for the ""sign in automatically"" BS that both Google and Edge push - that can go and die in a hellfire where it belongs."	mschuster91	1793287959	1
+50288036	It's very refreshing to read such clearly written and concise technical reports.	antonly	1793277823	1
+				
+50289458	> with a simple fetch(...) with credentials included, you can easily grab any Microsoft Edge user’s email from any website<p>Wow, this is disturbing on its own	adzm	1793283344	1
+				
+50287278	> So even if you’ve never created a User Profile in the browser, just visiting www.microsoft.com is enough for Edge to create one and sign you in automatically.<p>This is disgusting behaviour, RCE chain or not.	tveita	1793272688	1
+50288375	"I guess that explains the questions I had when I was mysteriously logged into Edge. I checked whether Chrome does something similar, and it can, but the setting ""Sign in to Chrome when you sign in to other Google services"" was set to ""Don't sign in"", so I'm not sure whether this is the default or not."	deburo	1793279256	1
+50286142	human craft is becoming rare these days	zhiyan	1793263639	1
+				
+				
+50290725	"Glad to now have some hard evidence I can reference whenever I bring up my strongly held intuitive opinion of ""Microsoft repackaging someone else's browser  and adding some extra stuff to it can only make Edge strictly worse"""	akersten	1793288022	1
+50286773	The popup nightmare never stops.	sharpshadow	1793268727	1
+50287387			1793273664	1
+50288379	This is very awesome and cool.	Vaushite	1793279263	1
+50286698	This is amazing work.	breakingcups	1793268182	1
+50286532	Excellent write up	berofeev	1793266831	1
+50290736	"A good summary of the so-called ""modern"" browser<p>But what hapens when there's no Javascript interpreter, i.e., not the so-called ""modern"" browser<p>And when the OS is not Windows<p>The so-called ""modern"" browser _is_ a ""logic bug"".  It's multiple layers of stupidity if ""security"" is a goal"	1vuio0pswjnm7	1793288074	1
+				
+50286323	Stopped at<p>> I won’t go into too much detail in this post, because I think in this era, you can just ask your agents to fill in the details :)	cyclopeanutopia	1793264928	1
+				
+				
+				
+				
+				

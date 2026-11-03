@@ -1,0 +1,52 @@
+50320028		lakesare	1793479599	0
+50321851	I once ran an inadvertent experiment by installing Austrumi Linux, but not realizing that the default language is Latgallian. I'm fluent in Latvian, but I wondered if something had gone wrong with my brain. I could understand most of the words I was looking at, but more than half of the sentences I read were baffling.	Zigurd	1793495558	1
+50322214	"I’m not sure exactly where 85% coverage falls. But I can say that at 75% you will have essentially zero understanding of what a text says. (Context clues don’t help you here) And at 95% coverage you will be able to understand basically the entire text.<p>I don’t remember the source but here is the first page of Harry Potter with only 75% coverage:<p>> 75% coverage<p>_______ ONE<p>THE BOY WHO _____<p>Mr . and Mrs . Dursley , of ______ four , ______ _____ , were _____ to say that they were _________ ______ , _____ you very much . They were the last people you ' d ______ to be ________ in anything _______ or __________ , because they just didn ' t ____ with ____ ________ .<p>Mr . Dursley was the ________ of a ____ called _________ , which made ______ . He was a big , _____ man with ______ any ____ , ________ he did have a very large ________ . Mrs . Dursley was ____ and ______ and had nearly _____ the _____ ______ of ____ , which came in very ______ as she _____ so much of her time _______ over ______ ______ , ______ on the _________ . The Dursleys had a small ___ called Dudley and in their _______ there was no _____ boy ________ .<p>Here is a similar source <a href=""https://thepatrologist.com/what-98-comprehensibility-looks-like/"" rel=""nofollow"">https://thepatrologist.com/what-98-comprehensibility-looks-l...</a>"	MichaelNolan	1793500194	1
+				
+50321673	"Err… it's not particularly good methodology to just consider words for Japanese. While it's true that a lot of kanji share pronunciations (and you thus can't identify them from hearing them on their own) you can still get at some compounds from context and ""knowing 2 halves"". (Kanji are quite frequently used in groups of 2 to form words, and a lot have only one reading when used in this manner.  Personally speaking, I really need some context to get anywhere though.)"	eqvinox	1793493533	1
+50320415	This ignores the fact that you can often figure out the meaning of the line from context even if you don't know the meaning of each word.	buzer	1793482096	1
+				
+				
+				
+				
+				
+				
+				
+				
+50320729	Sounds about right. Similar experience learning German when I moved to Berlin from the UK (though less extreme, felt like 85% of words was 50% of sentences).	ben_w	1793484424	1
+50320459	> kochira wa yakusoku no houshuu desu<p>You blurred yakusoku, everybody knows that, but houshuu is much rarer word, should have blurred that	dvh	1793482475	1
+				
+50321708	"""How we did it"" (Claude and him).<p>Some bad writing examples I liked.<p>> By the third pause to look up a word, your tea has gone cold.<p>And here I thought that water had one of the highest specific heat capacities.<p>> Both numbers are true<p>What does ""both numbers"" refer to? Presumably the two percentages, (based on the title, but there is no framing right away that these are the key numbers), and proximate to the line are several unrounded numbers.<p>> is a flashcard app that teaches Japanese from anime. Each card uses a line where you know everything except the one new word, which is why we started counting lines. The figures above count each word once, however many meanings it has. That wouldn't work in the app: knowing あれ as ""that"" doesn't help when someone says あれ？ (huh?). These are two separate cards. It doesn't catch every such word yet, we're working on it. During early access it offers one show, Hunter x Hunter.<p>Highly advise cutting down your marketing pitch for your product, it's just too long to grab people."	ethanj8011	1793493845	1
+50320677	"Reminds me of an analysis I did a while back: <a href=""https://news.ycombinator.com/item?id=44349332"">https://news.ycombinator.com/item?id=44349332</a><p>I didn’t include it in my analysis, but I’ve been thinking about “sentence coverage” vs “word coverage” for a number of years now. In an extreme case, you could imagine a transcript with only i+1/1T sentences and you’d be left with totally incomprehensible input."	joshdavham	1793484043	1
+50322447	I wonder if the early success of Dragon Ball (Z) was due to how straight forward the plot is.<p>You can have a good time watching Dragon Ball Z without understanding the dialogue.<p>Although much has to be said for the fantastic dubs in various languages. One of the only anime where the dub is arguably better.	999900000999	1793503533	1
+50327110	> Both numbers are true<p>I'm going strangle somebody.	oidar	1793550499	1
+50320846	This reminds me of how I learned about Zipf's law.  19 years ago, I spent the summer after my sophomore year in a research lab at UC Santa Cruz as part of an NSF-funded summer research program for undergrads.  My project that summer was to investigate index design for the Ceph distributed file system in order to enable faster file search.  This was a hot topic at the time, especially with Spotlight being introduced to Mac OS X Tiger, and we wanted to see how to enable similar functionality for a distributed file system.  I learned about Zipf's law, which states that there is a power law distribution of word frequencies in many natural languages.  I remember downloading the Project Gutenberg corpus and writing a Python script where I stemmed the words and computed the frequencies of the stemmed words.  The resulting distribution confirmed Zipf's law.	linguae	1793485362	1
+				
+50320436	"I watched Lain with the subtitles on and I still won't claim I understood all the lines.<p>I'm pretty sure many of the lines are _not understandable by intent_, even.<p>""Present day... present time... ahahaha!"""	td521534f12	1793482238	1
+				
+				
+50320442	I spam Yare Yare to the extent that my friends had it on my birthday cake	GodelNumbering	1793482344	1
+				
+50320679	Rare words usually carry the most information in any given sentence.	zaik	1793484069	1
+				
+				
+				
+50323622	With the 2136 common use Kanji you get >98% on all shows	Rant423	1793521282	1
+50320290	My first anime was NGE. I knew all the words and still understand nothing.	gustavus	1793481166	1
+				
+				
+				
+				
+				
+50320705	"One thing that seem to be improving Japanese literacy across the world is <i>Inmu</i> gay porn meme contents. I believe it hasn't reached the US, but it is becoming eerily well known in East/Southeast Asian countries, including mainland China. It uses tiny set of vocabulary in highly repetitive manner, <i>a la</i> kid's picture books, but in the way relatable and addicting to social media users rather than e.g. portraying a day in the life of a cute crayon drawn caterpillar.<p>IMO, what that tells us is that a completely dumb repetition of small set of simple concepts to just set up the pathway can be an effective means to kickstart language acquisition process. Most language learning materials attempt to establish a compact set of rules to be expanded with a long tail of modular add-ons, even many that aims to create an alternative and less stressful approaches like Duolingo. The <i>Inmu</i> dictionary has less than 500 known expression, all unusable in regular communications and inappropriate in most settings, and the way it is used is simplistic, childish, disrespectful, and dumb. And I think that might be how ""start with picture books"" advice look like if rebuilt from first principles."	numpad0	1793484254	1
+50320499	That's higher than what I would've expected.	dumberquestions	1793482763	1
+50321289	Nani!?	rKarpinski	1793489561	1
+50321985			1793497167	1
+50322497	Can confirm that understanding Jujutsu Kaisen in a language you're still learning is brutal.<p>I can watch pretty much anything in that language at this point but having one character explain complex arbitrary rules with little visual aid is just too difficult yet.	eulgro	1793504311	1
+50321197	Full metal alchemist, the original not Brotherhood, was the pivot point in my opinion where dubs were superior to subs.<p>The main characters were all well voice acted while I admit background characters were poorly voice acted.<p>However I say it’s the pivot point because the in top of the main characters having good voice actors the translation included cultural context I would have never picked up on my own.<p>For instance it took me nearly a decade later of occasionally watching subs to find out that “ore” was rude when male characters used it to refer to themselves because I didn’t have the cultural context to understand.<p>If I’m willing to become fully fluent in a language and its culture dubs are superior, but I just don’t have the time for most foreign media.	lovich	1793488669	1
+				
+				
+				
+50320375	> Coverage is the number most learning sites quote.<p>This person is visiting different learning sites then I do.<p>Also, I dont need to understand every word in sentence to understand it. Especially when coupled with visual show.	watwut	1793481741	1
+				
+50330084	[dead]	Giho	1793568469	1
+50320793	[flagged]	2TOUCH	1793484995	1

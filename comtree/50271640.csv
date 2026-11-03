@@ -1,0 +1,161 @@
+50271640		galadran	1793185420	0
+50272609	"Right, so it's not just git, it's a bunch of system-provided utilities; macOS trusts bad certs, and these utils that trust the OS are affected. I use homebrew for my git and curl but haven't yet checked to confirm whether that matters here. 
+Kind of outrageous that Apple's guidance is to edit the cert chain manually, and to expect that subsequent OS updates may revert your mitigation, reintroducing the vulnerability (as happened at least once so far)."	chrisweekly	1793191039	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50273146	That MacOS hasn't removed from OS-level /etc/ssl seems like a big deal, affecting more than just OS-supplied git. Is /etc/certs not used by most graphical Mac software, I guess?  The chaotic state of OS-level cert management, on Linux as well, is pretty dismaying.<p>If Apple is still trying to brand themselves as security-forward, you'd think removing the revoked CA certs from /etc in a system update would be a pretty easy thing to do?	jrochkind1	1793193794	1
+				
+				
+				
+				
+				
+				
+				
+50273808	"Here's what apple (themselves) recommends to patch: <a href=""https://support.apple.com/en-us/149555"" rel=""nofollow"">https://support.apple.com/en-us/149555</a><p>Pretty much every developer on mac should probably run their patch."	truelson	1793196393	1
+				
+				
+				
+				
+				
+50272155	"Apple’s statement: <a href=""https://support.apple.com/en-us/149555"" rel=""nofollow"">https://support.apple.com/en-us/149555</a>"	qaz_plm	1793188516	1
+				
+				
+				
+50273958	While there is no proof that anyone knew about these weak keys for the year and a half that they were trusted by virtually everybody, and there's no evidence of MITM attacks happening in the wild because of it, you can imagine the payoff that a three letter agency would have if, for even 10 days, there was an opportunity to harvest credentials from important people in high places.<p>I have no evidence or proof, but I am convinced this wrap/unwrap key generation debacle was intentional and the weak keys were discovered and kept secret by the agencies or governments and used to exploit their adversaries.<p>You don't need to perform a traditional MITM attack _if you own the airport_ or you _own the free public wifi_. The traffic can be harvested in clear text and we have to come to terms with the _remote possibility_ that this was going on for over a year and a half. If not that long, then certainly for the past 10 days.	faxmeyourcode	1793196857	1
+				
+				
+				
+50274711	I'm not being sarcastic when I say that Apple should copy Windows Update, I have no idea how they have got this far without a method to add small patches outside monolithic OS updates.	kryptiskt	1793199254	1
+				
+				
+				
+50273605	It seems like we've all just... given up on certificate revocation?  CRLs and OCSP were designed for exactly this sort of thing, but they both seen to have been abandoned as unworkable with no replacement.	commandlinefan	1793195719	1
+				
+				
+				
+50273254	"A flat cert.pem file (or similar) can't say ""distrust this intermediate"".<p>macOS already has the verifier needed (Security.framework/trustd path that protected Safari). It would be good if MacOS routed CLIs through it."	gringofyx	1793194290	1
+				
+50272382	"> Anyone can intercept any HTTPS connection these tools make.<p>yeah, it's not ideal but the scale of the threat is way overblown tbh.
+You have to compromise a lot to be able to make a MITM here.<p>Let's not treat it like PHP2Shell."	paaloeye	1793189720	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50272453	They just released MacOS 27.2 a few days ago? How and why did they not do a patch at least then?	kd913	1793190126	1
+				
+				
+50273207	"Delete /etc/ssl/cert.pem and replace it with the one from MacPorts.<p><pre><code>    # /usr/bin/curl https://dv-g3b-aaa-noct-emudhra.we-have-a-problem.com/
+    Your client successfully connected to the site. That's bad!
+    
+    # sudo mv /etc/ssl/cert.pem /tmp/
+    
+    # sudo ln -s /opt/local/libexec/openssl3/etc/openssl/cert.pem /etc/ssl/cert.pem
+    
+    # /usr/bin/curl https://dv-g3b-aaa-noct-emudhra.we-have-a-problem.com/
+    curl: (60) SSL certificate problem: unable to get local issuer certificate
+    More details here: https://curl.se/docs/sslcerts.html</code></pre>"	thought_alarm	1793194124	1
+				
+50274904	This should have been a macOS security update on day 0. Dragging their feet over it is sadly typical when it comes to Apple software nowadays.	paxy	1793199919	1
+				
+50273231	Microsoft had a small golden age with Azure and Windows 10, and now they are going right back into a Vista-era-like rot.  Github is down an awful lot.  The reliability is worse than the product I work on for work by like 2 orders of magnitude and we have no ops team.  It's a joke.<p>Windows 11 is awful, lots of the fixes and modernization started in windows 10 has totally stalled, leaving users with 5 different places to change a setting instead of the one old place or one new place.  Look how many different UI's there are to adjust sound card / sound settings or display settings.  It's a complete mess.  Their attempts to jump into the AI game have been a complete joke, despite already having integrated Cortana years ago.  Putting Cortana on an llm is such an obvious thing to do, and they already did so much work to make that fully integrated into windows and force it on everyone even though it was trash, and now it's still trash and they don't seem to be able to adapt at all.<p>Now they can't respond to a complete insecurity in one of their major products in weeks?  Why do they even validate certs?  Why doesn't revocation work in their app?  I don't think they can really be trusted at this point.	ltbarcly3	1793194207	1
+				
+				
+50272827	There must be a long list of things that aren’t fully patched for this yet, on laptops, on servers. Think of packages that ship their own trust anchors, isn’t there a rust crate that compiles with some root certs embedded?<p>On one hand there’s unmaintained packages that won’t update dependencies. On the other hand, fixed dependencies did not necessarily backport to all possible versions in the wild, making update as a fix unviable for those.	6thbit	1793192252	1
+				
+50278888	People use Apple products because they want to delegate all authority over their operating system to a corporation that knows best. If you trust Apple, you should clearly also trust eMudhra.<p>If you are finding yourself not trusting eMudhra anyway, then you might want to choose an OS that lets any well vetted and capable security researcher in the world contribute to it.	lrvick	1793213002	1
+50275428	Question for people who know about this: why do we have hundreds of root certificate authorities, when a vulnerability on a single one can break encryption?<p>Wouldn't it make more sense to have 5 or so that can be more closely monitored, so something like the eMudhra certificates would probably be found before the certificates are deployed?	mFixman	1793201704	1
+				
+50272188	Things like this is why I moved back to Linux after 10 years on macOS.	cromka	1793188662	1
+				
+				
+50274868	"Like many suggested, a proper fix might be harder than simply revoking a bunch of certificate like the blog authored assumed without breaking downstream features and functions in a large ecosystem and security conscious platform like macOS/iOS.<p>However, there is certainly a chance that Apple team didn't think the impact was that bad given all the other protections in place.<p>When Steve Jobs was alive, his Apple company email was leaked and published and Apple customers emailed him for features and fixes all the time and he personally responded once a while. Tim Cook did the same a couple times too. Perhaps the blog author should write in to the new CEO John Ternus or SVP of Software Engineering Craig Federighi too to see if they can fix that.<p><a href=""https://www.apple.com/leadership/"" rel=""nofollow"">https://www.apple.com/leadership/</a>"	devy	1793199802	1
+				
+50278126	"I would not be surprised if what happened here is that Apple had hardware to release this week and needed to get 27.2 out the door with support for them, and it was ""too late"" to merge in the certificate store changes. Of course, I think most people here would argue that this is completely unacceptable and I would more or less agree with them, but unfortunately Apple has never been capable of validating a release quickly or pushing small patches. They've tried and, well, most of those efforts have not worked at all. I wonder how they will deal with a new full chain targeting their OSes every week or whatever AI is going to do."	saagarjha	1793210529	1
+50273411	"Apple can fix this by building curl with SecTrust [1].<p>[1] <a href=""https://eissing.org/icing/posts/curl-apple-sectrust/"" rel=""nofollow"">https://eissing.org/icing/posts/curl-apple-sectrust/</a>"	thefilmore	1793194998	1
+50272739	Can we get a title edit? OP’s title implies this is a Git bug, but the bug applies to half of macOS, including curl, openssl, python, perl, and ruby, and to only the macOS version of Git. The original title is less misleading, but personally I’d have titled it something like “macOS still trusts the compromised eMudhra certificates in git, curl, openssl, python3, perl, ruby, more”.	kqp	1793191732	1
+50272948	"I'm not <i>that</i> familiar with the MacOSx system, but do they have a ""minor"" update path that I'm not aware of? It seems that everything is an 8gb update. Is that why this update isn't getting put out?"	altcognito	1793192838	1
+				
+50272137	"Running (uname -a) Darwin arrakis.local 27.2.0 Darwin Kernel Version 27.2.0: Wed Oct 14 23:47:07 PDT 2026; root:xnu-13432.41.4~25/RELEASE_ARM64_T8132 arm64, I get the following for both:<p><pre><code>    curl: (60) SSL certificate OpenSSL verify result: unable to get local issuer certificate (20)    
+    More details here: https://curl.se/docs/sslcerts.html
+
+    curl failed to verify the legitimacy of the server and therefore could not
+    establish a secure connection to it. To learn more about this situation and
+    how to fix it, please visit the webpage mentioned above.</code></pre>"	davidcollantes	1793188415	1
+				
+				
+50295528	I‘m grateful I found this page. Ran the command in the article a s discovered my machine was a sitting duck via Git.<p>Seems like via AI everyone is discovering their systems are compromised. Can’t blame Apple for making the discovery. 10 days and no patch is another story.<p>Hope they get it together and fix this soon.	01CPMD3174	1793306227	1
+50277144	Appreciate the breakdown.<p>It's totally wild that there isn't an interactive script/check already built to test, detect, and run the solution on all fronts.	j45	1793208004	1
+50272996	If you're not already in the habit of contacting your git remotes over ssh, its probably one worth building. This is gonna keep happening.	__MatrixMan__	1793193086	1
+				
+				
+				
+50277035	"I worked with GPT to create this script based on the Apple doc, also with helper options for ensuring homebrew's python and java are up to date:<p><a href=""https://gist.github.com/hbmartin/d485b07691d9dc2a66937f50719541b0"" rel=""nofollow"">https://gist.github.com/hbmartin/d485b07691d9dc2a66937f50719...</a>"	hmartin	1793207732	1
+50273778	To get mine to finally update, I had to leave my laptop plugged in for a couple of hours. There’s some trustd process that runs every so often; I couldn’t figure out a way to manually trigger the sync.	bluechair	1793196294	1
+50275217	Why is the cert.pem not generated from the keychain storage?  Does someone want to vibe-code a utility to do that? It seems like the better approach (one master read-write storage with replication)	tonymet	1793200997	1
+				
+50275580	Ran security find-certificate -a -c eMudhra /System/Library/Keychains/SystemRootCertificates.keychain on my work laptop out of curiosity and yep, still there :|	kleash	1793202261	1
+				
+50278460	Actually, command line tools like git and curl could choose to support Certificate Transparency as browsers do, and the need for piecemeal manual updates could be reduced.	waffletower	1793211555	1
+50280253	Lots of software does. It's been great for MITMing your own devices to find out what they're doing. It doesn't defeat cert pinning though.	direwolf20	1793218540	1
+50273065	"<a href=""https://support.apple.com/en-us/149555"" rel=""nofollow"">https://support.apple.com/en-us/149555</a>"	biglyburrito	1793193425	1
+				
+				
+50272973			1793192965	1
+50276436	"looks like people are buying the stocks of the company(EMUDHRA) after the hit they took last week > <a href=""https://www.google.com/finance/quote/EMUDHRA:NSE?window=1M"" rel=""nofollow"">https://www.google.com/finance/quote/EMUDHRA:NSE?window=1M</a>"	dennisjoseph	1793205338	1
+50272089	This file is used by a bunch of CLIs. Apple is fundamentally dropping the ball here from a security perspective.	aaomidi	1793188139	1
+50276534	It seems like these trusts should all be delegated to the OS unless there's a really specific need.	hackerbrother	1793205733	1
+50273156	What would cause this delay from apple?  Is there something behind the scenes that can explain it?	franktankbank	1793193834	1
+50274991	Don't run important stuff on your consumer devices. Apple is a consumer brand.	amelius	1793200184	1
+50275498	"<p><pre><code>   which git
+   /opt/homebrew/bin/git</code></pre>
+skill issue tbh."	bethekidyouwant	1793201990	1
+50272154			1793188492	1
+50276043	/e/OS from 2026.10.21 also seems to be still affected	meta-level	1793203954	1
+50287125	"> <a href=""https://support.apple.com/en-us/149555"" rel=""nofollow"">https://support.apple.com/en-us/149555</a><p>I applied those commands.<p>Then, last night, I applied the macOS 15.8.2 from Apple.<p>Voila, the eMudhra certificates were back.  :-(<p>So I re-applied those commands once more.<p>Come on Apple, you can do better than that!"	BadApple2026	1793271555	1
+50272899	Doesn’t macOS have a way to generate cert.pem from the keychain?	WesolyKubeczek	1793192563	1
+50314850	Intelligence agencies still love this one weird trick...	teknologist	1793444349	1
+50273051	I have been wondering recently if Apple are bothering to maintain the Unix side of the OS. Seems like they occasionally remove or deprecate stuff but don’t put any serious effort into maintenance.<p>This is just another one of those smells.	bcvvvy	1793193380	1
+				
+50274148			1793197487	1
+50274678	The only thing that works is fines.	zoobab	1793199156	1
+50272149	"That's disingenuous title<p>It should be ""Apple still ships compromised CA in /etc/"". Git is just a victim like every other app using system CA"	InsidiousWombat	1793188479	1
+				
+				
+				
+				
+				
+50280072	its very good	yourmahbub	1793217767	1
+50285338	Well, you know, Apple invest so much into development<p>: - /	jasonm23	1793256705	1
+50273663	Not really a big deal, the window to do an MITM has passed.	commandersaki	1793195932	1
+				
+50280428	small indie company lmfao	fHr	1793219330	1
+50273703	[flagged]	arbor-group	1793196050	1
+50273576	[flagged]	40PT	1793195576	1
+50272811	[flagged]	rbaRBA	1793192186	1
+50275616	[dead]	ajjahs	1793202344	1
+50285494	[dead]	jjjegly	1793258324	1
+50289626			1793283918	1
+50273602	[flagged]	jon128	1793195693	1
+50273206	"Albeit helpful, the site is kinda cringe.
+It leaves a bad taste in my mouth knowing that the author is affiliated with Mozilla.<p>Of course they would throw shades at Apple. That being said the situation isn't ideal and I'm sure Apple would have shipped an update if it were easy and warranted."	paaloeye	1793194124	1
+				
+				
+				

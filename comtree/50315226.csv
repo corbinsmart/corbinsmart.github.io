@@ -1,0 +1,80 @@
+50315226		fovc	1793447699	0
+50330137	I have used Prospero for some work today, and I have to say I really like it! I have settled on a combination of Zed, Pi and Paseo so far, but I'm adding Prospero into the mix from now on.	rsolva	1793568867	1
+50316615	Nice to see a gui coding agent. I use tui agents all the time but I am building a gui one. I use Claude Code, Codex, opencode and a couple other but I do not like the DX/UX.<p>I often want click a part of the wall of text (from agent) and search for related text, open them up on the side or so. I want to open a linked file. I want to answer multiple questions in an async manner, even come back and continue answering the next day.<p>There are many prompt level features I want too - orchestrate with subagents, but only the tasks I select - how do I select when there is no checkbox. Or maybe delegate a subagent to dig into (read only) one portion of the chat response. Maybe codify (write) only one task in a list of tasks. So many many other small things.<p>As a full-time user of coding agents, the TUI barely works for me. I think splitting text, searching in text, merging text are more important in agent driven development than ever before. It is all text, all the way. This is what I am building myself, with my own gui framework.	brainless	1793457557	1
+				
+				
+				
+				
+				
+50316753	"Great to see what you're doing there, but speaking as a 30-year hardcore C++ veteran (to the extent of creating my own C++ GUI framework: <a href=""https://juce.com"" rel=""nofollow"">https://juce.com</a>)... When I was writing a code agent (<a href=""https://github.com/juggler-ai/juggler"" rel=""nofollow"">https://github.com/juggler-ai/juggler</a>), there's no way I'd have used C++ for an agent GUI!<p>Agent UIs are all markdown, HTML, big scrolling lists, text flow, unicode chars, and all the other stuff that C++ frameworks are terrible at, but which is a doddle in HTML/CSS/JS.. You are a brave man!"	julesrms	1793458610	1
+				
+				
+				
+50318156	Nitpicks about CLI coding agents:<p>Many times, while they are doing something, I’ll be typing a prompt, and then all of a sudden I get a question with Y/N options, and by accident, I’ll type Y/N as part of a word thus “answering the question”, many times either steering in the wrong direction or stopping the agent<p>Neither Claude code nor Codex solve this. The only way I’ve found to prevent it is to type somewhere else and then paste, but it’s super annoying<p>Edit: ^^ the above is especially annoying now that Codex popups the prompts/questions within other agents' sessions<p>Also, when I want two agents in different sessions to talk to each other, it’s kinda janky, I have to talk to both and act as a messenger for a couple of turns before they properly coordinate. I wish I could just sort of click somewhere, and link unlink two or more sessions<p>Does Próspero solve the things above?<p>Any pans for “swarm”/group control of agents?	nico	1793467977	1
+				
+				
+				
+				
+				
+50316346	"If you're looking for an agent implementation that is light on resources, but prefer to work in a terminal, consider also hax (<a href=""https://usehax.dev/"" rel=""nofollow"">https://usehax.dev/</a>). Less than 2 MB fully static Linux binary, few MBs of RAM use in runtime. Works great with local models also (auto-detects config from running llama-server), besides the usual cloud providers."	OleksandrC	1793455642	1
+				
+				
+				
+50316357	There are so many cool harnesses I could use if I didn't have an outrageously subsidized Claude subscription	bensyverson	1793455703	1
+				
+				
+				
+				
+50316750	Many make their own harness today anyway...<p>I did mine as well and that takes 4% the resources of opencode and in a similar tui style.<p>I think it's great and everyone should make their own.	keyle	1793458600	1
+				
+				
+50318391	"OK, I like this in concept a LOT. I especially like that it's efficient and headless with an attachable GUI.<p>But I don't like how opinionated it is: ""Therefore Prospero prime design principle: Never wait forever. Every operation has a deadline. This decision influences everything.""<p>I respect that opinion, but I don't share it, and therefore an entire coding harness developed <i>around</i> that opinion is not helpful for me."	x3haloed	1793469685	1
+50316076	How does this compare with Zed though?	eric15342335	1793453836	1
+50327008	whay would you need more then PI offers? Read Write Patch and shell shoudl be enough, also for GUI	Surac	1793549860	1
+50316550	A year ago I never felt my MacBook was short on resources, but these days I find myself thinking a lot about the performance of harnesses and agent tools.	zzunkie	1793457081	1
+50316651	As a counterpoint to a lot of the comments on this now portraying this as dated and questioning the stack behind - this is has the guts of great enterprise level software. Once you’ve serious data being thrown at something built on JS and run into OOMs, that’s when good old C(rust in the future maybe) stack shows these up.<p>Love to see such a strong tasteful take on software heralding back to the age of solid desktop apps.	gapo	1793457823	1
+				
+				
+				
+50316066	"So much efficient use of space though, would love to have this UI on top of opencode/codex<p>App-server protocol: <a href=""https://learn.chatgpt.com/docs/app-server"" rel=""nofollow"">https://learn.chatgpt.com/docs/app-server</a><p>Opencode: <a href=""https://opencode.ai/docs/server/"">https://opencode.ai/docs/server/</a>"	thehamkercat	1793453748	1
+				
+50318578	"I'm tired of tech people forgetting to see if something else is using a name: <a href=""http://www.prospero.org/"" rel=""nofollow"">http://www.prospero.org/</a><p>Way to cause confusion.<p>This is like starting a new country and calling it France."	bigbuppo	1793470962	1
+				
+				
+50318579	Does this support local sandboxing/isolation of the app/environment you are working on?  If not I'd imagine one could figure out how to make that sort of thing work with Prospero in any case or?	indigodaddy	1793470968	1
+50324432	Hopefully the agent loop holds up because that's also very important, would be quite a relief moving off harnesses consuming GBs of RAM because they're sending JSON to model provider server	PreciousH	1793530433	1
+50317103	"i believe a harness is a personalized thing. everyone should develop their own.
+doesn't take long to have a working prototype, after that you can extend it as you use it."	saejox	1793460759	1
+				
+50316663	There are so many <i>Prospero</i>s already. Why choose a name that is so heavily overloaded?	stickfigure	1793457868	1
+				
+50316063	I like how this is laid out. Will have to give it a try.	BewareTheYiga	1793453738	1
+50316260	> (You can’t use your Claude subscription.)<p>How come?	post-it	1793455095	1
+				
+				
+				
+				
+50317587	Hey… the code looks good, I’m curious what is your development process? The parts I looked at looked almost like they were written by a human manually.	kosolam	1793464178	1
+50317573	"No mention of ""plugin"" or ""extension"". At this point I am not going to try one that isn't modular. Life's too short to wait for folks to prioritize my pet features, just let me do it myself."	esafak	1793464075	1
+				
+50316143	What a beautiful and space efficient UI. I love Dear ImGUI and the people that build interfaces with it.<p>Reading through the whole post, this sounds like an thoughtfully and intentionally designed product. One with strong opinions and the developer’s real lessons behind it. In the current era of slopware- especially around AI tooling - this is giving me damn near an emotional  reaction. I am happy to see this.	devmor	1793454254	1
+50316929	I'd really like to see a comprehensive test of all of those 100s of agentic harnesses. Get a billionaire to give a million to crunch through them all within a week or so.	Rabbit504030201	1793459811	1
+50317380	I created one as well with rust and tauri works great	chiengineer3	1793462560	1
+50317531	i am looking for harness that lets me fork sessions in tree and visually support that tree. I know i can fork a session in any harness. But its hard keep track if you go more than one level deep.<p>I dont know if i am unique here but i often work in exploratory mode where i persue a chain of thought in a specific direction, then backtrack up and go down again arbitrarily.	dominotw	1793463736	1
+50316648	Prospero was the original code name for the ps5 console that is recently jailbroken. That’s why you’re seeing a lot of other unrelated projects with this name too.	brador	1793457806	1
+50316145	>Prospero is a native GUI application for Windows, macOS, and Linux<p>But right above this statement, on the Professional Edition purchase page, it says its only for Windows and Mac..	lifeisloving	1793454270	1
+				
+50317593	Looks great.	laughing_snyder	1793464197	1
+50318892	can we use a claude max ?	patrick_rtk	1793472753	1
+50316250	[flagged]	arbor-group	1793455056	1
+50318691	[flagged]	steven_burg	1793471667	1
+50316704	[flagged]	msarda_23	1793458250	1
+50316121	[dead]	sick_of_slop	1793454096	1
+50316993	JavaScript is just about the worst thing ever and why would you use that as middleware for anything if you didn't have to? I mean, I get using Visual Studio Code, if you don't care about your business processes, intellectual property or engineers and are just outsourcing everything, but imagine actually trusting it for your coding stack like some kind of middle manager who only cares about cutting costs to the bone? Or like, you're riding the AI bubble and want to release some minimal viable product as fast as possible, but it's 2026 now. Covid was 6 years ago.	neuroelectron	1793460157	1
+				
+				
+50316517	<i>magnus breaths heavily</i>	khalic	1793456824	1
+50316083	Looks like shit and part with professional edition killed me. Bro are we in 2000?	keepo404	1793453886	1
+				
+50316309	First time I see a software licensed with the Unlicense.<p>I thought it meant the license was missing on GitHub but, no, it's an actual license called the Unlicense.<p>But then there is the Community and Pro edition so which is which on GitHub? Is the pro version hidden somewhere?<p>Plus a c++ code base in 2026. I think modern c++ can be made quite safe but I need some claims that it's taken seriously which I don't see.<p>I'm confused.<p>edit: I'm getting down voted here and no-one is telling me what I said wrong. These are my first impressions on the project. I think it's valuable feedback. Please reply and explain why I'm wrong instead of just down voting.	smashed	1793455405	1
+				

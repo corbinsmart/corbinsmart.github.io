@@ -1,0 +1,16 @@
+50310258		idlewords	1793395043	0
+50310951	"> Earlier today, we detected evidence of a security incident on AO3. We are still in the early stages of response to this security incident and determining its scope. AO3 will remain down while we continue investigating and addressing what has been found so far. However, we want to make some things clear:<p>First, no AO3 data has been deleted. All your works, bookmarks, kudos, etc., are safe.<p>Second, while we currently don't believe that the user database was stolen, we are also unable to rule it out. The AO3 database contains account information that may include your username, email address, IP address, and a hashed version of your password.<p>We use industry-standard techniques for storing passwords in a scrambled form that cannot easily be reversed. Even so, no hashing method can fully protect a weak or reused password from being cracked.  As a precaution, we recommend that you change your passwords on any other sites where you use the same password as on AO3.<p>AO3 does not collect real names, so none could be exposed. Additionally, our donor information is held in an entirely separate system and is never linked to AO3, so that data has also not been exposed.<p>We will update everyone as our investigation continues; we may be unable to respond to individual inquiries from users. Please keep an eye on our official outlets for updates. Our next update will be posted when we have further information available.<p>Our current expectation is that AO3 will be down for a minimum of two weeks; however, it could take up to four weeks. During that time, we may be able to bring the site back up in a degraded state, meaning that not all features will be available and/or the site may be read-only. If we are able to do that, please be aware that we might have to bring the site back down unexpectedly as part of our recovery efforts. We will keep you in the loop for any developments.
+Oct 30, 2026 - 01:27 UTC"	swyx	1793399300	1
+				
+				
+				
+50310934	"Discussion from yesterday: <a href=""https://news.ycombinator.com/item?id=50293546"">https://news.ycombinator.com/item?id=50293546</a>"	wmf	1793399173	1
+50311667	> The AO3 database contains account information that may include your username, email address, IP address, and a hashed version of your password.<p>There's not much to be done about storing a username (though if you don't want the connection made it's already obviously smart not to have the same username on AO3 as on say, Facebook) and anonymous mail accounts make sense for fan work every bit as much as a PO Box does - but for passwords we <i>can just do better</i> and it makes sense to me as a worthwhile piece of engineering for AO3<p>WebAuthn lets a site work with Security Keys and that makes such a loss basically harmless unlike for password hashes.	tialaramex	1793404107	1
+				
+				
+50310960	I guess this is just going to be the next few months/years, as HN right now is just breach after breach.	MattGaiser	1793399337	1
+				
+				
+50312153	I wonder how many breaches are going undetected/unreported	blurbleblurble	1793408141	1
+				
+50312415	"[dupe] <a href=""https://news.ycombinator.com/item?id=50293546"">https://news.ycombinator.com/item?id=50293546</a>"	ChrisArchitect	1793410834	1

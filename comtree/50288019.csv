@@ -1,0 +1,145 @@
+50288019		theHocineSaad	1793277716	0
+50288524	"I'll use this opportunity while it's still early to share my experience with Argon.<p>I got it via the ""Pro"" plan, exclusively for personal task usage. So no agentic programming.<p>For starters, the limits are dreadfully low. Five messages on medium is already enough to trigger a 4 hour cooldown. Secondly, the best part is the integration with Google search and Maps. Makes it seamless for trip planning. Lastly it's the only ""SOTA"" model in a long time that has actively hallucinated details. I don't know if it's because the Gemini harness is not asking it to verify information, but I've had some real Deepseek V3-like lies in responses.<p>Either way, I find it difficult to get invested in Gemini because nobody will have access to Carbon for a few months anyways."	isqueiros	1793279849	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50288858	Doesn't mean jack without access to it.<p>I used to defend Google's models months ago, but switched to Luna for less intelligent models.<p>But with this bs of not making it even public, pushing off release of newer models late, I lost faith in Google.	yipinwong	1793281167	1
+				
+				
+				
+50288741	Gemini, for whatever reason, has consistently been the best for explaining scientific concepts for me.<p>Especially with the recent addition of graphic visualization widgets<p>It manages to strike the perfect balance between depth and style of prose that other Frontier models just can't quite seem to match	gavinray	1793280661	1
+				
+				
+				
+				
+				
+				
+50291976	Gemini team has a long history of releasing great benchmark charts and disappearing into the ether. There has never been a moment where I have preferred them to Claude/Codex. When I get access I eval them on my home assistant set, a small coder benchmark, etc. and they are too expensive, and too low quality.<p>The benefit for Google is their chat interface has privileged access to their data (maps, etc.) but their model itself is low quality and, if I'm being honest, has the promotion-oriented measurable-output bias that FAANGs tend to have. The later Llamas had the same problem.	arjie	1793292249	1
+				
+50288964	Carbon scoring below Opus 5.5 on coding highlights how magnificent Opus 5.5 is as a coding agent. With just a $20/month sub, it performs a ton of work at a very high quality.	x187463	1793281551	1
+				
+50291128	As of their latest update (AA's), I find their index hard to trust, and a bit shady. 60% of the benchmarks contributing to the AA index are now private, nobody can replicate them. And they explicitly say that they offer benchmark consulting to labs. This is a serious conflict of interest.<p>The latest update knocked down only openweights models from the leaderboard.	GodelNumbering	1793289433	1
+				
+				
+50289302	I remember when Opus 5.5 came out, we had a discussion about whether it was nerfed a week later [1]. It's not possible to do so with Gemini 4 models since none has been made available the day it is announced.<p>Without us being able to access Carbon when it is announced, there's no way to know the Carbon we get a few weeks later is the same thing as what has been benchmarked here. I think benchmarks should verify what is benchmarked is exactly the same as what's been released.<p><pre><code>  [1] https://news.ycombinator.com/item?id=49901736</code></pre>	closetheloopdev	1793282837	1
+50288674	I tried Argon for a large historical HTR transcription project recently, since I heard it was really good at this. It was really good, but like all top US models I've used it was<p>* Definitively very good at domain specific knowledge. It can read sloppy 19th century danish gothic handwriting with faded ink just fine. Not perfectly, but probably better than I could have done with a day of struggle for every page.<p>* Expensive.<p>* Bad at <i>actually doing what I said</i>. I had told it in the prompt to be careful not to miss text, but I hadn't explicitly told it that some images may have text in double-column layout. So on those images - over half of my 300-page document - it produced an excellent transcription of the first column, and then considered itself done. Want to try again with a more careful prompt? That'll be another $20.	vintermann	1793280334	1
+				
+				
+				
+50289257	"You know what. When Gemini 3.1 Pro Preview came out it was better than Opus at the time. It was my main model for 3 weeks.<p>Until it got lobotomised. Then it lost most of it's capability.<p>Similar situation happened to Anthropic's Fable. It was an amazing model until Opus 5.5 came out.<p>So now, I'm not even looking at a ""new"" model until it is a month or two old. By then we will know if they will destroy ability to make it cheaper to host."	Roark66	1793282678	1
+				
+50289036	There's an issue with this index where many models are listed in the model chooser, but missing from the index. E.g. Qwen 3.8 Flash Next is listed but missing, as are older Claude (4.6, 4.5, etc) or OpenAI models. This makes it a bit tricky to see the improvements over time.	terhechte	1793281834	1
+				
+50289575	"The benchmarks of a model that hasn't been released yet are definitely suspicious.<p>I also think Google should stop ""releasing"" models that aren't actually available. For their own sake, because by the time Gemini 4 Carbon becomes available, nobody will notice. There won't be a new press release or much excitement around it."	tlogan	1793283727	1
+50288840	Gemini 2.5 flash and 3 flash were highly underrated models that performed way better than the peers and we used the hell out of them.<p>Since then none of the Google models have competed well with the others at their price points. Long context performance drop, instruction following issues, unnecessarily complex and sloppish outputs.<p>Argon is no different, it feels just an iteration better than 3.8 flash. I don't trust the AA ranking yet.	pcwelder	1793281098	1
+				
+				
+				
+				
+50288474	Good for them, having a frontier model that nobody can actually use.	juujian	1793279709	1
+				
+50289650	"I want to talk about my experience with Argon, noting that I used it via OpenRouter on a Raspberry Pi, spending around $15 in credit.<p>My experience is that Google is aiming to create a generalist model – but a truly generalist one!
+In fact, I find it particularly accurate in general terms and even in long conversations, maintaining excellent consistency and a wealth of information in response to complex questions.<p>I’ve tested it both as a coding agent – though, precisely because of what I mentioned above about its ‘generalism’, I don’t think it measures up to Fable 5.1 or Astra – and I’ve really appreciated its qualities when supervising my agents’ activities. It was able to keep track of them, suggest alternatives, and monitor the entire lengthy process in parallel without ever straying too far from the request or losing the thread – as often happens with Claude and OpenAI (you only need to test it in Claude Code itself, in both Ultracode and the agent team mode – albeit experimental – to realise how, once the task gets underway, both of them lose their way)."	dichiara19	1793284003	1
+50288958	"Just so everyone is aware of the ""coincidences"" that happen with this index:<p>- Two days ago AA announced their v5 Index which added a few new benchmarks and tweaked a few things.<p>- Today the newest model announced from a big lab tops the charts.<p>I'm not saying that AA is definitely taking money from the big labs and changing the benchmark to make the labs' new models look better, but it kind of looks that way. This pattern of behavior has happened before, where the index gets tweaked right around when a new model comes out, and the new model is on top. AA does not, AFAIK, provide a way to see how the new models would have scored under the older index versions. You could probably calculate it yourself, but I'm not going to do that much legwork just for an HN comment.<p>It's interesting because they publish the index methodology, so you can't really accuse them of not being transparent, but I don't really believe that the choices to update the index were completely independent of the model they happened to be evaluating at the time.<p>Related: The DXOMark camera scoring method also had similar behavior, where they would release new testing methodology right before flagship smartphones were released. Again, they are technically being transparent about the process, but it kind of smells like the ""independent"" testers may not be as independent as the average user would hope."	parsimo2010	1793281530	1
+				
+				
+				
+				
+				
+				
+50289496	Artificial Analysis is not trustworthy anymore. Every time an open-weight model, especially Chinese, looks to be nearing the top, AA updates the index to (ostensibly) specifically push closed models higher. Just recently with v5, OpenAI models were pushed up.	satvikpendem	1793283483	1
+				
+				
+				
+50288583	They can release even Jambon and Jargon, why should I care when I cannot test it?	egeozcan	1793280003	1
+				
+50289546	Since 3 Pro we already know that Google's model are very good <i>in benchmarks</i>, but when you start programming with them... not really good and each model has its quirks that make me continue the project with something else, once I fixed gemini's bugs.	Copenjin	1793283629	1
+				
+50288525	Is this a pro 3.1 situation that by the time ot reached the users it produced no more work than the flash variant or competitor for absurd pricing?	avereveard	1793279853	1
+50289616	"I use it purely for finding stuff in text documents and OCR, at which it excels, but I've found that for any kind of analysis it's some bewildering mixture of smug, defensive, paranoid, cheerful, and wrong about everything.<p>I feel like the headline here is ""the Artificial Analysis index is becoming an increasingly poor measure of capability, having previously been quite good""."	petesergeant	1793283866	1
+50289012	This is just a hunch since I have not used Argon very much, and I have not used it for coding (deepseek 4.1 flash 1017 with dsh, and qwen 3.8 max are so good for coding tasks that local models have difficulty with).<p>My hunch is that Google will end up being best for non coding tasks. Google can concede coding to other vendors who pay Google for infra.	mark_l_watson	1793281761	1
+				
+50293335	My 2c on Argon from using it: very fast, very good at writing vulnerable code. Open auth, open ports, vulns everywhere, stuff you would expect a frontier model to get right, it doesn't. I don't have these same issues Codex or Claude using Opus 5.5 or GPT 5.6+/6.1	namidark	1793297071	1
+50288458	Don't bet against Google	davidguetta	1793279629	1
+				
+				
+				
+				
+				
+				
+				
+50289413	"These benchmarks and rankings seem more noise than signal these days.  They're uniformly divorced from sincerely-attested real world experience.  And the real world experience isn't driving any consensus either.<p>So here's a meta-benchmark: at what point does the act of choosing an LLM product for a reasoning task become <i>less</i> reliable (in the sense of ""predictive of future success"") than hiring a human being for that same task?  Have we already cross that threshold?  I think we might have.<p>And once we do... what happens then?  Will the truly elite models be hidden in a sea of mediocrities simply because the goofball ""managers"" doing the hiring are too dumb to recognize their genius?"	ajross	1793283185	1
+50289725	The time between public announcement -> public release seems to be a tacit admission that Google is still a bit behind the frontier labs. Google is justifying the delay by pointing to cyber risk and a closed-access period reserved for analysis of safeguards. I'm dubious of this justification. But if it is true, I'm pretty sure the other labs are doing similar sorts of things in private. I think most of us prefer it that way—if Anthropic public announced Fable 5.5 two weeks ago with no availability that would add to my annoyance. Maybe they learned their lesson with Mythos, or  maybe it's just that Google also does not have an IPO looming. Who knows?	km144	1793284281	1
+				
+				
+50294293	I thought Argon was going to reset to alphabetical name releases like Android. Honeslty wish they just stuck witha  flash X.X / pro X.X.	maxglute	1793301068	1
+50291961	Google is killing its own product. Gemini Argon is much better at writing and to some extend coding, but my teammates keep using deepseek because it is available and don't have to check vertex ai, ai studio, gemini, antigravity and all those shit...	cute_boi	1793292190	1
+50289620	At this point frontier models are good enough to be a pair programmer. But only OAI and Anthropic offer good limits. Maybe they're burning money but if the Google limits are the future of usage style accounts then we all have to get used to API	vatsachak	1793283903	1
+50288675	"I have pro account and previous model ""Argon"" still not available on my account."	m00dy	1793280338	1
+				
+				
+50291877	The scores look similar to how it feels to use Argon: great at world knowledge, not so good at coding compared to Opus.<p>It's hard to understand the phased rollout of a model that isn't particularly sota, unlike Mythos a few months ago.	cesarvarela	1793291929	1
+				
+50289153	I haven’t tried Gemini for coding yet. I did consider buying their subscription, but based on what I’ve seen from other forums, Gemini has never been a frontier in coding, even with good “benchmaxing”.<p>Let’s see, maybe they’ll surprise this time.	tommygamedev	1793282272	1
+				
+50293349	Meanwhile my paid enterprise plan has Gemini 3.1 pro in chat.<p>Thats on a 22 bucks plan.<p>idk wtf Google is doing with their plans but really need to make an effort to put some distance between myself and that circus	Havoc	1793297140	1
+50288752	It's unobtanium so nobody should care about it. Any frontier AI company can nowadays create models with ridiculous resource and token usage that will get extremely high scores, but they're of no use when you can't use them.<p>I take this opportunity to give feedback on Argon. The limitations are a problem. I have a Pro subscription and Argon already stops working after 3-4 prompts with long delays afterwards. It's virtually useless right now even when you pay monthly for it. It is better for some tasks than 3.1 Pro, though. Not much in my experience but it can sometimes fix errors that 3.1 has problems with. I never use Flash models since they often give abysmal results.<p>So I'm stuck with using Gemini Pro 3.1 for now.	jonathanstrange	1793280711	1
+50290902	Antigravity harness seems much worse than Codex. Argon seems very knowledgeable but very sloppy. If I force it to self review it will catch its own errors and laziness.	drivebyhooting	1793288661	1
+50288608	Nice coverup for the Q3 results. Wall St. don't give a F*	pranshuchittora	1793280075	1
+50290525	Argon ran out so fast on the $20 Pro plan that it's practically unusable. I can't imagine how restrictive the limits must be for Carbon.	hei-lima	1793287332	1
+50288473	Spare me the celebration. Artificial Analysis should not be granting any company the favor of a #1 ranking for a model that isn't released to the public.<p>Google's model release is pure PR puffery. It's no coincidence that it was released on the day of its earnings call.	prodigycorp	1793279705	1
+				
+				
+50289506	Boggles my mind that they still offer 3.1. Absolutely 0 reason to use it when 3.8 Flash is better in every respect.	gradus_ad	1793283520	1
+50290888	It's interesting it's not ahead of Claude on the coding benchmark right?	redwood	1793288621	1
+50290047	Don't care, it's not released so in reality it's undefined, not #1	pawelduda	1793285431	1
+50292067	Is hallucinations and deep thinking tangential optimization steps ?	iamgopal	1793292535	1
+50288555	A secret model I trained last afternoon is the actual #1 on benchmarks.<p>No, you can't use it. You can't even see it, and I won't provide you any information. But you must trust me that I am the genius who made the best model in the whole world.	miroljub	1793279946	1
+50289188	Even Haiku is better than Grok	origini	1793282416	1
+50289764	why do i not see as much traction and stirring up on the internet for gemini models as much as claude or gpt even though on bench's they are very much THE frontier. is the reason very limited access early or or just not enough publicity or hype as the other labs do?	18Deepnar	1793284420	1
+				
+50289611			1793283842	1
+50288810	How can one access Carbon? I only see Argon via gemini.google.com<p>Is this API-only or US-only for now?	quibono	1793280998	1
+				
+				
+50289793	Google has to get it's shit together. All the stats and charts doesn't mean squat because when I try it now on a provider all I get is trash :(. Makes me question these metrics entirely and really makes me question the authority that google used to perceivably have.	kraig911	1793284535	1
+50289209	By the time this model is available for public use I'd imagine it won't be #1 anymore, which is pretty sad. Even when Google gets back on the ball they seem to find a way to fuck it up.	sodacanner	1793282492	1
+50288849	well, $GOOG is down 13%...	m00dy	1793281122	1
+50288795	I don’t care and in my opinion AA does a disservice to their users by allowing such blatant manipulation. What would happen if every AI company were to include their unreleased models like this? Put the unreleased models on a separate page and leave the headline benchmark rankings for models that you can actually use.	zarzavat	1793280905	1
+				
+				
+50288654	I couldn't care less, honestly	iperov	1793280273	1
+50289854	owaoo	timodesks	1793284837	1
+50288804	slick	itsjzt	1793280950	1
+50288961			1793281535	1
+50288986	[flagged]	RicardoRose	1793281634	1
+50288632	[dead]	Yash16	1793280191	1

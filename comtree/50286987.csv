@@ -1,0 +1,59 @@
+50286987		882542F3884314B	1793270561	0
+50288750	"> A1 — Memory Exhaustion (~383MB):<p>I'm actually somewhat surprised at the clumsiness here.<p>I'm a complete amateur that had DeepSeek build a PHP2Shell exploit, and once the stealmybitcoin site went up and set an upload limit, i had DeepSeek try to shrink/amplify it.<p>DeepSeek couldn't find anything but a 2x reduction, but reading the report of how it was done - <a href=""https://github.com/KillaBoi/StealMyBitcoin-PoC"" rel=""nofollow"">https://github.com/KillaBoi/StealMyBitcoin-PoC</a> - I was somewhat surprised it didn't find it, and equally horrified at PHP allowing such a memory bomb of creating nested objects by parsing `f[0][x][x]...` from random requests.<p>Point being; these aren't amateurs but i kind of expect most well funded pros to have found this method to avoid sending massive filenames and session progress data."	athrowaway3z	1793280692	1
+				
+				
+				
+50293578	"> the attacker chained in a second exploit: a Linux kernel vulnerability in the XFRM ESP-in-TCP subsystem<p>Linux seems to have a huge attack surface that doesn't necessarily <i>need</i> to be there for every user/server.<p>E.g. this came out today: CVE-2026-98432: Linux TCP Use-After-Free Risk and Patch Validation [1].<p>I just disabled mptcp on my systems since I don't use it. Why was it enabled by default?<p>Can I disable this XFRM thing too?<p>[1] <a href=""https://www.penligent.ai/hackinglabs/cve-2026-98432/"" rel=""nofollow"">https://www.penligent.ai/hackinglabs/cve-2026-98432/</a>"	jakobdabo	1793297935	1
+				
+				
+				
+				
+				
+				
+50290337	Reading this I'm almost certain the firewall vendor is Palo Alto Networks. They included a PAN-OS setting verbatim and the SELinux config matches my experience.	colemannugent	1793286576	1
+				
+				
+				
+				
+50288957	Dream is btw founded and led by Sebastian Kurz, who was head of the Austrian government. He had to step down because of a corruption scandal.	xxmarkuski	1793281527	1
+				
+				
+				
+50297289	I thought we were smug about how hard it was to make a working exploit for this?	genxy	1793313849	1
+				
+				
+				
+50288120	"perhaps i was wrong<p><a href=""https://news.ycombinator.com/item?id=50272530"">https://news.ycombinator.com/item?id=50272530</a>"	tensegrist	1793278247	1
+				
+				
+				
+				
+				
+50288907	I am confused. Is this attack possible even after the PHP patches OR these servers just didn't patch ?	codegeek	1793281343	1
+				
+50299119	"Hi all. Reading these every day now. Is public cloud safe anymore or the internet in general? Or are we just choosing to live in a reality where their mondo security budgets head off these exploits - and yeah, naw - coming clean is still more expensive than burying incidents?<p>Edit: “Or the internet in general” - and yes internet was never safe but this is just next level. You seem to do everything right and it doesn’t matter. Is o365 really safe for example? I’m rapidly seeing my faith in SaaS platforms degrade - they can’t be immune to all
+Of this"	mrdootdoot	1793326967	1
+50294368	Maybe we going to have to shut down the Internet soon. Maybe it won’t be such a bad thing to become more local and decentralized again.	mentalgear	1793301366	1
+50292460	>  For security purposes, we are not disclosing the vendor or the affected versions<p>Wat	loeg	1793293813	1
+50295398	That's wild, I remember in early 2000s it was super easy to upload a PHP file with a shell. Back when hostings were shared, one shell could get you access to the whole host.	fierycatnet	1793305712	1
+				
+50291792	With software being fundamentally unsafe I see everything hardwired in chips.<p>FPGA stocks? DV is about to become hot again..	brcmthrowaway	1793291624	1
+				
+50289696	It sounds like multiple things were misconfigured on these servers and they still have access?!?	bix6	1793284163	1
+50297682	Why are there any management interfaces exposed to the Internet at all?	jtchang	1793316250	1
+				
+50292698	Wild, I hope the challenge on HN didn't contribute to this.	j45	1793294572	1
+50291191	> Claude Code had been installed<p>I just do not understand. CC is not the sole harness in the world, why the attackers insist to use it.	npn	1793289673	1
+50289767	Firewalls are likely fortinet	tamimio	1793284426	1
+				
+50289240	Haha woopsie	jvandijk	1793282612	1
+50290141	Now let’s watch the goalposts shift in real time about how severe this vulnerability is.	paxy	1793285732	1
+				
+50288214	Same here, though what stuck with me is that a firewall's admin PHP page was reachable from the internet at all, keep that on a mgmt VLAN.	lunargamma676	1793278647	1
+				
+				
+50293970	[flagged]	croxsecurity	1793299614	1
+50293941	[flagged]	crox-sec	1793299456	1
+50299351	[flagged]	the_dev_stack	1793328851	1
+50296716	[flagged]	karlacastropro	1793311037	1
+50294014	[dead]	lrvick	1793299799	1

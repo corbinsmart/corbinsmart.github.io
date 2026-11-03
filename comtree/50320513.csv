@@ -1,0 +1,23 @@
+50320513		nablags	1793482818	0
+50321575	"This is why I call string_view a ""parameter-only type"": it's fine to take as a parameter, but not fine to return or to store as a variable. (For sane definitions of ""fine"" and ""not fine,"" of course. The blog post demonstrates one way it can go ""not fine."")<p><a href=""https://quuxplusone.github.io/blog/2018/03/27/string-view-is-a-borrow-type/"" rel=""nofollow"">https://quuxplusone.github.io/blog/2018/03/27/string-view-is...</a>"	quuxplusone	1793492371	1
+				
+50322942	"You returned a pointer to a temporary. It's nasty but easy to spot.<p>Would you return `input.c_str()`? You might think twice about that, but it's the same thing. My favorite fix is to take a `std::string_view` as the parameter.<p><pre><code>    string_view remove_leading_spaces(string_view input) {
+        auto new_start = find_if(input.begin(), input.end(), [](char ch) { return ch != ' '; });
+        return string_view(new_start, input.end());
+    }
+</code></pre>
+The result of the undefined behavior in your program is surprising, though. As it usually is."	MathMonkeyMan	1793511002	1
+50320600	With GCC and `-fsanitize=address,undefined` flag(s) I have catched it during runtime.<p>I've got a nice `==31604==ERROR: AddressSanitizer: stack-use-after-scope on address`	stefanos82	1793483422	1
+50321825	Oh this is nasty. But the proposed solution of making admin_id a singleton is weird.<p>The real fix is don't pass in a temporary to the sanitize function.	dingaling911	1793495245	1
+50321864	"<p><pre><code>  std::string_view username = Sanitize(""foobarbazboo"");
+                                        ^- temporary std::string created here
+
+  std::string_view Sanitize(const std::string& input) { ... }
+                 ^                           ^- reference to that temporary string
+                 +- returns a view to a temporary string
+
+  std::string_view username = // possibly data freed and dangling string</code></pre>"	blastonico	1793495762	1
+50321659	> For example, this only works because the string foobarbazboo is the same length as admin_id<p>12 != 8<p>I don't get it...<p>> As you can guess, this is an example of undefined behavior causing unintuitive results.<p>No I couldn't... and what undefined behavior where? They don't explain anything.	ranger_danger	1793493354	1
+				
+				
+				

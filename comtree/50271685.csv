@@ -1,0 +1,34 @@
+50271685		birdculture	1793185729	0
+50272384	> On Mac, some command-line tools included with macOS or the Xcode Command Line Tools (including curl, git, python3, ruby, perl, and openssl) check certificates against /etc/ssl/cert.pem. For certificates that chain to a root CA certificate in this file, these tools don't check Apple's block or whether the certificate has been revoked. This file will be updated in a future macOS update. If you use these tools and don't want to wait for the update, you can remove root CA certificates from the file.<p>What a clusterfuck	magnio	1793189725	1
+				
+				
+50274519	"It's wild to see people supporting this bizarre anti-security response. Not only are they dragging their feet in fixing the security issue, they're actively reverting any manual fixes silently with each new update. That's legitimately worse than doing nothing at all! It's also disconcerting to see folks advocate for the ""let's wait to fix this critical security issue because we want to make it slightly easier in the future"" approach, as if Apple is incapable of deleting ~12 lines from a file as part of the normal patch release? If they can revert your manual fixes, they obviously ship that file and so could have shipped a fix with that file. Genuinely disturbing to support any of this."	mattstir	1793198680	1
+				
+				
+50272898	I'd really like to know why it's taking Apple so long to ship a fix. Especially if they can explain how to update an existing computer, what's the general holdup? Is it their release process? Is there some underlying complexity that's poorly understood?	gwbas1c	1793192561	1
+				
+				
+50272669	"Related: Ten days later, Git on macOS still trusts the compromised eMudhra certificates <a href=""https://news.ycombinator.com/item?id=50271640"">https://news.ycombinator.com/item?id=50271640</a>"	pluc	1793191307	1
+50273530	"Wonderful AWK command there. For those with hobbies other than AWK, here's what it does:<p><pre><code>  - set variable s to that string: -v s='=== /C=IN/OU=emSign PKI/O=eMudhra Technologies Limited/CN=emSign ECC Root CA - G3'
+  - on lines matching the regex between //, set skip to false: /^(===|###) /{skip=0}
+  - on lines matching s, set skip to true: $0==s{skip=1}
+  - if skip is false, print the line: !skip
+</code></pre>
+Note the last part where it just says !skip without a curly braces. AWK defaults to print in that case."	rethab	1793195381	1
+				
+50272950	I'm rally disappointed in the Apple response here. I can't understand why they wouldn't consider `/etc/ssl/cert.pem` in scope for a security update. This arbitrary boundary has no justification at all, and makes people less secure.<p>Come on Apple, do better.	tedivm	1793192868	1
+				
+				
+50272333	that should really be a security update	dorianmariecom	1793189476	1
+				
+50276098	This is some weak sauce. I've just ditched iPhone for GrapheneOS and Apple Watch for Pebble. I'm getting more convinced something like a Framework with Linux is the answer.	lazzurs	1793204147	1
+50276566	"I worked with GPT to create this script based on the Apple doc, also with helper options for ensuring homebrew's python and java are up to date:<p><a href=""https://gist.github.com/hbmartin/d485b07691d9dc2a66937f50719541b0"" rel=""nofollow"">https://gist.github.com/hbmartin/d485b07691d9dc2a66937f50719...</a>"	hmartin	1793205875	1
+50272683	[flagged]	beaconflint	1793191392	1
+50279949	[flagged]	xfcgv	1793217290	1
+50275225	Is there a one-liner fix for this?	thenthenthen	1793201007	1
+				
+50272436	Good on Apple for providing such a detailed article. I disagree that they're doing badly by not updating this file remotely on current software versions in the wild -- most likely their Rapid Security Responses / Background Security Improvements framework does not already support this file, which is why they state a full operating system update will be required. Most likely that will be fixed for the future, but in the meantime, being transparent and open about what administrators can do about this <i>now</i> is the RIGHT APPROACH in this situation, and no other vendor has been nearly as thorough about this.	LoganDark	1793190029	1
+				
+				
+				
+				

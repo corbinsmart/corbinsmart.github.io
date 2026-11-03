@@ -1,0 +1,88 @@
+50312756	"Not seeing anything posted about this anywhere, received on Monday, 26th of Oct 2026:<p>Subject: Notice of Security Incident<p>This notice is being sent on behalf of Scribd, Inc., the parent company of Scribd, Slideshare, Everand, and Fable, by Epiq, Scribd Inc.’s notification partner.<p>Hello,<p>We are writing to let you know that Scribd, Inc. recently experienced a security incident that may have affected your data.<p>We detected that an unauthorized third party may have gained access to certain user data in one of our systems. After investigating this activity, we found that the third party may have accessed your email address and the following of your information: last 4 digits of your credit card and country, credit card issuer, credit card expiry date, payment history (not including credit card details).<p>We have no evidence that this data has been misused, but we are notifying you out of an abundance of caution so that you can take steps to protect your information.<p>Watch for phishing<p>We encourage you to stay vigilant for phishing attempts by bad actors pretending to be Scribd, Inc. or Scribd, Slideshare, Everand or Fable.<p>Remember that Scribd, Inc. will never ask you for your username and password or other sensitive information via email or text. If you did receive a message like that:<p><pre><code>    Don't click on any links in it. Instead type scribd.com, slideshare.net, everand.com, or fable.co directly into your browser.
+    Call us at: +1-877-361-9887. Hours of operation are Monday-Friday, 11:00 a.m.-11:00 p.m., Central European Time.
+    Report it through Scribd, Inc.'s Help Center.
+</code></pre>
+For more information<p>We regret that this incident occurred and any concern it may cause you. If you have additional questions, contact the dedicated call center at +1-877-361-9887. Hours of operation are Monday-Friday, 11:00 a.m.-11:00 p.m. Central European Time.<p>The National Cyber Security Center has helpful guidance on how to recognize and avoid phishing scams here.<p>What Scribd, Inc. is doing<p><pre><code>    We have secured the affected system and ended the unauthorized access.
+    We have notified law enforcement as well as the relevant data protection authorities.
+    We are working with an expert third party cybersecurity firm to strengthen our access controls and monitoring.
+</code></pre>
+We value the trust you place in us with your information, and don’t take that lightly. We are deeply sorry this happened and will keep you updated if anything further changes.<p>Scribd, Inc."	x______________	1793414796	0
+50313252	I'd feel a lot better if I knew some red team security researchers were going hard trying to break into critical national infrastructure, just to ensure it's not too easy, but probably this isn't happening because it would be a felony to even try. The bad guys are free to try though.<p>All this will tend to get blamed on AI, but AI didn't put these vulnerabilities into place. AI is just a tool that can be used to discover vulnerabilities, and the only question we have to answer is whether or not that tool should be available to regular people.<p>Some will try to frame the question as being about whether we should allow AI aid in cyber-security, but that's not the question. This technology isn't going away. The bad guys will have it. Nations will have it. Again, the question is, can regular people also continue to have it?	Buttons840	1793421448	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50314255	Isn't this that website that keeps coming up in my web search results, apparently having a pdf of the thing I searched, except it's actually a badly html-ed version of said pdf with no way to download the original one?	Elfener	1793436491	1
+				
+				
+				
+50313857	"Seems Scribd made the news 13 years ago for the same issue[0] [1] and an archive.org link of the original-now-deleted announcement[2]!<p>0 <a href=""https://news.ycombinator.com/item?id=5493280"">https://news.ycombinator.com/item?id=5493280</a>
+Scribd hacked – emails and hashed passwords leaked (scribd.com)
+106 points by joosters on April 4, 2013 | hide | past | favorite | 65 comments<p>1 <a href=""https://thenextweb.com/news/scribd-reveals-it-was-hacked-this-week-informs-less-than-1-of-its-users-their-passwords-were-compromised"" rel=""nofollow"">https://thenextweb.com/news/scribd-reveals-it-was-hacked-thi...</a><p>2 <a href=""https://web.archive.org/web/20130407114005/https://support.scribd.com/entries/23519663-Important-Security-Announcement"" rel=""nofollow"">https://web.archive.org/web/20130407114005/https://support.s...</a><p>Notable callouts from 2013: ""Our investigation indicates that no content, payment and sales-related data, or other information were accessed or compromised. We believe the information accessed was limited to general user information, which includes usernames, emails, and encrypted passwords.""<p>""We take our responsibility to protect our users' data extremely seriously and constantly improve our security infrastructure and policies. Following this incident, we have implemented numerous additional safeguards. Not only have we taken steps to address the specific issues that led to this incident, but we are also conducting a comprehensive security review and are implementing more general measures to proactively enhance security. We are also alerting relevant authorities to the matter and will co-operate with their investigation."""	x______________	1793430010	1
+50313996	So if someone's got into their systems can they put a dump of all the PDFs up somewhere?	1317	1793432346	1
+50313006	"I only received this same email a few hours ago, Oct 30. Why not tell all customers at once, especially if payment information was involved?<p>And they posted about a security incident on their blog on Oct 1. <a href=""https://support.scribd.com/hc/en-us/articles/53787421531284-Information-about-the-recent-security-incident"" rel=""nofollow"">https://support.scribd.com/hc/en-us/articles/53787421531284-...</a>"	smurda	1793418124	1
+				
+				
+50316829	> last 4 digits of your credit card and country, credit card issuer, credit card expiry date<p>This particular set of beached data could stop existing if, instead of reusing a set of fixed data for payments, your bank allowed you to generate a unique code that sent a one-time (or recurring, locked to a single vendor) payment to the recipient.	throw10920	1793459129	1
+				
+50313210	Mixed feelings. I feel sorry for the people whose info was taken but Scribd does not have my sympathy.	jacquesm	1793420849	1
+				
+50313266	Scribd is the most predatory site that steals people's content and then doesn't honor their promise (upload a PDF to download one..oops that one doesn't qualify, but we will keep your copy!). Fuck em, they built their entire model on predatory behaviour towards broke college students, hope they burn to the ground.	neya	1793421731	1
+				
+50318132	What actually is Scribd?<p>They were always just that thing that showed up in Google searches cause they scraped presentations and stuff that was unknowingly public. But I didn’t quite know why anyone found them of value.	AbstractH24	1793467794	1
+				
+50313815	"It looks like we all enjoyed ""Security through obscurity"", where obscurity was referring to existing vulnerabilities.<p>And also, that this is over."	vrotaru	1793429322	1
+50313607	"Please forgive my stupidity, but is there any particular reason why companies never seem to disclose what ""system"" of theirs was breached? If this breach came about as a result of a security incident at a third-party, would it not benefit everyone minus the vendor to shift the blame? I understand that they say ""our systems"", but I've seen companies say this before when what they mean is ""a system controlled by a vendor we contracted""."	parable	1793426863	1
+				
+50313612	I run a few small scale SaaS products. This is a scary time.	reassess_blind	1793426897	1
+				
+50314486	So here we are. We’re in the new era of technology. Whoever has the best agents will win. As airport security, this is an asymmetrical war: the effort to protect your systems is going to be much higher than hacking them in the future. It’s just my opinion, but I foresee this happening given the strong capability the models are showing in reverse engineering.	Lucasoato	1793439901	1
+50314365	> Not seeing anything posted about this anywhere<p>Because nobody uses this cancer scam website lol.	avazhi	1793438209	1
+50313278	You’re saying sribd has actually worked for people? I just ignore it in my searches and just find the pdf elsewhere.	isatty	1793421861	1
+				
+				
+50313205	Nice, I've been trying to hack scribd to download a pdf all day	engineer_22	1793420764	1
+50316263	What's great about this is that the primary thing exposed (credit card info) is also one of the <i>least</i> worrying things to have exposed, as a user.<p>You can just get a replacement credit card.	phyzome	1793455134	1
+50313009	No one is safe anymore.	bluecode	1793418164	1
+				
+				
+				
+50313000	"I don't see any email like this in my inbox. 
+Perhaps they are only sending this email 
+to those who have their payment information 
+saved on Scribd?"	collabs	1793418014	1
+				
+50313216	"<a href=""https://news.ycombinator.com/item?id=50313197"">https://news.ycombinator.com/item?id=50313197</a>"	paaloeye	1793420935	1
+				
+50313910	How do we even know which credit card is affected by this if we want to cancel it?	rememo42	1793430606	1
+				
+50313297	Not a security person, but are there standards for PII encrypted at rest?<p>Surely this is common? Surely?	kooi	1793422207	1
+				
+50313098	Did some exploit get disclosed? HN frontpage is spammed with breaches.	8cvor6j844qw_d6	1793419379	1
+				
+				
+				
+50313233	I'm wonder how many users are exposed	paaloeye	1793421156	1
+50314363	i'm probably going to spend next or next next weekend having an ai agent go thorugh my old accounts in 1password and have them delete 75% of them. Any surface area on the internet is risk nowadays, and cleaning up after the fact is a bigger headache.	prodigycorp	1793438192	1
+50313725	It's so interesting seeing all of these breaches and then going back to the old threads on Mythos and seeing the widespread skepticism and denial on HN.	xvector	1793428068	1
+50315288			1793448045	1
+50315825	[flagged]	wecideApps	1793451829	1
+50315656	[flagged]	gwei	1793450563	1
+50313206	[flagged]	pquigley	1793420801	1
+50313156	@dang, always been curious about this: why are posts like this grey text vs dark test? It's difficult to read, being so low-contrast. I assume it's based on numbers, the poster, up/downvotes etc - but it seems a poor use of those systems given it sacrifices readability. Is it just a light mode thing? Is it just me?	PeterHolzwarth	1793420103	1
+				
+				
+				
+				
+				
+50315586	[flagged]	nilail	1793450040	1
+50315581			1793449986	1
+50312917	[flagged]	TZubiri	1793416875	1
+				
+				

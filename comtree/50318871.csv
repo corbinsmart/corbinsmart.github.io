@@ -1,0 +1,91 @@
+50318871		ryanmadden	1793472634	0
+50319162	> The rocket launch was only achieved through significant ‘manual’ effort on Sol’s part as it papered over its late-game failures to connect certain production systems by repeatedly ferrying supplies between areas of the factory.<p>Robots: they're just like us!	mwt	1793474274	1
+				
+				
+				
+50319832	If you haven't been keeping an eye on LLMs playing games, GPT 6.1 Sol can new beat games 100% vision-only (without harnesses that give the agent extra information about the game). Pokemon is no longer a difficult challenge for it, even with additional difficulty restrictions such as hard mode and level caps. Recently, GPT 6.1 Sol beat Final Fantasy VII and its bonus bosses vision-only surprisingly quickly.<p>I suspect Opus 5.5 can do even better but there aren't as many people testing it.	minimaxir	1793478556	1
+				
+				
+				
+				
+				
+				
+				
+				
+50319259	Watching AI play games is fun, but I can't wait for someone to crack having small LLMs in games to enrich them in useful and interesting ways.	mickeyp	1793474920	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50319877	"One limitation of these type of demos (and similar with Minecraft, etc) is that:
+1. Putting into ""peaceful"" mode makes response time a non-factor 
+2. These models have read and have access to every guide and video ever published on the subject.  Most humans, especially on first play, learn game systems and interactions from scratch, then develop novel strategies and plans and ""hypothesis test"" their way into beating the game.<p>This is still impressive compared to where we were a few years ago, and being able to synthesize all existing information about a game and then play it to completion in a semi-realistic setting is great.<p>At a quick glance someone might mistake this for ""brilliant AI solves Factorio"", when in reality, given a similar but different game where it wasn't gifted all the information or training data (e.g. massive videos and screenshots) it might fare terribly (as others have pointed out in comments)."	program_whiz	1793478747	1
+				
+				
+				
+				
+				
+50319387	It doesn't seem to understand the core mechanic of Factorio, which is putting outputs onto belts and routing them to other inputs. It does this in a few places, but for the most part everything is put into chests and moved around by the player.	fasterik	1793475802	1
+				
+				
+				
+				
+				
+50319198	Factorio is a much easier game without the bugs being a pain in the arse as you expand - i wonder how Sol would handle the bugs	VoidWhisperer	1793474560	1
+				
+				
+				
+				
+				
+				
+50319355	"It is weird and almost alien how AI designs factories.  When Claude announced Fable 5 they also did a Factorio demo that was the same kind of designs and a lot of hand feeding and direct insertion.  
+In some sense it proves to me that llms are not just copying and are actually creating a bespoke solution.  But I honestly expected more from frontier models"	kanemcgrath	1793475514	1
+				
+				
+				
+50323291	"AI playing video games is a funny twist of faith. We call the AI-controlled characters NPCs, but now we've become NPCs watching AI play itself.
+How weird is that?
+At the same time this might help AI learn better - each game is a new system, a new set of rules to make sense of, each one has a unique tutorial aimed at human intellect to keep engagement, as well as teach you how to play.<p>As much as games are similar, especially within the same genre, the nuances are important.<p>I'd personally be impressed the moment the AI manage to play  the games following those newances and being efficient as well as effective."	lenikirilov	1793516375	1
+50321399	> The rocket launch was only achieved through significant ‘manual’ effort on Sol’s part as it papered over its late-game failures to connect certain production systems by repeatedly ferrying supplies between areas of the factory.<p>Looking through the video, around 12m one can see the Sol trace report the cancellation of a conflicting 'courier' (hand-feeding) <i>script</i>.<p>Rather than implement 'manual' effort, it seems like Sol considered the Engineer to be just another unit of automation!<p>That's not exactly within the intent of the challenge, but it's not too far out of bounds either.  It's also a hard loophole to close if the agent interacts with the game through a scripting layer.	Majromax	1793490578	1
+50322199	"Nick Winter has been streaming a game of Factorio with the major labs' bots for, I wanna say weeks now. They made it off Nauvis and are now roaming space. It's pretty interesting to follow, though the commentary's been a bit quieter as of late.<p><a href=""https://factorio.nickwinter.net/"" rel=""nofollow"">https://factorio.nickwinter.net/</a>"	solyin	1793499935	1
+50319297	I tried a few recently on Civ 6 Deity, and they all lose pretty quickly.	CSMastermind	1793475180	1
+				
+				
+				
+50320347	"Honestly, I'm more interested in the harness. Having an LLM gardener that could expand outposts to connect to the main network, or just pop in to observe if there's any major problem to report could be a cool project for long-running multiplayer bases.<p>I see it at <a href=""https://github.com/ryanmadden/autorio"" rel=""nofollow"">https://github.com/ryanmadden/autorio</a> and <a href=""https://ryanmadden.net/claude-plays-factorio/"" rel=""nofollow"">https://ryanmadden.net/claude-plays-factorio/</a>, but I'd like to ask - any plans to support blueprints? Or push it further into Space Age or dare I say.. pyanodons?<p>No matter the answer: very nice!"	ArcHound	1793481516	1
+				
+50320564	I bet it helps that Factorio attracts exactly the kind of obsessive players that'll leave a digital trail of training data documented in precise detail<p>Bit like warthunder guys can't help but leak classified info	Havoc	1793483189	1
+50319882	I don't have the budget to do so, but if I do, it would be interesting to put different models in the same game with the same prompt to observe the behaviors that different models have when told to problem solve.	damowangcy	1793478763	1
+				
+50321123	"Those biters make life nasty brutish and short for the robot. <a href=""https://youtu.be/6ZdsmWfKNJU"" rel=""nofollow"">https://youtu.be/6ZdsmWfKNJU</a>"	jart	1793488030	1
+50319921	Automating fun was not on the top of my priorities but sure.	Olscore	1793478969	1
+50319488	"This is a much better benchmark as a concept (without knowing the details of how the problem is framed to the agent) than some of these ridiculous things the frontier labs are reporting (vending machine simulator? come on).<p>Can you report more in depth at stumbling blocks? It's a surprisingly linear curve.<p>I'm going to try it on a local run.<p>I wonder if there is room for ""recommendorio"" where it gives you AI advice on your current factory.<p>Is the model pre-trained with any knowledge of the game?"	blobbers	1793476460	1
+50321098	it could be interesting to have a player vs player mode in Factorio, and see two AI playing against each other	juanpabloaj	1793487818	1
+50319566	how much did it cost I wonder	sdwvit	1793476946	1
+				
+50320303	is that spaghetti factory i am seeing? :O	onehair	1793481238	1
+50321057	Wow, that's the saddest headline I read in the week Patrick Stewart died.	LaGrange	1793487384	1
+50321011	Space Age or classic? Space age is much harder.	jquery	1793486916	1
+50319363	interesting artifact of over investment and subsidies of AI and datacenters	bosshawg	1793475611	1
+				
+50319262	Another thing AI can do that I can't...	ang_cire	1793474932	1
+				
+50322728	Okay now this but applied towards the real world economy	pyaamb	1793507596	1
+50319254	Good to know it's good at something, I suppose? Sol seems like it always just wastes my time and writes terrible code.	dfedbeef	1793474889	1
+				
+50320215	[dead]	marsven_422	1793480633	1
+50325665	The broligarchs are gunna fix that asap /s	conorcleary	1793540877	1
+50319338	[dead]	naillumanist	1793475409	1

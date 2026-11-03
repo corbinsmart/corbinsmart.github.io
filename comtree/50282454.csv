@@ -1,0 +1,382 @@
+50282454		babelfish	1793230502	0
+50286431	"What is this ""Stack Overflow"" you speak of?<p>Oh yes. Now I remember. I used to visit the site <i>every day</i>.<p>I love helping my fellow developers and answering their questions whenever I can.<p>My reputation there is 29,020, and I've contributed 645 quality answers.<p>I used to brag about this.<p>Now I had to think a bit to remember SO still exists.<p>My last answer was on May 28, 2021, over five years ago.<p>Obviously it wasn't LLMs that drove me away. And I'm not sure what it was.<p>Was it the culture, as others here pointed out? Or did I just get busy with other things?<p>---<p>Update: Now I think I remember what muted my enthusiasm.<p>Some of you older programmers may have used jQuery.<p>There is a common convention to use $ as the first character of a variable name that is a jQuery object:<p><pre><code>  var $foo = $('#foo');
+</code></pre>
+One of my few claims to fame is that I invented that convention and promoted it on the early jQuery mailing list.<p>Someone asked about this:<p><a href=""https://stackoverflow.com/questions/205853/why-would-a-javascript-variable-start-with-a-dollar-sign/48558883"" rel=""nofollow"">https://stackoverflow.com/questions/205853/why-would-a-javas...</a><p>The top-rated answer, with 1542 votes, is a good summary.<p>The second answer, with 278 votes, is as irrelevant as an answer can be.<p>I'm in third place with 71 votes. I gave the story behind the naming convention, because I like people to know the ""how and why"".<p>It gets better! This question was marked as a duplicate of another one. That other question has a wild variety of answers, but none that does what I tried to do: explain the reason and background for the convention.<p>Ah well. It was fun while it lasted."	Stratoscope	1793265981	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50283595	"OK, let's get this out of the way:<p>1. SO question numbers dropped precipitously before AI came along.<p>2. AI clearly finished the job.<p>I took the graph from this very page and annotated it with the public launch of ChatGPT in November 2022.[0] Yes, the decline hastened after that, inarguably. But also, it was already nearly 50% down from its June 2020 local maxima. This is also inarguable.<p>SO had been flatlined since 2014 and declining since 2017. It dropped off a cliff when, 2.5 years after its 2020 bounce, ChatGPT came along with the death blow. Even then, it looks like 4 months of ChatGPT speed-ran about a year's worth of traffic decline, and then the slope went back to approximately the pre-AI angle.<p>I contend, and I'm backed by facts, that AI is not what started the avalanche. It killed any slim chance of a comeback, but that wasn't the beginning of the end. The end was already well begun by then.<p>[0] <a href=""https://imgur.com/a/DN5N90L"" rel=""nofollow"">https://imgur.com/a/DN5N90L</a>"	kstrauser	1793238736	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50282914	You're underselling it. It's less than in their second month of existence - and that has been true every month for the past year. For the last few months it's also lower than their first month. Stack Overflow, effectively, no longer exists.<p>And we know why. It's because of their hostile attitude towards their users.<p>No doubt they'll continue operating until there's no more value in selling AI data licenses, then they'll unplug the servers and unregister the business.	cowlevel	1793234272	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50285801	I stopped posting questions onto Stack Overflow after experiencing two user-hostile practices of theirs.<p>The first was how they would repeatedly mark my posts as dupes when in reality they weren't. Sure, my questions had large overlaps with existing questions. But mine had sufficient nuanced differences that my questions warranted being open.<p>The second is how they would repeatedly rewrite my posts. And extensively so! It no longer sounded like it was written by me. And any sense of warmth or humanity of my posts were entirely stripped away! So sterile and cold. I have to tell you, having a post that you spend time composing, only to have some moderators a-hole rewrite it is a very negative feeling. And to see a message posted publicly to the web with my username next to it, as though I'm the one that wrote it, is wrong.<p>Stack Overflow brought their death to themselves.	foofoo4u	1793261001	1
+				
+				
+50282950	"I miss Server Fault-- more the time in my life, I suppose, than the site itself.<p>I enjoyed the hell out of answering questions on Server Fault for a few years. It came along around the time my teaching gig at the local community college transitioned to online-only classes (which, oddly enough, I couldn't find enthusiasm to teach). I feel like the Server Fault community tried to make it a more hospitable place than Stack Overflow, FWIW, back in the day.<p>When Stack Exchange added the realtime chat system I got into interacting with members of the community more than could be done in questions or comments. There were even a couple people who ended up being IRL acquaintances. There were also wacky hijinks, too: <a href=""https://meta.serverfault.com/a/1854"" rel=""nofollow"">https://meta.serverfault.com/a/1854</a>  (I'm agog that those things happened 15 years ago, too... Yikes!)<p>Then we had our daughter and my time to dedicate to the site became scarce. I knew it was in the cards for me to lose the top spot on the leaderboard so I decided to just pack it in and quit cold turkey. I think I'm still fairly high on the leaderboard but, other than occasionally getting search engine results that point me to the site, I've stayed away. I don't live there anymore, as it were.<p>Edit: My favorite part of the site was having friends and Customers tell me about times they'd search-engined a question and found themselves using one of my answers to solve their problem. At least one Customer was amused to discover I'd fictionalized their particular situation as an example in an answer.<p>Tons of fun. Yep-- I miss that community."	EvanAnderson	1793234497	1
+				
+				
+				
+				
+50282989	"Reddit is going the same way.<p>I know many people who have got banned and never managed to get back on Reddit because Reddit is using some very invasive and persistent banned user detection techniques.<p>Thing is, they use AI to ban people; over time, many false positives accumulate and not everyone has the time and energy to appeal bans.<p>Slowly, more and more user accounts get banned, and even technical people I know fail to make a new account which lasts more than 3-4 days.<p>But the Reddit management is seeing this as a ""win,"" not able to see the consequence of doing this."	faangguyindia	1793234759	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50286071	SO in the end was like walking into a bar, and the music stops, and all the regulars stare at you, and say “Yeah, what do YOU want, kid? Quit wasting our time. And by the way, you opened the door wrong.”<p>Most of the easy questions have been asked. I stopped using it because I was asking questions that weren’t trivial to answer, and I guess it is easier to earn internet points through mod actions than through writing answers.	jl6	1793263058	1
+				
+				
+				
+50283530	"StackOverflow is great if your question is ""How would we have done X back in 2012?"" Because you can't re-ask or re-answer questions that have had their correct answers change as technology changed. So the sites is stuck back in time when each question was first answered."	ryandrake	1793238332	1
+				
+50282855	Well, I always found SO to be an intensely hostile community. Chat GPT doesn't ban you for asking which IDE to use	999900000999	1793233726	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50289114	I have 76K points and quite a bit more on a few sister sites like the gamedev one.  Haven’t used it in a decade though.<p>For me, the crazy everything-is-a-dupe drove me away.  Same as so many others mentioning here.<p>But a lot of other things were also wrong and they are worth listing too:<p>I stopped looking at the answers as they aged.  So many of the top or accepted answers were quickly out of date (but you couldn’t ask again because or the dupe mods).<p>A lot of the accepted or top answers had always been wrong even when written. If you knew more about something you could spot this but it was pointless to engage and try and change it.  Popularity is not about being correct.<p>There was no need for all the other sites.  It would have been better with one inclusive site.  So often a good question would be asked and mods would comment it should be asked on some niche site with no traction and so died the question.<p>The gamification point system favoured the early people like me.  I probably got most of my points long after I had actually moved on because my top answers were still racking up votes.  There was no hope for a more recent joiner (even joining 10 years ago) to ever catch up.<p>And the hardest most interesting questions got no answers.  If you were truly stumped on a difficult algorithm then it really wasn’t the place to ask.<p>That’s some of what I remember being wrong with SO long before LLMs were mainstream.<p>I shudder to think that LLMs learn from SO answers.  It would explain so much of the worst vibe coding though :)	wood_spirit	1793282113	1
+50282575	"Related discussion <i>What AI did to stackoverflow in a graph</i> (483 points, 3 months ago, 595 comments) <a href=""https://news.ycombinator.com/item?id=48956949"">https://news.ycombinator.com/item?id=48956949</a>"	gnabgib	1793231336	1
+				
+50285324	My biggest turnoff was dealing with the gatekeepers who will treat you like you were asking stupid questions to a topic you obviously didn't know. I am glad AI is here and killed that; there is not stupid questions for AI. The walls for learning have been breached.	inY2K	1793256530	1
+50290162	"I attribute much of Stack Overflow's decline to a mismatch of scaling... and that mismatch is in part what lead to the perceived hostility by askers and answerers.  Overcorrection and changes (frequently removing of curation tools) often made this worse.  (Part of this is inspired by a recent post on meta.stackexchange about how corporate is redoing question deleting and Shog's answer to it <a href=""https://meta.stackexchange.com/a/420032"" rel=""nofollow"">https://meta.stackexchange.com/a/420032</a> )<p>The scaling focuses around discoverability, (the rate of) asking questions, and the amount of time available for people to curate (which includes helping new users get onboarded).<p>Much of the early days of Stack Overflow, discoverability was trivial.  It was easy to find an interesting question because few things were asked and this was the days when there was a <i>lot</i> of changes.  We're dealing with 2008 and beyond - there were a lot of new frameworks and languages being updated then... Spring 3, Backbone, Knockout, Angular, React, Vue, Spring Boot 1, Java 7 and eventually Java 8.<p>This was a time of rapid change and the experts were answering on Stack Overflow - and it was scaling up to meet that demand with additional tools.<p>But it also started becoming a place where students were posting questions (every September you'd get the ""how do you draw a triangle with stars?"" questions 20 times a day in the Java or Python tags...)<p>This started being visible in 2010 with question quality and by 2014 it was a full on epidemic.<p>One part of this is that the original community of people who followed Jeff and Joel's blogs and helped barn raise the site had gotten smaller as an overall portion of the site because of that explosive growth.  Some people wanted it to be a place where any user could get help with a question (and closing questions was antithetical to that) and others were looking for it to be more of a wikipedia.  That conflict still simmers.<p>Another part of this is that a smaller and smaller percent of the overall user base was using the curation tools available.  Fewer people were closing questions (that really did need to be closed) and helping onboard new users with expectations.  When there are 6000 new questions a day that represents a <i>lot</i> of work for the volunteers to try to onboard them.  Initially, everyone came from the same point and there wasn't much onboarding needed.  With its growth, a lot of new people were coming to it from the approach that it was a forum or immediate feedback chat.<p>That growth without scaling up the tools for onboarding and curation (making it <i>easier</i> to do) meant that the people trying to help new users and make discovery of well written questions easier had less time per user (or question) to do so... and got increasingly curt - they couldn't spend 5 minutes per question anymore and instead were trying to do things in 30 seconds or less.<p>This was the beginning of ""Stack Overflow is unfriendly.""<p>The attempt that corporate had from this, instead of making it easier to help people took away curation tools and close reasons were made more specific... which in turn meant that the people trying to close questions to make discoverability of well written questions on the home page easier were incredibly pedantic in order to meet those reasons.<p>Some of the tooling is set up to be able to handle 6000 questions per day, and scales poorly back to having 100 questions per day.<p>The user base of Stack Overflow at 2 months old is <i>very</i> different than Stack Overflow today, even if it has the same question rate.  There are very few people who are around to help onboard users (diamond mods if you read this - there's 25 of you and 100 questions per day... you can spend 5 minutes per new question per day to help onboard the user for expectations and still have half an hour a day for other moderation tasks).<p>Many of the people who did curation when SO was growing and at its peak have become disappointed with Stack Overflow and while they may look at it to see if its a site where their contributions would again be appreciated... though the changes that corporate appears to want have been additional curtailment of curation tools and have even proposed removing close votes all together ( <a href=""https://meta.stackoverflow.com/questions/438185/the-company-plans-to-remove-closing-questions-and-most-review-queues"" rel=""nofollow"">https://meta.stackoverflow.com/questions/438185/the-company-...</a> ).<p>---<p>Stack Overflow is mostly dead.  It lingers on, but every change that is being attempted or proposed in trying to get more ""engagement"" takes it further and further from being a place where new knowledge is collected and collated.<p>I would attribute this mostly to there aren't any curators left - so everything they try building turns into a mess.  Corporate has leaned too hard on the community to do curation and diamond mods have largely stopped doing curation in favor of moderation.<p>With low activity and the largest ratio of staff and diamond mods to active users, this would be an excellent time for those two groups to completely take up the task of curation and onboarding to set a new standard for how it should be done... and if they aren't willing to do it, that really suggests that the final nail in the coffin is in place waiting to get hammered."	shagie	1793285820	1
+50286644	As someone with many gold awards and notable questions, I stopped participating in stack overflow when they decided to withhold our open data from us. Our deal was that I spend time and effort asking quality questions and providing quality answers for free in return for open (free speech, not free beer) access to the entire qa dataset.<p>The new owners either did not understand this arrangement or did not value it enough. I now have my kwix backups and my open weight LLM. This should be more than enough to hold me over until a stack exchange substitute pops up.	someguyornotidk	1793267878	1
+				
+50282760	SO has been useless for years now, but the other Stack Exchanges can be interesting, they deserve more spotlight.	armchairhacker	1793232920	1
+				
+				
+50290932	"I just received an email notification from Stack Exchange today, ""1 new item in your Stack Exchange inbox"". I was intrigued, thinking someone had commented on one of my questions or answers. Did people still do that? Maybe an LLM-powered bot had interacted with my post; after all, they are probably the main users of the site.<p>Turns out, it was just a system message ""You are now able to set your unique username for your profile."" Someone who was responsible for growth marketing probably figured this would boost user engagement. The last gasps of a once vibrant platform."	igonvalue	1793288784	1
+50285629	"I do not at all like how they changed most posting dates to just say ""over a year ago"".   When looking up solutions to code issues, the date of the answer often matters a great deal."	ourcat	1793259714	1
+				
+50285049	I don't think this should be celebrated, even though they had a bad attitude.<p>We are losing communities and human communication to LLM chats.	f311a	1793253761	1
+				
+				
+50284906	It's odd it still exists at all still. What would compel someone to even post a question on SO anymore.<p>Basically the equivalent of shouting out some highly specific technical query down a dark alleyway and hoping against all odds for a better response than models trained on all of stack overflow already.	jdprgm	1793251888	1
+				
+50283094	They should reboot, focused on<p>1) humans (AI assisted or not) answering with real-money stakes, and<p>2) people betting on which humans are correct (borrow page from prediction markets)<p>This does four things simultaneously:<p>1) It introduces consequences for being wrong, which in turn introduces real asymmetric incentives to be contrarian-but-correct - which are high-value answers you don't get out of a stock model<p>2) It creates real-world incentives for human guided votes to answers (because, again, there's a real-world stake)<p>3) Together, this gets humans back on the platform answering questions, which creates meaningful exhaust data that can be sold back to the AI companies.<p>4) It creates incentives to game the system, which creates yet-more exhaust data for training anti-fraud AI systems	mgdev	1793235463	1
+				
+				
+				
+				
+				
+				
+50287217	So many good answers here, all converging on moderation overreach stifling the page before LLM came in.<p>I'm not disagreeing at all, but I'd like to add that the moderation issues did not come from a vacuum: they were a reaction to SO reputation becoming so much of a CV optimisation metric that SO must have felt a lot of pressure to do <i>something</i>. Turns out that something wasn't good, but I'm not sure that other paths taken would have been much less bad. Some success just aren't set up to last.	usrusr	1793272229	1
+50286853	Everyone is probably saying this, but in my opinion the whole site failed because people with high iq and low eq held all the power, scaring away new users, and old users like me.<p>It is a site about helping people where no one seemed interested in helping people.	Cort3z	1793269382	1
+50282796	And how much was AI trained on their data? That's the sad part. Nobody asking new questions, so not much more for AI to train from.	werdnapk	1793233209	1
+				
+				
+				
+				
+50285800	"StackOverflow's poor gameification of the platform is the singular reason it suffered from its awful culture.<p>If you had enough reputation, you'd be invited to these review queues, like the Close Vote queue.<p>You got a point toward a new badge if you voted to Close. You get nothing if you chose to keep it open. There was always a perverse incentive there to act, to make a question ""better,"" to nitpick a perfectly fine answer."	lanyard-textile	1793260998	1
+				
+50286212	"It's ironic/unfortunate they took the moderationazy path right when the site needed to find its new direction.<p>Some months ago I posted a question there after a long time, something that the LLMs could not give me a satisfactory response. It got deleted for being unsuitable for the site.<p>I'm not particularly a new user of SO. been using for 15 years and 5.5k reputation, which does not say much more that I know how to ask questions there, or I used to know.<p>Desperate, I take the question to a meeting with the language team. The guy gets excited: ""this kind of question is why we keep holding these sessions""<p>SO became what it was by setting rules that worked extremely well. They even occasionally let some QnAs slip by, like the famous Jon Skeet Chuck Norris facts[1]. Now those same rules don't work well for a vibrant community, and at the same time they are being followed pedantically.<p>[1] <a href=""https://meta.stackexchange.com/questions/9134/jon-skeet-facts"" rel=""nofollow"">https://meta.stackexchange.com/questions/9134/jon-skeet-fact...</a>"	aljgz	1793264166	1
+				
+				
+50288803	Everyone here complains about moderators closing questions and those ridiculous answer rewrites. Didn't anyone encounter rude question authors? Most entitles people on the earth. I pity the LLMs and discord channels that now handle them. By the way such encounters also led me to discover that SO places limits on removing own content posted there.	Good4boothee	1793280942	1
+50285717	i know SO gets a lot of hate but it massively helped with my work. Majority of questions I had were already answered. Ive only posted 2 questions, and neither was taken down. My questions were specific and more to the point.<p>With LLMs around, I no longer use it as much. And its a shame because I am worried in general that we might be losing communities like these	kayalan	1793260365	1
+50283242	"as a student i remmeber ikept getting my questions removed even after trying to follow every rule.
+this one time i decided i will use their top questions as a template just to test it, so i did i made sure it was a new question, following each rule<p>It was also deleted, die already stack overflow"	eluru	1793236343	1
+50301361	I still like Stack Exchange websites, mainly SO. I still think they are relevant regardless of how many questions are asked, because most of asked questions were irrelevant anyway, it was noise, new users who didn't even perform a simple search before asking, closed rapidly.<p>I used it 99% for searching, reading, 0.9% answering, 0.1% asking.<p>What would be relevant is how many answers are actually read today. It must have dropped a lot, but still, when people come, they're probably looking for something different than what LLMs provide.	rpigab	1793350714	1
+50282836	Wow, what a steep drop off. They've gotten fewer questions over the last year than they averaged <i>per month</i> in 2024.	pseudosavant	1793233535	1
+				
+50283099	I'm curious if the quality of AI answers will get worse without public sources like Stack Overflow or if LLMs have gotten to a point where that doesn't matter as much.	tdb7893	1793235525	1
+50285533	"Everyone seems to say that it was always a terrible place to ask questions where you'd have your question closed for no reason.<p>I don't understand this at all. In its heyday, I found it working really well. The questions that would be closed were either copy-pastes of homework tasks, vague descriptions of some overarching goal (""how do I implement this?""), walls of code (""why does this crash?""), or obvious duplicates.<p>I think it's <i>good</i> that the site got rid of those quickly. Sure there'd be some snarky high-rep users around, but they'd mostly listen to facts or at least be drowned out by more useful contributions."	gspr	1793258768	1
+				
+50290280	"A lot of talk about the demise of Stack Overflow. But let's have some positive reminiscence: They really captured lightning in a bottle at one point. On the internet, everyone has an opinion, and they fight like hell to defend them. It's amazing that SO was able to remain civil for as long as it did. People actually wanted to help! And the best answers typically rose to the top. I don't know what went wrong, I suspect it was a variation on Gresham's Law: ""bad social currency chases out good social currency""."	phendrenad2	1793286362	1
+50284689	SO was invented as a Q&A site, where human experts might answer specific technical questions, in a precise, preferably provable way. This is what machines now do well enough.<p>But there's a need to talk to human experts, learn their opinions, personal experience, non-obvious bits. E.g. I enjoyed asking certain questions at Software Engineering and Emacs SE sites. Sometimes I just ended up talking with a maintainer of a specific package I had questions about. This is something Claude and ChatGPT cannot easily replace, and maybe something that may keep certain SO communities alive. (Unless Reddit eats the remnants of their lunch.)	nine_k	1793249347	1
+50299816			1793333878	1
+50293563	"As someone who only ever asked or answered a couple of questions, Stack Overflow has been on the way out for close to a decade by now. The website never (from my inattentive perspective) did anything about the key problems of a question site:<p>- If something was marked as a dupe by mods, that was it. There was no way to suggest that a dupe was marked in error on your question or others.<p>- The site had no standard mechanisms for separating questions in time or by version. So many answers for ""python 3"" that answered for, like, 3.8 or whatever. Same for operating system and basically any other contextual category.<p>- Following answers was incredibly inelegant. Would you like to know if the chosen answer switches? What about if there is a new answer for the next version of the software? Trick question we don't track software versions!<p>- The community had an extremely high learning curve, I think in part because the site had so few affordances. It was very easy to be rude on accident and it left a bad taste in ones mouth.<p>- The site decided to entirely ignore meta organization. Do you want a category of questions that are kinda silly? What about separating highly complex questions or debugging particular errors from general questions about how to use the tools? Nope, we're not going to do any of that.<p>I am shocked it lasted as long as it did."	aeturnum	1793297882	1
+50284424	This might be the saddest, non-family related thing ive seen in years.<p>I love you stack exchange and all related sites.<p>All yall need to keep learning	lacoolj	1793246673	1
+50282986	If there is any proof that no one will be writing code, this is it.<p>I encourage all young developers to focus on information architecture, application architecture, pure logic, domain-driven design, and harness engineering.	ChicagoDave	1793234755	1
+50283832	I do not miss StackOverflow. It wasn’t a community, it was a toxic environment that rewarded asshole behavior.	clickety_clack	1793240659	1
+50301222	I have used SO daily, for over a decade, almost every single day. I never saw anything hostile there. I guess this is something that you only see when you are trying to write answers or replies.<p>For someone who just wants to quickly scroll to the green checkmark and get shit done, that site was absolute god-tier.	martin82	1793349371	1
+50287595	In defense of SO.  I don't think # of questions is not the best metric. Pageviews or up votes is better. If the question already exists, it doesn't need to be asked again. Also, I have the perception that tech stacks have stopped changing as much.  Ten years ago we were constantly changing tech stacks and front-end frameworks, so we had to rely on SO to relearn constantly. That seemed to have stopped.	francisofascii	1793275113	1
+50284659	StackOverflow jobs was great when it existed, found great opportunities through there.  So dumb they killed it especially with LLM's eating their core business.	kelseydh	1793249022	1
+50285982	"What in the world is the explanation for this google trends line[1]? I’d have assumed it would have been a rapid decline since ai but there was a wild spike earlier this year before a massive crash - any ideas?<p>[1] <a href=""https://trends.google.com/explore?q=Stack%20overflow&date=today%205-y&geo=Worldwide"" rel=""nofollow"">https://trends.google.com/explore?q=Stack%20overflow&date=to...</a>"	daniel_iversen	1793262175	1
+				
+				
+50285709	"Stack overflow started as maximize signal to noise for professionals.<p>It transitioned to emphasize ""less toxic"" and in the process minimized signal.<p>The result has no purpose."	JonChesterfield	1793260326	1
+50286240	I wonder how many people actually had bad experiences with SO vs how many people found it genuinely helpful. I'm going to guess the people with bad experiences are much more likely to comment about it loudly than all the people who found it helpful. (I always feel this dissonance when reading about the mean mods ruining the site, since I never experienced them firsthand.)	internet_points	1793264318	1
+				
+				
+				
+50287533	There seems to be some agreement that the hostile attitudes towards the bulk of its own users killed SO before AI got the chance. I'm inclined to agree at least in part.<p>Which begs a more interesting question, perhaps; if a SO was recreated in a more forgiving fashion today, would it stance a chance competing against AI?	cs02rm0	1793274631	1
+50292816	"For Stack Overflow, I only answered technically off-topic questions, so I contributed a bit to one problem of SO.<p>(I also made one ""let me Google that for you"" comment on an SE answer, though I tried to be polite asking what was not understood from the Google result. I cringe a bit when I remember that. <a href=""https://stackoverflow.com/questions/55752699/what-does-a-split-cache-means-and-how-is-it-usefulif-it-is"" rel=""nofollow"">https://stackoverflow.com/questions/55752699/what-does-a-spl...</a> if anyone is interested.)<p>I am not a programmer, but I do have some knowledge of computer architecture. Unfortunately for me, the Stack Exchange sites where such questions would be on-topic (Computer Science and Electrical Engineering/Electronics) did not get many questions that I could answer. (<a href=""https://electronics.stackexchange.com/a/123778"" rel=""nofollow"">https://electronics.stackexchange.com/a/123778</a> is one of my more popular answers.)<p>I do not remember exactly why my participation in Stack Exchange sites declined. Part of the motivation loss was from fewer ""interesting"" questions, part was from a slight decline in politeness, part was from modest discomfort with the policies that made asking questions more difficult, part was from general declining enthusiasm and competition with other interests.<p>I do remember what caused me to rage quit; it was my worldbuilding question being voted to close as too broad and this answer to the question: <a href=""https://worldbuilding.stackexchange.com/a/247948"" rel=""nofollow"">https://worldbuilding.stackexchange.com/a/247948</a> .<p>Besides being just one specific use of adamant (when I was more looking for classes of uses), I <i>felt</i> it mocked my sense of high fantasy (which was one of the tags used). (I do not think this was the poster's intent and I was overly sensitive, but combined with general dissatisfaction and a declining mood this triggered a rage quit. Having something that annoyed me be extremely popular did not help.)"	Paul_Clayton	1793295019	1
+50286509	I am into computers since 1986.<p>Sources of information like StackOverflow have come and gone, since the dawn of computer networking with online forums on BBSes and similar dial up systems.<p>Many sites like StackOverflow have predated it, and others will follow, or maybe not give AI, nonetheless no developer questions site lasts forever.	pjmlp	1793266652	1
+50287178	And of those, I bet 997 are closed as duplicates by admins who didn't understand the question asked.	JakDrako	1793271906	1
+50285196	I rarely wish for the downfall of things, but StackOverflow is one of those exceptions. Good riddance.	internet101010	1793255276	1
+				
+50293951	A few weeks ago, I discovered that my public IPv4 address had been blocked across all of the Stack Exchange network. That was surprising. My IPv4 rarely changes and I hardly visit any of the sites (who does? lol). I submitted a report to the email address listed. Never heard back from them, but a week later I randomly learned I was unblocked when another Stack Overflow answer appeared in a search. Just checked my IPv4, and yep, same one in the email I sent.<p>Stack Exchange is toast... I mean, cooked. They've been falling apart for years. Unlike the top comments, I stopped posting there in 2014.	jason_oster	1793299522	1
+50285561	"Is there a word that explicitly captures the fear and stress induced by hitting ""save"" on a stack overflow question you've spent 30 minutes formatting and triple checking to ensure that it won't get thrown out by mods?"	skc	1793258958	1
+				
+50286141	After posting a few questions to SO I often ended up not getting a response or solving the problem myself after further research which in reality sums up the site is a whole.<p>1) If you already have enough programming experience to understand algorithms and abstract concepts in programming you can find the answer by doing research.<p>2) More often than not the answers were citing answers that already exist elsewhere.<p>3) A lot of the trivial answers were marked as low quality, dupes and so on when these were the people who could benefit from SO the most.<p>Eventually I stopped visiting the site around 2 years after getting into programming since it rarely provided anything of value.<p>--<p>Serverfault was great and I will miss it.	himata4113	1793263634	1
+50287117	"Might be because a lot of questions are closed as duplicates.<p>Also questions now have a ""staging area"" that has to be passed before the question is posted for everyone. In the staging area moderators have to approve the question."	bytejanitor	1793271479	1
+50282806	The highly technical sites -- StackOverflow, Unix & Linux, MathOverflow -- see little use.<p>Others like SciFi & Fantasy and Worldbuilding have kept relevance.<p>Unfortunately, these more niche sites relied on StackOverflow to drive referral traffic, so the whole platform is declining.	paulddraper	1793233299	1
+50287165	I remember SO answers almost always looked superficially correct but were almost always wrong in a nuanced way that required experience to divine. Kind of like circa 2025 chatbots.<p>But at least we had fun who can forget stacksort.	throwawayffffas	1793271827	1
+50301086	SO’s demise was two conflicting user bases who wanted mutually exclusive things: the questioners a space to learn and grow without judgement, and the point collectors a glorified FAQ for programming and social media network.<p>The operators of the platform never grappled with the reality that these two users want opposing things, and LLMs were just the final nail in the coffin.	simplesocieties	1793348096	1
+50286310	I was wondering where all those egoistic developers with superiority complexes go these days to feed their egos. I was scared every time asking even a single question on SO. The place was toxic as hell.	sreekanth850	1793264791	1
+50284408	Fewer than 1,000? To be honest, even before AI, I'm surprised it ever got more than 50 or a 100 in some StackExchanges. It was on borrowed time especially after reading a lot about the moderator drama/issues.	darksim905	1793246524	1
+50285662	I still dream of driving to the moderators houses and hurting them. Not really of course but it was one nasty place in the end with all little tech gestapos on their sad little thrones. Happy it’s gone.	anonzzzies	1793260032	1
+50299125	"I am a first-year CS student. Stack Overflow really helped me during my early days. But now none of my friends nor coursemate use or even know about it.... 
+Everyone just defaults to ChatGPT and Claude for debugging and assignments. In fact, even newcommers are adviced to ask LLMs first rather than searching through pre-existing discussions or reading official documentations."	lowzihong	1793327036	1
+50286624	Unrelated to AI, they engineered their own downfall with the way they treat contributors and the questions they still do get. I have practically forgotten that this platform exists at all.	isolay	1793267683	1
+50282484	They get that many?!	amacalac	1793230735	1
+50286221	"From May, but I wrote about how similar social/community sites have been following this upside down bell pattern for decades. In this case it might be caused by AI, but you can't conclude anything about AI just by looking at the graph<p><a href=""https://techstackups.com/articles/stackoverflow-graphs-prove-nothing/"" rel=""nofollow"">https://techstackups.com/articles/stackoverflow-graphs-prove...</a>"	ritzaco	1793264200	1
+50288238	I’m old enough to remember experts-exchange, a site so terrible and if you removed a dash…. But somehow everyone used it, until stack overflow made it 100x better.  After a while in IT I’ve gotten numb to the hype cycles, and recognize just how temporary everything is.  I can pretty much guarantee you that even big names today like OpenAi, Microsoft, Apple, will eventually go the way of IBM or worse.	shireboy	1793278756	1
+50284779	The two takeaways from me are that:<p>1. AI allows you to ask stupid questions or the same question without (typically) ridiculing or demeaning you for doing so.<p>2. Context changes as time rolls by. A question that was asked some period ago might just need to be re-asked, continuously and ongoing.<p>Now, SO had already suffered its demise prior to AI. But good riddance, from my point of view. StackOverflow was great in its day, essential even. But it fell victim to its own success, I guess.	taftster	1793250517	1
+50305074			1793373212	1
+50282835	This question has already been asked?<p>Pages bloated like myspace make me reluctant to click the search result and I wont browse around if a website doesn't load instantly. Search some exotic kind of bad. That they haven't implemented an LLM is quite untechnological.<p>It should have an LLM assist with constructing the questions and it should have answers from all providers willing to donate tokens. Upvotes should generate wonderful data on how to construct an answer.	6510	1793233534	1
+50286901	I feel sad honestly.<p>Yes all the bureaucracy was annoying. But when I asked on Stack Overflow, the same question is there 5 7 10 years later, queryable by everyone. Ironically by LLMs too.<p>While when I ask LLMs - as I do now, of course, nobody has time for SO nowadays - nothing is left, everything is ephemeral, LLM forgets, the world doesn't learn.<p>Oh well. They will surely bolt LLM to SO one day as Quora did already.	karel-3d	1793269818	1
+50286955	The silver lining, if any, is Jeff Atwood made FU levels of money (AFAIK) from it, ultimately, and now he's become a philanthropist.	syngrog66	1793270253	1
+50283196	"Still over $100M in revenue, now mainly from AI and Enterprise customers.<p><a href=""https://archive.is/20261017123508/https://medium.com/inside-dotnet/stack-overflow-lost-99-of-its-questions-last-year-it-turned-its-first-profit-be52fb865574"" rel=""nofollow"">https://archive.is/20261017123508/https://medium.com/inside-...</a>"	nreece	1793236068	1
+50283603	Meh… you can't create duplicated questions on SO so obviously 20 years later there is not much left to ask.<p>A better metric would be visits per month… which probably doesn't look very pretty too. I used to visit SO every day several times a day for like 15 years: ask a technical question on google, click on the first SO result, get the solution I was looking for. Now I still ask google but I just have to read the AI Overview to get the solution I'm looking for…	ggregoire	1793238805	1
+50283116	Deserved.<p>Could never reply posts to help other unless I had done:<p>* 1 trip to mars<p>* 10 trips to the Moon<p>* Converted water to wine<p>The worst system until you can finally help others.<p>Also, the CICD guy from my previous job, could not answer a single question if he was unable to search there, full stop. It will be fun watching those who doesn't really know anything dragging the whole team down.<p>A developer girl knew more than him, and fixed problems he was unable to fix.	h4kunamata	1793235623	1
+				
+				
+50285772	while the SO is dying a painful death (not going to sugar coat it), my questions whether the knowledge in there is already assimilated into the AI's knowledge database? If it is, it can be retrievable in the future.<p>A lot of the answers are factually useful and it would a massive loss if it ever just disappear into the ether.	yitchelle	1793260780	1
+50287526	"Once upon a time there were ""developers"" known for doing their work by basically copying code from Stack Overflow without caring to understand it. Building applications as a sort of legos where stack overflow answers were the pieces.<p>Today they are vibe coders and no longer need stack overflow."	glimshe	1793274578	1
+				
+50285695	I'm just feeling bad just because stackoverflow was my coding bible (back when AI did not exist)<p>Getting second hand sadness	hackerbone	1793260270	1
+50293589	My question is: what percentage of frontier LLM's coding/troubleshooting prowess is due to SO, and if non-negligible, what will replace SO in the future as the premier training repository for coding LLMs? GitHub issues and such, maybe?	umvi	1793298003	1
+50291603	I'm surprised at that many.  Claude doesn't give me attitude when I have a question.	HumblyTossed	1793291052	1
+50291614	When StackOverflow is gone, what will AI train on?  That is the problem, what will the next generation of AI, a decade from now, be able to learn from?<p>Nothing, unless it becomes able to read documents, try things, and come up with best practices all on its own.	FrustratedMonky	1793291072	1
+50284987	I've browsed SO and friends a lot over the years, and still do, but not sure I ever posted a question there. I read answers, and posted a few answers. I think I'd go to IRC or a forum or  issue tracker to ask for help instead. Maybe some generational or cultural thing going on.	opan	1793252916	1
+50286398	I used to land on SO questions and answers through Google. Nowadays I ask ChatGPT or Claude instead of Google, and then go to the links they give me to verify. The links are either to the official docs or some blog posts. Never have I seen LLMs recommend any SO links.	closetheloopdev	1793265643	1
+50286413	I just dont go there at all because they added the weird copied of stackoverflow feature when copying code from there. Like even if I want to use its actively hostile, I need to paste it somewhere remove all of the extra things added and then copy properly	niltecedu	1793265739	1
+50283388	"SO suffered from its success and, bluntly, the laziness of humans.<p>I remember when I started the getting the distinct feeling that most of the questions being asked weren't being asked by genuine developers struggling with a concept or problem, but were basically ""do my job for me"" types, largely overseas developers.<p>I stopped contributing."	etchalon	1793237386	1
+50293769	I have a special place in my heart for that place for all the help it provided me over the years, regardless of its current state. But it's definitely interesting how time changes things.	pawnandqueen	1793298651	1
+50300865	I am actually surprised that it survived for so long in AI era, but it's time for them admit it and we can drop a nostalgic tear about it :(	gosen	1793346208	1
+50284144	Woooow. That makes me feel... old.	morganf	1793243494	1
+50287685	One problem is the gamification rewarded some bad behaviors, especially once one accrues enough points to get away with it.<p>I know exactly when I permanently stopped contributing to the site: it had been a few years since I happen to have something worth posting a question about, but for once I had a niche question about a popular-enough framework it was worth a shot.<p>A guy replied with a generic wall of text that had nothing to do with what I had asked, merely contained some of the keywords I also used.<p>When I politely pointed out it's not what I asked and reformulated in case he merely misunderstood, he got mad that I had refused to just give him the points.<p>He got extra mad when I figured out the answer on my own and posted it as answer in case others stumbled on the same issue, so he tried to edit my answer to make it look irrelevant.<p>Unfortunately for him, he didn't realize I also have enough points to edit it back, so he gave up and deleted all his comments to make it look like I'm talking to nobody, then went to downvote a bunch of my older posts.<p>And the sad part is that guy initially seemed well regarded in our small community, kinda killed my motivation to contribute to the site again after that. Plus I usually always find answers on my own, and anything I can't figure out on my own is so niche it would be pointless to ask.	wildpeaks	1793275725	1
+50285446	SO's motto was to ignore the particular constraints of your use case, rewrite your question for you and then answer that (often marking it as a duplicate).<p>No wonder no ones uses it anymore, its environment is actively hostile to new users.	Jean-Papoulos	1793257691	1
+50322382	My list of grievances include:<p>Same quality of questions started being rudely rejected around 2016<p>You had to know the answer in order to make the question<p>I spent time writing an answer, just to find the question was unfairly closed<p>Some questions were closed even when they matched the quality of most upvoted questions. When I faced the moderators about this I got shitt excuses.<p>In economics, questions were turned into political activism.<p>In the end I was convinced the site was intentionally destroyed.	likoya	1793502462	1
+50290237	I think the way SO works became a burden as the pace of the industry increased. It frustrated a lot of people. I also wonder how much impact changes to Google search had in that initial decline.	AtNightWeCode	1793286133	1
+50313666	StackOverflow bans questions about AI first situations as irrelevant :(	khelavastr	1793427427	1
+50283948	I do have a webarchive of StackOverflow on some backup disc somewhere - just in case :D	bronlund	1793241598	1
+50286145	People blame AI and/or the culture there, but IMO competition got it. As more and more code went to public domains (i.e., mostly GitHub), it became just as quick and often better to go to the source itself.	piker	1793263666	1
+50286876	I have almost never explicitly searched for stack overflow. I google something, top result is a stackoverflow question, I visit. Nowadays that role has been taken by google's AI summary in most cases	cylemons	1793269621	1
+50282908	I have some wishful thinking for everyone reading this: what if the people at StackOverflow built one of the best bot protections out there? I would honestly expect the graph to go up with all the LLMs and automated content spamming..	mawadev	1793234173	1
+				
+50291610	Im trying to disentangle from the llms and get back to writing code and thinking for myself again, and so i am finding myself back on stack overflow and its like a ghost town.	nphardon	1793291067	1
+50289535	Look up answer, most are closed as off topic even though they're the leading answer to the question. Try to answer, closed as off topic. Bye SO you won't be missed.	user3939382	1793283586	1
+50282824	It is sad because it was such a well designed community. But its lessons live on.	esafak	1793233466	1
+				
+				
+				
+				
+				
+				
+50283517	It was an extremely good tool and now it’s outdated. Just like a bronze sword.	dmcgill50	1793238265	1
+50283553	I haven't used it as much recently, but to be honest I think low volume could be one of the best things for it.  The aggressive moderation that a lot of people complain about was largely a consequence of the colossal traffic that existed in SO's heyday, with people posting duplicates of basic questions constantly.  A quieter site based on the same concept might be more useful to all concerned (except maybe venture capitalists, but screw them).	BrenBarn	1793238417	1
+50287329	Is this count before or after it's closed by someone else as a duplicate of another question that's close but not really the same question?<p>(I can't tell from PostTypeId = 1)	rcleveng	1793273178	1
+50285088	Questions and answers are locked inside discord, slacks and LLM chats	hacker_88	1793254130	1
+50293263	I feel like the real reason for this has just been that everything moved to GitHub issues as people could directly talk to the devs/maintainers.	pkoird	1793296737	1
+50285824	I’m still sour about my first and only SO question attempt.<p>After such a long time user, here I was, finally interacting with the community. My first question. I spent at least an hour composing it. Something about Django and Celery. Then came the mods. Crushed my dreams. I tried editing the question. Crushed again.<p>And I remember thinking, wtf? I’m just trying to ask for some help. Why is this so damn hard? Never tried again.	delbronski	1793261153	1
+50284348	"Stackoverflow wasn't killed by AI, it's long dead because of those ""Closed Question"" bummbers.<p>I've never seen an online community incentives vandalism rather than contributions."	est	1793245737	1
+				
+				
+50285307	Every interesting problem I ever had that I checked SO for was either off topic and modded down or the original poster said “I found a solution” and disappeared. Pure misery!	transitorykris	1793256304	1
+50284821	Note that I recently tried to sign up so that I could answer/update some questions that I have expertise in and was refused because my email address wasn't recognized.	abetusk	1793250917	1
+50286684	95% of them closed immediately as duplicate or off topic?	franze	1793268108	1
+50283774	Mods are finally happy.	whatever1	1793240243	1
+				
+50297529	for one thing those guys proved how far you could go on commodity hardware and a little bit of nice engineering.	dzonga	1793315297	1
+50284410	The question that a lot of people aren’t asking, these AI models were trained on human actual data, researches, answers, and books. Now AI removed the need to create those and people aren’t incentivized to make any new ones, the newer models say in a year or so will be trained on slop, piles and piles of slop, how’s their intelligence will be?	tamimio	1793246530	1
+50287195	They sold it at a good time. It reminds me of the broadcast.com acquisition.<p>It made Mark Cuban very wealthy and was worth pennies within a few years.	elmer2	1793272069	1
+50284795			1793250655	1
+50293504	Adding to the nostalgia: who will teach people that (X)HTML cannot be parsed with a Regex once SO is gone?	Cockbrand	1793297675	1
+50286464	The current way too write software is too just ask the ai do it. StackOverflow will be soon mostly irrelevant completely.	mono442	1793266318	1
+50285916	It's funny how my experience with SO is nowhere near as bad as what HN usually reports.<p>I admit that my first few questions earned me a lot of downvotes due to their poor quality. But it humbled me and taught me the importance to create minimal reproducible examples.<p>After that, some of my questions were answered in depth by experts. I was blown away and very grateful that some random stranger would take the time to answer such a niche question I had.<p>Besides, I've seen colleagues of mine whom I consider brilliant but whose questions on public forums were bad... They give too many details, leave out part of the context, don't make it easy to reproduce their error, ask vague questions, and so on. I wonder if it's for the same reasons that HN has trouble with SO.	assumed_throwaw	1793261803	1
+50285085	Incredible that SO sold for $1.8B at one point.	osigurdson	1793254119	1
+50285002	Out of curiosity, is Joel Spolsky still involved in SO? What’s he up to these days?<p>I enjoyed reading his articles  but it feels eons ago.	marhee	1793253205	1
+				
+50287444	And all get closed as duplicates, right?	throwpoaster	1793274048	1
+50285392	I'm gonna flag this post as duplicate.	dyzone	1793257147	1
+50283028	I answered a number of questions on there.  Some non-native English speaker started going my answers and making language editing suggestions.  The grammar was fine.  I refused all the changes because they were at best basically the same or at worst incorrect.  I refused maybe 4-5.  The next day the guy got on and had done a bunch more then went to some of my answers and made hostile comments about my answers on simple things like Pandas for Python.<p>That was that for that site.	Vaslo	1793234991	1
+50285153	What will LLMs be trained on when SO does no longer exist (or is an archive of increasingly obsolete answers)?	usr1106	1793254796	1
+50288007	I actually don't miss it. I liked it in the beginning but towards the end the management and moderation pretty much derailed the project.<p>AI came at the right moment to save the knowledge from the knowledge keeper.<p>I can only hope that some other technology will save the knowledge once again, before the AI companies go completely rogue and hostile towards their end-users.	thereforegrin	1793277664	1
+50286560	Back in the early days of SO, around 2009 or maybe 2010, I asked a Motif question. I got told that I I was an idiot and I shouldn't be using Motif because it was obsolete, how dare I ask a question about it? Blah blah blah.<p>Yeah, no shit nobody uses Motif for new development, but if you haven't guessed, I was working on a legacy enterprise system.<p>Just rubbed me the wrong way and still kinda annoys me to this day. Not everyone is dicking around for fun or works at startups where you can light other people's money on fire. Some of us have paying clients, I'm not using Motif because I want to.	astura	1793267070	1
+50286804	It's because it has already answered everything and anything new would be a duplicate	oytis	1793269035	1
+50285090	Well deserved, site full of toxic users who will do anything but answer your question, LLM FTW.	Markoff	1793254152	1
+50287361	They have also launched agents.stackoverflow.com - a place for agents to interact.	geoduck14	1793273408	1
+50285651	I remember the day I ask my first question about C, instead of an answer I got -1.	msalihb	1793259922	1
+50285575			1793259157	1
+50290915	"It was a fascinating social experiment. 
+I'm glad it's over."	okaleniuk	1793288713	1
+50300840	"It is despicable that large language models have depleted the content of Stack Overflow.
+Even before the advent of LLMs, online communities were plagued by individuals who would pointlessly complain and downvote questions or answers, as well as those who would post low-quality content solely to farm points, sometimes even using sock-puppet accounts to inflate their own metrics.
+It was great when they offered prizes and similar incentives, but they were essentially seeking free labor; once they established themselves as a primary reference, they discontinued the practice, which is understandable.<p>The only thing community driven I used nowadays is for cooking because LLM recipes are always the most generic thing. (Though I use LLMs for converting metrics or question if something goes wrong)"	motbus3	1793345932	1
+50285550	Good, that site sucked after 2015 pretty much. Museum of powertripping mods.	fHr	1793258862	1
+50285532	Half the time the communities were helpful, half the time they were hostile.	pseingatl	1793258760	1
+50284475	SO turned into a place that heavily favoured their experienced answerers over new answerers <i>and</i> askers. Admittedly, I fell into the former camp: someone with some excess time on his hands and an itch to answer interesting questions - and like most of the experienced answerers, I ended up being very disinterested in answering homework questions, “lazy” questions, and the like. “Downvote and move on” was the motto.<p>In hindsight, one thing we could’be done - as a community - was leave <i>easy questions to be answered by new answerers</i>. There’s still a lot of careful design to consider here - how do you avoid “broken windows” for newbies (and search engines), how do you moderate posts that the experienced users don’t/won’t interact with, etc. On the other hand, it would get those questions answered, give new answerers a chance to gain experience (and points) without getting beaten to the punch by some 100k’er, and generally reduce that air of unfriendliness and elitism that eventually permeated the site.<p>In any case, for better or for worse, I guess we have LLMs now. The real loss is the deep expertise embodied by all the answerers on SO. While 90+% of questions can probably be answered now by an LLM, it was nice to have a place where those remaining few questions could get a real, deep answer.	nneonneo	1793247132	1
+50293940	StackOverflow would be a super hard business to sustain today.	alexpadula	1793299449	1
+50311471	Will reddit have the same fate?	unpackingai	1793402788	1
+50285599	"And like 950 of them were probably closed for being ""off-topic""."	fergie	1793259439	1
+50285522	The communities were helpful half the time and hostile the other half.	pseingatl	1793258583	1
+50287235	StackOverflow moderation was hijacked by army of Sheldon Coopers	serguzest	1793272387	1
+50285519	Stackoverflow had such a toxic and beginner-unfriendly community...	partsch	1793258575	1
+				
+50284241	"Yeah, this is definitely due to AI.<p>But let me address the ""toxic"" moderation. They needed something like appeals courts. SO should have installed a layers above the community mods that could review and rebuke the decisions of the ""lower"" mods to steer things.<p>Oops, all assholes."	Rapzid	1793244628	1
+				
+50289167	Give it time. The bubble will blow and it'll be back.	tpoacher	1793282345	1
+				
+50286619	"Selling it the Prosus killed it, they don’t have a clue about it and how it should work.<p><a href=""https://en.wikipedia.org/wiki/Stack_Exchange"" rel=""nofollow"">https://en.wikipedia.org/wiki/Stack_Exchange</a><p>1. LLMs don’t blame you when you ask for book recommendations or say “you must use Superuser instead of Stackoverflow or Linux…”. But it also gave as a bit of community and entertainment.
+2. LLMs are useless with the data input from Gitlab, GitHub and Stackoverflow. Especially Stackoverflow, because the snippets, good comments and ratings are invaluable.
+3. Removal of job adds. That was the obvious and non disturbing money source.<p>Stackoverflow is also one of the last platforms allowing you to downvote and put a “price tag” on downvotes. This is incredible helpful in preventing hostile voting. And still allow counter-measures against bad answers.<p>Please. Cannot the original founders take a data dump and let use re-launch it? Or we just do it."	ho_schi	1793267622	1
+50291461	Is this trend true for all other SE sites as well?	otohp	1793290597	1
+50286791	"""Stackoverflow for agents"" still not there?"	atomicnature	1793268911	1
+50286234	I tried using it and my question never got answered :(	rvba	1793264268	1
+50286149	I'm closing this down as duplicate and pointless.	exe34	1793263708	1
+50292134	"The rise of slop (answers made to look good, not be correct, and the bonus to the poster) - was really the start of the slide down.  And this started happening more than a decade ago.<p>I really like SO.  I couldn't post answers much, because I had to vet anything I could have said past management.   But it was a favoured place to find how to solve questions I didn't deal with daily - up until the slop grew too much.<p>Oh I'm not really blaming the ""slop"" on anyone (although it feeds heavily into why AI produces such slop) - it was just connected with the rise of popularity worldwide, and gamed by people wanting to improve their perceived prestige, to open more doors.  And, once upon a time, stackoverflow DID open more doors, for a lot of people."	teunispeters	1793292725	1
+50285713	"""This problem was already solved: <a href=""https://news.ycombinator.com/404"">https://news.ycombinator.com/404</a>""<p>StackOverflow had the most toxic community didn't it?"	lisp2240	1793260350	1
+50286353	It was a very flawed site. If you ever tried to ask a question they'd tell you to fuck off, but 99% of their threads were just empty with toxic comments from the mods. You'd find the perfect thread for your problem, and then it would just be locked as a dupe with no actual answer thread available.	MisterMunchkin	1793265143	1
+50286941	Their not-welcoming community has some guilty too.	shark1	1793270183	1
+50282917	"And here's why: <a href=""https://honeypot.net/2026/10/09/what-really-killed-stack-overflow.html"" rel=""nofollow"">https://honeypot.net/2026/10/09/what-really-killed-stack-ove...</a><p>LLMs are most commonly blamed, but the drop started way before those became popular. I'm confident that its horrid moderation drove people away long before AI had a chance to. Nothing's quite as demoralizing as:<p>Q: Why does adding two Python objects fails although their classes are compatible?<p>A: [closed as a duplicate of ""Why do people say JavaScript is weakly typed?""]<p>I'm a reasonably bright person, with scads of StackOverflow fake-karma-Internet-points, but even I gave up trying to ask a question. There just aren't enough hours in the day to fight with hermits seeking the Ultimate Question and downvoting everything else."	kstrauser	1793234293	1
+				
+50304070	"Honestly they should build for AI users. AI asking questions, AI answering, AI upvoting. Like a ""good/not evil"" version of the AI agent coordination message board"	neko_ranger	1793369070	1
+				
+50284607	I blame that one Jon Skeet dude for answering everything.	tclancy	1793248484	1
+50293449	Is it employees keeping it alive? :D	coderot_ai	1793297477	1
+50282505	I don’t think they’re gonna be long for the world	cebert	1793230925	1
+				
+50287863	My anecdote:<p>I created an account, specifically cause I found a few questions that I knew the answers to, and could cite properly.<p>So, I answered 2. All is good...<p>Next day, 1 is marked as dupe (?!) and there's literally no other answers. So, duping what? Nope, not permitted to know that.<p>The other answer, some braindead idiot mod decided to change my answer to wrong garbage. No request to change. No verification. No nothing.<p>Shortly thereafter, those 2 responses were downmodded, leaving my karma negative. So basically, can't do anything. So I left. I'll spend my time on communities that actually give a fuck, cause SO didn't.	nekusar	1793276867	1
+				
+50287330	Perhaps reddit is next in the list?	jehnnysmith	1793273185	1
+50291817	did stackoverflow get any LLM money or were they just ingested and destroyed?	turing_complete	1793291741	1
+50282772	I am amazed it's still that high	paulpauper	1793233004	1
+50287629	I had been a non-contributing reader (only short-term) on SO when I decided to write answers. The whole thing reeked of a mild version of <i>The Lord of the Flies</i>-esque sophomorism.<p>The toxicity was too much for me. On HN, when a toxic entity points their sting at me, at least their comment gets flagged within 24 hours. No such thing on SO. The moderators themselves are toxic as batshit.	jan_m_savage	1793275344	1
+50290028	Duplicated, closed.	mococa	1793285377	1
+50286758	they really can go fall into black hole with Adobe	avonile	1793268630	1
+50288365	I won't miss it.<p>I hate how the site clutters every page with hundreds of shiny tokens whose only purpose is gamification (with no way to turn the gamification off in site settings).<p>I now read the answers to my technical questions from Emacs buffers containing ASCII text only.	hollerith	1793279238	1
+50291664	Maybe they should create an API for llms to use.<p>I blame google partially for this because when searching for bugs/errors I stopped seeing SO on results and instead I got sites that regurgitated SO's content	is_true	1793291213	1
+50285669	"SO died some time ago already though; I'd say even before AI.<p>I remember that I once asked a question about dual-licencing
+MIT and GPL 2.0 in the same project. Within an hour or two,
+it was downvoted to -7. Now this alone is already quite 
+concerning (it was a genuine question), but what was even
+more annoying was that not a single person who downvoted
+this, explained as to why. So, if my time investment here for
+asking a question, gets negative karma without any explanation,
+and then subsequently no useful answer at all: what is the point
+of SO? I still answered a few questions here or there, but the
+whole karma system just discourages contributions and I stopped
+using it with regards to both asking anything or giving answers.<p>SO is not useless since some answers still hold useful answers,
+but they really should have started to fix SO early on. Instead
+they just gave up."	shevy-java	1793260100	1
+50287338	Because site is shit. I ask a question, well formed and formatted and thought out, and i answer it myself and still get downvoted for 0 reasons but these people can't solve shit themselves	dankobgd	1793273261	1
+50291801	I tried a couple of times to post questions on SO.  Every time I followed the instructions, searched first and didn't find an answer, spent the better part of an hour composing the best possible question and simplified examples...<p>All to have my post locked/marked/closed/whatever either as a duplicate (it wasn't) or some other bullshit.<p>Call it a skill issue if you want, but I was going there for help at the time and just got the door slammed in my face repeatably with no guidance as to how to stop that from happening.  The gate-keeping was simply insane, and it's clear I wasn't the only one that decided it wasn't worth the time.	scottLobster	1793291662	1
+50287206	Mods must be on cloud 9. Finally, serenity	nikanj	1793272148	1
+50289671	Brutal.	rrrx3	1793284078	1
+50287601	it's time to pivot.	m00dy	1793275172	1
+50286696	"""I come to bury SO, not to praise it""<p>.. something.. something<p>""The evil that men do lives after them; the good is oft interred with their bones"""	greenbit	1793268167	1
+50287349	We're now building some of the same superiority complex into commercial AIs to effectively refuse any wrongspeak.	pmdr	1793273318	1
+50289723	lowk they were all bullies, not too sad to see it go	hemalathamadesw	1793284270	1
+50293256	[dead]	pchandrasekar	1793296704	1
+50286135	Too many harsh words in this thread for Stack Overflow without enough appreciation for what Joel and Jeff built.<p>Right from the start, the content was as open as possible, and community ownership was a core principle. As a programmer with limited resources back in 2010, I have every reason to be grateful for Stack Overflow because back then Experts Exchange was paywalled, and most other forums were either language-specific or drowning in spam.<p>Stack Overflow's strict moderation was a direct response to those forums, where you often had to scroll through pages of noise to find one useful answer. Yes, it eventually became a hall-monitor type of clique obsessed with enforcing rules, but that moderation wasn't useless. People here forgot Googling a programming question and clicking StackOverflow link? We did this for years, imagine the time saved not going through manuals.<p>Obviously, there's much less reason to use it in the age of AI. But let's show a little gratitude for what it gave us instead of just grumbling about what it became.	shubhamjain	1793263612	1
+50289142	[flagged]	arbor-group	1793282226	1
+50286772	[flagged]	robbie_cox	1793268720	1
+50285246	[flagged]	axionbraid	1793255693	1
+50288292	[flagged]	mehdizare	1793278949	1
+50288777	[dead]	Unified-Mentor	1793280824	1
+50284487	[flagged]	minfazhai	1793247261	1
+50284219	[flagged]	minzf581	1793244323	1
+50285972	[dead]	sanjays442	1793262149	1
+50285804	[flagged]	boldaxolotl	1793261028	1
+50282927	[flagged]	hackersnooze1	1793234324	1
+				
+50283178	[flagged]	eluru	1793235978	1
+50282827	[flagged]	chasil	1793233481	1
+50285905	I never used stack overflow.<p>Preferred books at the library.	so-cal-schemer	1793261715	1
+50285067	Quora took it over. Better layout, better moderation, better answers.	rurban	1793253918	1

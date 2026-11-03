@@ -1,0 +1,6 @@
+50299811		raphlinus	1793333826	0
+50329909	"This seems like straining the definition of ""compression"". We have a delta-coding filter and then palettization? That's it?<p>Edit: I should say, I find it surprising (but cool) that it apparently works so well. I would have expected errors to accumulate since the decoder has to un-delta-code. I saw mention of Floyd-Steinberg dithering and presumably that's what it's for; seems hard to get it working across multiple colour axes simultaneously, but the complexity is all in the encoder, so."	zahlman	1793567273	1
+50330083	1) IMO pointless to put an emphasis on extreme decompression speed but not show numbers against JPEG even<p>2) BCx essentially does the same codebooking/paletting but more efficiently by allowing you to interpolate between two palette entries for an even larger compression	augment_me	1793568467	1
+50330077	Worth noting that something perf-optimized for RP2350 is almost certainly not going to be optimal on a modern desktop-class core (with deep pipelines and wide ILP/SIMD).	Retr0id	1793568432	1
+				
+50329870	Fun. Vaguely reminiscent of the Amiga HAM video mode.	wiml	1793567112	1

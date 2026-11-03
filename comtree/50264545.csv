@@ -1,0 +1,3 @@
+50264545		flixf	1793129618	0
+50267547	My personal project web server has done this for years with just some basic nginx configuration.<p>You only find my webpage if the SNI contains the host name.  If you connect using the bare IP, it presents a self-signed certificate.  If you accept it, it just returns a bare 404 Not Found.	Sohcahtoa82	1793145070	1
+50264883	> Your NetScaler talks to strangers<p>talk to your servers about stranger danger.	MarkWayneNewton	1793131018	1

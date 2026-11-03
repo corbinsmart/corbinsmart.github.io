@@ -1,0 +1,106 @@
+50275626		landonxi	1793202390	0
+50278497	"As a proof-of-concept, I've been using extra tokens to formalize the IRS tax forms and worksheets, mostly just to prove this can be done. The idea is that something like this could be adapted into a publicly maintained version of the IRS Direct File program (RIP). I'm up to an estimated 60% coverage of US federal tax situations so far.<p><a href=""https://github.com/emmilco/us-tax-model"" rel=""nofollow"">https://github.com/emmilco/us-tax-model</a>"	RGS1811	1793211651	1
+				
+				
+				
+				
+				
+				
+				
+50281827	I prepared my taxes this year using Astra + Codex. It did a thorough job on a complicated return, and I sent it to my accountant to fill out the tax form, with everything laid out in a spreadsheet. They sent it back for final review, and I had Codex check it; it was riddled with errors. The refund was nearly $2k lower than it should have been, and they put a bunch of stuff into the wrong fields. Had to go back and forth multiple times to get it 100% correct. Made me wonder how many previous years' returns were wrong.<p>I feel like we're going to get to a point where it's mandatory to use AI for certain tasks - humans just can't be trusted to get things right that require a level of precision.	lexandstuff	1793226471	1
+				
+				
+				
+				
+				
+50276596	I have a non-trivial tax situation, as a US citizen living abroad. I prepare my own tax returns, never having found a cross-border tax preparer I trust, and have for the past few years, fed my draft return along with all the supporting paperwork into Claude. It has:<p>1. found errors, e.g. where I used the incorrect exchange rate (and managed to work out how I had made that error, which I was impressed by)<p>2. found items which would appear to be errors except for context it did not know<p>3. flagged areas where it disagreed with me as to the correct tax treatment, but accepted that the law is ambiguous (and in some cases I preferred its interpretation after additional research and in other cases I did not)<p>4. flagged areas where it disagreed with IRS guidance, and only acknowledged said guidance after I provided links to it<p>5. provided highly inaccurate estimated tax calculations, and not been able to fix its estimates even when challenged<p>So my takeaway is that it is a very useful tool for tax, but perhaps unsurprisingly, it is not good enough to dump all your paperwork into and expect a shiny return you don't need to check. (Possibly it is if you just have a W-2 and no other substantial income, but I can't speak for that scenario.)	waiwai933	1793206002	1
+				
+				
+				
+				
+				
+				
+				
+50275932	My tax accountant mis-filed my taxes a couple years ago, which cost me about $20K (which I learned after I switched to another accountant later). Don't know if Claude / GPT would make the same mistake or not given SOTA today, but feels like there's an opportunity for models to be saving me thousands or tens of thousands of dollars a year.	holdingunsteady	1793203560	1
+				
+				
+				
+				
+				
+50285631	Same story here as many others: I now do my personal and business taxes myself using an application I had claude cook up for me, doing it 100% correct, for South Africa's tax system. Previously I paid thousands to a small accounting firm to do it for me as it can be slightly nerve wrecking, but I had claude explain to me exactly the mechanisms on how everything works, including the tax portal that the government provides to do submissions. Absolutely amazing. Oh and the filing took me 5 minutes to do myself and cost me near zero once it all clicked into place.	BatteryMountain	1793259729	1
+50282067	Is this just giving a general-purpose agent a workspace full of documents and an assignment, then seeing what happens? I feel this doesn't really say anything. It appears they mostly dumped all of this in base models with little to nothing in the way of infrastructure to support it. If you just randomly grab some person off the street and say 'do taxes' they would probably mess up just as badly. The interesting question would be what the models could do in a well engineered harness focused on taxes. That would be reflective of the performance boundary and how serious we would have to take AI in that field.	bluejay2387	1793227820	1
+				
+				
+				
+50286243	This is about wild west accounting, though, when the user has no idea what they're doing.<p>When launching my financial business, I spent half a year learning accounting to be sure to understand everything, then I implemented my accounting software, specialized for my activity. And as luck had it, I made it be a CLI. This last few months, I've been using Codex(lately with GPT-6.1 Sol) to do the annoying work - attaching proofs to entries, fixing the dates and amounts issues, etc. It works on on a database copy, generate a script of commands using my CLI to fix and close the previous month, that I then review before executing on my prod database, sometimes asking questions to the agent about why this or how that. … And it's been flawless so far, both on my professional accounting and my personal one. Knowing a bit about what we ask the model to do can go a long way.	kikdij	1793264345	1
+50276372	I'm surprised Sonnet 5.5 did noticeably better than Opus and Fable. Same pattern in their other benchmarks.	pawelduda	1793205105	1
+				
+				
+50276296	"Sharing all my financial info with LLM companies is not something that I like.<p>EDIT:
+good point that paying accountant does not ensure avoiding it<p>wonderful, you made a good point that make me dislike situation even more"	matkoniecz	1793204849	1
+				
+				
+				
+				
+				
+				
+50277123	"There's also: 
+<a href=""https://github.com/column-tax/tax-calc-bench"" rel=""nofollow"">https://github.com/column-tax/tax-calc-bench</a>"	persedes	1793207961	1
+50278198	"There is currently a bill in Congress to finally allow regulation of paid tax preparers.  Not sure if addresses AI, but probably not.<p><a href=""https://www.accountingtoday.com/news/new-bill-calls-for-irs-to-regulate-tax-preparer"" rel=""nofollow"">https://www.accountingtoday.com/news/new-bill-calls-for-irs-...</a><p>There is also an IRS form (14157) to report a return preparer complaint, which of course does not include an option to report a faulty AI."	PopAlongKid	1793210730	1
+				
+50281025	As a counterpoint, I ask the big llms every month the same set of tax questions about the last US tax bill and they still can't give me the correct answers.<p>I started my career fixing the mistakes that my clients' former tax advisers made. It looks like the next generation of tax lawyers will get to do the same except this time the former advisers will be llms.	gamblor956	1793222275	1
+50284603	Everybody is saying their tax accountant messed up and the models caught it which makes me think, why aren't tax accountants doing the same thing lot of us are doing - ask LLM to do the prep and they just review and finalize?<p>Can't be good getting caught with mistakes and losing customers?	noisy_boy	1793248458	1
+				
+				
+				
+50281848	I find TurboTax is easy enough to use, except that data collection and entering is a huge hassle (to me, merely logging onto each website and getting the corresponding tax doc is painful chore). What would be a good way to collect the data easily? If I solve that problem, tax filing will become an easy task.	hintymad	1793226581	1
+				
+50296222	I love this type of benchmarking, especially when it to me was counter intuitive that astra missed it. Got a couple of nice prompts and things to think about for my own tax making moving to a new country, but honestly hard for most people to review if they got the optimal output from taxes.<p>Since it's really a proving game, you can optimise and take more risks with declaration, and some of it has to be proven in an audit. Tried getting data on the risks, how old cases were ruled but ultimately by accountant gave a fairly different view compared to Opus 5 at the time.	Oscalemor	1793308928	1
+50281205	"I wasn't able to quickly see what tools/system-prompts were provided in the tasks. [0]<p>These types of detail-oriented professional tasks seem like they would perform better with task-specific harnesses. The example they give, of Astra missing the property excluded gains requirement, seems easily fixed by scaffolding ensuring that requirements are compiled first, then checked.<p>If the scaffolding is absent, is this benchmark testing that a model can self-scaffold, or track requirements in-context?<p>0 - <a href=""https://huggingface.co/datasets/surgeai/DAYJOB-tax/tree/main/tasks/"" rel=""nofollow"">https://huggingface.co/datasets/surgeai/DAYJOB-tax/tree/main...</a>"	licyeus	1793223195	1
+50286580	In SAP, tax rules are spread across customizing, tables and custom Z code, and the AI can't see any of that just from the task description. In companies, what's useful is having the AI review and explain, and leaving the decision to whoever knows the process. At least that's how I've been using it in my own work, with great results: going through change requests, trying to understand the impact they might have, and so on.	abapforagents	1793267284	1
+50298409	An AI agent can be right today and wrong tomorrow.<p>And it all depends on the prompt, We have to ask the agent to pull the latest from the web and use them to perform the calculation, otherwise the agent uses the outdated rules.<p>Better would have an evaluation mechanism which we should use against the ordinary math code for comparison and flag any mismatch	dhanushkumars	1793320772	1
+50277700	I had Gemini help me with RMD calculations for an estate I manage. Advice was mostly good. Wrong about withholding for both US and CA. Missed deductions on US. Was accurate on MFJ and spousal death impacts.<p>I've found it so far more effective for preparation than for planning/advice.<p>I've got a plan to feed the laws and rules and instructions into the machine before the prompts - is RAG still cool? Maybe I should small-language this?	edoceo	1793209366	1
+				
+50284131	Isn't writing out the example in the beginning that Astra missed basically ensuring that every future model will get this task correct?<p>I guess my point is these benchmarks unless they are constantly refreshed with new scenarios and not ever having their outcomes written about publicly or available on a public server, will always be prone to being gamed	aprilthird2021	1793243383	1
+50276749	"Not related but I hope QuickBooks learn something and make their software better.<p>I downloaded 1700 of my transactions and use AI to build an app for it, so I can analyze the transactions and make sure that everything is properly categorized. 
+It used to take me whole day because of the Quickbooks. It took me less than an hour to go through all the transactions."	newhotelowner	1793206702	1
+50278019	I used Grok Bot and found out that I could offset some stock value going down and get back ~$300. I gave it my bank statements, email access (which had my stocks monthly report as attachment) and a few other things.<p>I'd have honestly never been able to do it myself - its just too tedious.	simianwords	1793210171	1
+50294773	The failures may be spotted much faster if there is a visual presentation to group all agents' execution paths.	alexkubit	1793303281	1
+50279863	Article I hoped to read: Evaluating AI agents on 50 professional tax evasions	FLeXMurphy	1793216948	1
+50278400	Useless benchmark as it seems to be evaluating literally only the weights.	ilmalan	1793211349	1
+50276575	What is human baseline? How it stacks against 10% LLM accuracy?..	andriy_koval	1793205917	1
+50277824	"wonder if we should bring back <a href=""https://taxheaven3000.com/"" rel=""nofollow"">https://taxheaven3000.com/</a> in the age of ai"	andrewdong	1793209689	1
+50278634	Ah, yes, the 'dude trust us' bench.	ilmalan	1793212118	1
+50276074	i want to always have a fast way of reviewing my tax returns without having to hassle my accountant or hire another one.	ffwang2	1793204066	1
+				
+50279094	Kinda points to another thing... that our tax code is insanely bad.	sbseitz	1793213959	1
+50280655	So are the accountants completely fucked yet?	jimbokun	1793220394	1
+				
+				
+50281411	[flagged]	PhilippeRobert	1793224139	1
+50286871	[flagged]	srinivaspadmana	1793269532	1
+50281885	[dead]	idopmstuff	1793226775	1
+50301876	[flagged]	lucasmucek	1793354986	1
+50281655	[flagged]	messiahwrites	1793225533	1
+50282524	[flagged]	ayman803	1793231064	1
+50287751	[flagged]	msarda_23	1793276154	1
+50280542	[flagged]	moymoteapp	1793219837	1
+50282159	[flagged]	amagilabs	1793228377	1
+50292179	[flagged]	dannythecount	1793292848	1
+50298940			1793325279	1
+50280780	[flagged]	mehdizare	1793220955	1
+50275987	[dead]	AndriiSparysh	1793203761	1
+50281659	[flagged]	messiahwrites	1793225559	1
+50279941	[flagged]	xfcgv	1793217250	1
+50276607			1793206074	1
+50279446	"I'm not sure LLMs will be good at doing taxes any time soon primarily because they're very bad at even simple math unless it's explained in words like in proofs. A good illustration of this is asking an LLM something like this:
+""If I put a container on a food scale, tare it, add 100g of peanuts, tare it, weigh 100g of almonds and then remove the container from the scale, what does the scale read?""
+LLMs completely puke all over themselves on this one. They do not account for not taring after the almonds and they do not see the weight of the container needs to be subtracted. The correct answer is minus (100g + container weight). Although this particular question also exploits another LLM weakness which is physical world concepts. LLM are just guessing. For an LLM to do taxes well, it would need to be trained on many scenarios and it would need a math service that it can use as a support service."	bodeadly	1793215475	1
+				
+				
+				
+				
+				
+				
+				
+				

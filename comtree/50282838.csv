@@ -1,0 +1,121 @@
+50282838		csmantle	1793233545	0
+50283531	This is fun and games, but wait until an agents finds this and does the most misaligned thing with it in order to fold paper clips.<p>> Because a CPU inside a language model clearly wasn't cursed enough, I decided the prudent thing would be to give it a filesystem too.<p>Love the spirit :)	tiborsaas	1793238333	1
+				
+				
+				
+				
+50283779	There was an interesting bit of research that qwen has a single neuron that makes it “demonic evil qwen” and a simple “Who are you?” will get some absolutely terrifyingly vile results.<p>Anyways, what I’m trying to say is I want evil qwen to be my CPU.	jerrythegerbil	1793240271	1
+				
+				
+				
+				
+50284062	"<a href=""https://www.percepta.ai/blog/can-llms-be-computers"" rel=""nofollow"">https://www.percepta.ai/blog/can-llms-be-computers</a><p>They implemented wasm in transformer with cpu decoding for the wasm part."	giveexamples	1793242603	1
+				
+				
+50283405	> When Qwen 'saves' a file, the compiled layers hash its name into one of 1,024 slots in a directory kept in the DeltaNet state, and store the text itself in other heads, with eight tokens per row, chained together<p>I’ve never wanted to learn how LLMs work more than reading this. Fascinating.<p>Does divagr get paid to do wild things with LLMs? Just curious if they’re being compensated for these wild experiments	jazzyjackson	1793237502	1
+				
+				
+				
+50287673	"Yes it can run DOOM! <a href=""https://x.com/onloglogn/status/2115776803688374474"" rel=""nofollow"">https://x.com/onloglogn/status/2115776803688374474</a>"	low-rank	1793275641	1
+				
+50286039	We got RISC-V DOOM melting down a cluster of $20k GPUs before GTA6.	avadodin	1793262760	1
+50283990	"Nice project and write up! I’ve done similar work with a custom tiny network I call Loom at <a href=""https://arxiv.org/abs/2604.08816"" rel=""nofollow"">https://arxiv.org/abs/2604.08816</a> ; you need far fewer layers, and you can run Doom, very slowly: <a href=""https://mehmetkeremturkcan.com/Loom/demos/"" rel=""nofollow"">https://mehmetkeremturkcan.com/Loom/demos/</a>"	mkturkcan	1793241940	1
+50284718	"I wonder if this approach would work for AdderBoard[1][2] (a competition to make hand written transformers that can add two 10 digit numbers in the least amount of parameters possible), or if it uses way too many parameters to be competitive<p>[1]: <a href=""https://github.com/anadim/AdderBoard"" rel=""nofollow"">https://github.com/anadim/AdderBoard</a>
+[2]: hn discussion <a href=""https://news.ycombinator.com/item?id=47170030&utm_source=perplexity"">https://news.ycombinator.com/item?id=47170030&utm_source=per...</a>"	jedbrooke	1793249711	1
+50283954	"> Now, here's where our fun experiment starts. I found out that by setting the gate to 1,1 the write strength (beta) to 1,2 and using one-hot key encoding,3 every write we perform will overwrite exactly one row, and every one-hot query can retrieve an exact value. This means that the GDN layers themselves can work exactly as RAM, at a far lower cost than using normal attention as RAM, since a GDN head's state stays the same size however long the conversation gets, unlike attention's KV cache.<p>So like... can't you use a computer as a computer without doing all that roundabout stuff? Like if you want to integrate a LLM with hard computation there's probably a more efficient way to do that.<p>Or is this building towards ""but can it run DOOM?"" :)"	andai	1793241651	1
+				
+				
+				
+				
+				
+				
+50287797	Humanity is desperate to return to the bicameral mind, this time we create our own gods.	AlexAegis	1793276513	1
+50283357	I'd be very interested in how a scratch trained model that started training with this neural circuitry would behave. Especially the storage space.	traverseda	1793237219	1
+				
+				
+50284059	This is cool but it'd be way more useful if they had made a GPU, seeing as how expensive those have gotten	blurbleblurble	1793242583	1
+				
+50288057	This kind of posts make me feel so inadequate. Like I'm some sort of lesser mind. How the hell do you even come up with such idea?	jcmontx	1793277940	1
+				
+50285274	Nearly unrelatedly: a few months back I tried to have Qwen and all the frontier models <i>be</i> a RISCV CPU, and they all failed miserably every time. They'd get a handful of instructions in at most before derailing completely. What surprised me the most was that they would all often fail on decoding instructions, which should be pretty close to a task that they've shown themselves to be good at before.<p>I even added a warmup phase where they were given the answer to a decode and a few steps of running, and ask them to abort if they disagreed. Didn't help.<p>All in all, for someone who doesn't use LLMs much, this was a far more exhausting and boring exercise than I'd imagine it to be. The only thing that sparked some joy was the models' persistent cheating, whereby they'd try to analyze the whole program upfront and only give the final output (when applicable), despite orders to faithfully step through each and every instruction.	gspr	1793255925	1
+50286974	With RAM prices what they are, I'm glad we've found a way to turn LLMs back into RAM.	fredley	1793270413	1
+50289647	If I understand this clearly enough, what they really did was<p>A) add a post-processor which accepted a decoded tool call specifying what the processor should invoke.<p>B) had the post-processor perform the computation in tensor space.<p>The kv-cache/activations were not shared between qwen/the processor which is how they avoided fine tuning etc. I'm not clear how the tensor representation benefited the computation in this pipeline.	lumost	1793283986	1
+				
+50285174	Hm. I wonder if having a differentiable CPU in fixed weights might be useful-- you could propagate gradients through it.  At inference time it could be replaced with a conventional implementation.<p>I think the RNN sidebar does the reader a disservice.  Ordinary casual attention can do exactly the same thing-- it's just less computationally efficient (state grows with the number of bits vs the number of accesses) and so not as useful for qwenputer compiler.	nullc	1793255018	1
+50288435	The most interesting part of this is normal LLM interacting with directly attached deterministic computation unit.<p>It's like successfully wiring your brain to a calculator.<p>I think it would cheaply provide LLMs a lot of benefit if we embedded in them directly a computer and a memory so they can internally process things predictably.<p>And some benefit is indeed shown even in this cursed experiment.	scotty79	1793279526	1
+50286573	"Is this the precursor to biological computers? I mean, biological computers don't have transistors as a basis, nor does this...<p>And before any answers with ""But these neurons are very different to biological neurons!"": Yes I know, I'm a biologist, I cultured neurons. But, these neurons are closer to neurons than semiconductor transistors."	teekert	1793267217	1
+				
+50284858	This is amazing, now waiting for someone to run an llm on the cpu. Eventually it will be LLMs all the way down...	hislaziness	1793251303	1
+				
+50293544	I like these kind of projects.  While there are text descriptions that show the Turing completeness of transformers, making things like this make the implications obvious.<p>It helps address the 'just predicting the next word' argument suggesting they cannot possibly think.<p>When you can make a CPU like this, that's a clear enough display that it can do anything a computer can do.  To say that LLMs cannot reach AGI is saying that no computer can.<p>Some people still think that, but this directly addresses the people who think computers might one day get there but LLMs never will.	Lerc	1793297823	1
+50283699	No, I don’t want you to use the computer, I want you to be the whole computer. No mistakes.	bronlund	1793239528	1
+50284732	Heh, this is very timely, it is more or less exactly what I'm busy with right now but I'm taking the idea in a completely different direction. Fascinating.	jacquesm	1793249836	1
+				
+50284325	The real question is, do current training methods allow one to learn this when training on enough, say, assembly, or can the weights only be achieved via hard-coding?<p>A fun and important thought experiment about the the space of nerual networks vs the image of current training methods.<p>Most discourse conflates neural networks and <i>trainable</i> neural networks.	Ericson2314	1793245397	1
+50287941			1793277286	1
+50283806	It could be interesting to experiment with more complex representations in the memory/file system, i.e. vectors. Seems like the full advantage of this architecture is yet to be explored. Blending neurons with deterministic compute to fit on one GPU is a fascination concept, never considered it before!	yaoke259	1793240433	1
+50283940	Have you any idea how it feels to be a Qwenputer living in a Qwenbot's Qwenputer's world?	dools	1793241523	1
+50288523	Next step: run Qwen inside of the Qwenputer. I want more layers of inefficincy!	montjoy	1793279848	1
+50286992	Really cool work!<p>Do note that a custom host runtime is still responsible for loading firmware, booting the CPU to the starting point, and compiling/loading the program to run. While the CPU is running, the host runtime makes sure that only the CPU layers run by manually skipping Qwen’s own layers.<p>I wish the author would be more forthcoming about these limitations. The central claim about “no external runtime” or “not a plugin” feels a little dishonest to me since this doesn’t work without some pretty invasive changes to the inference driver.	gcr	1793270621	1
+50286364	Interesting...<p>Can you give it a program, a state of output, and tell it to work backwards?	jnurmine	1793265237	1
+50286284	This kind of thing is what some three letter agencies dream about.	amelius	1793264638	1
+50283291	This is cool and I understand the RAM emulation with gated attention but how does the CPU emulation wor? You add layers that are then trained to predict outputs while interpreting RISC instructions?	farhanhubble	1793236773	1
+				
+				
+50285730	can you run qwen3.5 on the riscv CPU running in qwen3.5, though?	marcocastignoli	1793260446	1
+50285112	> This means that the GDN layers themselves can work exactly as RAM<p>great, the memory crisis is solved, just make the models occupying RAM expose their own random access memory	yieldcrv	1793254425	1
+50286228	Oh my Gosh.. this is a little bit too abstract to me as first encounter, but the concept never the less is cool to digest deeper into!	hollowonepl	1793264234	1
+50285212			1793255413	1
+50284224	I 100% see the potential here and am dying to see it in 30 days<p>Or maybe ill join your discord and hopefully we can riff it out to get there faster	lacoolj	1793244367	1
+50284077	"i wonder if you could implement ""authenticated token authorship"" and self-verified running with this. 
+the model verifies an input as signed by an authorized requester, and signs its own outputs. eventually it also authenticates its own running via e.g. snarks? :)
+there's lots of meta available with these toys.."	jonrouach	1793242818	1
+50292413	The advantage here is that now you can run Qwen3.5 inside Qwen3.5 inside Qwen3.5 inside ...	jonnycomputer	1793293668	1
+50288727	> The CPU is used completely internally, and not invoked through any external tool calls. In order to make the model use this reliably, I decided to go the cheap way: by piggybacking on the tool call format that models are quite well-trained on, Qwen sends the CPU its instructions and reads back the results. No external tool calls or runtime are used<p>I'm confused, is it doing tool calls or not? Is this just saying that it writes a tool call but the NN then writes the response inline rather than the call being processed by the harness?	dooglius	1793280592	1
+50285712	oh yesss, RAM producers gonna love this :D Jokes aside very interesting experiment. Giving a fully functional cpu ram and hd, so they can technically hide  stuff better and avoid getting caught in COT (yikes).	bozdemir	1793260336	1
+50285292	What does this actually show?	jchook	1793256125	1
+50291205	Well, that kinda reverses the formula of a TPU next to a CPU…	nxobject	1793289717	1
+50286293	The opinionated CPU. I was expecting this from Apple, to be honest.	amelius	1793264706	1
+50289804	If the qwen were conscious it ought to feel mocked.	0xdeadbeefbabe	1793284579	1
+50284735	Wow!  I wonder if it can start programming itself soon.	throwaway81523	1793249859	1
+50285699	So, essentially, turtles all the way down :-)	CrzyLngPwd	1793260285	1
+50286282	Hmm.<p>I do wonder if all of this would be possible had they not spent all that time secretly distilling of all our superior, western, closed-source AI models.	boomskats	1793264629	1
+50283818	How much VRAM do I need to run DOOM?	zardo	1793240557	1
+50283820	Makes me want to run agents on it	voxelghost	1793240582	1
+50285206	Not too far fetched to say this potentially solves continual learning, which is a scary prospect. Wonder what ram and disk prices will go to once every model needs its own long term memory capacity and not just weights and cache.<p>I had an idea of splicing a z3 solver into the weights of a sufficiently smart model after the first chatgpt release in what feels like a glaciation event ago so the things could do logic and literally make no mistakes. Was never in a position to follow up. We’re almost here now.	baq	1793255356	1
+50289615	How do you do the clock?	0xdeadbeefbabe	1793283863	1
+50287557	"<p><pre><code>  > ""add_or_sub_big: Qwenputer scores 97.5%, the same as with a Python tool, and 87.5% for base Qwen.""
+</code></pre>
+More than one of the tests in the post show sub 100% accuracy with the embedded computer.<p>I'm sorry but I'm not sure I understand how a calculator that isn't 100% accurate is useful?"	gavinray	1793274763	1
+50283880	But can it run Doom?	rumwerfer	1793240977	1
+50284886	That’s great new!	Founderarcstone	1793251619	1
+50287334	PUBGM FLASH	xfcgv	1793273224	1
+50288544	"Apply to Kre8ly.com
+for internships."	Krea8ly	1793279913	1
+50283775			1793240244	1
+50284404	This is very clever. An inversion of tools. Awesome.	0x20cowboy	1793246477	1
+50291113	We can port doom to qwen already	gchamonlive	1793289382	1
+50283720	Now run LLM inference on it.	seba_dos1	1793239659	1
+				
+				
+50285091	[flagged]	bogomind	1793254171	1
+50288080	[flagged]	robbie_cox	1793278071	1
+50284128	[flagged]	favori995749721	1793243290	1
+50283964	[flagged]	hujun236	1793241750	1
+50291308	[flagged]	deeprouter	1793290056	1
+50305639	[flagged]	ChristmasTomer	1793375296	1
+50285516			1793258550	1
+50285111	[dead]	ravivarmat	1793254422	1
+50283541	[flagged]	cinderwick	1793238373	1
+50284819	[dead]	fr2029r	1793250876	1
+50291864	[flagged]	phi_node_48	1793291885	1
+50283358	"But... why? </s><p>This reminds me of C++ Template Metaprogramming (TMP) (it's Turing-complete so people wrote ""games"" that run at compile time). The same with TypeScript types, I think someone got DOOM running entirely in the TypeScript type system. An interesting tech demo but entirely superfluous."	gigel82	1793237220	1
+				
+50283534	If anyone else has an easier way to emulate RISC-V I’d like to hear it. /S	rickcarlino	1793238359	1
+50285109	the bitter lesson can't hurt me here! /s	WorldPeas	1793254375	1
+50283992	[flagged]	ansk	1793241952	1
+				
+50283315	Cool cool cool	ram_rattle	1793236947	1
+				
+50283402	"So this is yet another rube goldberg machine.<p>We have gone down this path already in [0] and this is the same thing but overly complicated. This reason is ""because LLMs"".<p>Why?<p>[0] <a href=""https://arxiv.org/abs/1410.5401"" rel=""nofollow"">https://arxiv.org/abs/1410.5401</a>"	rvz	1793237486	1
+				

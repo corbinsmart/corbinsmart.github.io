@@ -1,0 +1,77 @@
+50298964		henrid	1793325524	0
+50300367	> To stay relevant, Pico CSS would need a full rewrite: plain modern CSS instead of Sass, built on features it doesn't use today (OKLCH colors, cascade layers, Popover, anchor positioning) with fallbacks for older browsers<p>Why? Why? Why? I hate how everyone seems convinced they need to adopt the latest and greatest browser features just to stay relevant. I hate oklch and I hate Tailwind popularized it. I don't care how scientifically accurate it is at representing human color perception. It's a PITA to understand a new type of color system, and learn to tweak it, especially when HSL/RGB just worked fine.	shubhamjain	1793340192	1
+				
+				
+				
+				
+				
+				
+				
+50299449	"Some recent alternatives/successors/forks that are in the same vein as Pico<p>- Nimble: <a href=""https://leftium.github.io/nimble.css/demo/pico.html"" rel=""nofollow"">https://leftium.github.io/nimble.css/demo/pico.html</a><p>- Sumi.css: <a href=""https://vladocar.github.io/Sumi.css/docs.html"" rel=""nofollow"">https://vladocar.github.io/Sumi.css/docs.html</a><p>- Blades: <a href=""https://github.com/anyblades/blades"" rel=""nofollow"">https://github.com/anyblades/blades</a><p>- Oat: <a href=""https://oat.ink/"" rel=""nofollow"">https://oat.ink/</a>"	sphars	1793329822	1
+				
+				
+				
+				
+				
+				
+50299181	I really enjoyed using Pico CSS, but I understand the choice.<p>Thank you Lucas Larroche for building Pico CSS and sharing it with us.	eterps	1793327580	1
+				
+50299605	Pico is a great little library.<p>Thank you to the developer and maintainer<p>For what it’s worth I had to force Claude early in to use pico and not ever generate react or ornate tailwind.<p>Pico is extraordinary for standalone tools where ai can’t let complexity build out of control.<p>Maybe there’s other options but pico is what got it done, and vanilla LLMs has a hard time keeping something this simple and elegant and flexible.	j45	1793331472	1
+				
+				
+50307869	"> Today, AI can generate lightweight, standalone, accessible HTML with just the CSS it needs, so a Minimal CSS Framework for Semantic HTML matters less than it used to<p>This argument is basically saying, ""Why build anything if AI can do something similar?"" Personally, I think there is a great deal of value in building things to a well thought out specification. I don't like this attitude of cognitive surrender."	desolate_muffin	1793383626	1
+				
+				
+50299098	"<a href=""https://github.com/anyblades/blades"" rel=""nofollow"">https://github.com/anyblades/blades</a> seems to be a continuation in the same spirit"	Retr0id	1793326762	1
+				
+50299628	"First, I confess that I had built quite a lot of CSS Frameworks and Design Systems in my early developer life. So, this is going to be more of a personal experience.<p>Ever since Coding Assistant LLMs became pretty good (2025-Q4 - 2026-Q1), I feel that it makes very little sense to continue to use pre-defined CSS Frameworks that 'has everything.' Of course, it is still OK if the general team decides on one, and they are OK (such as the Tailwinds, MUI of the frontend world.)<p>I have used Foundation[1] and Bourbon[2] extensively. Mostly because I can break it down and take just what the project needs and keep it within a low CSS budget for any project.<p>With that in mind, in the 10+ projects that started for some of the biggest brands of the world, I just defined the CSS framework, design systems, design token, with room for extension as the project grows. Claude Code is my tool of choice for now and I just let it run overnight, tweak as the project scaffolds and finally takes about less than a week to have a complete CSS framework in just plain CSS, and JavaScript where it needs to talk to the broader frontend.<p>1. <a href=""https://get.foundation"" rel=""nofollow"">https://get.foundation</a><p>2. <a href=""https://www.bourbon.io"" rel=""nofollow"">https://www.bourbon.io</a>"	Brajeshwar	1793331720	1
+				
+				
+				
+50302032	I'm sad to read this, but the authors know what is best for them, and what their priorities are. I'm really grateful for their work, I found Pico a few years ago, when I needed a minimal page (some status page for an embedded system) super quickly, and I had more than enough from the Bootstrap div soup, and invested half of the available time to research alternatives in - as I learnt the correct term for my preference then - semantic html.<p>It was a blast, super simple markup, mostly good defaults, I really enjoyed it.<p>I hope the best for them, and I hope some fork may get some traction, as Pico was my goto framework for small stuff one needs to do every now and then, and I really don't like the tailwind approach.	fodkodrasz	1793356088	1
+50299083	A little sad in a way, but this seems like the right call. I haven't used Pico in a very long time, and I don't think I'd choose it today.	steve_adams_86	1793326670	1
+				
+50303016	This is really sad news to me. I have used Pico several times as an example of good implementation and aesthetics, so the agent could get what I had in mind. In this case, applied human intelligence and good taste had their value when I needed to interact with the LLM. Now that intelligence begins to fade-out.	rodolphoarruda	1793363467	1
+				
+50300529	I love plain old Vanilla CSS. Pre-processor-free for a couple years now and don't miss anything.	prokopton	1793342513	1
+50299439	I haven't done frontend dev in a while, but one thing stands out to me here... they call out using OKLCH colours, which I had to look up. (For the uninitiated, this is a cylindrical projection of the also-new-to-me Oklab colour space, which appears largely unrelated to the older CIE L*a*b* colour space).<p>Do people actually use this? In particular, before LLMs ate the world, I mean. When I did frontend, it was hex, or if you felt fancy, `rgba(...)` (though at that point named colours had mostly fallen out of style).<p>Is using these less-intuitive colour encodings made more practical through the use of CSS variables?	verandaguy	1793329737	1
+				
+				
+				
+				
+				
+				
+				
+				
+50302297	First of all: Thanks for the work! Used Pico CSS quite a lot in personal and small company projects where a simple site was needed. It was a great help to get things looking good without much effort.<p>To be honest: I haven't really looked at the CSS that agents have written for me. I'm wondering if CSS frameworks still can play a role in that world as guidelines to get more consistent and maintenable code. On the other hand: agent does it, agent has to fix it.<p>Still not totally sure where all of this is going.	martin_a	1793358117	1
+50310900	This saddens me, thank you for Pico. As a backend engineer I used Pico for an internal tool used by dozens of people at my company and it was praised for how intuitive and easy to use it was which was in large part due to how easy it was to build something beautiful with Pico.	valiant55	1793398920	1
+50300426	"Been working on <a href=""https://bamboocss.com/"" rel=""nofollow"">https://bamboocss.com/</a> for couple of months.<p>It's build-time, Rust/Oxc, type-safe, zero-runtime CSS-in-JS, with per-route CSS splitting."	gajus	1793341112	1
+				
+50300803	Thank you very much for your stewardship over the years. And kudos for not just letting it rot, but communicating clearly, and closing it down responsibly.	suhlig	1793345518	1
+50299155	What a tragedy.	u8	1793327291	1
+				
+50302147	"AI skynet slop is murdering people left and right.<p>The problem is that the explanation given here makes
+only little sense. I am not going to rely or depend
+on AI slop, so there is now one less option for me.<p>I think humans need to stop believing in AI slop as
+the new religion for everyone. Some people have a 
+complete anti-AI policy and pull it through, too."	shevy-java	1793356924	1
+50300789	Thank you for the training data	vachina	1793345399	1
+50301269	I miss 960px grid systems…	mhd	1793349808	1
+50302056	Im on it -> @srvrX0r	srvrX0r	1793356264	1
+50314499	"Anybody uses <a href=""https://unocss.dev/"" rel=""nofollow"">https://unocss.dev/</a>?
+I was thinking about moving to it from pico."	npodbielski	1793440103	1
+50299440			1793329738	1
+50299198			1793327686	1
+50320159	[dead]	forest_brothers	1793480295	1
+50299298	> To stay relevant, Pico CSS would need a full rewrite: plain modern CSS instead of Sass, built on features it doesn't use today (OKLCH colors, cascade layers, Popover, anchor positioning) with fallbacks for older browsers, and a native compiler that strips unused CSS and makes customization easy.<p>Does anyone know a similar project doing this?	smlx	1793328490	1
+				
+				
+50299678	[flagged]	pjarrow	1793332329	1
+50303463	[flagged]	zelsisapp	1793366314	1
+50300895	[flagged]	hexjy	1793346487	1
+50299843	[dead]	yje07039	1793334161	1
+50299245	[flagged]	minfazhai	1793328047	1
+50299259	[dead]	wetpaws	1793328217	1
+50302064	[dead]	srvrX0r	1793356321	1
+50299264	Hmm. I use pico.  They could use an agent to modernize it!	psadri	1793328250	1
+				

@@ -1,0 +1,5 @@
+50255798		nryoo	1793087328	0
+50261041	Is it 2^O(n) or 2^o(n)? (Edit: It's the latter according to the site, HN possibly mangled the title.)	commandersaki	1793115908	1
+50260928	This isn't getting any attention, but Anthropic claims Claude independently proved that the Exponential Time Hypothesis was false back on October 16th, and had been working on a cleaned-up draft.	QuesnayJr	1793115414	1
+50262140	It's a bit sus that the time complexity and also the fact it solves the counting version of the problem, match exactly the openAI result	dooglius	1793120398	2
+50262181	It is weird.  We'll have to wait and see if they are the same algorithm or not.	QuesnayJr	1793120539	3

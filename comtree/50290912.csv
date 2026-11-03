@@ -1,0 +1,16 @@
+50290912		wondersky	1793288705	0
+50291965	This blog post spends a lot of time telling why gang scheduling is needed here (a fact obvious to anyone using the nvl72s), but doesn't actually go into detail about how their scheduler works.<p>At work, we have built something very similar, a custom topology aware scheduler for workloads, and the most interesting things about such a project are entirely absent from this article, making it more of a fluff/marketing piece than an actually interesting technical blog in this area.<p>Our next iteration of this scheduler aims to scale to O(millions) of GPUs, with a scheduling cycle time measured in the milliseconds.	jhgg	1793292202	1
+				
+				
+				
+				
+				
+				
+50294678	"There’s been some prior art in this space I feel that should be mentioned from k8s SIG batch in the Kueue project
+<a href=""https://kueue.sigs.k8s.io/docs/concepts/topology_aware_scheduling/"" rel=""nofollow"">https://kueue.sigs.k8s.io/docs/concepts/topology_aware_sched...</a>"	asaiacai	1793302802	1
+				
+50294669	Who has nvl72s that this isnt absolutely plainly obvious to - and has been for years. Not just that - topology has -always- been relevant to scheduling, and hpc schedulers have always been aware. What a weird blogpost.	timzaman	1793302772	1
+50293062	"This reads a bit disingenuous and click-baity. There's no ""new"" scheduler. Gang scheduling and rack-aware scheduling have been around since the days of HTCondor, and are put in practice at almost every large GPU deployment I've seen. The net new information added by this blog is close to zero, and feels like shilling for SkyPilot."	novalite	1793295923	1
+				
+50293421	"""Not all high-speed interconnects are created equal""
+I think he's a red rising fan"	zan2215	1793297380	1

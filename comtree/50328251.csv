@@ -1,0 +1,75 @@
+50328251		smilelamp	1793557722	0
+50328796	"> To me, someone who chooses a worthwhile problem, obtains a proof completely using AI, understands it thoroughly, and uses it to develop interesting further questions or directions has made a substantial mathematical contribution. I would give that person substantial credit even if they supplied no new ingredient in the original proof.<p>Yup. This is what Terence Tao has been saying about digestion of results for several months now. Mathematics has become a field where results themselves matter less, the social aspect of attracting others to understand your results and explore new problems has become more important.<p>In a sense it is a little
+bit like software engineering, where writing code can sometimes be delegated to AI, and is arguably less important than understanding what the customer really wants from this software."	kccqzy	1793561124	1
+				
+				
+				
+				
+				
+				
+50328713	Isn't it the passage of mathematics from the age of craftsmanship to the age of industrial making ?<p>My recent take on AI is that people haven't adapted to the new huge potential of the tool, and don't dream big enough (yet).<p>It's like seeing a car engine for the first time, lamenting about the future of horses, and not realizing it'll also help us fly.	bsaul	1793560544	1
+				
+				
+				
+				
+				
+50329070	Why do nearly all the articles exploring the development of AI applied to math assume that capabilities won’t extend beyond theorem proving?<p>> other skills will matter more: choosing which terrain is worth exploring, steering fleets of airplanes, and explaining what they find to the rest of the world.<p>These all seem totally achievable by LLM agents, or at least, I don’t see an obvious reason why it wouldn’t be. 3blue1brown’s recent discussion on this subject was a bit better, but he spent the plurality of main body of the video assuming this scenario, devoting less time to the other possibilities. To me, it seems dangerous to build a math career on the foundation that AI won’t be able to explain math well in a few years, let alone a few months  (which seems entirely plausible given the recent math progress).	ethanlipson	1793562631	1
+				
+				
+				
+50329540	"There's a long collection of comments by mathematicians at [1].
+A large number of workers in the field are rather discouraged. The main quality complaint is that the proofs are ugly, long, and incomprehensible. One mathematician comments that the first proofs of new major results are often like that. Elegance comes later. 
+The main social complaint is that the social foundations of mathematics just changed, in a big way. The main practical complaint is ""what do I do now"", especially from PhD students who just lost their thesis topic. They sound like the Uber drivers fighting Waymo.<p>One comment was ""A common piece of wisdom is that mathematicians only have a few tricks in their bag – which they skillfully apply again and again.""
+Feynman made that point in his autobiography. For various reasons, he had
+a different set of mathematical tools than others in his field, and that helped
+him to solve problems that stumped others.<p>A big AI model has access to <i>all</i> known tools. AIs have more breadth than any human.
+Some of these breakthrough proofs seem to come from applying techniques 
+from areas different from what people in the field tend to use. I'm not qualified to comment on math at that level, but the comments by mathematicians seem to hint in that direction.
+That may indicate why throwing vast amounts of compute at these problems works - an AI can try everything.<p>[1] <a href=""https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/"" rel=""nofollow"">https://proofsandprompts.com/2026/10/08/100-reactions-to-100...</a>"	Animats	1793565343	1
+				
+				
+50328587	It’s amazing for me to see math research going from craft to technology.<p>CS had this moment decades ago, sans some theoretical parts that are joining the bandwagon now.<p>I did a bit of math research in grad school collaborating with my math postdoc roommate. I found the aversion to any computation making its way into the craft to be odd decades ago.<p>Well, now the proof’s in the AI generated pudding.	fooker	1793559797	1
+50329834	"It has changed from elegance and human understanding to brute force. But that trend was started a while ago, before AI became really useful.<p>From TFA:<p>""I’m ready to board the plane, because I want to see what’s there. At the same time, I would add that people who previously have been walking around on earth with their eyes closed are not going to recognize anything however high they fly; I still believe that many of the skills that mathematicians have now will not only be transferable but vital to the new world order.""<p>That sounds a bit disconnected and rude."	jacquesm	1793566869	1
+50329493	It’s strange to me seeing multiple talk about how Terry’s viewpoint has evolved or not as a response to this post. He didn’t write this.	brandonpelfrey	1793565083	1
+				
+50329877	"> gulf between ... novel proofs and ... understanding<p>Machine proofs are useful <i>machine</i> understanding. You don't read the proofs, that's holding it wrong. You point another agent at the proof and prompt ""use these ideas to prove this lemma that's useful to me"". And it works, agents are faster given access to the proofs than without."	fritzo	1793567139	1
+50328444	> But even if it had solved every problem in the Langlands program, to imagine that would have “solved number theory” would be as naive as saying that the construction of the periodic table solved chemistry.<p>Of course if you solve any existing problem, new ones appear. That's not the point. The point is that AI will be able to advance on any problem better than any human.	bananaflag	1793558927	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50329837			1793566901	1
+50329711	"Useful reference to ""Colossus - the Forbin Project"".[1]
+Watch starting at 00:30:00, and see this scenario predicted in detail, half a century ago.<p>[1] <a href=""https://archive.org/details/colossus-the-forbin-project-1970_202509"" rel=""nofollow"">https://archive.org/details/colossus-the-forbin-project-1970...</a>"	Animats	1793566101	1
+				
+50329172	"Given the capabilities of OpenAI's unreleased model, I think the model helps mathematicians more than it hurts them.  Some of the open problems that were solved were ""It would be nice to know that"", but many of the others represented ways in which we had been stuck for many years.  There had been very little progress on analytic number theory, particularly the Riemann hypothesis or its variants.  (One result, ""no Landau-Siegal zeroes"", even had a 10-page elementary proof that everyone missed for a century.)  Complexity theory had seemingly more open questions than results.  Progress could meaningfully accelerate now that we have a quick test of which of our ideas are good, and which are bad.<p>The wildcard is that we have no idea what the model after that will be capable of, or the model after that."	QuesnayJr	1793563373	1
+50329392	"Terry's stance has shifted gradually. This reminds me of Garry Kasporov's response and stance a few decades ago agains deep blue (and deeper blue). I think in a closed system/game (or ""field""), this kind of AI superiority is inevitable. However, I do agree with Terry that we need the right form of transition if we want to continue holding the rein or at least playing a part in the subject."	clara04	1793564533	1
+50329151	> someone who chooses a worthwhile problem, obtains a proof completely using AI, understands it thoroughly, and uses it to develop interesting further questions or directions has made a substantial mathematical contribution<p>among all the discourse, it seems mathematicians are vaguely converging on this higher layer of abstraction being where the human value in math is now. It seems across domains (such as in software too), people speak of “judgement”, “taste” and other fuzzy concepts around defining problems rather than solving them. The lowest level of abstraction where humans win is asking the questions, rather than merely answering them.<p>As math is so verifiable, the “transition” seems most poignant and quick there. Watching these big name mathematicians discuss this unfolding revolution in real time is fascinating.	tnosirrah	1793563202	1
+50329175	I theorize that number of problems AI is possible of solving is limited. My theory rests on an assumption that all human knowledge is a result of lived experience. AI as a statistical machine doesn't know lived experience, therefore it can't solve problems that a living person interacting with reality could solve. Therefore human brain > AI, or so long AI is unconscious anyway.<p>Sure it can solve math problems by just following the implication arrows. But those are just low hanging fruits, i.e problems that humans were too lazy to deal with.	hotpatato	1793563377	1
+				
+				
+				
+				
+50329742	There’s an elegance to how the Feds just got out of funding this stuff and within a year all proofs were solved by the private sector<p>I know, unrelated truths and coincidental timelines, part of me giggles nonetheless since the whole belief system behind the market relies on infinite coincidences	yieldcrv	1793566337	1
+50329159	I mean he's basically admitting that math academia is outdated.<p>If we don't interview candidates based on results, what is it? Politics. It already was. I had a JEMS paper in grad school and got zero postdoc offers. Many other cases.<p>The real shift is that math will become a hobbyists game. Make money other ways and then spend your money on humans and tokens to solve your problems.	vatsachak	1793563230	1
+50328884	What is the current thought on AI creating new emergent forms of mathematics? Even the most stunning results like the proof of the quasi-RH are a clever combination of known mathematics. Humans have created (discovered?) stunning new ideas (e.g. complex numbers) that have opened wide new horizons -- do we think AI will be capable of creting / discovering novel new things like this?	waynecochran	1793561667	1
+				
+50329500	> Much of the reaction seems to reflect a feeling that the subject that they love is under attack, and is being “hollowed out”.<p>Sums up the reaction from a lot of developers too.	gxs	1793565127	1
+50328537	"> <i>But even if it had solved every problem in the Langlands program, to imagine that would have “solved number theory” would be as naive as saying that the construction of the periodic table solved chemistry.</i><p>This analogy is pants on head stupid. They're talking as though the only thing AI will ever solve is the Langlands program, not as though we have discovered a generic tool.<p>It's like saying ""they drove the car one mile -- and every mile driven leads to more roads that we can trot along, why are you so worried about the future of horses?"""	0c3ca83	1793559560	1
+				
+				
+				
+50328876	Wake me up when AI solves Collatz.	ur-whale	1793561621	1
+50329092	[dead]	ath3nd	1793562742	1
+50328546	[flagged]	optimalsolver	1793559604	1
+				
+				
+50328901	[flagged]	Artoooooor	1793561743	1
+				
+50328585	"Have the pro-AI people finally found a new mathematician? Otherwise it is always the same 10 people on Tao's blog citing each other.<p>This guest author runs a seminar to lure people into AI:<p><a href=""https://math.uchicago.edu/~fcale/AI.html"" rel=""nofollow"">https://math.uchicago.edu/~fcale/AI.html</a>"	qasg17	1793559781	1
+				

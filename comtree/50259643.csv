@@ -1,0 +1,18 @@
+50259643		tchanukvadze	1793110173	0
+50263487	Sadly it only works on Chromium based browsers apparently. So much for the open web feels like flash and java of years gone by	edude03	1793125178	1
+50271008	"At the end of my ""tech career"" developers intoxinated with youtube tutorials and medium articles were writing stuff only for Chrome. After my comments that it fails in Firefox, everyone knew I'm the toxic non team player."	lifestyleguru	1793179790	2
+50265111	"For now, yeah. Other browsers are still in progress: <a href=""https://x.com/omonkeyzz/status/2115032697227854009"" rel=""nofollow"">https://x.com/omonkeyzz/status/2115032697227854009</a>"	tchanukvadze	1793131940	2
+50266547	Weird I vaguely recall even if you enable experimental chromium features it's single thread only + webGPU doesn't fully utilize your GPUs capabilities. How this is possible that you can play a AAA game with chrome? Is it that this game isn't as computationally intensive since it's an older game or something else?	taikon	1793138969	1
+50269760	[dead]	orbit7	1793167026	2
+50266735	Don't waste your time on Firefox/Safari: it will download 1GB of assets before failing to load.	ricardobeat	1793140047	1
+50263789	This is also doable via GeForce Now (I think - it’s been years since I tried doing it, but IIRC I was in chrome on an iPhone.)	keiferski	1793126385	1
+50273809	GeForce Now has it running on an NVIDIA server and then it streams the video to your device.<p>How is this website doing it?	ViktorRay	1793196400	2
+50266174	I tried this in Firefox and Chrome on Linux, and neither worked.	Elzair	1793136876	1
+50259847	Can someone explain how games this size are ported?	vertiwind	1793110948	1
+50259979	From what I know, developers use tools like Emscripten to compile the game's C++ source code into WebAssembly.	pickleballminec	1793111449	2
+50259949	"I am not the author but I assume it’s <a href=""https://github.com/morluto/rea"" rel=""nofollow"">https://github.com/morluto/rea</a><p>Author <a href=""https://x.com/omonkeyzz/status/2113802909385179318"" rel=""nofollow"">https://x.com/omonkeyzz/status/2113802909385179318</a>"	tchanukvadze	1793111372	2
+50263611	"executables are very small in comparison to assets.
+you just decode the exe, transpile it to c, recompile again to wasm and viola!<p>you still need oryginal game to play"	iberator	1793125644	2
+50266357	if u have the original game why on earth would u want to get a web browser involved? is there some benefit?m	saidnooneever	1793137915	3
+50268865	Because they can. Why do people write new programming languages or operating systems when we already have more than we 'need'?	abrookewood	1793156742	4
+50279374	fair point. cyberpunk runs so slow on my pc that id expect running it in a browser will litterally make it cry. but i suppose i have a modernday potato to do stuff on :')	saidnooneever	1793215152	5

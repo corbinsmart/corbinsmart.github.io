@@ -1,0 +1,389 @@
+50319510	"YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007.<p><a href=""https://hackertube.org/"" rel=""nofollow"">https://hackertube.org/</a>"	karpathy	1793476613	0
+50327005	I think there is a massive opportunity for this kind of feed disaggregation. Used to be the recommender and indexing of content was hard, now I believe we can likely build our own according to our own preferences.<p>Haiku/Sonnet (or even Jev) can do a lot of the filtering work to rank and extend an RSS feed list.<p>I think this gives us an opportunity to fully cut the cord from eyeball merchants who want us to maximally engage and therefore polarize their content.<p>The big remaining hook will be the social graph; I am interested to see how far the EU push for mandatory interoperability will go. Another angle I’d support would be mandatory pluggable standards for your own ranking algorithm, but it captures less of the win than full disaggregation.	theptip	1793549848	1
+50329520	I often wonder if AI generated programming is ethically positive, whereas AI generated media is problematic.<p>I don't have the answer yet, but it is fairly clear that the lowered barrier to making software is helping to untangle us from software monopolies, as people keep spinning up alternatives super quickly!	soundworlds	1793565263	1
+				
+				
+				
+50326842	"Made a books version of this: <a href=""https://news.ycombinator.com/item?id=50326821"">https://news.ycombinator.com/item?id=50326821</a><p>PS: thank you karpathy, been binging videos on hackertube.org"	roansh	1793548863	1
+50327450	"This makes me think that perhaps we should like have a social feed. If I, for exmaple, say that one of my friends I'd follow them. Then whatever they synchronize as a recommendation, I'd get in my feed.<p>So that's not a like they give but a separate ""publish this into my recommendations for my friends"" feature. Which would then show up in my feed and everyone that subscribes to my friend.<p>A pubsub system basically. Users publish, friends of said users (if they want to) subscribe, and then that's how they get content."	mettamage	1793552676	1
+				
+				
+50329602	I have some kind of similar things using PocketTube (browser extension) to try to curate certain types of feeds on Youtube. These things are always limited because we can't query the actual platforms. I would kill for platforms like Youtube, X, Spotify to actually give us API access to their entire catalogs so we can define custom ways to surface/recommend content.	zaptheimpaler	1793565574	1
+50320482	You know what I like about this? It's 100% pure nerd content, no sneaky influencer videos or clickbaity news.<p>It does need a new-to-old sort though, which is easy to add in.<p>If you watched all of these videos, you would be the smartest, most annoying person ever. Lol	minimaxa	1793482652	1
+				
+				
+				
+				
+				
+50323715	This is what my dad (87) needs, filtered YouTube. He sits a lot on YouTube and often he is recommended a lot of negative World War 2 content. He is often trapped in that and although he also sees positive videos about other interesting things, depressing content gets the most attention. He has been to a geriatric doctor who also said he needs to stop watching that negative world war 2 content, since he is impacted by it.<p>I looked in YouTube if there is a way to filter out on key words or specific content like war, but could not find anything. YouTube Kids is a thing, but that is too restrictive.<p>YouTube is great for him if we could filter out stuff. This hackertube comes close. If anyone could make an app for the iPad that could filter content out by keywords that would be great.	tjeerdnet	1793522708	1
+				
+				
+				
+				
+50328993	"I did something similar, but with current youtube search results and not really stress processing on HN data. My technique was simply saving my search terms and topics, and then putting that under a crop and continually updating the results. Super simple, but resulted in such a better experience for YouTube videos for me.<p>I call it ""re-algorithming"" your data. Basically you're not happy with the algorithm of a product, then you use it's data and introduce your own.<p>It also seems like folks are tired of the youtube algorithm and want something different instead? I'm willing to bet that many sites and apps have this opportunity in them."	tabs_or_spaces	1793562205	1
+50330076	I encourage everyone to view source. It's nice and short.	underdeserver	1793568418	1
+50327806	"This is great.<p>I would consider including the text box content that is shown below the video on Youtube. Many videos will say things like ""I included the link below..."" so having that on say <a href=""https://hackertube.org/watch/PbmJkMhmrVI"" rel=""nofollow"">https://hackertube.org/watch/PbmJkMhmrVI</a> would be nice. I can imagine there are issues to consider..."	curiouscats	1793555000	1
+50319961	"I find it amazing how close the front page of this is to what I actually watch/want to watch on YouTube. I guess I shouldn't be surprised, but it feels like an unpersonalised feed (besides being based on Hacker News) shouldn't have a significantly better hitrate for me than YouTube's ""personalised"" feed."	reorder9695	1793479159	1
+				
+50322984	Hey Andrej,<p>thanks for putting this site together, it's awesome! Even more so is might be your process. Can add some color about your prompts and how you direct the work. I find myself taking much longer for different but comparable types of work and would love to learn a bit about how you direct the model. I use Astra but hope there is some transferable bits here.	ripvanwinkle	1793511573	1
+				
+50319987	Interesting project, but have you considered publishing the curated videos as automatically maintained playlists (organized by topic, popularity, or recency) on a YouTube channel?<p>To me the most valuable part of this is the curation pipeline. I'd love to have access to those recommendations without needing to adopt an entirely separate viewing experience.	twalichiewicz	1793479311	1
+				
+				
+50327091	"I wish I could find more recent videos. Even turning on all ""recency""-related options, here's what I get: <a href=""https://imgur.com/a/e5Dcw5L"" rel=""nofollow"">https://imgur.com/a/e5Dcw5L</a><p>Everything is 6 months old or older. :-(<p>Not a dig at Andrej, but Youtube itself is not that great at promoting recent content."	mlmonkey	1793550398	1
+				
+50327326	I found this to be unusually good. I got caught in a rabbit hole about interpretation of the work of Bach. I would have never seen this stuff in the YT interface.	bob1029	1793551996	1
+50327878	In exactly one prompt to my Hermes agent, it developed and deployed a HackerTube Android TV app to my NVIDIA Shields. Incredible time to be alive.<p>edit: a pet peeve of mine is when people overstate agency capability like it’s some out of the box magic, and I’m guilty of of it here. So I should disclose that I’ve previously setup Hermes with ADB access and accessibility for remote control, and various skills for my home lan. It also had some memories or skills from sessions on managing these shield devices.   other than that tho, it figured the rest out.	aus_	1793555499	1
+50320675	"You have no idea how big of a smile it put on my face when I saw the ""Longs"" option in the sidebar.<p>Seriously, thank you for prompting this into existence!"	rigrassm	1793484033	1
+50329431	Maybe I am out of the loop, but why did Karpathy prefer using Claude models instead of OpenAI's?	manbash	1793564775	1
+				
+				
+50321483	"Wonderful!<p>> Fork it<p>> Everything behind this site is yours to reuse. The easiest way: give the zip to your AI agent (Claude Code or similar) and tell it what you want, such as a different interface, a weekly email of talks on your topics, a terminal browser, or an analysis. The zip includes a DATA.md written for agents: how the files fit together, the gotchas, example records, and how to walk you through getting YouTube metadata if you want it.<p><a href=""https://hackertube.org/about"" rel=""nofollow"">https://hackertube.org/about</a>"	genxy	1793491430	1
+				
+50319936	I wish there was a way to sort by recency, if i'm mainly interested in finding obscure gems from like last 6 to 12 months of ai and tech updates	mixtureoftakes	1793479019	1
+				
+				
+				
+				
+				
+50328475	Could someone seed a cold started profile with these videos (search plus like) and see what glorious things the recommender system continues to point to?	tmule	1793559165	1
+50320230	Wow, this is genuinely so good. I just browsed it for a few minutes and the difference between this and the YouTube homepage is astounding.	sarmadgulzar	1793480739	1
+50325735	"On the topic of curated YouTube: I've started building a curated collection of videos and channels on various topics: <a href=""https://skyshelf.app/"" rel=""nofollow"">https://skyshelf.app/</a>"	freetonik	1793541387	1
+50326438	This website feels like a walk in the woods coming from YouTube's current attention grabbing titles and algo that almost feels a little violent.	aravpanwar	1793546145	1
+50328894	Would be great to see this turned into a TikTok style feed for all the videos on the site. Imagine swiping through 30 to 60 second clips to quickly discover interesting, RELEVANT content.<p>Great idea overall! Really relevant content.	amerf1	1793561700	1
+50319765	"I like this a lot. I was just thinking about a site where you could share your YouTube cookies and then use anybody's curated algorithm because you can curate it quite fast in signed out mode.<p>Could you block all the trackers from loading from <a href=""https://www.youtube-nocookie.com"" rel=""nofollow"">https://www.youtube-nocookie.com</a> on your side?"	privacyishuman	1793478195	1
+50322395	"Youtube sometimes displays an 'Ask AI' button under the video. I recently searched 'Pride of America' (the cruise ship) and the top result was interesting but alarmist/clickbaity, along the lines of 'Don't make these 7 mistakes'. 'Ask AI' let me ask ""what are the 7 mistakes"": it told me, and in 10 seconds I could deem that video a waste of time. Very efficient.<p>Overall this 'Ask AI' button is going to smash content creators who rely on clickbait. As a user, it greatly improves my ability to skip bad/clickbaity content, which I really appreciate."	nomilk	1793502712	1
+50321152	I've been a bit fascinated by my lack of interest in the feeds that are curated for me. They are all things I'm supposedly interested in but I just am not when I see them in that format.<p>I realised after a while that one of the main reasons I go online is to <i>expand</i> my horizons. I'm actively looking for something new or interesting or surprising that I might not have encountered or thought about before. I am also looking for perspective - give me a broad picture of how the world is so I can calibrate and introspect where my own perspective differs and could be updated. I want to see the things that don't fully align with my ideas.<p>So it turns out personalised feeds are actively curating against what I'm looking for. I'm curious if others are like me or is this just something weird about me. I think it is very much why I like Hacker News format. It's in the broad areas of my interests but it is anything but curated just for me.	zmmmmm	1793488251	1
+				
+				
+				
+				
+				
+				
+				
+				
+50326426	> A little bit more on my process. I use Claude Code (desktop app for Mac). I use Opus 5.5 on Medium effort as my default. I don't actually do anything resembling traditional engineering anymore (read/write code, run commands in a terminal, or etc.), I only talk to Claude and have it do everything.<p>This is the lede, y’all.	hbarka	1793546073	1
+				
+50328532	There are a lot of good YouTube submissions here too, not just links on comments.	tambourine_man	1793559534	1
+50319845	I’m always surprised how bad YouTube’s recommendation algorithm seems to be.<p>Maybe it’s because I don’t watch enough videos, but it’s sort of like Amazon, in that it will suggest the exact same content/topic.<p>I rarely use TikTok, only to view links people send me (similar to YouTube), but the recommended content is miles ahead, making it much more difficult to close compared to YT.	jumploops	1793478639	1
+				
+				
+				
+				
+				
+				
+				
+50322487	Great idea. You know, it's weird, this looks very much like my feed in 2010, in terms of quality.<p>I recently logged into an account that hadn't been used since then, it was like a time capsule! But within a few days it figured out who I am and started showing me manmade horrors beyond comprehension.<p>So it sounds to me like there's a niche for a 2010tube as well.	andai	1793504167	1
+50320309	"What a smart idea!<p>Just randomly found this video from CGP Grey:<p>""What Happened to Horses Is Happening to Us""<p><a href=""https://hackertube.org/watch/7Pq-S557XQU"" rel=""nofollow"">https://hackertube.org/watch/7Pq-S557XQU</a><p>From...2014  It's surprisingly accurate.  I wonder why he stopped making youtube videos."	Flere-Imsaho	1793481287	1
+				
+				
+				
+50322413	But is this compliant with Google / YouTube terms?<p>I have wanted to make custom YouTube wrappers for specific interests that avoid ads and distractions. There are communities like say fans of a certain music genre etc that would find the curation etc useful. But I always thought posting publicly with your name attached is a bit grey/risky.	albert_e	1793502985	1
+				
+50321002	> push to a VPS, secure, harden, optimize<p>In my opinion this is the part that's holding back _a lot_ more people from publishing. It's a barrier that's surely about to fall. Still interested what steps you took (and manually, or Claude did it all?)	numbasys	1793486831	1
+				
+				
+				
+50320462	It's so refreshing browsing this compared to YouTube, it feels like I don't have to constantly be on high alert at being baited into some trap. Makes you wonder what kind of internet could be possible if all these tech giants weren't just optimizing for engagement and addiction.	murm	1793482486	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50328948	When my kids screen time has expired I will have YouTube resolve to this domain instead	darepublic	1793562011	1
+50324406	YouTube has two choices - it can maintain its' iron grip over the UI and the algorithm, and with that alienate content creators and viewers, who no longer are able to remain connected with each other effectively via YouTube. In which case people will leave and create new options.<p>Or YouTube can completely open up and encourage this sort of custom UI design and allowing people to explore their own interests and feed more easily, and stop shoving stuff down our throats.<p>HackerTube proves it - it is instantly more relevant to me than YouTube is.<p>All that is needed is videos to not come from YouTube - and that is happening too - so it may already be too late for YouTube to loosen its iron grip, stop feeding us crap and give us back our control over our entertainment experience, and make content creators happy again.<p>YouTube won't disappear but real competition is coming for it. All because YouTube acted in its own interests instead of in the interests of the creators and the viewers.	wewewedxfgdf	1793530187	1
+				
+50320887	"I attempted something similar a few months ago, but specifically for documentaries after I found two amazing documentaries in the comments sections (the Disney living characters one [1] and the Mars rover engineer one [2]).<p>I mostly used some basic string matching to pull out documentaries and put them in a spreadsheet [3]. I sorted them by random and was going through one a day, but the results weren’t great so I stopped.<p>I should give it another go with a more hands-off fully vibe-coded approach.<p>- [1] <a href=""https://youtu.be/NyIgV84fudM?is=PTwtQ9v0sxQ1eCYl"" rel=""nofollow"">https://youtu.be/NyIgV84fudM?is=PTwtQ9v0sxQ1eCYl</a><p>- [2] <a href=""https://youtu.be/QKSPk_0N4Jc?is=YGgIRFCpFpMbddu7"" rel=""nofollow"">https://youtu.be/QKSPk_0N4Jc?is=YGgIRFCpFpMbddu7</a><p>- [3] <a href=""https://docs.google.com/spreadsheets/d/1uoZiAe5qHGIyUTsqFPLG4HThV5VsQPUwo-vfSH4JhZI/edit?usp=sharing"" rel=""nofollow"">https://docs.google.com/spreadsheets/d/1uoZiAe5qHGIyUTsqFPLG...</a>"	meken	1793485753	1
+50320117	Out of curiosity - was this created using claude code? Cli or gui? I am not even remotely getting that kind of thoroughness from claude with opus 5.5 or anything really. It seems to want to stop as soon as it thinks it figured things out and then the rest of the conversation is just itself saying that its previous claims were wrong.<p>Really having a bad time with LLMs lately.	codingisfreedom	1793480074	1
+				
+				
+				
+				
+50323778	"While the project is very interesting in and of itself, the process section that has been edited a bit later to the post is even more revaling:<p>> A little bit more on my process. I use Claude Code (desktop app for Mac). I use Opus 5.5 on Medium effort as my default. I don't actually do anything resembling traditional engineering anymore (read/write code, run commands in a terminal, or etc.), I only talk to Claude and have it do everything. In this case, the only ""manual work"" I did was: 1) I had to create some kind of API key from Google Cloud UI to query YouTube for video metadata, 2) I booted up a VPS box and 3) I bought the domain name. I worked on this in between Claude's actual work so it still feels a little bit like team work :) Once the box was up I gave Claude the IP and told it update, deploy, secure, harden and optimize the code, and it did the whole thing.<p>It really does sound like you do not need to run models like Opus 5.5 on high reasoning effort for most tasks."	mrshu	1793523558	1
+50328953	These are great. I think one for papers would also be very valuable!	zero0529	1793562031	1
+50323662	"Great! We need more things like this!<p>Similarly, you can replace the clickbait thumbnails on Youtube with just images from the video with a Firefox extension:<p><a href=""https://addons.mozilla.org/en-US/firefox/addon/clickbait-remover-for-youtube/"" rel=""nofollow"">https://addons.mozilla.org/en-US/firefox/addon/clickbait-rem...</a>"	csantini	1793521804	1
+				
+50327221	Thank you for making this. I would like to make one simple probably obvious observation. You can watch this long time and not feel shitty about people or with conflicting thoughts racing in your subconscious the way you do with youtube.	ghm2180	1793551266	1
+50328590	This actually makes sense, I can totally see this work for different niches and verticals tbh	ddk_	1793559813	1
+50327347	"Really cool! I did something similar ranking the top 100 software/tool request of HN since 2008.<p><a href=""https://stillunbuilt.shiptiffin.app/"" rel=""nofollow"">https://stillunbuilt.shiptiffin.app/</a>"	bilater	1793552130	1
+50319962	This is such a good use of tech! Although I have heard in the past that youtube is quick to ban any use of its content on a third party site. I hope I am wrong and this stays.	GodelNumbering	1793479162	1
+				
+50326745	Absolutely love this! but just one thing new information is always coming and old information is becoming obsolete so fast nowadays<p>A way for community to submit good videos which get reviewed by AI on some qualifying standards and be published here, would be an amazing feature to have<p>Thanks for building this!	Jaydeep_08	1793548133	1
+50320429	Gosh, the videos HN have recommended are amazing. What a community this is.	zahirbmirza	1793482182	1
+50327568	I've wanted to build something like this forever but was always told it would break copyright rules.<p>Is this okay because there is no monetization of any sort or am I missing something?	r0fl	1793553535	1
+50321263	"This prompted me to finish HackerNewsTV – YouTube playlist of latest HN videos, updated daily:<p><a href=""https://news.ycombinator.com/item?id=50321248"">https://news.ycombinator.com/item?id=50321248</a>"	jimothyhalpert7	1793489323	1
+				
+50323023	"Built (and still am) something like this, but hand-curated (watched end-to-end) rather than source-filtered. v0 test run: <a href=""https://cabin.watch"" rel=""nofollow"">https://cabin.watch</a><p>no distribution means I'm having a bit of a hard time finding good videos fast enough (rejection rate through the roof rn), so send any if you know some."	allexsendev	1793512082	1
+				
+50320222	You may want to change the logo, it is a different color but close enough to cause confusion. Not sure what a trademark court would say but it would definitely be enough to draw intimidation from Google if they wanted to.	doginasuit	1793480669	1
+				
+50320064	Nitpick, maybe adding the youtube dislike counter estimation for videos might be a nice touch (yes it's an estimate but it's pretty decent). Though on second thought, perhaps these videos don't need them.	aizk	1793479783	1
+50321416	Everyone has praised it already, so I won't be original, but I have to say that I've been looking for something like this for quite a while now. I consume a lot of long form videos on yt, similar to what you can find in your feed, but somehow yt keeps boxing me into very narrow space after a while with same videos over and over again. I've been trying to escape this trap by creating new accounts but eventually I keep finding myself in the same box.<p>Definitely something worth exploring.	zeroq	1793490683	1
+50321113	I was thinking earlier how the comments or annotations could be implemented in the right way, to fix the problems with the Youtube's comments system. It is certainly not trivial, and one can argue whether this is even desirable. But it would be cool to be able to reference parts of different videos and other resources more fluently.<p>For example, Kurzgesagt channel prepares their mini-lecture videos very carefully, and they often have a document on their site, referenced in the description under the video, and which annotates the video, and justifies the choices they made in how to present things. The document gives quotes and references to academic sources. If one could navigate and update narratives like that, sort of like a wiki, with one-click references to the relevant snippets of the video, maybe that would work. But even for their videos, the comments section in Youtube is largely useless.<p>World wide web was unleashed by putting together in a seamless way a few things which were already common before it. One click hypertext navigation was already a standard thing for the technical manuals locally on PC. But making it work on-line, instead of typing several strings in command line made all the difference. Maybe today we could tweak the commenting system to make the comments much more convenient to navigate than they are today. Keep similar comments from multiplying unnecessarily. Allow finding and linking relevant information. I do not have a thought out solution, but there is definitely some room for innovation here, if one approached it imaginatively.	generuso	1793487959	1
+50320102	"Someone did something similar for the current front page: <a href=""https://hn.video"" rel=""nofollow"">https://hn.video</a><p>There was also another one with a more youtube-like UI, which I can't find anymore."	Doohickey-d	1793480009	1
+50326212	Nice! I found an interesting video on your site in less than a minute. Good job.<p>I'd be curious to hear more of the creation process. Have you been steering the agent somehow? Or was it completely on autopilot mode? Also, what was the overall cost?	tkapin	1793544476	1
+50322981	One feature I really like about this is how you've included a (presumably LLM generated?) summary of what Hacker News recommended a video, and then the actual comments recommending it. Nice to be able to see why a video is there and what people like about it.	Nition	1793511512	1
+				
+50328296	"> I went to YouTube to watch something and realized that I was looking at an enshittified wall of slop. Insanely exaggerated thumbnails, dumb recommendations of the same tired topics, truly terrible idiocracy-grade content. I'm sure this algorithm works well for the median person on the internet, but it definitely does not work for me.<p>Why does this happen to some people and not others?<p>Most of my YT recs are videos from Technology Connections, CCC, 3Blue1Brown, Tech Potato, Welch Labs, Developer Voices, Ringway Manchester, some LegalEagle and UnderSparked (which I watch as mindless entertainment during household chores), and a fair bit of random lectures from top US universities and tech-related conferences. In other words, mostly videos from channels I have already watched and am very likely to watch more videos from.<p>Sure, there's a fair bit of slop; mostly things like ""the unbelievable technology that powers the entire internet"" or something where they're just describing asymmetric crypto in layman's terms, and there are periods where it gets more or less prevalent, but the feed is nowhere near unusable on most days.<p>My X feed is pretty much the same thing; very little spam, not that much politics, and when it does appear, it's not MAGA, plenty of academics and smart software engineers talking tech and AI. TikTok and Reddit are more geared towards mindless entertainment, but I do use these pretty differently, so that actually makes some sense.<p>With that said, I never disable personalization, try to stay logged in, share my data with companies freely, and accept the vast majority of permissions / consent prompts, which probably makes me unusual among the HN crowd, so that could be the reason why my experience is so different."	miki123211	1793557997	1
+50327938	"This is awesome. But you won't believe what occurred after testing this: I went to the supermarket, bought new tech called a ""tin can"". I opened it, and it contained a ready made meal! What a time to be alive!"	akslampt	1793555856	1
+				
+50323536	Gl with that.<p>Some time ago i build defcon.videos (down now) which basically was a similar project just full of videos from defcon conferences. Google came at me quite fast, because by their terms of service its forbidden to store a page like this if using API or automated grabbing of videos from the index (which i did logically not manually porting 100s of videos and metadata). They call in an alternate search index which is forbidden by them. Also they claim if you pull video data via their api your only to store it for limited time.<p>So best of luck to you	voodooEntity	1793520102	1
+				
+50321537	Kudos to Andrej for another demonstration of frontier vibe engineering (since MenuGen). Looking forward to the new recommendation model.	silveryfu	1793491977	1
+50319736	How many tokens (or $) does something like this take to make?	sc970	1793478025	1
+				
+50320490	This is very cool. I’ve been thinking a lot recently about owning your algorithms and what rss could have been.<p>Is there a file / feed of the data driving this?	cliche	1793482688	1
+50325322	This is nice, like something I would actually use as an alternative to YouTube when I want more tech/educational content. Only pet peeve is the videos don't have volume sliders embedded like on YouTube. But overall really good!	equinumerous	1793538661	1
+50319949	I pay for YT premium but noticed the quality of recommendations is subpar yet I still end up wasting time watching it. So I decided I need to limit my feed to my subscribed videos only, which YT app makes annoyingly difficult.<p>How does HN handle this? I suppose downloading videos for consuming outside YT own app works, but what's the best solution for this, especially with Apple TV as a player?	cromka	1793479108	1
+				
+				
+				
+50321790	I created a new YouTube account that turn of history and that's my default. If I want to watch something I have to type and search, there is no recommendation and it's been great so far. Sharing this as I think someone might not know about this and they might find it interesting.	uvu	1793494843	1
+				
+50319965	Recency sort needs a pick between comment date and upload date, since a 2012 talk linked last month is exactly the gem you'd want.	beaconflint	1793479167	1
+50319874	Nice idea, thanks Andrej! When will you add HackerTube Shorts? (kidding :D)	gosen	1793478739	1
+				
+50325109	"Some videos can only play by going to YouTube, because they are age restricted.<p>For example this one:<p><a href=""https://hackertube.org/watch/RcU7FaEEzNU"" rel=""nofollow"">https://hackertube.org/watch/RcU7FaEEzNU</a>"	QuantumNomad_	1793537102	1
+50322124	"Its so refreshing to see the GUI. especially, since most of these videos are handpicked(?!) by users as suggestions and not originally intended to swim on the ratrace! AdBlockers helps you w/ UI distractions but the continious sloppy videos equipped q/ faulty thumbnails was/is my biggest distraction so far and thats what picked my attention on this fresh take.<p>I believe YT clients is inevitable (not just UI but something similar to this) similar to RES[1] happened for reddit!<p>[1] <a href=""https://redditenhancementsuite.com/"" rel=""nofollow"">https://redditenhancementsuite.com/</a>"	thuruv	1793498902	1
+50329376	i felt there can be some thing built for taste from hackernews and be applied in a lot areas	badmonster0	1793564459	1
+50320964	Is it right that there haven't been any interesting or good videos for the past 5 months? I filtered by “upload date,” and the most recent videos are from 5 months ago. Still, I like it. Is it open source? I'd like to know what kind of tech stack was used here.	quix0te	1793486467	1
+				
+				
+50326447	I like it :) Could you make the channel icon/text clickable into a filter for videos from that channel?	duttish	1793546200	1
+50320738	"Not sure how but adding a live up to date version of <a href=""https://news.ycombinator.com/from?site=youtube.com"">https://news.ycombinator.com/from?site=youtube.com</a> would be nice to see in channel form, I don't think this matches recently recommended (unless based on # of upvotes) - still thank you for putting this curation together."	jonbaer	1793484544	1
+				
+50323970	"This weirdly feels a lot like my own ""subscription"" tab.<p>It almost seems like we need a system where people you trust recommend interesting content, as opposed to algos thzt shove content which will produced anger / engagement / more ads revenue.<p>Who would have though ?"	phtrivier	1793525897	1
+				
+50328224	The playlists are good too! Thank you!	BryceEller	1793557581	1
+50320994	"Very nice, I've had great experience using hn to recommend, more like a feed though:
+<a href=""https://xiliary.com/bck/hn-tv.html"" rel=""nofollow"">https://xiliary.com/bck/hn-tv.html</a>"	freddref	1793486768	1
+50319997	Really cool idea, you might consider bundling taps when you click a video so it auto-plays instead of opening up the native web browser for youtube. That would make it feel more like the official client. Could easily hide it behind a “buffering” screen.	ninjahawk1	1793479376	1
+50324008	Youtube has music and long form videos and shorts<p>They should have have a section only for non entertainment stuff. I don't want to see memes, funny  videos .  unless im in the mood for it .. I just want things I can learn from most of the time.	perarneng	1793526354	1
+				
+50319756	"Nice idea will watch though some - I made something similar but for food vids (filters over YouTube chefs - such as only vids with ingredients)<p><a href=""https://mealplannr.io/discover"" rel=""nofollow"">https://mealplannr.io/discover</a>"	liquicity	1793478160	1
+50320885	"Funny, this user made exactly this a year ago: <a href=""https://news.ycombinator.com/item?id=43672050"">https://news.ycombinator.com/item?id=43672050</a><p>Only 12 upvotes - I guess his name wasn’t Karpathy."	beaker52	1793485738	1
+				
+				
+				
+50329426	Now we just need a model trained against the full content of these 6454 videos to use as a recommendation engine for high-quality new videos.	Gormo	1793564736	1
+50322795	Andrej this is pretty awesome. Encompasses the need for all of us devs (junior through leads) to continue learning, while embodying what our current reality looks like in the development of the site itself.<p>Will say tho, your videos themselves have been the biggest help so far, so I would rather see more of those in the future. But I'll take this as a consolation :)	lacoolj	1793508531	1
+50321753	What makes this so good is not the curation it’s the age in which confirms our current views after years of bad information. The truth is setting us free and this confirms much	tdhz77	1793494420	1
+50320827	"that's really cool, 
+I don't know if it's possible to add `Return YouTube Dislike` integration to shows the dislike counts. API (OSS): <a href=""https://returnyoutubedislike.com/docs"" rel=""nofollow"">https://returnyoutubedislike.com/docs</a><p>and this one might be tricky but SponsorBlock integration also? to auto-skips sponsor segments and introsusing crowdsourced timestamps. API: <a href=""https://wiki.sponsor.ajay.app/w/API_Docs"" rel=""nofollow"">https://wiki.sponsor.ajay.app/w/API_Docs</a>"	SamDc73	1793485208	1
+50320899	"With the new wave of ads on mobile, the ones with the ""next"" button, I gave up. Instead I use the app to find videos and copy them to pipepipe.<p>Maybe the curated list can be exported to load on other apps."	firefoxd	1793485888	1
+50323811	Great idea and works really well. Super easy to find interesting stuff!<p>If you ever add a link section to other sane video platforms, you might want to add media.ccc.de which has talks of nearly 500 hacker conferences. Also without spam.	Stitch4223	1793524058	1
+50320384	Very interesting. I find that my youtube feed is nicely curated to my interests. Adapting my interests with the algo well. Discovery is mostly en pointe. It is only when I use an unlogged-in browser that I see the world outside the Matrix. That is a slopfest indeed.<p>What I would really like, now that you have opened up this amazing concept, is an ability to feed my own algo this entire collection. Inject all those videos into my own saved playlist. That would be anotherr cool use of this collection. Is there a way of doing that? Like some sort of algo plant food.	zahirbmirza	1793481851	1
+				
+50322877	YouTube is at high risk at the moment, because <i>both</i> sides of the marketplace hate it. The best creators are just as frustrated as users like Karpathy by the current state of things. I predict a subscription-based, properly moderated alternative may gain critical mass soon.	nojs	1793509648	1
+50319890	This is great, would love filters for duration and sort by upload date	jahala	1793478798	1
+				
+				
+50324663	It doesn’t contain a YouTube video I linked in a comment a few months ago, so it probably doesn’t contain <i>all</i> the HN videos.	saretup	1793533038	1
+				
+50324307	I just saw those sublines at the bottom of the descriptions:<p>> HN repeatedly calls it a fantastic explanation that made FFT click, with some rewatching it periodically.<p>I love them :D	arendtio	1793529266	1
+50319784	What a great idea. Does anyone know of a way of 'getting' / downloading all those URLs (maybe with the video title)..? I'm afraid of the site disappearing.	farrelle25	1793478347	1
+				
+50321076	I actually do like it a lot.<p>Small bug report: on mobile layout, the like/dislike button is getting a bit clipped and the watch later button seems a bit off too.	m1keil	1793487576	1
+50323530	"This is great.
+I wish the same existed for conference and meetup talks!"	slumbi	1793520066	1
+50321903	"Great work!<p>I’d like to add one more thing, 3Blue1Brown has created a well-organized archive of YouTube channels launched during all the 3Blue1Brown Math Exposition Contests from 2021 to 2026. There are a lot of great YouTube channels worth checking out!<p><a href=""https://some.3b1b.co/archive"" rel=""nofollow"">https://some.3b1b.co/archive</a>"	num42	1793496273	1
+50325549	"> In this case, the only ""manual work"" I did was: 1) I had to create some kind of API key from Google Cloud UI to query YouTube for video metadata, 2) I booted up a VPS box and 3) I bought the domain name.<p>i stopp doing these things, too. I use browser-harness to do all of these things. Always trying to keep myself out-ouf-the-loop."	tevlon	1793540065	1
+				
+				
+50327276	Such a pleasant experience using this site.	freakynit	1793551683	1
+50327080	"I'm glad something like this now exists, I am tired of seeing the same ""braindead"" videos on YouTube that solely exist for views and likes. Even when I deliberately tell the algorithm, ""I dislike this"", it is stubborn and persists with these recommendations."	george_max	1793550289	1
+50319967	Do you plan to update the site with new videos and comments?	zahrevsky	1793479171	1
+50321626	Hehe, longs. I'd love to see this iterated on to keep adding new content that's in line with this kind of thing!	AzzyHN	1793493002	1
+50320632	Wait a second, forget the content, is the html/tech behind this actually more pleasant to use than googles hyperoptimized youtube website?	mikert89	1793483752	1
+50323712	I love the idea of different ways to access YouTube. We should be able to make a website like this that is essentially a meta channel around a topic. Great work	bentt	1793522648	1
+				
+50322153	AI companies sell tokens to produce slops. Then they sell more tokens to shield people from those slops.	sakesun	1793499326	1
+50322586	I recently built my own feed. On an Android phone, you can have an AI agent SSH in and make changes to it if you're rooted. I replaced the feed on my home screen with links my AI thinks I'd find interesting - it's pretty good!	zachlatta	1793505716	1
+50326715	haha I forgot I had hackertube opened in a tab, then when I saw it, I was like, wait, youtube recommendations are actually good? ... oh	whacked_new	1793547815	1
+50325620	This is fantastic!<p>Are you planning an API?  Would love to spin up a version for Apple TV.	woodylondon	1793540558	1
+50322468	I’ve had the UnTrap for YouTube extension installed for a while to remove all the shorts, feeds and algorithmic content and my YouTube consumption has gone down by like 90%. Feels so much better not consuming all that mental junk	cush	1793503899	1
+50326548	Please create something like this but for books	pbrw	1793546884	1
+				
+50321700	One thing worth exploring would be how the recommendations compare to YouTube's algorithm. Hacker News upvotes and discussion history provide a different signal for what people find interesting, but I wonder how well that translates into video recommendations.	ethanhood_okroh	1793493736	1
+50322588	This is a nick interest site, a video version of harkernews. I am surprised to see videos from many years ago which surely never be seen in YouTube due to too many contents rendered by algorithms	aladine	1793505749	1
+50322862	This is a great concept, but I want to see more recent videos. Not videos uploaded 6-9 months ago. It would be great to be able to filter for videos uploaded in the last month.	fuddle	1793509474	1
+50324125	Very nice job, it'd be great if the links in the comments are actual links so we can navigate them.	ertucetin	1793527616	1
+50320783	At this point everything looks boring and possible (technically). I wonder what would change this.	simultsop	1793484917	1
+				
+50320852	Oh how I wish there was an Apple TV app for this. I do all my YouTube browsing on an Apple TV.	krmmalik	1793485466	1
+				
+50320370			1793481701	1
+50319953	I currently use downloaded and curated youtube videos on my local server ( mostly for my kid so that I don't have to deal with youtube autoplay or her clicking something kid would ), but this is just a reminder of much google has changed for the worse.	iugtmkbdfil834	1793479125	1
+50320066			1793479801	1
+50320853	Oh, oh no.<p>I already have about 35 tabs open of YT to watch.<p>This is going to kill my productivity.<p>Still, great stuff thank you!	Balgair	1793485475	1
+50323975	A lot of recent videos are about SpaceX IPO 'scandal'.   Interesting	sidcool	1793525940	1
+50323231	I just noticed it is a vibe-coded project by Karpathy<p>It'd be awesome if he writes something about he he vibe-coded it	pknerd	1793515328	1
+50320435	No login/account? What a blasphemy. Feel in love from the first site.	mirekrusin	1793482232	1
+				
+				
+50321955			1793496805	1
+50322744	For those who live alone, how many of you watch YouTube while eating at home?<p>If you watch or do something else while eating, what is it?	yellow_lead	1793507806	1
+				
+				
+50320413	It might be neat to integrate DeArrow to fetch thumbnails instead of just arbitrarily picking picking a 50% screenshot.  It could also be used to replace the titles on the server side.	pkal	1793482092	1
+50319922	How do the categories work? I'd download the video transcripts and embed the text (maybe summarized first). This way you could support custom categories via embedding similarity.	gpugreg	1793478970	1
+50320059	What is a 50% thumbnail?	skyberrys	1793479760	1
+				
+50323124	OMG, thank you. Though this might cut into my sleep a bit, it's welcome anyway.	jakzurr	1793513642	1
+50326757	bookmarked. so good.	1stnighthawk	1793548211	1
+50322479	>sourced from 39,834 HN comments since 2007.<p>Is that all of them? That's a lower number than I was expecting!	andai	1793504036	1
+50322293	"It's so cool to browse youtube like this again, 
+So many cool recommendations, a much needed project"	mraza007	1793501130	1
+50322905	HackerTube feels like putting VR goggles on for the first time. Surreal in many ways.	Daklone	1793510226	1
+50321084	Amazing!  If only it would appear on my AppleTV...	mancerayder	1793487689	1
+50322688	"really nice, set up an adaption of this for myself with a few more art, culture, movie-making sources added.<p><a href=""https://endtime-instruments.org/zentube/"" rel=""nofollow"">https://endtime-instruments.org/zentube/</a>"	janoelze	1793506944	1
+50326151	can you guys recommend any other good sites for sourcing videos?	jn78	1793544022	1
+50320717	"I like this. All the ""influencers"" gone."	Coill	1793484343	1
+				
+50323201			1793514787	1
+50320426	It would be nice to have some context for each video, a summary of the comments that recommended it in the thumbnail tooltip?	imjonse	1793482178	1
+50323272	It's asking to login to YT to prove I'm not a bot!	pavinjoseph	1793516077	1
+50319856	Some of the Alan Kay lectures are on hackertube	morphle	1793478689	1
+50324075	"Should it be rather ""Show HN""?"	paaloeye	1793527078	1
+50319947			1793479095	1
+50319996	It would be great to have an option to sort videos by upload date, so it's easier to discover recent content.	kiuiras	1793479374	1
+50327126	"Finally! Someone using AI for something useful. This is really neat!
+Take note Google."	AstroNutt	1793550592	1
+50321044	Feedback: On mobile, swipe back from video jumps back to top of feed with different video order.	fhub	1793487248	1
+50321286	It would be great if this could be keyboard navigable, using arrow keys and enter to play.	mongol	1793489543	1
+50324142	The more popular this gets, the more incentives there are for bad actors to flood hackernews with bullshit. Though I think it's safe to assume it won't be too popular and only a few people will use it for a while.<p>People want stuff recommended to them from similar people without a profit incentive, that's quite hard to come by... Myanimelist and other longer-form content lists work better because of the nature of the content.<p>Would love to see something similar with other forums, 4chan perhaps? That's also a forum where the incentive structure doesn't lead to advertising.	dromologist	1793527752	1
+				
+50321782			1793494704	1
+50321703			1793493780	1
+50319994	Interesting idea! Also funny that the fourth recommendation for me was a video with Andrej himself :D	mhrmsn	1793479353	1
+50324709	The 50% thumbnail is genius	dlm24	1793533446	1
+50321466	Nice. This is excessively large so it probably took a while to curate. Well done	wildmXranat	1793491240	1
+50320604	Would love to see the list of submissions and comments that positively contributed to this.	bch	1793483513	1
+50323647	This is cool and all, but what I see is an Anthropic model harvesting (again) human output and curation. That is the part providing almost the entire value of this aggregation wrapper. What I would have preferred to see the model undertake: is somehow imbibe the median Hacker News user persona (if there is one, the reccs did serve as a proxy for that in this case) and work with YouTube API to surface a list of videos with low viewership or traction, but serve the custom taste of this audience at high SNR. I know talk is cheap, but the latter to me is a bicycle and sewing machine, while the former a neatly raked sandpile.	joebig	1793521542	1
+50321585	"Hey Andrej, thanks for the effort. It's highly appreciated!<p>In your video regarding your own use of LLMs[1] you mention
+<a href=""https://arena.ai/leaderboard"" rel=""nofollow"">https://arena.ai/leaderboard</a> and <a href=""https://labs.scale.com/leaderboard"" rel=""nofollow"">https://labs.scale.com/leaderboard</a> to
+keep track of the status quo. That video is from February 2025 and
+<a href=""https://artificialanalysis.ai"" rel=""nofollow"">https://artificialanalysis.ai</a> has gained quite a lot of popularity but
+also earned criticism repeatedly due to updating the benchmarks right
+before a new model release.
+Would you still recommend the arena and scale leaderboards?
+And if you don't mind, what's your opinion wrt artificialanalysis?<p>[1]: <a href=""https://www.youtube.com/watch?v=EWvNQjAaOHw"" rel=""nofollow"">https://www.youtube.com/watch?v=EWvNQjAaOHw</a>"	chrisczura	1793492462	1
+				
+50324415	"What you have done was and is a revolution, Karpathy.<p>I have been shouting that YT, the ""video museum"" is unmissable for cultivation in the current days ever since this obvious fact met the will of pitiful entities to bar it to minors (unbelievable) and impede it to adults (through privacy or practically dubious constraints). Karpathy has proven it once more.<p>Questions and suggestions:<p>-- Does it also contain submissions? What we believed were the most important ones are at <a href=""https://news.ycombinator.com/from?site=youtube.com"">https://news.ycombinator.com/from?site=youtube.com</a> , more than in the comments<p>-- Are you also processing 'youtu.be' links? We use them for brevity<p>-- The videos in HackerTube do not seem to be all we linked to at HN. I get only 6 months old videos as the closest in time, and I verified many are missing. The filter applied to select the links on HN is too restrictive.<p>-- Put the link on the ""channel"" anchor - if a video is hosted by that channel the channel is probably interesting. Even much, much better if you create ""Channel"" pages on HackerTube, to make them better browsable (for example, on YT it is extremely difficult to browse them - ""see the oldest"", ""see all"" - given the lack of pagination). (To get a good YT channel browser would be of immense value.)<p>-- Another paramount feature on YT that can use much better usability are transcripts - they are available but they must be better presented.<p>-- Maybe you could use the ""three frames"" at https://i.ytimg.com/vi/<videoid>/hq<1|2|3>.jpg<p>-- How often will the DB on hackertube be synced with the HN content (if one posts a link to YT on HN, how long before it will appear on HackerTube)? A clean way to add new material to HackerTube is sought.<p>-- What could happen to embedded YT links when access restrictions will be mandated by legislations?<p>-- There should be RSS on HackerTube. The correct formula should be, I believe, serve ""a minimum of 10 and a maximum as the amount of new records of the past 48 hours"".<p>-- Given the selected amount of videos, it could be possible to also index the videos by embedding. (I have just finished in the past few hours my own engine for embeddings operation - search, similarity, recommendation - over my daily updated ~million RSS records from YT: it can be done efficiently with minimal space allocation.)<p>-- Some posts here just gave me this later wilder suggestion: what if you could have an LLM in the internals of HackerTube that recognized and fixed (through descriptions and transcripts) the vague clickbait - e.g. translating titles like ""This will be the solution to all the problems"" into an additional ""[that actually was: adding sugar to the soil may help the growth of basil]""..."	mdp2021	1793530276	1
+50322534	this is amazing. I just pause and clear my youtube history so that i don't see any rubbish and just search what i want. but this is just great.	jatindavis5	1793504956	1
+50320037	Seeing Prejudice by Tim Minchin on the front page makes me very, very happy.<p>Love Tim Minchin <3	ciefa	1793479664	1
+50321822	YouTube itself needs a competitor. There's too much ads.	breakyerself	1793495219	1
+50323466	Thank you Andrej, this is awesome!	geoffbp	1793519130	1
+50324578	"Love ""longs"""	shdshdshd	1793532242	1
+50327040	Apparently Never Gonna Give you Up by Rick Astley has been recommended here in Hacker News at least once.	torcete	1793550065	1
+				
+50324275	FP in 13 years, gratz	mycall	1793528982	1
+50324098	"Interesting to see this person, who really spent effort to understand HOW things work, to brag (it is publicity for his employer, of course, but still) how he does not do any ""real engineering"" any more, making some clone of youtube (yes yes, ""a much better clone, with quality content"").<p>It is all so shallow and without any real sense.<p>You don't see that?"	itsinstructive	1793527298	1
+				
+50322011	"Kind of related, I extracted opinions on products and other things for large part of Reddit and HN:<p><a href=""https://www.trustmebro.reviews/r/hackernews"" rel=""nofollow"">https://www.trustmebro.reviews/r/hackernews</a><p>""47,699 products, places and tools ranked from 13,576,547 opinions.""<p>Opinions extracted using local models running on 3090s in my basement. If someone wants to take it over, you can mail me.<p>The travel opinions on a map are pretty neat:
+<a href=""https://www.trustmebro.reviews/c/travel?view=map"" rel=""nofollow"">https://www.trustmebro.reviews/c/travel?view=map</a>"	davidzweig	1793497495	1
+				
+50320848	Can i plz has rss	Pushy	1793485384	1
+50322421	this looks great and I love how snappy it is.. Youtube feels so slow compared to this	czernobog	1793503108	1
+50323217	This looks brilliant!	pknerd	1793515082	1
+50322309	I'm sad that there seems to be no RSS feed.  It looks very nice indeed if I can remember to look.	zabouti	1793501376	1
+50322628	"Tired of low-effort YouTube clickbait slop? <i>Just click on the Subscriptions heading to go to <a href=""https://www.youtube.com/feed/subscriptions"" rel=""nofollow"">https://www.youtube.com/feed/subscriptions</a></i>. You'll see only videos from the creators you have subscribed to. This one-click trick boosts the signal-to-noise ratio dramatically."	tmoertel	1793506256	1
+50322327	Karpathy is such a legend.	thefourthchime	1793501656	1
+50324572	Where is the curl web API? Because I use noscript/basic HTML browsers, and this seems to require even a web engine from the whatwg cartel.	sylware	1793532180	1
+50320198	Could this not just be a playlist?	victor9000	1793480538	1
+				
+50321599	"cool! It would be nice to have a ""watch a random video"" button"	sigma5	1793492662	1
+50320986	How come there are no ads?	low_tech_punk	1793486737	1
+50320427	"Build something to fix the wicked problems of the world.<p><a href=""https://en.wikipedia.org/wiki/Wicked_problem"" rel=""nofollow"">https://en.wikipedia.org/wiki/Wicked_problem</a><p>Or <a href=""https://www.un-ilibrary.org/content/databases/25202804"" rel=""nofollow"">https://www.un-ilibrary.org/content/databases/25202804</a><p>The rules are the ai can't say the only winning move is to not play and it can't choose to kill everyone."	whattheheckheck	1793482179	1
+50320237	>>Opus downloaded all comments of HackerNews<p>I'm actually surprised this was that easy to do, ngl	gambiting	1793480782	1
+				
+				
+				
+50323864	Would you be willing to share the code base of this site (sans videos list)?  I know a person with a list of approx. 4500 curated youtube video links they've been maintaining for an entirely non-HN related purpose that would like to build a similar site and populate it with the video URLs. Right now it's in a much more clunky, awkward format.	walrus01	1793524658	1
+50320562	I went into the blog, and saw only two entries in 2026. I dont know how to feel.<p>I dont know if its because the new state of things is that all knowledge is now secret and cant be shared.<p>Or if its because Opus 5.5 has turned even Karpathy into a product owner/manager so now the only interesting things are products (hackertube in this case).<p>Either of them makes me sad. Although its probably both.<p>Wake me up when true science is back.<p>In any case, im a big fan of Karpathy.	youoy	1793483185	1
+50321097	Sounds good, but could you please make it so that it can also be viewed without Javascript being enabled?	forevernoob	1793487785	1
+50320193	> I'm sure this algorithm works well for the median person on the internet, but it definitely does not work for me<p>I see this sentiment expressed a lot regarding a variety of ways the internet has been enshittified. Are we really sure the median person would prefer this to better content if they were presented with an alternative?<p>And even if they would - what are the ethics of knowingly feeding slop to the masses?	mwambua	1793480506	1
+50321118	I guess I learn something new about the HN crowd every day. When I loaded the page, half of the first screen were videos by IDW folks.<p>Pro tip for YouTube proper - turn off history and only view the “subscribed” page, and search for content that you really want to see. Oh and of course turn off autoplay and limit shorts to 0 views per day.	blltprfmnk	1793487978	1
+				
+50323394	I wish youtube had an api with an upload date filter for all videos. One could then build a pre-ai youtube.	dizhn	1793518060	1
+				
+50323204	">I'm sure this algorithm works well for the median person on the internet, but it definitely does not work for me.<p>This is hilariously rich coming from the ""I can't watch any movie from before the 90s because it's too boring"" guy"	Drupon	1793514820	1
+50323137	Love it	compiotr	1793513811	1
+50323015	Controversial opinion: The current state of the internet is not bad cause big tech has focused on increasing engagement. It has deteriorated cause normies have saturated the space. Projects like this are good because they have gone through the normie filter of hackernews.<p>I think if the big tech had focused on engagement while the users had remained mainly nerds and geeks, the result would've been extraordinary.	mahdi7d1	1793511991	1
+50328773	"I've been doing that for a while, ever since i started to have meals alone.<p>open HN, filter by posts from youtube.<p>one thing that improves immensely the quality, is to login and configure HN to ""show dead"" (downvoted comments and links), then head to  ""new""+filter by youtube.<p>for some reason, people or bots downvote the really good links"	iririririr	1793560972	1
+50321705	a lot of this is still too maintstream	saussianglat	1793493815	1
+50321890	Whoa, what a breath of fresh air! Just watching videos without worrying about clickbait.<p>And those filters and sorting options - imagine what the internet could have been without enshittification.	annjose	1793496164	1
+50323206	Cool idea. Glad others are on the same page regarding the enshittification of YouTube content!	Lavanic	1793514868	1
+50319833	Appreciate the effort, yet I think there is a place this is needed even more:<p>> It was Friday night at 11pm, I was tired, I went to YouTube to watch something and realized that I was looking at an enshittified wall of slop.<p>Please do the same thing on Social Media: Facebook, 'X', reddit, instagram, etc . Maybe find a 'hacker signal' that identifies quality content across those platforms and have them aggregated for the public so we don't have to spend time in the fascist network prisons.<p>The greatest trick - if it even can be pulled - would be  setting it up in a way that it can't be sued out of existence by the angry platform overlords - if you can do this, then you are truly a genius, sir.<p>Free the people.	mentalgear	1793478559	1
+50320056	"Really cool idea. I also realized recently that whenever I enter YT, I enter ""nshittified wall of slop""..."	mbed92	1793479746	1
+50321747	Ur filter missed Patrick Boyle, not only that dudes content is slop but his voice too xD	ChiliPie	1793494339	1
+50320394	"I found this gem there: Rails Conf 2012 Keynote: Simplicity Matters by Rich Hickey (<a href=""https://hackertube.org/watch/rI8tNMsozo0"" rel=""nofollow"">https://hackertube.org/watch/rI8tNMsozo0</a>)<p>And lol ... Can you imagine how savage this is, with Rich's disgust with ORM and entangled concepts and like the audience sits there with their ActiveRecord and 10 levels deep inheritance and rails 'easy way' of doing stuff. Probably was a bigger shocker than dHH's keynote this year. lol"	chalmovsky	1793481940	1
+50324482	Now do one for reddit	technovader	1793531220	1
+50320998	"""I have doors that open like this. Not like this."""	thr0waway001	1793486789	1
+50320980	i wished yt would be so fast. yt itself is the most bloated heavy app	_s_a_m_	1793486658	1
+50321218	Now redo it with DeepSeek 4.1 Flash, see how it compares.	b0ner_t0ner	1793488827	1
+50321521	Unfortunately HN is just another algorithm. It roughly aligns with what I already see on my youtube but includes some terribly old videos and a mix of videos from creators I'm currently subscribed to and channels I know I never want to watch again like Joe Rogan, Sabine Hossenfelder, Lex Fridman etc. This is indeed a HN video site and I hate it lol.<p>The youtube video recommendation algorithm isn't that bad if you're careful which videos you watch. Sometimes you'll take a risk on a video and it'll punish you with a week of similar videos though.	ajs1998	1793491810	1
+50319893	> Media, journalism & propaganda<p>Amen, we should label it correctly more often. Hard to miss it nowadays, I guess.	sejje	1793478825	1
+50319843	Where is the source, so I can roll my own specialized video site?	vfclists	1793478620	1
+				
+				
+				
+50322511	[flagged]	richard_chase	1793504619	1
+				
+50320460	"Changelog push from HN comments on this thread:<p>- Filters on search and topic pages: upload date, duration, type (talk, lecture, documentary, ...), and sort by upload date, view count, etc. (ty jahala, kiuiras, mixtureoftakes)<p>- Filters are now on the home page too, no need to search first. Picking one shows all matching videos, e.g. every lecture over an hour. (ty kkotak, macote, Aboutplants)<p>- Sort by ""Recently recommended"": orders by the latest HN recommendation instead of upload date, so a 2012 talk that someone linked last month floats to the top. Also a chip on the home page. (ty beaconflint, mixtureoftakes)<p>- Sort by like ratio as a quality signal: likes/views, damped so small videos can't win on a handful of likes. (ty gpugreg)<p>- ""Play all on YouTube"": turns the videos on a page (up to 50) into a temporary YouTube playlist, so it works in the YouTube app on phones and TVs. A start toward real HackerTube playlists. (ty twalichiewicz, waschl, victor9000)<p>- Removed the YouTube-looking logo. (ty doginasuit)<p>- HackerTube Longs: every video over an hour, right where YouTube puts Shorts. (ty gosen)<p>- Bonus: ""Hidden gems"" filter (loved on HN, under 100k views on YouTube), and ""Evergreen only"" to hide news-of-the-week videos."	karpathy	1793482478	1
+				
+50324686	Not a dig at Karpathy, I like him and the thing is nice to have, but the amount of glaze he receives for essentially a curated video playlist sourced off of a pre-configured list is unprecedented, to the point where people are ready to praise him for the way he sneezes.	NoCritics	1793533214	1
+				
+				
+				
+				
+50321514	john oliver. Simon Sinek.  c'mon guys	tonymet	1793491742	1
+				
+50328341	[dead]	shouvik12	1793558260	1
+50326252	[dead]	dd_xplore	1793544744	1
+50325770	[dead]	bbtalk	1793541667	1
+50322696	[flagged]	shouvik12	1793507075	1
+50320424			1793482173	1
+50320396			1793481945	1
+50322168	[dead]	toppa33	1793499507	1
+50322097	[flagged]	smjy_studio	1793498510	1
+50321344	[flagged]	thingfyi	1793489999	1
+50325307	[dead]	waltervc	1793538531	1
+50323304	[dead]	georgestones	1793516508	1
+50319511			1793476613	1
+50322195	[dead]	seymores	1793499855	1
+50320041	I can't find it on GitHub. Is it open source?	saikiran91	1793479677	1
+				
+				
+50323585	[dead]	halalgamers361	1793520733	1
+50320741	Can you add videos sourced from lobste.rs?	tester457	1793484591	1
+50323043	[dead]	whoanoway	1793512510	1
+50322912	[dead]	cooluser	1793510358	1
+50321254	[dead]	thingfyi	1793489172	1
+50326475	[dead]	itsgg_yc	1793546351	1
+50319903	[dead]	Yash16	1793478880	1
+50324830	[dead]	word-sys	1793534650	1
+50320187	One of the better ones but in all honesty a random ass vibed site that's on front page because Karpathy	mi_lk	1793480458	1
+				
+50319753			1793478139	1
+50320920	[flagged]	9dev	1793486027	1
+				
+50321369	[flagged]	tdhz77	1793490185	1
+				
+				
+50326275	[flagged]	fissbuss	1793544904	1
+				
+50326087	[dead]	ashg-2109	1793543637	1
+50326709	[flagged]	wetank	1793547783	1
+50326800	[flagged]	hemantnaik	1793548578	1
+				

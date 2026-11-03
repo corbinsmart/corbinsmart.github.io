@@ -1,0 +1,22 @@
+50271052		luu	1793180287	0
+50318282	"Great article :D The rabbithole actually goes even deeper because buffering on the read side is almost always good, but reads are often way more latency-sensitive than writes. Which leads to the paradox that increasing the buffer size / prefetching more with mmapping can lead to worse performance due to the added latency. And decreasing the buffer size can have the same effect due to issuing more calls, so in order to squeeze in the optimal throughput/latency ratio on reads you have to tune it per workload.... or just try a few different buffer sizes and see which one works better.<p>Writes are the opposite, they're usually not RAW (read-after-write), they're ""fire and forget"", so you don't really care about latency, but you do care a whole a lot about your writes actually arriving... again two competing parameters because the more you batch the writes, the faster they are but the bigger chance of a torn write or data loss. And unlike reads, writes are <i>not</i> idempotent on the application level so ideally you'd want some logic to atomically write a meaningful amount of data so it won't get torn, even if it crashes.<p>Now in practice just about no one actually does any of this but it's a fun thought :D"	Pannoniae	1793468853	1
+				
+				
+				
+50317538	oh i thought this would be about language and how the brain works, that article sounds more interesting to be honest sorry	1317	1793463800	1
+				
+				
+				
+				
+50317385	"This is true even at the CPU cache level so it's probably going to trickle down all the way.<p>For example Jon G gave a talk at Jane Street about how he had a mysterious performance bug that was later attributed to cores fighting over the same cache line<p><a href=""https://youtu.be/tND-wBBZ8RY?is=624w3YoDN2QYBWuD"" rel=""nofollow"">https://youtu.be/tND-wBBZ8RY?is=624w3YoDN2QYBWuD</a>"	vatsachak	1793462597	1
+				
+50318279	In any discussion of read, write & sync, I'd want to talk about write amplification (read/modify/write cycles), and also in Linux the sync_file_range syscall which is a useful way to sync part of a file.	rwmj	1793468838	1
+50323571	"(2015)<p>I don't know why I'd ""(probably) think"" they're anything like symmetrical. After all, I have first-hand experience of reading code and writing code; clearly, very different processes."	zahlman	1793520545	1
+50321140	"There is plenty of fun to be had with write errors and fsync. One example was so called ""fsyncgate"" where postgresql stumbled upon fsync issues: <a href=""https://news.ycombinator.com/item?id=20491965"">https://news.ycombinator.com/item?id=20491965</a><p>I think there were some changes in kernel since that but I can't remember what exactly"	zokier	1793488149	1
+50323673	I was thinking 'brains'; you read something, well, ok, you write something, Boom that thing is sticking!	6LLvveMx2koXfwn	1793522000	1
+				
+50318230	> the data may have made it to storage, but that doesn’t necessarily mean it’s actually visible, because the metadata necessary to reach it might not have been written yet.<p>The author should clarify here that this fsync wrinkle only affects newly created files, not updates to existing ones.	mightyham	1793468464	1
+50320804	I was hoping for something about human reading and writing, but it was about POSIX I/O APIs.  Not bad, and I'd go further and point out that `mmap()` is good for reading but not for writing, and why.	cryptonector	1793485063	1
+50317867	Yep, reading something doesn't invalidate your caches. Or everyone else's caches.	tbrownaw	1793465938	1
+				
+50319399	(2015)	chrchang523	1793475891	1

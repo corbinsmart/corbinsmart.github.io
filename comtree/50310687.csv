@@ -1,0 +1,60 @@
+50310687		lacoolj	1793397460	0
+50311170	It feels like we hit an inflection point in the last week or so. Kind of a large tidal wave to crash on the coast, but likely not the tsunami yet. I hope.<p>If you are running services and don't yet have an easy way to react to these things with swift process defined, I hope you don't like to sleep.	6thbit	1793400950	1
+				
+				
+				
+				
+				
+				
+				
+50310946	"Wow, that isn't clear. 
+Is there an incident, or did they just become aware about MPTCP vuln?
+Details on the mptcp are also pretty scarce as well right?"	spydum	1793399246	1
+				
+				
+				
+				
+				
+				
+50311063	"Even better CVE 10.0 has just dropped <a href=""https://news.ycombinator.com/item?id=50310937"">https://news.ycombinator.com/item?id=50310937</a>"	paaloeye	1793400230	1
+				
+50311246	"All companies should at this point invest a lot of money into defensive AI. In ~July the AI hit crypto and bitcoin, where it's the easiest to extract the most money. 
+Now the AI powered attacks are hitting infra and SaaS. Next (~December), it will hit classic infrastructure, banks, small businesses, etc. 
+By mid next year, we will be over this hump with defensive AI being required part of everything."	nout	1793401346	1
+				
+				
+50311113	@dang I would encourage you to really think about having security incident as a new HN tag. The wording can be better though.	elashri	1793400565	1
+				
+				
+50311215	This reads to me that nothing has happened and they are just trying to patch stuff? Right?	Arbortheus	1793401192	1
+50312472	Anyone have any thoughts on what happens when banks/brokerages start getting hit in earnest? Think it's prudent to split single brokerage portfolios across multiple? Or do they have enough speed bumps in their procedures that they're not quite so vulnerable to major losses?	ericd	1793411316	1
+				
+				
+50311610	I've lived to see the day when half of the Hacker News front page is about hacks. What a time to be alive.	dist-epoch	1793403740	1
+50311190			1793401065	1
+50312500	Anybody recommend a CVE alert self-hosted app? E.G. I specify my software, OS’s, and versions and when a matching CVE is created I get an alert. Don’t want enterprise security products.	nodesocket	1793411683	1
+				
+				
+50313036	Are banks safe?	malloryerik	1793418506	1
+50311064	I mean, this situation is untenable. HN's front page is just going to be an endless list of breaches.<p>I don't see how web services proceed like business is normal.	optimalsolver	1793400231	1
+				
+				
+50312726	"Why was the previous discussion of this flagged? <a href=""https://news.ycombinator.com/item?id=50299182"">https://news.ycombinator.com/item?id=50299182</a> Is our new policy to stick our heads in the sand and pretend that CVEs don't exist? Because I'm not getting behind that!"	phendrenad2	1793414394	1
+50311560	"What's the mitigation for this? There's no patches available yet <a href=""https://ubuntu.com/security/CVE-2026-98432"" rel=""nofollow"">https://ubuntu.com/security/CVE-2026-98432</a>"	ForHackernews	1793403393	1
+				
+				
+50310886	"So it begins. The war against the abliterated AI models. Even at 1,000 TPS any service is a target.<p>Imagine swarms of abliterated frontier AI models that reach >20,000 TPS. As I said before [0] you are going to have to hire specialized security engineers or technical bodyguards from the senior to senior staff level using AI agents to protect your entire business.<p>Otherwise you are cooked.<p>[0] <a href=""https://news.ycombinator.com/item?id=50310312"">https://news.ycombinator.com/item?id=50310312</a>"	rvz	1793398837	1
+				
+				
+				
+				
+				
+				
+				
+				
+50311056	"Lately it seems like we need ""hacks.ycombinator.com"" as a new sub-list."	pugworthy	1793400164	1
+				
+				
+				
+				
+				

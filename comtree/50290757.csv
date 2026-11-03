@@ -1,0 +1,2 @@
+50290757		RebelPotato	1793288155	0
+50294122	"Very similar to an existing Cloudflare library vibe-sdk. Runs an agent in the Durable Object and spins up a container if the agent needs to execute a bash command. The container can even mount the SQLite based object store as a filesystem to perform filesystem operations. <a href=""https://github.com/cloudflare/vibesdk"" rel=""nofollow"">https://github.com/cloudflare/vibesdk</a>"	gepeake	1793300264	1

@@ -1,0 +1,137 @@
+50287775		rokostik	1793276340	0
+50288483	"India: 47M<p>China: 358M<p>Both countries have roughly the same population. The IPv4 problem has been swept under the rug with CGNAT and a normal person doesn't even notice it. But it sucks. Forget having a dedicated IP, even on a broadband connection, you don't get a public IP that's truly yours. According to IPInfo[1], there are around 1,000 users sharing my IP. I get flagged for malicious activity, and online gaming is impossible without a Tailscale relay.<p>Of course, much of this comes down to the bad luck (+ policies) of developing late, when most IPv4 blocks had already been allocated. But it's pretty unfair how US DoD, Apple, Ford, and others [1] are sitting on enormous IPv4 blocks they'll probably never fully use, and may never sell. Meanwhile I am  sharing a single public IP with a thousand strangers.<p>[1]: <a href=""https://ipinfo.io/223.233.77.184"" rel=""nofollow"">https://ipinfo.io/223.233.77.184</a><p>[2]: <a href=""https://en.wikipedia.org/wiki/List_of_assigned_/8_IPv4_address_blocks"" rel=""nofollow"">https://en.wikipedia.org/wiki/List_of_assigned_/8_IPv4_addre...</a>"	shubhamjain	1793279723	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50296117	"From a Georgist perspective, IPv4 is actually a form of land (it's a finite ""natural resource"", although that's not quite proper), and you could make a case for ""land rent"" being taxed on the addresses. This is the same as radio broadcast frequencies, web addresses, actual land, un-mined gold/oil/coal/whatever, and other finite natural resources that create monopolistic tendencies."	BirdieNZ	1793308513	1
+				
+				
+				
+				
+50288383	IPv6 got some real traction in the last decade. From around 10% adoption up to 50%. It's not dead, like many are claiming. It works fine, just keep implementing it.	andix	1793279278	1
+				
+				
+				
+				
+				
+50288015	The fact that we have yet to fully deprecate IPv4 should be considered a great failure in the tech industry's competence.	xacky	1793277704	1
+				
+				
+				
+				
+				
+				
+				
+				
+50294331	"The only thing that surprised me was that Canada was so small compared to other Western countries. But I suppose that might be an artifact. The map shows IPv4 proportional to land area, but a ""fair"" allocation would have IPv4 proportionate to population, not land area, and I'd assume Canada is (overall) less densely populated than most other developed countries."	10111001	1793301228	1
+				
+50288427	"Ran across a comment a while ago on some fun ""IPv6 math"":<p><pre><code>    On the surface of the Earth [land+water], there are 8.4 IPv4 addresses per km². Not counting the oceans, that would be 28 IPv4 addresses per km² land.
+
+    IPv6 gives 10¹⁷ addresses per mm² (yes, square millimetre).
+
+    In terms of volume, 10⁸ IPv6 addresses per mm³ throughout the Earth.
+</code></pre>
+* Via: <a href=""https://news.ycombinator.com/item?id=28326806#unv_28331245"">https://news.ycombinator.com/item?id=28326806#unv_28331245</a><p>A second way of thinking about it:<p>* Stars in the Milky Way: 400 Billion<p>* Galaxies in the universe: 2 Trillion<p>* So (4x10¹¹)x(2x10¹²) = 8x10²³ stars in the universe.<p>* Size of IPv6 address space: 3.4x10³⁸<p>* Find the ratio between addresses and stars: 3.4x10³⁸ / 8x10²³<p>IPv6 offers about 430 trillion times more addresses than estimated stars in the universe. From Tom Coffee's presentation ""An Enterprise IPv6 Address Planning Case-Study"":<p>* <a href=""https://www.youtube.com/watch?v=7Tnh4upTOC4"" rel=""nofollow"">https://www.youtube.com/watch?v=7Tnh4upTOC4</a>"	throw0101c	1793279489	1
+				
+				
+50290307	Comparing land area to IP address assignments is one of the sillier visualizations I've ever seen. I can't imagine what this is intending to convey. Should Siberia have more IP addresses than all of Europe?	schmichael	1793286469	1
+				
+50289158	"Unsurprisingly, the map is very similar to the World Population Density Map: <a href=""https://luminocity3d.org/WorldPopDen/#3/20.00/10.00"" rel=""nofollow"">https://luminocity3d.org/WorldPopDen/#3/20.00/10.00</a>"	huijzer	1793282293	1
+50288070	I'd be interested to see how this compares to the same scaling procedure, but by population. Essentially seeing what the IPv4-per-capita is.	cbondurant	1793278004	1
+50288332	Hi, I’m helping a hospital in Buenos Aires that has lost their IPv4 due to their ISP moving to CGNAT, putting their on prem imaging servers offline for 7 days. (it’s ok for us though, we have a backup failover isp)<p>Might have to do something horrible like:<p>- setup an ipv4 tunnel, which will require hacking a VPN to allow TCP listening, and routing connections to some external proxy with a dedicated static ipv4 address<p>- or do some modem router level nat port forwarding, and use a ddns to avoid ip changes breaking stuff. but that won’t work probably since public ip is shared<p>will investigate the isp to see if they are truly short in ipv4 or if they are just moving clients off them in order to sell them to higher bidders and plans, which is likely since I’ve been upsold into optic fiber, static ip surcharge, sd-wan, dedicated  connection so far<p>if you have any advice or RIR contacts (or an ipv4 block to donate, invest or sell), I’d be thankful, my email is in my profile	TZubiri	1793279109	1
+				
+				
+				
+50287889	Good to see the Dutch were able to seize a lot of blocks from the sea!	timvdalen	1793277002	1
+				
+50292998	"One thing that was always a curious anomaly for me is Brazil having the second largest number of autonomous systems (ASNs) in the world. [1]<p>I've been told that this is actually because Brazil has a very competitive local ecosystem of small ISPs competing with eachother on the regional scale.<p>[1]: <a href=""https://bgp.he.net/report/world"" rel=""nofollow"">https://bgp.he.net/report/world</a>"	wmchen	1793295646	1
+				
+50288063	Population would make more sense.	Guillaume86	1793277972	1
+				
+				
+				
+50288401	Now this is an interesting map.<p>First impression: Poland stronk. Even Czechia strong. Charles IV.'s realm restored. Russia in shambles, not a very efficient conqueror of the address space. And the glory of Rome restored, with pitiful Constantinople looking at their backs from afar.<p>Second impression: Morocco, Kenya, Egypt and South Africa as the African heavy-weights. Corresponds to what I know.<p>Third impression: the real bosses are Taiwan and South Korea - just wow.	inglor_cz	1793279376	1
+50308828	Fun fact: At the Assembly demoparty, every system wired to the party network receives a dedicated, publicly routable IPv4 address. It's a lot of fun, but can lead to some interesting moments. One year as I was getting my setup ready, I had a bit of a heart dropping moment when I realized that the raspberry pi I use to bridge ethernet to my Mac Plus over SCSI, the very same one that usually lives on my home network with all kinds of exciting old daemons running, was in fact reachable on the public internet!	vkoskiv	1793387677	1
+50301960	The only real use-case for IPv6 is self-hosting, and that's just very niche. Other than that the arguments in favor of IPv6 turn to stuff like latency and network complexity. That's not nothing, but it won't make anyone change ISP, and so ISPs don't have to care about it.<p>From the ISP's POV a complex IPv4 network plus a simple IPv6 network is more work than just having a complex IPv4 network. IPv6 is optional, and IPv4 isn't.<p>The only way I can imagine IPv6 succeeding is if somehow big websites decide to slow things down for IPv4 users enough that they complain to their ISPs.	tormeh	1793355568	1
+50288068	I still think we should just extend the length of IPv4. In my proposed system, existing addresses would become a subnet of the new set.<p>Eg 192.168.0.1 becomes 0.0.0.0.192.168.0.1<p>And then we dish out all the new address space. You would get the network providers to handle address conversion until software and hardware has been updated. Because all the existing addresses are reserved in the new set, it doesn’t affect them.<p>Keeps all the nice parts of IPv4, doesn’t require everyone to switch to an entirely new system, backwards compatible with existing hardware/software. Problem solved.	MisterMunchkin	1793277996	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50290935	I’m hoping with RE everything, for at least consumer IOT products we’ll get to a point where we can just get rid of a lot of the need for ipv4 for home.<p>What’s left are just apps and devices that people don’t wanna change out but are probably pwnd and I don’t think are gonna get updates because the teams that wrote the software moved on and the companies don’t wanna keep spending on sustaining.	happyPersonR	1793288787	1
+50301157	Noone pointing out that it's a mistake to use a Mercator projection for thjs	nrki	1793348836	1
+				
+50288153	The elephant in the room: I didn't check the other mammoths, but e.g. Amazon has 4.4% of all ipv4 addresses.	tgv	1793278418	1
+				
+50288575	Meanwhile I’m here carving out a couple of /64s from the /48 block of IPv6 addresses Comcast gave me.	rayiner	1793279978	1
+50302902	"As a small WISP operating within the RIPE region, Are there ways to obtain usable IPv6 address space for customer connectivity (to provide e.g. /56 to customer CPEs) without becoming a LIR and paying the associated fees (Which frankly are unfair considering that companies that hold millions of ipv4 addresses pay the same amount... but that's another topic)?
+I currently own a single IPv4 PI /24 prefix, but I am not a LIR."	candl	1793362632	1
+50288512			1793279822	1
+50289627	"I initially read the ""As"" in the ""As land"" label as ""land of plural letter A"". Which I understood as the land of DNS A records, which seemed like a whimsical yet fitting name."	sebastianmestre	1793283919	1
+				
+50293630	The scrolling scaling-controller on the map is genius. I wish more maps would add this dynamic ability to scale the logical size when there is a considerable ratio delta to the land size.	dogscatstrees	1793298144	1
+50287994	Either I've lost it, or there are other countries there that are bigger losers than the DRC. North Korea says it is 1069.6 times smaller, Greenland says it is 1507.8 times smaller, etc.	oakchris1955	1793277591	1
+				
+				
+50299344	Yeah, but it’s not land and the analogy quickly breaks down given that’ ya know, NAT exists and DNS servers are under soverign control.	calmbonsai	1793328808	1
+50288148	What an interesting critter the UK is in terms of its shape	fluxsolstice	1793278407	1
+50292519	Can't we use AI to rewrite the whole internet (including flashing of routers) so it supports IPv6 everywhere?	amelius	1793294001	1
+				
+				
+50300785	Interesting. I think this can be used a measure of prosperity of a nation. like GDP.	yassermanss	1793345387	1
+50291025	This should be scaled by population. would make the India/china numbers more drastic.	mtoner23	1793289078	1
+50288166			1793278470	1
+50298850	was fun at college to plug in a laptop into the dormroom's ethernet jack and get assigned a public address. (i went to a /16 school, not a /8 sadly)	clbrmbr	1793324337	1
+50288350	FWIW I get the most hilarious spam and strangest scanners from Netherlands.	nzeid	1793279190	1
+				
+50297569	Alaska seems to have a lot of IP addresses...	rr808	1793315477	1
+				
+50297433	at a certain point in time there has to be a forcing function or event that causes people to migrate from ipv4 to ipv6.	dzonga	1793314723	1
+50288279	As an Italian, I'm astonished by Italy.	darkwater	1793278912	1
+50288194	I like how Hawaii migrates to California and Egpyt yeets itself into the Indian ocean. Quality animation that instills confidence in accuracy!	yoggies_bro	1793278582	1
+50287961			1793277401	1
+50294274	Wow, Japan has a lot	mahboi	1793300987	1
+				
+				
+50288312	Interesting.	noelperez	1793279041	1
+50289583	IP6 babe!	hollowonepl	1793283750	1
+50303076	"Apply Now -
+<a href=""https://docs.google.com/forms/d/e/1FAIpQLSfcU2Yu3S5sqDvrmv5PyeBY5iZf1FSvbisMD0ihfU2HLvD58Q/viewform"" rel=""nofollow"">https://docs.google.com/forms/d/e/1FAIpQLSfcU2Yu3S5sqDvrmv5P...</a>"	Krea8ly	1793363957	1
+50288265	[dead]	georgestones	1793278869	1
+50288288	Reddit shadowbanned me multiple times for either absurd or political reasons, but my ISP used to assign dynamic IPv4 addresses, so I could easily create a new account. Then it switched to IPv6 with a static address, and now I can't create new Reddit accounts anymore.	bugake	1793278934	1
+				
+				
+				

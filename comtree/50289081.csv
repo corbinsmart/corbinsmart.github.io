@@ -1,0 +1,106 @@
+50289081		ibobev	1793282013	0
+50314374	"A lot of mistakes in this article, although it's well-intentioned.<p>There is a direct lineage from the PDP-1 to the PDP-4, and the 18-bit lineage ends with the PDP-15 (missing).<p>The dual-mode PDP-12 (PDP-8 + LINC) is missing from the 12-bit lineage.<p>The VAX (VAX-11 initially) was an offspring of the PDP-11 and the VAX-11 could natively run PDP-11 user-mode code. DEC then tried to use the VAX to unify both the 10 and 11 markets.<p>The PDP-11 and VAX software heritage lives on mostly in C and UNIX (NetBSD being the closest relative), and in VMS / NT. The PDP-10 heritage lives on mostly in Emacs.<p>""However, even its most powerful configuration wasn’t powerful enough to attract many pdp-10 users.""
+They didn’t serve the same markets.<p>The PDP-10 was a time-sharing system that shone more for LISP than FORTRAN. For heavy number crunching and matmuls (the FORTRAN playground), 16-bit PDP-11s were usually used, with an auxiliary array processor such as the AP-120B or the CSPI MiniMAP. Those array processors could deliver more than 10 MFLOPS back then, when a minicomputer with a 50-100 KFLOPS FPU was already considered fast (FPUs were an expensive option back then)."	rahen	1793438374	1
+				
+				
+				
+				
+50313595	"<p><pre><code>    > it wasn’t called a computer then, because the word “computer” back then meant big mainframe systems that ran batch calculations
+</code></pre>
+PDP being a minicomputer (at the time), it could do that too and cheaper. What I heard the reason for this was to circumvent procurement restrictions. The word ""computer"" meant a high level of scrutiny, but obviously a ""Programmable Data Processor"" isn't a computer because it doesn't have the word ""computer"" in it (duh). So just a sales / marketing trick."	tosti	1793426741	1
+				
+50318211	"Thanks for this bit of nostalgia.  As a veteran user of DEC computers for most of my career, I really enjoyed this despite some of the omissions that others have pointed out.  I could also add some additional thoughts to what else has also been mentioned, including LSI-11 which was a micro version of the PDP-ll.  I really liked the orthogonal instruction set.  My experience goes back to PDP-8 which were all over the place at Lawrence Livermore National Labs; they were using them basically as terminals for accessing the big CDC-7600/CDC-6600 supercomputer complex there. Some side points on operating systems such as RT-11 and peripherals such as RL01/RL02 might also have been interesting.  But this was still a lovely bit of memorabilia, so thanks again! ;-)
+Oh, I almost forgot about the user group DECUS, a treasure trove of all kinds of goodies, including DECUS-C compiler which we used extensively.  And of course MACRO-11 was our main workhorse for assembly language programming on the PDP-11 and LSI-11 for many years."	bigtimber	1793468386	1
+50314106	I would have thought the vax owed more to the pdp-11 culture than the pdp-10. If you don’t want to move the line add a second one. Berkeley Unix really helped things network and hack and that came from the 11 onto the vax.	jleyank	1793434017	1
+				
+				
+50314004	I learned how to program on a PDP-10. Lots of great memories.	WalterBright	1793432399	1
+				
+				
+				
+50318661	"From the MIT-AI Lab's file ""AI:HUMOR;PDP-* LIST"", the inimitable Mark Crispin weighs in on DEC's PDP's:<p><a href=""https://github.com/PDP-10/its-vault/blob/master/files/humor/pdp-*.list"" rel=""nofollow"">https://github.com/PDP-10/its-vault/blob/master/files/humor/...</a><p><pre><code>  Date: Wednesday, 20 August 1986  03:42-EDT
+  From: Mark Crispin <MRC%PANDA@SUMEX-AIM.ARPA>
+  To:   TOPS-20@SU-SCORE.ARPA, Boken@RED.RUTGERS.EDU
+  Re:   DEC's PDP's
+  Postal-Address: 1802 Hackett Ave.; Mountain View, CA  94043-4431
+  Phone: +1 (415) 968-1052
+</code></pre>
+A number of people have requested my list of all the DEC PDP's,
+so I thought I'd bore you all with it.<p>The PDP-1 was an 18 bit machine.  It was DEC's first computer,
+and some of the first timesharing systems were designed for it.  It's
+also unique in being one's complement; all later DEC computers were
+two's complement.  Some machines, such as one of MIT's PDP-1s, were in
+operation until the late '70s.<p>The PDP-2 was a designation reserved for a 24 bit machine, but as
+far as I can tell it was never even designed and definitely none were
+ever built.<p>The PDP-3 was a 36 bit machine that was designed but never built
+by DEC.  However, Scientific Engineering Institute built one in 1960.<p>The PDP-4 was an 18 bit machine that was intended to be a
+cheaper, slower alternative to the PDP-1.  It was so slow that it
+didn't sell well, although it was interesting for its
+auto-incrementing memory registers.  It was not program-compatible
+with the PDP-1, but its instruction set was the basis of DEC's future
+18 bit computers.<p>The PDP-5 was a 12 bit machine designed to be a small laboratory
+system.  It used many of the ideas in the LINC (Laboratory Instruction
+Computer, designed by Lincoln Labs at MIT, some of which were built by
+DEC).<p>The PDP-6 was a 36 bit machine and the first machine to implement
+the most wonderful computer architecture known to man.  It was rather
+expensive and difficult to maintain, and not many were sold.  As a
+result, DEC cancelled 36 bit computers for what was to be the first of
+many times.<p>The PDP-7 was an 18 bit machine and the sucessor to the PDP-4.
+It was a major price/performance win over the PDP-4 and the first DEC
+computer to use wire-wrapping.<p>The PDP-8 was a 12 bit machine and the sucessor to the PDP-8.  It
+basically defined the term ""minicomputer"", and went through several
+incarnations.  The original PDP-8 was followed by the extremely slow
+PDP-8/S (as bad as the PDP-4 was to the PDP-1, but at least the /S was
+program-compatible).  DEC recouped with the PDP-8/I (using MSI
+integrated circuits) and the smaller PDP-8/L, and somewhat later came
+out with the ""Omnibus 8"" machines -- the PDP-8/E, the PDP-8/F (a
+half-sized version of the PDP-8/E), the PDP-8/M (an OEM version of the
+PDP-8/F), and the final machine, the single board PDP-8/A.  The
+PDP-8/A still exists after a fashion as a current DEC product.<p>The PDP-9 was an 18 bit machine and the sucessor to the PDP-7.
+It had a faster memory than the PDP-7 and was the first
+microprogrammed DEC computer.  Modulo a 300 wire(!) ECO required in
+the first machines, the PDP-9 was a reliable machine and some are
+still in operation today.  There was a short-lived PDP-9/L.<p>The PDP-10 was a 36 bit machine and the sucessor to the PDP-6.
+It is especially noted for its software, which represents the pinnacle
+of DEC software engineering and has never been equalled.  The first
+KA10, largely installed in universities, created a whole generation of
+timesharing hackers.  The follow-on KI10, with paging and using IC's
+instead of discrete components but otherwise unexciting, mostly was
+sold to commercial organizations.  The KL10 went through several
+incarnations and is today the most representative of this marvelous
+machine.  The KS10 was a small, low-speed (approximately KA10
+performance) processor which was DEC's last successful implementation
+of this architecture.<p>The PDP-11 was a 16-bit machine that went through more
+implementations and operating systems than can be counted.  Presently
+it superceded the less powerful PDP-8 as the representative
+minicomputer.  While the PDP-11 used octal, it was in its deep heart
+of hearts a hexidecimal machine, and the first indicator of the
+creeping IBMification of DEC that took full fruit in the VAX.  [I can
+hear the flames now...]  Rather than fight it the customers loved it;
+more PDP-11's have been sold than any other DEC computer (possibly
+more than all the others combined).<p>The PDP-12 was a 12 bit machine and the sucessor to the PDP-8.
+It combined a LINC and a PDP-8 type processor in the same box and
+basically was a new model of the LINC-8 which was the same thing.<p>No PDP-13 was ever designed or built.  Even DEC gets
+superstitious.<p>The PDP-14 was a 12 bit machine with a 1 bit register.  It was
+used as a process control engine in applications that were felt to be
+too rugged for a PDP-8, and basically replaced a set of relays.  Later
+DEC made PDP-8's suitable for this sort of thing, but it didn't stop
+them from the ultimate silliness of building a PDP-14 that used a
+PDP-8 as its console processor!<p>The PDP-15 was an 18 bit machine and the final one of this design
+built by DEC.  More PDP-15's were built and sold than any of the
+others, and it went through several incarnations including some which
+used a PDP-11 as a front end.  Apparently the cancellation of the
+PDP-15 came as a great surprise to the ""Tiger Team"" who worked on it,
+although considering its general ungainliness compared to comparable
+performance PDP-11's it wasn't surprising.  In many ways the PDP-15
+died for the same reason the PDP-10 did.<p>The PDP-16 was a ""roll your own"" 16 bit machine based on various
+""building blocks"".  Every PDP-16 was essentially custom-designed by
+the customer.  It got a fair amount of attention when it was announced
+but evidentally didn't sell very well.<p>There was no PDP-17 or any other designator.  DEC apparently
+decided that ""PDP"" had a perjorative ring to it.<p>----<p>Also from the humor directory, you might also enjoy singing along with ""Alice's PDP-10"":<p><a href=""https://github.com/PDP-10/its-vault/blob/master/files/humor/alices.pdp10"" rel=""nofollow"">https://github.com/PDP-10/its-vault/blob/master/files/humor/...</a><p>----<p>DEC Mail from Ken Olsen to Gordon Bell, Dick Clayton, Jack Shields, and Jack Smith, 18 November 1980. A real memo. The 11/23 is the machine Crispin, above, says replaced the PDP-8, and Olsen has just had one delivered. Four dual boards, in a steel box, and he says the integrated circuits were a waste:<p><a href=""https://github.com/PDP-10/its-vault/blob/master/files/humor/dec.mail"" rel=""nofollow"">https://github.com/PDP-10/its-vault/blob/master/files/humor/...</a><p>The printer is the size of an IBM typewriter and arrived in a crate five feet tall that would not go through the doors of his house. The two RX02s fill about a third of their cabinet, and the rest is air. DEC made smaller floppies because the box was so big. He says anyone paying attention would have made the box fit the floppies. Every screw has its own washer and its own lock washer, and he lost one inside the machine. He wants the names: who designed it, who packaged it, who approved it for manufacturing, who approved it for field service. Bell had been saying the Japanese were coming on financing and manufacturing. Olsen says they are going to kill DEC by better design."	DonHopkins	1793471520	1
+50313912	"To round out the timeline I'd include the TX-0, first computer based on transistors, and essentially the experimental prototype/proof of concept of what became the PDP-1. <a href=""https://en.wikipedia.org/wiki/TX-0"" rel=""nofollow"">https://en.wikipedia.org/wiki/TX-0</a><p>then on the other end of the timeline, the DECSYSTEM-20 which wasn't any longer called PDP but it was simply an upgraded PDP-10. <a href=""https://en.wikipedia.org/wiki/DECSYSTEM-20"" rel=""nofollow"">https://en.wikipedia.org/wiki/DECSYSTEM-20</a>"	fsckboy	1793430634	1
+				
+				
+50314017	"I just made a PDP-7 and Type 340 vector graphics display emulator that runs in the web browser, based on SIMH, in order to reincarnate and run 128 pages of PDP-7 assembly language source code listings of a CAD system called PIXIE written at Cambridge by Heinz Lemke.<p>It also boots PDP-7 UNIX, the one this article is about. Log in as ken, password ken:<p><a href=""https://hyperties.org/cabinet/unix/"" rel=""nofollow"">https://hyperties.org/cabinet/unix/</a><p>Same cabinet runs DECUS DUEL (the spacewar), DEC's light pen test, a lunar lander, and guess-the-number, besides PIXIE and the Forth below.<p>Here's a music video I cut from the 1969 films of that system running on the PDP-7 and Titan at Cambridge. PIXIE has the first known radial menus:<p><a href=""https://www.youtube.com/watch?v=jDrqR9XssJI"" rel=""nofollow"">https://www.youtube.com/watch?v=jDrqR9XssJI</a><p>Cambridge librarian David Chapman digitized the uncut films from the Cambridge University Library:<p><a href=""https://www.youtube.com/watch?v=j9R63T2xGCA"" rel=""nofollow"">https://www.youtube.com/watch?v=j9R63T2xGCA</a><p><a href=""https://www.youtube.com/watch?v=lCrl5QmQ9aA"" rel=""nofollow"">https://www.youtube.com/watch?v=lCrl5QmQ9aA</a><p>The listing the emulator runs was assembled 12 February 1972. I wanted to look and feel first hand how the radial menus work, so here's that code running in the browser:<p><a href=""https://hyperties.org/cabinet/symelec/"" rel=""nofollow"">https://hyperties.org/cabinet/symelec/</a><p>Here's the PDP-7 assembly source code I recovered. The page runs the image it assembles to:<p><a href=""https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/tapes/symelec/symelec.asm"" rel=""nofollow"">https://github.com/SimHacker/WillWrightShowForFood/blob/main...</a><p>I asked Mitch Bradley, who is the Forth guru who wrote OpenFirmware, if there was a Forth system for the PDP-7, so in one day he and Claude created one, including a Turtle Graphics library for the Type 340 vector graphics display! It turns out that the PDP-7 instruction set is perfect for Forth, and its inner interpreter loop is only three instructions.<p>Mitch Bradley's PDP-7 Forth:<p><a href=""https://github.com/MitchBradley/pdp7forth"" rel=""nofollow"">https://github.com/MitchBradley/pdp7forth</a><p>How Mitch's Forth works, and my enhancements (full names, CREATE DOES>, PIXIE rings):<p><a href=""https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/reference/PDP7-FORTH.md"" rel=""nofollow"">https://github.com/SimHacker/WillWrightShowForFood/blob/main...</a><p>Video demo of PIXIE and FORTH on the PDP-7 Cabinet Emulator with the Type 340 Vector Graphics Display:<p><a href=""https://www.youtube.com/watch?v=lo8kdY-5i6c"" rel=""nofollow"">https://www.youtube.com/watch?v=lo8kdY-5i6c</a><p>It's easy to make virtual real and fictional PDP-7 devices that, like the actual Type 340 vector graphics display, plug in custom IOT instructions and even perform DMA, like a Turing Machine co-processor, the Ultimate Machine (Minsky's design, which Claude Shannon built, that just turns itself off), and a Data Hand (like VPL's Data Glove) that tracks your hand with the webcam:<p>Turing Machine (adds IOT instructions and uses DMA to run TM programs out of 18 bit core memory, which it animates with Forth turtle graphics and Type 340 display character generator):<p><a href=""https://hyperties.org/cabinet/turing/"" rel=""nofollow"">https://hyperties.org/cabinet/turing/</a><p>Forth Turing Machine driver and renderer:<p><a href=""https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/tapes/pdp7forth/turing.fs"" rel=""nofollow"">https://github.com/SimHacker/WillWrightShowForFood/blob/main...</a><p>Ultimate Machine (adds IOT instructions to control and monitor device that turns itself off, and animate it with Forth turtle graphics):<p><a href=""https://hyperties.org/cabinet/ultimate/"" rel=""nofollow"">https://hyperties.org/cabinet/ultimate/</a><p>Forth Ultimate Machine driver and renderer:<p><a href=""https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/tapes/pdp7forth/ultimate.fs"" rel=""nofollow"">https://github.com/SimHacker/WillWrightShowForFood/blob/main...</a><p>Minsky and Shannon's Ultimate Machine (sometimes called Useless, but Marvin considered it Ultimately useful):<p><a href=""https://en.wikipedia.org/wiki/Useless_machine"" rel=""nofollow"">https://en.wikipedia.org/wiki/Useless_machine</a><p>Data Hand (adds IOT instructions to read hand position, orientation, and pose, and draws hand with Forth turtle graphics):<p><a href=""https://hyperties.org/cabinet/hand/"" rel=""nofollow"">https://hyperties.org/cabinet/hand/</a><p>Forth Data Hand driver and renderer:<p><a href=""https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/tapes/pdp7forth/datahand.fs"" rel=""nofollow"">https://github.com/SimHacker/WillWrightShowForFood/blob/main...</a><p>Ultimate Machine + Data Hand = Ultimate Hand (combines the above devices into an interactive Ultimate Machine that lets you turn it off with your own hand, animated with Forth turtle graphics):<p><a href=""https://hyperties.org/cabinet/ultimate-hand/"" rel=""nofollow"">https://hyperties.org/cabinet/ultimate-hand/</a><p>Forth Ultimate Hand demo putting it all together:<p><a href=""https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/tapes/pdp7forth/ultimate-hand.fs"" rel=""nofollow"">https://github.com/SimHacker/WillWrightShowForFood/blob/main...</a><p>The Type 340 was a real PDP-7 device. Shannon's box was a real box, and the DataGlove was a real glove, but neither was a PDP-7 peripheral. These are virtual devices that plug in the way a real one did: their own IOT instructions, and DMA.<p>Here's the manifesto about the emulator design:<p><a href=""https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/MANIFESTO.md"" rel=""nofollow"">https://github.com/SimHacker/WillWrightShowForFood/blob/main...</a><p>>We control the horizontal. We control the vertical. The machine in the page is ours, all of it at once: every register, every word of core, every device, and the host around them. Nothing here is a black box we have to squint at through a keyhole. So when something would be better, we make it better, from whichever side is closest. The 1960s machine stays honest. Everything around it is ours to invent.<p>Cabinet Design:<p><a href=""https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/DESIGN.md"" rel=""nofollow"">https://github.com/SimHacker/WillWrightShowForFood/blob/main...</a><p>>The rule throughout: instance first. Hardwire what SYMELEC needs, comment where the abstraction would go, generate it lazily when a second instance demands it. Work backwards from the software you want to run.<p>Cabinet README:<p><a href=""https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/README.md"" rel=""nofollow"">https://github.com/SimHacker/WillWrightShowForFood/blob/main...</a><p>>An emulator: a stand-in for a cabinet, so the original program can run. PDP-7 is the first plug-in instruction set, for PIXIE. Type 340 on a canvas, light pen as a hit-test."	DonHopkins	1793432568	1
+				
+50314107	[dead]	DonHopkins	1793434039	1

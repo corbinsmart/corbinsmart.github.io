@@ -1,0 +1,22 @@
+50327266		999900000999	1793551593	0
+50327693	It seems early to speculate, but if this is related to the massive uptick in CVEs we've been seeing recently it feels like we're actively witnessing a corporate reckoning around security posture the likes of which has never occurred.	CSSer	1793554359	1
+				
+				
+				
+				
+				
+				
+50328570	"Norwegian cruise line had a similar thing recently with emails going out with actual booking information. Basically identical to the frontier scam emails.  I wonder if there’s some customer service software that’s being exploited that they both use.<p>Edit: some info from the NcL one with screenshots that look similar 
+<a href=""https://www.reddit.com/r/NCL/comments/1x2q54e/warning_possible_norwegian_cruise_line_data/"" rel=""nofollow"">https://www.reddit.com/r/NCL/comments/1x2q54e/warning_possib...</a>"	dawnerd	1793559724	1
+				
+50328517	My guess is something related to looking up Frontier flight status was abused to enumerate all active flight itineraries.<p>If Frontier had been completely breached and all data compromised, there's likely more lucrative things the attacker can do than just using the data to enhance their credit card stealing phishing attack.	varenc	1793559447	1
+50329988	Only 2 breaches/critical remote CVEs on HN frontpage today? Must be a slow news day lol!	RetroTechie	1793567875	1
+50328141	"Earlier this year, Frontier was one of the orgs that got their data leaked thanks to incorrectly configured security settings on their Microsoft Power Pages based website. While this is unlikely to be the source for current flight confirmation numbers, such data could sure help in phishing operations.<p><a href=""https://venarix.com/blog/exfilsquad-targets-misconfigured-microsoft-power-pages-portals"" rel=""nofollow"">https://venarix.com/blog/exfilsquad-targets-misconfigured-mi...</a>"	jukkan	1793557116	1
+50327267	Various users are reporting scam emails with full booking details.<p>Stay safe guys.	999900000999	1793551593	1
+50328978	For anyone else who has never heard of it: Frontier Airlines is a budget airline company based in Colorado USA.	tosti	1793562135	1
+				
+				
+50327808	Every interaction I've ever had with Frontier Airlines has been negative.	phren0logy	1793555018	1
+				
+50327870	"If someone got that email - check the email headers and the 'Authentication-Results' field to verify SPF/DKIM/DMARC alignment. If a domain has a DMARC policy of 'p=none', a forged ""From"" field will not be rejected-it will land in the inbox and look completely genuine."	CreepyHunterX	1793555431	1
+50327712	thankfully I already had frontier airlines marked as spam email, so this changes nothing for me.	danieltk76	1793554448	1

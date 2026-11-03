@@ -1,0 +1,187 @@
+50305693		dorianniemiec	1793375538	0
+50306192	"> ""Just as the FAA mandates manual flying time even when the autopilot is perfectly capable, SRE teams can designate certain incidents, even the ones the AI could handle, as human-practice opportunities""<p>This is a great example. Aviation is a perfect industry to learn from, they figured out a lot of things about how to keep humans from making mistakes. While complexity increases and automation takes away more and more tasks."	andix	1793377448	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50306875	I work at a startup and often deal with every part of the stack--programming, deployment, db, cloud environment, networking blah blah. AI agents have just gotten superhuman at computer use. I will never be able to use AWS CLI as well as claude does. I can spend time poking around in AWS, manually reading logs, looking at routing tables, cross checking with data in db, whatever, or I can give claude readonly access to all of that stuff and it will solve the issue literally 10x faster than I could, write a detailed report I can pass on to whoever, etc. Is it sometimes BSing? yes, but it just keeps getting better.<p>All that said, skill atrophy is real. Thinking about getting back on the interview circuit is p scary because of it. I dunno wtf is gonna happen.	sloob	1793380036	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50306332	SRE was always about understanding; understanding data flow, understanding bottlenecks, understanding logs, understanding application architecture, understanding end user functionality, understanding break points, SLIs, SLOs. Understanding how to mitigate, gracefully deteriorate, restart, restore, recreate, scale, etc.<p>There is no understanding with AI-generated applications, full stop.	pluc	1793377976	1
+				
+				
+				
+				
+				
+				
+				
+				
+50306849	"SRE: <a href=""https://wikipedia.org/wiki/Site_Reliability_Engineering"" rel=""nofollow"">https://wikipedia.org/wiki/Site_Reliability_Engineering</a>"	ljouhet	1793379934	1
+				
+				
+50308359	"Terraform deskilled us too.  No one is saying, ""SREs should configure their infra by hand sometimes to not lose that skill"".<p>If AI can handle it, great!  We have a new tool -- let's make the tool better.<p>Let's figure out how to use AI to make us detect and resolve issues faster, and even better, prevent issues.  I've always said we can't consistently hit 5 9's without automatic detection and remediation.  We are there now.<p>Let's get everyone to 5 9s with AI!"	jedberg	1793385713	1
+				
+				
+				
+				
+50308595	"This has been going on in other professions for a long time. See the ""children of the magenta line"" talk about pilots losing the ability to hand-fly.<p>Another oft-cited article here is William Langewiesche's article on the AF447 crash (<a href=""https://archive.vanityfair.com/article/2014/10/the-human-factor"" rel=""nofollow"">https://archive.vanityfair.com/article/2014/10/the-human-fac...</a>):<p>> To put it briefly, automation has made it more and more unlikely that ordinary airline pilots will ever have to face a raw crisis in flight—but also more and more unlikely that they will be able to cope with such a crisis if one arises. Moreover, it is not clear that there is a way to resolve this paradox."	simscitizen	1793386731	1
+				
+50306053	"SRE was always a lame job description and so was the entire ""DevOps"" movement we had to suffer through during ZIRP. Real ones are oncall for the systems they build."	rubiquity	1793376919	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50306257	I like this analogy that I've come up with: Non-writers can produce impressive articles that are unbearable to read the same way non-programmers can produce impressive software that is unbearable to use.	himata4113	1793377672	1
+50305937	"I dug into general AI deskilling a couple days back[1] - no good signs anywhere, but there's a few things we can do like make concerted efforts to do programming (like a coding hour every week), do a Leet code question, and getting the agent to quiz before merging something (stolen from Notion).<p>[1] <a href=""https://www.youtube.com/watch?v=EWuf2EekRSM"" rel=""nofollow"">https://www.youtube.com/watch?v=EWuf2EekRSM</a>"	recroad	1793376457	1
+				
+				
+				
+50306542	I think people are getting funneled into a new career path of being a technologist or technology director.  People who can ask the right questions at the right time and direct attention to the appropriate areas given the goals and feedback.	sesteel	1793378780	1
+				
+				
+50306084	We use AI at work, Claude specifically, and it’s faster than avg SRE for trivial tasks like cross signals correlation. But it requires a  lot of effort to build a harness from your company contexts for it to work like an SRE. And it’s just a tool so if you have to build your knowledge to make it useful, otherwise it’s just a blunt. Or in other word, incompetent people are incompetent no matter of tools	a012	1793377070	1
+				
+				
+50308541	"""I'm as sharp as ever says SRE whose skills declined 30% in 2 years of AI use"" - if there was a tech space Onion"	coldtea	1793386503	1
+50306128	This is happening to SWEs too. If you have a certain amount of experience, you are capable of critically analyzing AI output. In Big Tech parlance, these are the Senior SWEs and higher. You require little to no supervision and can work independently.<p>But how do you make Senior+ SWEs? By having a pipeline of juniors who get trained and mentored. That pipeline is cooked now.<p>There is going to be a brief period where some like Staff+ SWEs are going to make a lot of money by being AI specialists. But the flood waters are rising for everyone. Those opportunities are going to shrink.<p>It's eventually going to be a problem that the ecosystem has died because there's no new blood and the people there lack the experience and critical thinking to understand what's being done.<p>I can use AI on topics I know because I can spot the errors. LLMs lie a lot and get things wrong a lot. What happens when nobody can check the output?	jmyeet	1793377217	1
+				
+				
+50306978	I don't even know if this is an AI thing. I've worked at places that have varying levels of operational maturity, and some of the ones that had very old SRE orgs also had a lot of their SREs operating mostly in the tier 3 given by the article.<p>One of these orgs had basically all of the noisy pages under control through automated remediation and a culture that pushed towards aggressive automation of pages that had the same root causes. Almost everything I was paged for was some novel or uncommon fault condition. Developing an intuition about how the system worked (well, more specifically, how the system failed) took a lot longer because most things I had to look at were some edge case failure.	rebeccajae	1793380411	1
+50306893	I haven't touched AI, so this SRE is still skilled!<p>Now if only companies wanted to hire people that still have skills and aren't just prompt engineers.	miah_	1793380104	1
+				
+50306206	"I assigned myself to re-read ""Flowers for Algernon"" based on my current frustrations with the team / cultural impacts of AI usage.<p>It's mildly orthogonal, but I think the metaphor is really quite apropos."	numbsafari	1793377492	1
+				
+50306209	"Ops is bifurcating in two:<p>* AI-resistant organizations led by graybeards who refuse to send telemetry off-prem (to either observability vendors or to inference providers) and will be dragged, kicking and screaming, into the future, over their cold, dead bodies. There's a lot of large, conservative organizations in this category like banks and governments, where budgets are rubber-stamped and Don't Break It If It Ain't Broken attitudes are tacitly approved of.<p>* AI-accepting organizations where Ops will go through the same great narrowing that Dev is going through now - build the dark factory and let it run. You do still need people who know what good architecture looks like and to shepherd changes to improve the overall system to make it more observable, scalable, and maintainable. You do still need Non-Functional Software Engineers who don't answer to Product, for the sheer political reason that you need people who have a long-term perspective, compared to Product that has a short-term perspective. The business will make decisions like ""Vendor X is too expensive so we're migrating to Vendor Y"" and you will need somebody to drive the agents to make that happen in a way that respects availability and compliance requirements. You probably don't need, in the long-term, a whole team of people to handle it, let alone a whole group or a whole division.<p>At the end of the day... focus on being a strong engineer. Somebody will always be needed to take care of the trees."	solatic	1793377500	1
+				
+50306503	If you are a single-task person and never stop to think why you do things probably AI can replace you.<p>SREs are about super-thinking, context switching, recognize patters and workflows, data movements, etc..	kristianpaul	1793378661	1
+50307256	"> Tier 3 incidents: Novel, complex, cascading failures stay human-led, with AI providing supporting context.<p>> But here’s the catch.<p>> If human SREs (okay, now we have to use adjectives like human ) only engage with Tier 3 incidents, i.e. the novel, never-before-seen outages, where do they build the intuition to handle them?<p>How did they do this before AI? I have done a bunch of complex production level debugging and these Tier 3 incidents are always ""starting from scratch"" never seen before issues. The main ""intuition"" I built is persistence and verifying/refuting random hypothesis. In other words, I think we can build an intuition for Tier 3 issues only by engaging with Tier 3 issues.<p>Although, psychologically, some success in T1 and T2 issues is what gives us the <i>confidence</i> to even approach the T3 issues."	tirumaraiselvan	1793381387	1
+				
+50306058	> If human SREs (okay, now we have to use adjectives like human ) only engage with Tier 3 incidents, i.e. the novel, never-before-seen outages, where do they build the intuition to handle them?<p>Ime this doesn't happen or reflect the reality of work. I had one mythical job where I wasn't directly on call and only received escalations and didn't have a problem with debugging whole system issues. I still worked on the whole system day to day.<p>Also I feel like this post is also my frustration with sre. In people's minds it's just the job that deals with issues pumped out by swes and they have to work magic because no one else can be bothered to try at their job. This just reinforces that idea.	tayo42	1793376939	1
+50311565	"Imagine SRE that very quickly triaged the incident, gave solution and it turns out that solution made system ever worse, and after that he/she said: ""You're absolutely, right!"""	mglvsky	1793403456	1
+50313094	Deskilling has been happening for centuries. One doesn't farm their own vegetables, hunt for their meat, slaughter their own livestock, maintain their own vehicles (ahem - remember the horses and carriages). We've even stopped shifting the gears on our cars. Why are we complaining about AI?<p>The biggest problem I see with AI isn't deskilling. It's the same dopamine hit one gets from social media but for their profession.	orochimaaru	1793419319	1
+50314160	AI isn't the only cause of deskilling.  I've seen a few people go from coder to architect roles.  Architects, being the decision makers, talk to vendors, CxOs, consultants,... and mainly spend their lives in powerpoints and visions.<p>When an engineer stops coding, managing servers, ...  it takes about 6 months to transform even a really smart person into a buzzword factory.  It is scary. People like Oracle or Microsoft sales are really good in decoupling all of us from the relevant day to day concerns.  It is reversible too, with former architects getting really angry if they have to deal with the software they themselves procured or envisioned.<p>My take is that you need non stop contact with reality, both the computers and the customers, or you start to drift.  I fear AI is causing this in all of us.	hyperman1	1793434942	1
+50309748	"As an SRE Engineer (RAS syndrome, I know), I was just having this talk with my supervisor.<p>My original career/learning path was for a traditional kind of SysAdmin role, because that's what I like. Doing Linux administration and such. Then our whole stack went AWS/cloud-native, so, ok. Seems like no one cares about someone who can actually SSH into a Linux server and figure out what the problem is--they want everything to be built into CloudFormation so that when a server is misbehaving you pull a switch to trapdoor it into oblivion and drop an identical one into its place, in the hope that this one works. I didn't relish the idea of moving away to the increasingly abstract, but alright, I can deal. Reformulating my learning path into being a Certified AWS Full-Stack Engineer or whatever.<p>As that was in progress, my company drank the AI kool-aid and went all in on AI. Now I honestly don't know what I should be training for. They've been pretty consistent on ""No new staff, just AI"", ""You don't need X, you just need AI""--so I am honestly not even sure at this point if my company even <i>wants</i> me spending time diving more into the AWS stack, or if their attitude is ""The AI knows everything--put all of your time into AI prompt engineering and just push whatever buttons the AI tells you to do.""<p>The desired company skills continue to drift from my ""personal"" desired skills, but if this is an industry trend I'm not sure I have much of a choice, because I need my job."	AdmiralAsshat	1793392272	1
+				
+50307328	"Deskilling is good, actually, as long as it's the right deskilling. ""Skill"" in software development is partly raw IQ and partly knowledge of complexity. Programming author Fred Brooks (author of The Mythical Man-Month) categorized complexity into ""essential"" and ""incidental"". Examples of incidental complexity are: React/Rails/Django/Laravel makes a backward-incompatible change to their interface and you need to scurry around the codebase fixing invocations. Or a senior developers on your team have a weird in-house coding style and all the junior devs need to learn it to get their code approved. Or management wants to move everything from one cloud provider to another so you have to change a bunch of resource URLs. Examples of essential complexity are: Self-driving car algorithms. Making your code run faster on the CPU. Adding support for a new web standard like SPDY.<p>I'm not lamenting the days when you needed to pull a seasoned (read: exquisitely expensive) COVOL developer out of retirement to make a change. Now AI can figure it out well enough, I just need to know how the basic concepts work."	phendrenad2	1793381651	1
+50306142	Deskilling is not necessarily a bad thing, if what you refer to as skills are mundane things that should be automated. I do agree with the author in that people are becoming lazy when it comes to critical thinking and evaluating the decisions or work that AI presents to them. These are people who have little passion to do what they do, and for whom their role is primarily a chore.	docheinestages	1793377272	1
+				
+				
+				
+				
+				
+50314706	"The thing is that the learning curve for any tech has never been easier. You can ask a question and AI will help/tell you which command can answer that question. You can write that down. You can poke around the system.<p>You can ask how your current automation code handles XYZ situation to get a better understanding, then ask if a code patch (you're working on) would help with ABC (i.e. get it reviewed), and so on.<p>It has never been easier to be a junior dev.<p>The point about needing manual ""practice"" is on point, yes, you need hands-on time."	hobo123	1793442710	1
+50306701	I stopped reading halfway because it doesn’t describe competent SREs in an organization where the culture values reliability.<p>> Alert noise reduction and intelligent grouping, runbook execution for known issues, log pattern detection and anomaly flagging, and basic root-cause suggestions from historical incident data, and auto-remediation for well-understood failure modes like restarting a crashed pod or scaling up a service that’s running hot, are all fairly automated today.<p>Let’s stop here and ask, why do we not fix the underlying issue? Alert noise? Design better alerts. Runbook execution? Make it a cronjob. Known issues? Why aren’t people fixing these known issues? Root cause suggestion from historical data? Sorry if root cause A is in the historical data you expect problem A is fully solved so it wouldn’t appear again in the next incident. Restarting things? Why doesn’t your health monitor restart things automatically?<p>SREs also need to climb up the abstraction ladder. Instead of using AI to assist with grunt work, use AI or human thinking to build more reliable systems with fewer incidents. Every incident should be novel.	kccqzy	1793379374	1
+				
+50306411	No it's forcing everyone to realize all the jargon was made up to sell books and land speaking engagements. Money from patents (2016 Alice ruling upending that whole scam).<p>Yall this was always just a money making scheme.<p>Never was it meant to carry humanity into the future.	butwhat	1793378266	1
+50305969	"> Some immediate targets include multi-signal correlation across metrics, logs, and traces, autonomous root-cause analysis for partially understood failures<p>AI is already pretty good at this in ""SRE"" workflows.<p>> AI-driven change risk assessment<p>And half decent at this."	okdood64	1793376596	1
+50310328	This has been my concern since the moment it became clear how capable LLMs had become and were likely to become.<p>I feel like I've been going insane as people have ignored this for short-term gains.	sn9	1793395368	1
+50306307	If it deskills that guy who reaches for complex bash when they should reach for golang but they don't want to bother with writing the build layer in the image, then I'm all for it.	0x1F8B	1793377886	1
+50308302	I already sucked at incident handling before, it was more of a panic attack mixed with the fear of getting fires. So Agents have a good place there.	hoppp	1793385450	1
+50309052	"I've started to use the term ""downskilling"" for what a number of companies are going through in the age of agents: layoffs of key employees in the name of increased efficiency, developers being incentivized to outsource their thinking when writing code, tests, specs, docs or reviews, agents increasingly replacing communication between team members..."	Yoric	1793388754	1
+50310238	Plenty of people citing aviation. Aviation is deeply regulated at a global level. This is never going to happen with software engineering. Even where it already happens “locally” like in some military sectors, the results are self revealing. It gets crushed by equivalent unregulated competition in pretty much all metrics.	jgd9dsv	1793394943	1
+50307230	I'm (still) a software engineer, and I've found it crucial to solve some LeetCode problems from time to time. It's honestly refreshing to write code yourself, make your own mistakes, and not end up low-key mad at a robot for failing to understand your lousy description because, apparently, it still can't read your mind.	hsuduebc2	1793381297	1
+				
+50306793	if you want a vision of the future, winston, imagine 'X isn't Y, it's Z'... forever	recursivedoubts	1793379705	1
+50310682	"Reminds me of Children of the Magenta Line: <a href=""https://youtu.be/5ESJH1NLMLs?si=wozPZOKAFKNcjPSm"" rel=""nofollow"">https://youtu.be/5ESJH1NLMLs?si=wozPZOKAFKNcjPSm</a><p>Fly the plane, not the automation."	GlobalChubby	1793397435	1
+50306226	10000% agree. I am seeing this first hand. SRE and NOCs folks are turning into meat proxies.	colinrand	1793377536	1
+50306677	"Is HN upvoting just because they agree with the title?<p>Clearly the ""author"" didn't even put in the effort necessary to make a real title. Not ""SRE persists but a skill crisis looms"" not ""SRE careers remain but competency lowers in spite of AI"" not ""AI lowers SRE skill but demand is steady"". Moreover, hasn't this type of insufferability been dramatically reduced in recent models? It screams that in addition to being slop, it's outdated.<p>Why would anyone take this at face value?"	solaire_oa	1793379259	1
+50306748	I don’t understand what this title is saying, feels a bit circular. You could say this about so many jobs that are or are not being replaced by AI.<p>Do LLMs “deskill” us in general? I suspect we are just replacing old skills with new skills.	MetaMalone	1793379553	1
+50305831	I wanted to use this post as a source to write on my web server project's blog on why debuggable web infrastructure matters even if AI SRE agents exists, but the idea got delayed and I ended up posting it on HN... :')	dorianniemiec	1793376102	1
+50308997	I'm wondering if it would be a good idea to have the AI occasionally throw a wrench in the works of the dev environment Chaos Monkey style to keep the SRE team accustomed to handling responses.	InvisibleUp	1793388469	1
+50306217	Seeing this posted a week after I had to emergency push cve fixes to 1200 servers in production is pretty funny.<p>Every person on my team is capable of networking, product engineering, database, job processing and we have command of the entire stack. We will push updates for CVEs with stuff we manually compiled. We own the build system and have the ability to change product as needed. We all have experience in product and we're all capable of pushing fixes as needed. Frankly the SRE team is by far the smartest team I have ever worked with at any company I've ever worked at.	hparadiz	1793377520	1
+				
+50309871	I had an incident in prod years ago, that no one was able to solve from my team, and it took days for me to figure out what is happening. It was a tricky one.<p>For Claude it took 10 minutes to solve it.	zsoltkacsandi	1793392967	1
+50306321	Here's a thought experiment: why is it that I can't do long division?<p>The Calculator!<p>Calculators deskilled long division!<p>Thing is though: who gives a damn about long division? The real task is your taxes or making a massive BI report for your presentation tomorrow.<p>AI makes stuff that was hard - someone's bread and butter - possible to ask for and have done for you. Why bother staying skilled at those things when you can broaden? It clears the way for tasks that used to take forever to become something to steamroll through on your way to a much greater outcome. It's the micro way that, in the macro, humanity becomes far more capable as a species. The gates are being flung wide open and the gatekeepers are being lapped and they have blogs!<p>It's not a tragedy, it's universal access to leverage.	cadamsdotcom	1793377927	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50306867	So they get deskilled which means they're no longer considered professionals but merely technicians which means they're now elligible for overtime.	bigbuppo	1793379995	1
+50307515	Obviius fix:<p>AI Isn't Replacing SREs. It's Destilling Them.	SXX	1793382356	1
+50307544	I work on a major distributed system at a faang. We are currently in the process of letting ai be the first responder on all incidents	mikert89	1793382439	1
+50310175	How do you guys fight deskilling ? I can see my brain rot from reviewing $current_llm approaches to solving jira tickets.	agumonkey	1793394600	1
+				
+50328067	Can we go back to calling thm sysadmins?	xnx	1793556697	1
+50309782	I’d love if author mentioned SRE is site reliability engineer. I’m still not sure if that’s it	notyourav	1793392445	1
+50308551	But I'm not a factory worker sitting around waiting for something to break. I'm so busy. I'm solving more and ever more complex problems. If anything, I'm becoming more skilled...<p>At least part of it is that I waste less time debugging and testing, and now I have more time to learn new skills and technologies (faster).	timtimmy	1793386541	1
+50308870	"> And to answer the burning question in your head, our goal isn’t AI that replaces SREs. It’s AI that supercharges SREs.<p>Ah, that bullshit reasoning again. No, if you build something that ""supercharges SRE"", someone <i>will</i> be made obsolete.<p>I'm geniuinely sick of this framing, seeing people at my company building company-wide skill repositories and shoving contents of their brains into slick Markdown documents. Well thanks, now our AI knows everything, good luck with your future career (if there is any left)."	mystifyingpoi	1793387838	1
+50306547	"I work a ""dev""ops job, and like yeah, I'm pretty sure this field is even more fucked than software engineering is.<p>IaC codebases, configs, utility scripts are relatively tiny, and fit into context windows whole. Models are eating them for breakfast.<p>They're really good at incident response. Sadly, much better than our dedicated colleagues from <location> ever will be. They'll chew through cloud service logs, application logs, application code, iac code and config, CI output, etc. to get whatever is needed, cause wide knowledge is no issue. Even disassembling stuff is no barrier, tracing things down from app level, to runtime level (e.g. JVM), to native calls.<p>They're really good at handling deployments, end to end infra setup and migrations, following checklists. Hell, they don't even really need checklists. Something that cannot be said about other dedicated colleagues from <location>, who cannot breathe without a checklist, will skip over steps, or otherwise very creatively misinterpret them or improvise something wicked.<p>They're really good at spinning up mad nice dashboards, and keeping business types happy with impressive looking write-ups they'll never read. It's really refreshing to not have to write those write-ups anymore (or the aforementioned checklists).<p>It's straight up both not looking good and looking better than ever. Having it be fully hands off remains an issue though."	perching_aix	1793378788	1
+				
+50311961	"I had never heard about SRE before and suddenly it's all I see. Modern problems (slop fest) require modern solutions (someone to babysit broken systems)?<p><pre><code>  Site reliability engineering (SRE) is a discipline in the field of software engineering and IT infrastructure support that monitors and improves the availability and performance of deployed software systems and large software services (which are expected to deliver reliable response times across events such as new software deployments, hardware failures, and cybersecurity attacks).[1] There is typically a focus on automation and an infrastructure as code methodology. SRE uses elements of software engineering, IT infrastructure, web development, and operations[2] to assist with reliability. It is similar to DevOps as they both aim to improve the reliability and availability of deployed software systems.
+</code></pre>
+<a href=""https://en.wikipedia.org/wiki/Site_reliability_engineering"" rel=""nofollow"">https://en.wikipedia.org/wiki/Site_reliability_engineering</a>"	vhantz	1793406365	1
+				
+50307638	idk.. it’s upskilling many people. AI seems to be very kind to people with ideas. It takes away the boring work and leaves the interesting part. So yes, it replaces and deskills those who only do boring work	aillusions	1793382774	1
+50306809	"Previous discussion on an extremely similar article: <a href=""https://news.ycombinator.com/item?id=49574167"">https://news.ycombinator.com/item?id=49574167</a>. This one even name-checks <i>The Ironies of Automation</i> in pretty much the same way."	gnfargbl	1793379772	1
+				
+50307057	It's fairly hard to understand to me, but also entirely unsurprising that swapping one occupation for another would be interpreted as a net loss at individual skill level.<p>You guys are still doing things, correct? Is my experience so outside the norm, or is stuff still challenging?	jstummbillig	1793380679	1
+50308069	Why just SRE's it's deskilling everyone in this industry.	threethirtytwo	1793384441	1
+50311436	"This neglected to say what an ""SRE"" is."	VerifiedReports	1793402539	1
+				
+50306652	"The ubiquity of this rhetoric is not an indication of its correctness.  Repetitive tropes like ""deskilling"", ""losing the ability to think"" reflect a deep seated distrust of AI alone.  No matter how many people parrot these fears the fact remains that you choose your attention.  My manager has started coding, heavily, aided by frontier LLMs.  He instinctively knows his boundaries and defers much of the more complex work to his engineers.  We use the clankers too.  Have we been deskilled?  Hardly appropriate.  Trans-skilled, or learning a new emphasis built upon our long experience?  Much closer to the truth."	waffletower	1793379168	1
+50306676			1793379257	1
+50314250	I disagree, it gives me the ability to apply first principle knowledge unhindered by whatever fuckass idiotic idiosyncrasies a particular cloud platform considers “good design”<p>AWS, Azure, GCE, Alibaba Cloud - all the same crap, different names and slightly different jenga towers.<p>It applies to surprisingly a lot of crap and it’s a good substitute for where we can’t put automation in yet.	cloudie78	1793436382	1
+				
+50307540	IDK... it's upskilling me ...	aillusions	1793382426	1
+				
+50314162	Same happens with SWE	krzyk	1793434965	1
+50312872	"- ""not you OP but to the other guy linked on your post ""writing code was always the easy part of the job""<p>- if writing code was that easy, i request you to come and write call of duty modern warfare 5 from scratch without a game engine in c++"	vivzkestrel	1793416265	1
+50306002	Yeah that. Watched our lot spending 2 hours using Claude to debug shit that was blindingly obvious if they actually didn't go to Claude first.<p>If Claude goes down or stops existing when we go down, we're fucked.	bcvvvy	1793376748	1
+				
+50306422			1793378328	1
+50314150	Not deskilling all of us. Some of us with greybeards are immune to the hype train.	jachee	1793434806	1
+50307771	Wow. I wonder how the tech bros are gonna handle this thoughtful article.	_HMCB_	1793383267	1
+50326824	[flagged]	meghanainti14	1793548736	1
+50307194	[dead]	bilater	1793381140	1
+50311784	[flagged]	apishare_api	1793405016	1
+50313265	[flagged]	simonelaro	1793421721	1
+50313359	[flagged]	MaxQuimby	1793422968	1
+50321303	[dead]	nektro	1793489690	1
+50309548			1793391366	1
+50309173	[dead]	ihsw	1793389335	1
+50321690	[dead]	deterministic	1793493643	1
+50306027	[dead]	pjmlp	1793376854	1
+50306580	[flagged]	danielovichdk	1793378907	1
+				
+50306034	At this point a company can effectively fire you by taking away access the Enterprise LLMs.	temporallobe	1793376871	1
+				
+				

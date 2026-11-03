@@ -1,0 +1,6 @@
+50294526	"Managing data transformation (e.g. dbt) projects at scale can be challenging: DAG violations, that one model that grew to 2K lines, duplicated logic.<p>Inspired by the book 'Building Evolutionary Architectures' I built tff to help data transformation projects evolve in a desired direction. It comes with a github bot that you can plugin to your CI pipeline.<p>It aims to let transformation projects evolve in the desired direction by:
+* ensuring layer boundary integrity;
+* detect duplicate CTE logic;
+* catch violations locally and in CI<p>Core concepts: rules apply to models; checks apply to architecture and DAG checks.<p>Curious to read what you think. What can be improved? What's missing?"	bartschuijt	1793302180	0
+50302497	Looks very promising!<p>Now I have to decide which of the ERR lints we want to fix and which to exclude :)	anentropic	1793359553	1
+				

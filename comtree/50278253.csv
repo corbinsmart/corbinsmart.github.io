@@ -1,0 +1,12 @@
+50278253		guybedo	1793210861	0
+50288756	"So the thing is, bytes are not actually a more ""natural"" encoding than tokens. I mean, jesus christ Unicode, right? A lot of what the BPE is doing is just <i>un</i>-doing the wacky arbitrary standards we use to encode characters into bytes, like, say, merging the 3-4 random bytes used to specify the codepoint of some CJK character.<p>There are so many possible naturalistic encodings. Waveforms, one-hot encoded discrete articulatory features, motor programs for simulated vocal apparatus, IPA, bitmaps of printed characters (handwritten? averaged across a bunch of fonts?), SVG programs to draw characters, decomposing big CJK chars via Ideographic Description Sequence, treating all unicode codepoints equally (kinda halfway between bytes and tokens)...<p>I don't think a thorough survey exists."	jephs	1793280730	1
+				
+				
+				
+50284999	Its cool, but it goes against the whole optimization that NLP has gone through with BPE and redundancy/repetition in large data in general.<p>Put this on a coding task or English and you will underperform against tokenizer that exploit multi-char patterns and can decode much faster.<p>Given where things are going with spec decode (I've seen 32 token spec-decode pop up in the frontier models), you will need a very domain-specific use for this to be useful imo like massive tabular data, but at that point you already have everything structured, and might as well use an LLM with polars/sql/arrow.	augment_me	1793253164	1
+				
+				
+				
+50282935	Oh man, that haskell quicksort tokenization has got me feeling great	vatsachak	1793234371	1
+50286678	[flagged]	sarra01	1793268054	1
+50285635	[flagged]	aburayhan	1793259786	1

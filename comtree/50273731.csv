@@ -1,0 +1,66 @@
+50273731		torutofu	1793196140	0
+50280658	We’ve officially hit the JS framework churn phase of AI tooling.	gawacer	1793220405	1
+				
+				
+				
+50274542	Why would you not use an open-source harness in October 2026? I am generally curious - what is the alpha?	h0rv	1793198736	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50285077	I'm still waiting for one of these companies to provide the actual hard part.<p>The web front end (chat UI) that the business actually interacts with often needs to be adapted to the domain. We have tried to use the various chat UIs out of the box with customization on top and all of this has failed spectacularly. There are cases where we need to pop into an inline approval flow with custom elements and controller actions. How do you hook the existing platforms for this? There zero path. MCP can give you an information channel, but it does not enforce the required UI/UX flow for certain tool calls. We could either compromise on UX or rebuild chatgpt.com from scratch. We ultimately went with the latter.	bob1029	1793254010	1
+				
+				
+				
+				
+				
+50277461	What about an AgentFactoryFactory? That would increase Cursor's valuation from $60 to $120 billion.	fallks	1793208763	1
+				
+50274268	"Open AI and Anthropic already have ""Agent SDK"" brands. Vercel is ""AI SDK"". I wish folks would come up with some good names for new projects."	scosman	1793197879	1
+				
+50274230	If you are on onstagram 99% of posts are people shilling skills where you need to subscribe to some service. To which they are an affiliate.<p>And a lot of the apps are the same thing.<p>It's going to be a race to the bottom.	thedangler	1793197767	1
+50281246	Does anyone even use Cursor still? I loved it during the tab era but ever since they tried to catch up to agentic workflows, the product experience got worse and worse	asdev	1793223387	1
+				
+				
+				
+				
+50281298	I’ve been using Vercel’s Eve it’s really lovely for an agent that lives on a server somewhere (no affiliation)	outlore	1793223597	1
+50274442	The video is still showing @grok/agent-sdk.<p>Meanwhile, we know Grok Bot was really Cursor beforehand... it must be wild in there.	holistio	1793198381	1
+50274180	I'm starting to think that the LLMs ecosystem is going in the JS ecosystem direction, endless technologies with little to no adaption.<p>Literally everyday there is a new tool and the tools released last week are deprecated.	username_my1	1793197617	1
+				
+				
+				
+				
+				
+				
+				
+50274022	"I have so many use cases for this. I just hope that we'll get a standard like <a href=""https://www.openresponses.org/"" rel=""nofollow"">https://www.openresponses.org/</a>, because the idea of coupling an app to a particular vendor doesn't seem appealing at all, especially since it seems that the functionalities they offer are more or less the same. (I'm thinking about the OpenAI's Agent API and Anthropic's Agent SDK as ""alternatives.)"	pscanf	1793197049	1
+50274332	Pi durable for me	hippycruncher22	1793198052	1
+50274290	Honest question, why shouldn't any agent SDK's API simply be a PROMPT.md with a runtime that runs the LLM with tools; why do you need excessive abstractions over that like langchain offers?<p>Is it to have boundaries of some determinism?	simianwords	1793197923	1
+				
+				
+				
+				
+50280766	In 2026, the wheel that keeps getting reinvented is the agent harness.	docheinestages	1793220880	1
+50274879	"Also see the existing Cursor Typescript SDK.<p><a href=""https://cursor.com/blog/typescript-sdk"" rel=""nofollow"">https://cursor.com/blog/typescript-sdk</a>"	randomblock1	1793199834	1
+50288598	Suberb	ajaydimbale02	1793280041	1
+50278148	"...why?
+   params: [
+      { id: ""effort"", value: ""high"" },
+      { id: ""fast"", value: ""true"" },
+    ],"	_andrei_	1793210605	1
+50323208			1793514919	1
+50281418	[flagged]	PhilippeRobert	1793224170	1
+50281840	[flagged]	SWZconcept	1793226523	1
+50282739	[flagged]	apishare_api	1793232663	1
+50274824	[flagged]	thomas_data	1793199671	1
+50274577	Why would anyone use this over the Anthropic sdk	mikert89	1793198853	1
+				

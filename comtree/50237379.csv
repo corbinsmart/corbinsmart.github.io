@@ -1,0 +1,23 @@
+50237379		davikr	1792973717	0
+50238530	"To be fair, the person who created the challenge stated that is was a fairly standard setup, replicating something outside a lab, but in reality is was something completely different, and not anywhere near how PHP is usually used.<p>It used the development server in PHP, and did not even run requests with fpm or mod_php. Instead, it used the built in dev server of PHP, and just proxied requests from nginx to the php dev server.<p>Literally the first thing on top of the PHP docs about the dev server used here is this:
+""Warning
+This web server is designed to aid application development. It may also be useful for testing purposes or for application demonstrations that are run in controlled environments. It is not intended to be a full-featured web server. It should not be used on a public network.""<p>That is not something people do, and it also explains why the site was down all the time, cause the dev server is super slow, as it's not meant for this in any way shape or form. A real setup would add a few zeros to the requests per second a server could handle.<p>So all in all, this was very pointless, as it was nothing like real php sites. A shame, cause a realistic setup woild be more interesting and relevant to answer the question of how hard is it really to gain RCE on a normal site."	NorwegianDude	1792983582	1
+50239284	That's interesting because there were people complaining yesterday that this was a fully static website with no PHP involved lol	weird-eye-issue	1792990377	2
+50239631	"It was <a href=""https://x.com/LiveOverflow/status/2114412072805208237"" rel=""nofollow"">https://x.com/LiveOverflow/status/2114412072805208237</a><p>Nitter mirror: <a href=""https://nitter.netbub.com/LiveOverflow/status/2114412072805208237"" rel=""nofollow"">https://nitter.netbub.com/LiveOverflow/status/21144120728052...</a>"	nodja	1792993912	3
+50239489				3
+50239596				2
+50246800				2
+50239068				2
+50239126				1
+50237737				1
+50239887				1
+50244110				1
+50240423				1
+50240071				1
+50238511				1
+50240543				1
+50244150				1
+50241953				1
+50240660				1
+50243655				1
+50238465				1

@@ -1,0 +1,37 @@
+50326609		edward	1793547229	0
+50327401	"An interesting component of the switching off of POTS is that the quality of service requirements are different. POTS is regulated to require the phone company to maintain a certain legal quality of service with negative consequences for failing to do so.<p>Meanwhile, cell phone and VOIP services are ""best effort.""<p>The phone company put a pretty huge amount of effort into maintaining QoS (Lily Tomlin jokes aside) because there were consequences for not doing so. It makes sense that they would prefer to shed that responsibility."	jordanb	1793552425	1
+				
+				
+				
+50327677	The biggest problems is power.  The phone company power the POTS line — you can even make an emergency call from an abandoned building with no electrical service (and no phone subscription) if you find a jack and plug in.  Under those huge central office buildings are huge banks of -48 V batteries which are required to provide a week of power (or was it two in the US?  I can’t remember).<p>Now you’ll have a router with a battery that the owner doesn’t know about and won’t service, so that within a year or so it won’t work.  In an emergency: no phone service.	gumby	1793554246	1
+				
+				
+				
+				
+				
+				
+				
+				
+50328724	"Somewhat rural here (well 1/4 mile from an A road). We were supposed to be switched to digital several times, been sent a pile of hubs and extender devices and have had several letters about the switchover date. Latest one was we are apparently ""switched over"" a month ago, except that it actually turns out to be SOTAP [1] and everything works exactly as before (including CLI, using the old 300 baud standard). I assume they couldn't get digital to us so they've installed kit at the exchange just so we are ""switched over"".<p>Fairly obviously, the SOTAP kit continues to provide power from the local exchange so even in the (relatively common) power cuts here the phones continue to work (we're not on any kind of priority register or anything like that, I assume it's just BT are dealing with peopole living out in the sticks).<p>N.B. we also have a 2nd line, on a business account (WFH) - that one is full digital, 70mbps VDSL and has cisco/yealink ATAs for phone service. So two lines, a home line that's SOTAP and a work line that's broadband/digital voice.<p>[1] <a href=""https://www.ispreview.co.uk/index.php/2025/09/openreach-launches-alternative-uk-analogue-phone-line-product.html"" rel=""nofollow"">https://www.ispreview.co.uk/index.php/2025/09/openreach-laun...</a>"	zh3	1793560628	1
+50329015	"Replacing simple dedicated circuits with ""best effort"" highly complex packet-switched networks? I bet it's a great money-maker for those involved in the work, but a huge step backwards for reliability.<p><i>The move is part of a wider government scheme to get the UK onto all-digital high-speed networks running on fiber-optic infrastructure, and the legacy phone service – with its dependency on copper cabling – was standing in the way.</i><p>Not surprising that the government is involved; using new technology for new installations is acceptable, but cutting off existing paying customers with service that may have been working just fine for many decades is hostile.<p>I'm not in the UK, but my house has had a working landline since I bought it many decades ago, and I don't expect that to change anytime soon."	userbinator	1793562336	1
+50329114	That's not part of the phone system I want cut off. I want the part that allows international calls that come from the same few buildings in a small space that are responsible for half a trillion per year scams.	throwitaway222	1793562887	1
+50327323	> Anyone with concerns should contact their provider, but the responsibility cannot rest with customers alone.<p>Best of luck contacting your provider	Y_Y	1793551982	1
+				
+50327200	"Finland a few months back: <a href=""https://news.ycombinator.com/item?id=48786868"">https://news.ycombinator.com/item?id=48786868</a><p>California's also been fighting this: <a href=""https://arstechnica.com/tech-policy/2026/07/att-loses-key-ruling-in-bid-to-stop-offering-basic-phone-service-in-california/"" rel=""nofollow"">https://arstechnica.com/tech-policy/2026/07/att-loses-key-ru...</a>"	lelandfe	1793551115	1
+50328667	Britland is apparently an informal term for England/Britain.<p>So all of it.<p>oh it is el Reg,  cheeky bastards	tejtm	1793560246	1
+50327640	> … public awareness seems low that analog phone services will soon be disconnected.<p>What’s the level of public awareness that they’re even using the landline service? My 98yo grandmother has had the “same” phone service (with the same phone number) for decades. She’s completely unaware of the infrastructure it runs on.<p>I happen to know that her area was converted to all fiber digital years ago, but she wouldn’t know that. Her children (my parents’ generation) are also clueless about the infrastructure itself.<p>So how many people know they’ll be affected even if they have been informed of the change?	jagged-chisel	1793554027	1
+50328552	"> need to coordinate a much more cohesive campaign that reaches customers directly<p>I think this is the crux. You should definitely mail everyone affected.<p>Send a letter 2 years before. 1 year before. 1 month before. Do a scream test at termination date (switch off for a day and see who pipes up), keep operating for two weeks and that's it.<p>Some people will never switch as long as ""it works"", but that's not your problem. Some letters, a website that the young generation can easily share (a daughter visits and a son takes care of IT, not uncommon.)"	stephbook	1793559639	1
+50327331	Where is Britland?	kevTheDev	1793552015	1
+				
+50327966	[Tip] If you decide to cut the cord but want to keep your number you can port it to Andrews & Arnold (a small ISP, based in Bracknell) as a £1.80 per month VOIP subscription.	implements	1793556034	1
+				
+50327400	It's still using the same cables if you're not using fttp. Just that the phone is connected through the router first.	xacky	1793552424	1
+				
+50327717	most landlines in continental Europe are already VoIP	wolfi1	1793554472	1
+				
+50328785	"Lots of change in a short time.<p>Long-wave and Radio Teleswitch just shut down in the spring. After medium wave shut downs in 2024. Different topic but lots of communication changes. <a href=""https://en.wikipedia.org/wiki/Radio_teleswitch"" rel=""nofollow"">https://en.wikipedia.org/wiki/Radio_teleswitch</a>"	jauntywundrkind	1793561074	1
+50328209	> The company previously told The Register that customers without a fiber connection will likely be switched to SOTAP for Analog (Single Order Transitional Access Product), where equipment is installed in the local telephone exchange to allow them to continue to use their old phone line as before.<p>What does Single Order refer to? One purchase order at a time?	mmooss	1793557492	1
+				
+50327409	Internet services are the new walled city? -- be cast out at your own peril; suits the State just fine	mistrial9	1793552450	1
+				
+50328108	[dead]	betamagel	1793556920	1

@@ -1,0 +1,64 @@
+50314666		DeepLogin	1793442221	0
+50315192	"TIL: The official Signal app can now use one account, shard over two devices.<p>This was my main reason to use Molly over Signal.<p><a href=""https://aboutsignal.com/news/signal-allows-iphones-to-be-linked-as-secondary-devices-beta/"" rel=""nofollow"">https://aboutsignal.com/news/signal-allows-iphones-to-be-lin...</a>"	jttnr	1793447424	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50314974	"Someone in that thread notes that when you install the Signal APK from here [1] it ""doesn’t get updates tho"", but this isn't the case. Signal will update itself; you get a notification to update. Often earlier than the Play Store, probably due to its reputation to randomly delay updates.<p>[1] <a href=""https://signal.org/android/apk/"" rel=""nofollow"">https://signal.org/android/apk/</a>"	throwaway89201	1793445570	1
+				
+				
+				
+50319064	"If anyone is interested, I run my own minimalist fork of Molly named Polly.<p>I just released a stopgap with the fixes:
+- RingRTC 2.73.0-1, which includes the call-teardown fix (the hangup/hot-mic issue)
+- Signal's blacklist of the eight compromised eMudhra TLS intermediates<p><a href=""https://github.com/lone-cloud/polly/releases/tag/v8.19.2-6"" rel=""nofollow"">https://github.com/lone-cloud/polly/releases/tag/v8.19.2-6</a><p>It's still based on Signal 8.19.2. The build is arm64-only and Android 14+.<p>Plug: I also maintain my own UnifiedPush distributor app that optionally pairs with a notification gateway: <a href=""https://git.lonecloud.dev/lone-cloud/prism-android"" rel=""nofollow"">https://git.lonecloud.dev/lone-cloud/prism-android</a>
+My motivation for Prism was to get Proton Mail email notifications delivered via UP, which requires a self-hosted Prism server."	lone-cloud	1793473664	1
+				
+50315322	Sometimes I get the feeling that Signal hates users who aren't total normies. Unified Push, which works flawlessly on Molly, could easily be implemented in the regular client. Just as they could easily offer a Google free version for F-Droid or simply for people who want nothing to do with Google. But they just refuse. Just like it took years for nicknames to be introduced, and registering without a phone number has only recently become possible and only through the Google Play Store.	ada-h00k	1793448206	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50316514	"It explains perfectly why Signal does not want third-party clients.<p>To the haters: I am not saying that it is <i>perfect</i>, in an ideal world we could have secure third-party clients. I am just saying that it is pragmatic: in our world, we don't.<p>Signal has forever been a pragmatic approach to private messaging, and it succeeded at that: Signal literally put E2EE on the map!<p>Signal has a threat model, and they do the best app they can addressing that threat model. Which means that they cannot accept third-party clients or federation. They don't say ""you cannot use XMPP or SimpleX or Matrix on the side"", they just say ""we provide this, if you benefit from it, use it for free"".<p>Still, there is a very vocal minority that takes every opportunity they take to explain how ""insane"" that is, and how they ""cannot imagine how anyone with some kind of intelligence wouldn't be revolted"". I believe it is the same posture as those complaining about Android or GrapheneOS not giving root access (""even in the advanced settings""). The fact is that if you want root access on your phone, you should install a system that gives you root access, and not <i>select</i> a system that does not <i>and then complain</i>.<p>Signal is great at what it does. It's okay to <i>also</i> want something else <i>while acknowledging that Signal is great at what it does</i>."	palata	1793456808	1
+				
+				
+50315168	Well that's timely, and a bummer. I was just wondering about this yesterday, I use signal on my primary phone and Molly on a secondary phone.<p>Signal got an update yesterday and when I saw the notification I couldn't remember the last time Molly was updated...	_heimdall	1793447242	1
+50316252	I have been a signal user from very early on, converted most of my family and quite a few friends. I did use Molly to register my second phone (just found I can do that with signal now, so uninstalled Molly and installed signal).I have the impression that the calling experience significantly degraded over the last year, i.e. calls just not ringing at the other end, sometimes even not showing as missed calls, Video calls being very low quality even though both ends are on high quality connections (and switching to other apps yields high quality). Just yesterday I was standing in a queue inside and a friend was outside. We both tried to call each other but the call was just giving ringtone without ringing on the other end. It's become so bad that I'm now considering setting up my own matrix server and transition to that.<p>Anyone else experiencing the same? I have been wondering if it might have been me using molly, so will test now after going back to signal for second device.	cycomanic	1793455068	1
+				
+50322111			1793498709	1
+50318476	Signal only has one recent CVE, one which lets an attacker keep an audio or video stream open after you hang up. It doesn't disclose e.g. your chats with other users.	markasoftware	1793470335	1
+				
+50316671	"Network-connected application developers have as a community, desensitized me to this. They are the Boy Who Cried Wolf. Continuous mandatory updates in the name of security. Guilting you into thinking each update is critical due to ""security"".<p>I don't care. It's a hassle, and I don't believe the threats they warn of are something to warrant my attention in the landscape of things I should worry about in my life. Anecdotes don't help. To overload with another analogy: Security is a ""think of the children"" or ""full stop"": it's a thought-terminating cliche, and I don't believe people who use it."	the__alchemist	1793457940	1
+50318087	Pro tip: Signal is vulnerable too.	johnnyApplePRNG	1793467500	1
+				
+50321832	[flagged]	jiang-li	1793495322	1
+50321008	[dead]	hdb385	1793486877	1
+50317739	[flagged]	betamagel	1793465170	1
+				
+50315214	"The incorporated 501c3 named Signal is, in IT terms, a vendor. Is it not?<p>The Signal client software is open source and some of the clients have reproducible builds. The Signal server software is open source, though has a history of being over a year out of date at some points. Other deployments of this server software for production use are rare.<p>Suppose you configured an instance of the Signal server software and others you know ran also a somewhat modified Signal client that could access that instance of the Signal server software.<p>But the centralized namespace of the hosted Signal service hosted by the incorporated 501c3 named Signal would not be accessible through that server instance now would it.<p>And, as dictated by the incorporated vendor of the centralized namespace, and other reasons, in practice, this client would have to run as a separate piece of software. ""Another app"".<p>This is vendor lock-in.<p>The service hosted by the 501c3 named Signal seems widely open yet is a permissioned namespace. A physical location tracking number aka phone number or a credit/debit card is required to access the namespace. This is for slaves. The profane.<p><pre><code>  Open Signal on your phone to keep your account active
+</code></pre>
+This vendor is abusive.<p>And, I don't think this is what Moxie wanted.<p>Signal 501c3 is a centralized service. XMPP and Matrix are decentralized/federated. SimpleX is distributed."	jon128	1793447609	1
+				
+				
+				
+				
+50318437	Should take only a few minutes to use an LLM to sync to upstream and build a new APK if you have any of the $20 subscriptions	markasoftware	1793470062	1
+50320910	Signal's rigid anti-fork stance allows it to stay compliant with its 9-figure government contract, which requires it to include a backdoor in final builds that are not reproducible from the official source code.<p>All these poor, starving users who can't have any freedom unless they compile their own builds don't even have proof that Signal _doesn't do that_. And the worst thing is they probably have no idea there are already free and verifiable alternatives like Delta Chat and SimpleX.	user012371939	1793485932	1
+				
+				
+				
+				

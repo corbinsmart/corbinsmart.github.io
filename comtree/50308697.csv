@@ -1,0 +1,44 @@
+50308697		SondreDag	1793387122	0
+50309403	"Prompt and competent response, as expected from bunny.<p>""Last week, one of our infrastructure providers reported unauthorized access involving third-party server management software. One of our CDN nodes, located in Armenia, was hosted on a server supplied by this provider.<p>After receiving the alert from the affected provider, our engineering team took immediate action. Within 20 minutes, we stopped routing traffic through the server. We then reviewed and preserved the relevant security logs for investigation, securely wiped the server, and revoked its access to our other systems. The affected server has been permanently removed from our infrastructure."""	colonCapitalDee	1793390572	1
+				
+				
+				
+50309394	"Bunny used Gcore in Armenia. Gcore themselves got hacked, not Bunny. Bunny was just an affected downstream, in only one of their POPs.<p><a href=""https://lowendtalk.com/discussion/222315/gcore-compromised-via-ispsystem-panel#latest"" rel=""nofollow"">https://lowendtalk.com/discussion/222315/gcore-compromised-v...</a><p>The title is heavily misleading."	eraclide	1793390540	1
+				
+				
+				
+				
+				
+50309446	"<p><pre><code>  While neither investigation has found any indication of unauthorized access to our server, we cannot completely rule out the possibility.
+
+  If unauthorized access to our CDN node did occur, the potentially exposed information would have been: temporarily cached CDN content, Pull Zone configurations, and TLS certificates stored on that server.
+
+  As an additional precaution, we have revoked and reissued all TLS certificates for bunny. net platform domains (b-cdn. net and bunny. run). Reissuance of managed TLS certificates for custom domains is ongoing and is expected to be completed within the next 24 hours. No action is required from customers using managed certificates. We will post a further update on our status page once this process is complete.
+
+  If you manage your own TLS certificates, we recommend revoking and reissuing them with new private keys as a precaution.
+
+  No other customer data, including bunny. net account data, was stored on the server in question, and no internal systems were affected.
+
+</code></pre>
+so it seems like the underlying provider <i>potentially</i> allowed, for instance, disk read, that above is what bunny says might have been on disk in this case? Am I reading that right?"	bobtheborg	1793390795	1
+50310944	> After receiving the alert from the affected provider, our engineering team took immediate action. Within 20 minutes, we stopped routing traffic through the server. We then reviewed and preserved the relevant security logs for investigation, securely wiped the server, and revoked its access to our other systems. The affected server has been permanently removed from our infrastructure.<p>When responding to a potential breach, the correct protocol is to contain the incident and PRESERVE EVERYTHING for investigation. Do not try to be selective at what data you keep or don't keep. They've unfortunately likely destroyed evidence and will not be able to determine if the attacker actually breached the server or not, and if so, how. This speaks to them having a poor or non-existent incident response plan.	evan_a_a	1793399231	1
+50310634	<i>> Last week, one of our infrastructure providers reported unauthorized access involving third-party server management software. One of our CDN nodes, located in Armenia, was hosted on a server supplied by this provider</i><p>Are they talking about physical security? Someone grabbed the server, etc?<p>Colocation providers usually don't care about security beyond that, or has that changed?	gtirloni	1793397094	1
+50310355	It feels like theres an incident every hour.	bitlad	1793395548	1
+				
+50309820	php.net is on Bunny to my knowledge and so is PECL for example. Great potential for compromised packages if this hadn't been caught , but I don't know the blast radius since the victim would need to connect to this particular CDN	asimovDev	1793392635	1
+				
+50320620	Bit surprised our old keys have not yet been revoked, apparently due to letsencrypt rate limiting? Wonder how many thousands of private keys they store on a CDN node	thenaderman	1793483612	1
+50309561	"Sadly this is entirely predictable.<p>Some time ago my colleague and I were doing some due-diligence on Bunny as a potential service provider.<p>We asked them some basic security questions, nothing low-level, just some basic high-level overview type of stuff to roughly check if they were following well-known best-practices.<p>Their response was a consistent and constant ""cannot tell you due to security reasons"".<p>That rang alarm bells.  Any provider such as them who is not sufficiently confident in their security to be willing and able to discuss security at a high-level perspective is not worthy of trust as far as I am concerned."	traceroute66	1793391450	1
+				
+				
+				
+50310680	is it only me or those security incidents on front page are kinda out of control?<p>maybe it's my brain just primed or attacks picked up pace recently	lackoftactics	1793397424	1
+				
+				
+				
+50309566	[flagged]	0xy	1793391476	1
+				
+				
+				
+				
+				

@@ -1,0 +1,17 @@
+50324114		signa11	1793527462	0
+50329637	Prefer non qtquick apps, as they use 10x more memory.	0x073	1793565705	1
+50325674	"<p><pre><code>  > ""Nerd Font icon scaling""
+</code></pre>
+That would be a real improvement over Konsole.<p><pre><code>  > ""Additional optimizations for running efficiently when containerized (e.g. as a Flatpak)""
+</code></pre>
+I never thought about running the terminal emulator itself in a bwrap session, but I am eager to learn what those optimizations entail."	exceptione	1793540914	1
+				
+				
+50326510	"> <i>Linux distributions are currently moving away from the in-kernel virtual terminal to better userspace solutions, generally Kmscon.</i><p>As I noted 9 years ago, Kmscon got pulled into systemd with much fanfare, and then was quietly dropped with a lot less fanfare.<p>* <a href=""https://news.ycombinator.com/item?id=16014573"">https://news.ycombinator.com/item?id=16014573</a><p>9 years down the line, people are still believing the blurbs on the WWW that in fact pre-date systemd-consoled.  Whilst Kmscon itself still exists, having spent the time from roughly when David Hermann (now Rheinsberg) pulled it from systemd until 2025 under the stewardship of Peifeng Yu, there's no sign yet that people who make distributions are building Linux as a general rule with the in-kernel terminal emulator cut out.<p>Would that they were!  I, for one, first proposed this in 2006."	JdeBP	1793546564	1
+				
+50325880	Really hope Yakuake would also benefit from this development.	odiroot	1793542297	1
+				
+				
+50326005	"Sooooooo computers are fast now. we don't have to miserly conserve every single bit and cycle.<p>Monospace font is required because ""i"" and ""m"" are differently wide, and because computers were slow, rendering text to the screen was hard. We don't live in that world anymire though. TLS protects every action you take on the web with a giant pile of math that would make the first computers choke.<p>Kwi seems to follow in those footsteps and continue this abuse of typography and beauty."	solyin	1793543114	1
+				
+				

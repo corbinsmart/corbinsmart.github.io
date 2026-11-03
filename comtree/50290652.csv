@@ -1,0 +1,54 @@
+50290652		datascientist	1793287788	0
+50316022	"I think the royal combo is Lean 4/TLA+/etc. plus AI plus a deterministic generator. For large systems formal method assertions need to be compressed down to a human comprehensible size. This can happen when the assertions are confirming the accuracy of a model and its attached code generators. The generator can generate proofs of the generated code and a human only needs to ensure that the generator provably generates the correct mass scale assertions.<p>This is how formal methods can constrain AI for large systems.<p>We're doing this at the Open Markets Initiative, where we've generated millions of lines of Lean 4, TLA+, and Rocq that ensure that our open source electronic trading protocol code is accurate. We didn't expect it but the Lean prover did identify some incorrect steps.
+<a href=""https://github.com/Open-Markets-Initiative"" rel=""nofollow"">https://github.com/Open-Markets-Initiative</a>"	wbeckler	1793453325	1
+				
+				
+50316030	What do people think of property based testing? I’ve set up a few property based tests and it feels almost like formal verification.<p>I know it’s not the same thing, but PBT’s can catch all sorts of absolutely crazy bugs that I never would think to check for. Stateful stuff, cross-service stuff. My only gripe with PBTs has always been the tedious setup, but LLMs solve that.<p>I haven’t seen much discussion around PBTs lately, but you get a ton of bang for your buck in the LLM age	chamomeal	1793453387	1
+				
+				
+				
+				
+				
+				
+				
+50315069	> ... But we expect, in the next few months and years, people will focus way more on the specifications, on the models, on the properties you want the software to have.<p>Does anyone have resources on learning modelling for formal verification? (Does not have to be in Lean)	PandaRider	1793446252	1
+				
+				
+				
+50318321	If you use agents to generate formal verification, how do you tell if the properties that are verified are the correct ones?	beecasthurlbow	1793469170	1
+				
+				
+				
+				
+50317232	Currently the foundation theories in mathlib are built with the assumption that formal proofs are expensive. Concepts are fragmented to share as much proof as possible. With LLM the assumption is no longer correct. Concepts and proofs should be built to fit human thinking as much as possible and proofs can be ported by LLMs between theories. Lean would ensure that the translation is correct.	fspeech	1793461508	1
+50320990	I just don’t know why we are using a verification that is hard to read and write for humans	charlieyu1	1793486752	1
+50321153	"I guess I'm missing something but I don't see how this isn't just:<p>1. Creating more work
+2. Shifting the existing work to specification<p>There's not really such a thing as a perfect specification.  One of the things AI is taking away is character by character feedback cycles.  Can't count how many times I'll be writing software and think in the middle of writing a return, realize this is probably not what I should be doing.  I'm not sure how you would really replicate that experience when creating specs... nobody is going to sit and meditate on their specs for hours before writing them."	robswc	1793488252	1
+50317430	"Examples of comparing the results of Lean and e.g. Rust as is described in the video?<p>I have symbolic error terms in Lean that I guess can be sampled and compared to Monte Carlo analysis? But I already had sampling-based analysis, that's why I had to do all of this (double-slit experiment and gravity with GrC(2,4)) in Lean 4.<p>What would it take to combine Lean and one or more Rust TLA+ implementations? How does an agent plan and implement this and what are the advantages and disadvantages?<p>""Comparison of Isabelle/HOL, Lean, HOL4, and Agda: A Tale of Four Theorem Provers"" (2026) but not Rocq? 
+<a href=""https://news.ycombinator.com/item?id=50043202"">https://news.ycombinator.com/item?id=50043202</a>"	westurner	1793463034	1
+				
+50316662	[flagged]	meirwolf1289	1793457866	1
+50305491	[dead]	tug2024	1793374780	1
+50316461	[dead]	aaron695	1793456464	1
+50315830	[flagged]	logir22	1793451910	1
+				
+50317265	[flagged]	zujkas	1793461727	1
+50314660	... somewhat disappointed the guy is now associated with AWS. I guess I was hoping for a non-profit organization.	mentalgear	1793442102	1
+				
+50314487	"While learning and applying formal verification in the context of using AI agents, what I feel is that sometimes it's hard to express my own thoughts as formal verification. But more than that, I doubt whether formal verification being done correctly actually solves the phenomenon of AI spinning in circles on a specific task.<p>For example, I want to eat chicken, so I try formally verifying ""chicken dish,"" and every time GPT or Claude starts digging into the origin of the sauce in the chicken dish or the breed of the chicken. Then the chicken dish never gets finished and never makes it to dinner, and instead I gain deep knowledge about the origin of chickens.<p>Of course, I know that formal verification has liveness — meaning that there must be progress in the work is also part of formal verification — but the AI judges that learning the origin of the chicken counts as progress too. Yet it ends up doing work that it actually shouldn't be doing.<p>Personally, while organizing these AI anti-patterns, I feel that when you formally verify one condition, verification of another condition gets weakened, and within that phenomenon I sense the AI spinning in circles again. In the end, I end up going through the process of reading and merging everything one by one myself, and I want to know whether this is something only I experience."	jdw64	1793439946	1
+				
+				
+				
+				
+50316058	"I noticed a problem in the ""AI is our future!"" crowd.<p>What they do, does not really interest me. With that I
+mean it is nice that they can solve many problems as-is,
+and that will probably become more important - but I am
+just not interested in looking at AI project. It is totally
+meaningless to me.<p>In the past, when you, say, have a project written by a real
+human author on github, this could be interesting. With AI
+generated projects, I just don't have the slightest interest
+in ""connecting"". I also don't think to be the only one; you
+notice this on youtube too. Some people no longer have an 
+interest in AI-generated videos and avoid them. I am curious
+when the AI hype phase will go down; right now it seems to
+not come down but I think it eventually will."	shevy-java	1793453679	1

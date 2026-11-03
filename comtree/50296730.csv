@@ -1,0 +1,99 @@
+50296730		sgondala_ycapp	1793311114	0
+50308866	Not a single mention of value or revenue.<p>Only three metrics went up: LOC, token spend and presumably release speed/frequency.<p>What's the markup (profit/COGS)? is it up?<p>Customer satisfaction? Is NPS moving one way or another?	juancn	1793387827	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50307853	"This post is funny to me, because I feel it falls well short of what a proper, forward-thinking ""AI-native"" engineering org would actually look like. That is, the author is presenting this as kind of a radical departure from normal engineering, but I just see it as normal engineering with more AI. I don't see <i>that</i> as AI-native.<p>To me, true ""AI-native"" engineering will be one where questions regarding how humans will do things like review code are irrelevant. You explicitly throw away any concept of typical software engineering and, instead, differ to the AI. Your job, as a human, is solely to do what the AI can't physically do. That's <i>not</i> the same as closing gaps between what AI is currently capable of doing and what you'd need it to be capable of doing. It's literally enforcing that anything an AI is able to do is treated as correct in itself, and you, as a human, only support it by being a human.<p>If that sounds outlandish, that's because it is. We don't have such capable AI systems yet. It's possible we never will. But that's beyond the point. The reality is trying to make an ""AI-native"" engineering org by just layering AI on top of existing processes and systems is futile. If your expectation is that AI will continue to improve in capabilities at an accelerating rate, then these stop-gaps are pointless. You might as well just ignore AI altogether until it is able to completely take over, because that's the inevitable goal, right?<p>If you're willing to buy that will be possible, then my guess is that it will occur in the form of small scale startups and actual mavericks rather than someone trying to run an existing business who will simply be too risk adverse to go all in when the time comes. Some guy in his basement is more likely to leverage AI ""properly"" to build an actual ""AI-native"" engineering org because that person won't have much to lose."	nater5000	1793383578	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50308388	It this point, a whole lot of teams have been leaning into AI-first, not-entirely-reviewed code since around March this year.<p>That means we are already 6-8 months in, and not far from having a full year of experience of what that actually looks like, albeit weirdly influenced by the increase in model capabilities during that period.<p>I'm looking forward to those retrospectives. Did this turn out to work OK for the teams doing it? What were the biggest failings and/or surprises? With hindsight, did this produce good quality software?	simonw	1793385871	1
+				
+				
+				
+50311367	"Working at an ""AI native"" company and these questions and stats are far too hand-wavvy for me.<p>What works:
+- Empowering engineers. Giving engineers more trust, ownership and product decision-making leads to more engaged engineers vs. micromanaged tickets. Engineers who are treated like owners tend to notice cross-cutting problems and push to get them cleaned up.
+- Hire for diversity. Not race or gender, but diversity of thought. Different ages, backgrounds, approaches to AI, focus on frontend/backend, etc. Race/gender diversity tends to come along for free. This is a huge edge because every LLM is spinning up the same next token prediction, so approaching problems from different perspectives gives more robust coverage across your codebase.
+- Flat org structure, low ego. Interns and 20 year vets work side-by-side and teach each other things - hire for openmindedness.
+- Communicate about product. What should it do? How do we want a feature to work, and how to handle certain edge cases? If the product is well understood, the code follows. In-person/hybrid is valuable.
+- Architecture matters more than ever, but it is easier than ever to fix. Listen when engineers mention tech debt. Notice when a simple change touches 27 files. Senior engineers shine for this, because they tend to have a better nose for code smell.
+- Reviewing still matters. Anthropic may throw tokens at reviewing, but it is a great way to share ambient product/code knowledge across the team. 200 engineers throwing code against the wall is chaos and leads to YOLO codebases. You can move fast AND keep a rough mental model of the codebase intact."	lubujackson	1793402104	1
+				
+				
+				
+50309535	"I was just looking at some user-facing error messages Claude generated for me which contained unnecessary/irrelevant technical details while failed to provide clear instructions or fix.<p>Earlier, I reviewed code that does way more than specified scope, changes public API and introduces new behavior. I had to almost redo the whole thing.<p>I thought to myself, no way I am going to ship the code as written without actually reading through it (or as some people put it, only looking at the ""intent""). I'll get more complaints from users while having absolutely no idea what's going on with the code or actual behavior.<p>It's a puzzle to me how these orgs can pull it off."	fg137	1793391280	1
+				
+				
+				
+50307680	Spent few minutes reading the infomercial -- regretted it. Engineering principles form the bedrock first, and AI-tools are made to fit in them, not the other way around as this infomercial propounds. Its linkedin vibe is a big turnoff too.	mirmor23	1793382917	1
+				
+50307437	"Maybe it's just me, but ""How much we ship per engineer"" doesn't seem like the correct metric to track.<p>If that's the benchmark, developers are incentivized to produce over-engineered and bloated code."	erminpour	1793382060	1
+				
+				
+				
+				
+				
+50308467	"Related: this article was very unilkely make it to the Hacker News homepage thanks to the clickbait headline, but I recommend reading it anyway: <a href=""https://twitter.com/jsnnsa/status/2115623382721126826"" rel=""nofollow"">https://twitter.com/jsnnsa/status/2115623382721126826</a><p>It describes a team spending 30x payroll on tokens - $3,000,000 in token spend per month - building a multiplayer game where incidents and bug reports from users are passed directly to Fable 5/5.1 agents who then act on them and deploy the changes to production.<p>""We consider it an outage if we don't ship every hour""<p>It's worth reading because it's either a complete disaster or a glimpse of the future, or quite possibly both."	simonw	1793386208	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50314951	“Traditionally, a lot of these decisions flow through engineering managers, PMs, and designers. That becomes increasingly difficult as engineers get faster.<p>How do you organize a team where engineers can build much faster, without creating bottlenecks around decisions and reviews?<p>Our bet is to push more ownership to engineers. Rather than adding more layers of management, we want engineers to handle more of the planning, execution, and review themselves.”<p>My bet was to push more ownership to the PMs and designers.<p>Engineering’s job is now to make that process sustainable and tackle the items that aren’t directly visible but still matter.<p>I find it interesting that they’ve opened up PRs to the org, but didn’t land on using the review process to refine a system that guides AI toward writing better and better code. I’m a graybearded “wizard” who is highly technical, and that’s where I landed.<p>We’ve had a very similar arc, but I’m at the point where I would be more likely to hire an artist for a frontend design position than an engineer:<p>“Use AI to make the app beautiful. You report to product.”<p>Engineers are checking the code and fixing architectural and abstraction issues behind the scenes. We’re making tests that keep AI from making the same mistake twice. We’re also figuring out how to run tests at unprecedented scale without slowing these non-technical “devs” down. There are plenty of technical challenges scaling this path that need the traditional engineering brain and a deep knowledge of development. It’s not just 20x productivity, it’s a lot of fun. I’m buried in new and interesting technical challenges these days.<p>We gave our old Legos to the others, now we’re having fun with our new Legos.	iforgotmypasswo	1793445364	1
+50309778	I see a lot of builders (myself included) falling into the trap of focusing on the wrong things. Development velocity doesn't matter per se, what matters are things like growth in profit or traction. It's really easy to conflate automation/systems/process with actual business results. Movement ≠ Progress.	liorgrossman	1793392435	1
+50310329	"> None of this was free. Through the summer, much of our engineering effort went into tests and tooling, and customer-facing changes per engineer stayed between 17 and 30 a month<p>This is the reality I think for a lot of orgs and is absorbing a lot of the productivity gains. The gap between vibe coding a green field app from nothing which is inherently ""AI native"" and implementing AI tooling into complex orgs with large amounts of legacy infrastructure, integrations, ingrained practices etc is enormous. For us, it has been a big effort to enable agentic coding over a significant footprint of our codebase. And all this is happening while the plane keeps flying, with near zero tolerance for defects in critical systems. There is a lot more to it than you will understand if you just look at twitter or Hacker News."	zmmmmm	1793395374	1
+50311513	I remember optimizing a huge build that took days. We optimised it to only hours on a cluster - it took years to get this right. We realised at the end of this that the packaging system (handled by another team) was taking about 2x longer than the build because there was one particularly huge zipfile that sat there compressing for ever and ever and ever while the rest of the cluster was idle.<p>As in this story we blew enormous effort optimizing something that was very difficult and because of our blinkers (and our management's blinkers) we missed that it was only able to achieve a limited result.  We didn't look at the whole system.  In the end it was never fixed because......siloed thinking...or something.	t43562	1793403102	1
+50316529	"If you're an Engineer and looking to add more agents to your team's SDLC, please check out my startup, Ellipsis.dev (W24). We build a Managed Agent Platform that allows you to:<p>1. Spawn cloud agents via API, @tagging, cron, webhooks<p>2. Choose the model, harness, and prompts (we don't make or sell an agent)<p>3. Customize the cloud environments just like you would a VM<p>It's infrastructure for your ""software factory"""	hunterbrooks	1793456922	1
+50309565	"Here we are again, thirty years after I was taught the ""waterfall"" paradigm at business school.<p>When asked about ""customer satisfaction"" we were told, awkwardly,  that became ""political""<p>The paradigm did not survive its encounter with reality, and I do not think this one will either<p>The ""only"" 175% increase in productivity is very impressive, and seems realistic to me, when you remove the chores of writing code (thank you to coding agents)<p>What you build is still very dependant on what you need, and you do not know that until you build it<p>It is a paradox only for the ""waterfall"" paradigm.  We rejected it, in the 1990s for a reason<p>It did not work"	worik	1793391472	1
+50311701	> What it cost us<p>> None of this was free. Through the summer, much of our engineering effort went into tests and tooling, and customer-facing changes per engineer stayed between 17 and 30 a month.<p>What it cost you is that you helped the AI labs become better engineers. At a certain point the Big Flip will happen, and the AI labs will stop their offerings and instead start competing with the engineers.	amelius	1793404426	1
+				
+50313424	This guy knows nothing. A few years experience plus a Claude account...	tty456	1793424004	1
+50325581	Just don't.	m4rtink	1793540293	1
+50310987	"<a href=""https://xxcancel.com/sgondala2/status/2115832070274723875"" rel=""nofollow"">https://xxcancel.com/sgondala2/status/2115832070274723875</a>"	DavCreator	1793399493	1
+50309249	Is there any way to read any of this if I don't have a twitter account?	ArtRichards	1793389792	1
+50315494	I think LOC, token spending is non-sense. we will move to the feature base metrics or revenue base metrics	mf_kevintruong	1793449466	1
+50307621			1793382714	1
+50308295	Nice work. How do you handle swapping in a new model version, hot reload or restart? And what happens to a batch that's mid-run when it changes?	fleetml	1793385414	1
+50307644	"In my best impression of the slapchop guy:<p>First you take your Blendtech and ""will it blend"" your engineers, then upload the result to the cloud inside what is called an S3 bucket (don't forget to set access permissions on your buckets kids!) to be digested by the clankers, sit back and profit!<p>Dark humor aside I think disconnecting a bunch of problem solvers from their computing equipment could really enhance the world, putting that analytical power into the world in person could move a lot of cogs, rather then marshalling JSON."	sellmesoap	1793382794	1
+50309178	For the argument lets say that this approach works and results in high quality apps. But will be users happy that app is updated 3 times a week and all updates add major changes? Because code generation is so cheap and fast it means we should even more thing about what to build to not overwhelm our users and actually solve their problems.	jbvlkt	1793389378	1
+50310572	Can we ban twitter links? I have to use a hack to even read it and it’s always just slop. If you can’t be bothered to write an actual article, why should we bother to read it.	MisterMunchkin	1793396791	1
+50311677	"I know many (big) places that are already back-paddling.
+From token leadership boards (more = better) to now saving on AI cost, because the benefit was less than expected. As if this wasn't obvious. Sigh.<p>Sure MS, Meta, etc, are still laying off engineers to have money for data centers. But I am 99.9% sure that they will thoroughly regret that move in less than 2 years."	linuxhansl	1793404183	1
+50310833	why would you want to do that?	nickphx	1793398426	1
+50313626	Slop.	overgard	1793427006	1
+50312080	[flagged]	andyim	1793407376	1
+50314723	[dead]	CurbStomper4	1793442907	1
+50314320	[flagged]	invidiouslove12	1793437488	1
+50311379	"We shipped more code!
+We merged 5x faster!
+We spent more tokens!<p>>> Every time we sped up one step, work piled up at the next... we started going through the entire process of shipping software, one step at a time...<p>I feel like I'm being gaslit here. You can become CTO with this lack of business fundamentals, and a basic misunderstanding of systems engineering?"	skeeter2020	1793402200	1
+				

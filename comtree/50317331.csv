@@ -1,0 +1,18 @@
+50317331		abijahkaj	1793462201	0
+50320356	>Where 2G and 3G are switched off, calls need a module firmware with VoLTE and a carrier that allows it; ask the seller.<p>This is a huge caveat. OP, does your setup even support VoLTE? Otherwise this might become a brick in a few years as your carrier shuts down 2G/3G, as many carriers around the world have already done	gruez	1793481609	1
+				
+50319590	Obviously AI vibed, which means the project probably has never been built and wouldn't work if you built it.	Vaushite	1793477069	1
+				
+				
+50319990	"This is great. Apple needs to figure out how to fit one into a 16"" MacBook Pro."	mcculley	1793479326	1
+				
+				
+				
+				
+50318605	Will LTE continue to work when 6G rolls out in 3 years?	mycall	1793471140	1
+				
+				
+50320640	I’d love one of these as a framework module	whalesalad	1793483789	1
+50320243	Er	efren6	1793480803	1
+50317342	I wanted a real phone line on my computer: calls and texts on a physical SIM, answered through my headset at my desk, or by a script or an AI agent when I'm away. Cloud numbers get treated as VoIP, and old Android phones give you no clean way to get call audio in and out over USB.<p>So this is a 4-layer USB-C board around a Quectel EC25-EUX. Behind a USB hub, the computer sees an LTE network adapter, the modem's AT serial ports (caller ID, SMS, answer), and an RP2040 acting as a USB sound card. The RP2040 bridges the modem's 1.8 V PCM audio through a level shifter. There's a 3.8 V buck sized for the 2 A GSM bursts, and no battery.<p>I wrote the spec as one page of text, and Koppar, the tool I'm building, generated the schematic and the board. Then I reviewed it against the datasheets. The review found a 35 Ω antenna feed that hopped layers, a buck 60 mm from its inductor, and a SIM socket facing into the board. The parts matching would have bought an 18 µH inductor for a 4.7 µH slot. REVIEW.md in the repo has all of it with the numbers.<p>Status: the boards aren't built yet. The repo is the design as I'm ordering it: KiCad 10 project, Gerbers, JLCPCB BOM and placement files. Bring-up and the sound-card firmware come next.<p>Happy to answer anything about the audio path or the power design, and I'd like to hear what you'd change before the first bring-up.	abijahkaj	1793462292	1
+				

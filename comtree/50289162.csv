@@ -1,0 +1,97 @@
+50289162		torutofu	1793282321	0
+50291472	"For me it breaks the rule of ""Network of trust"".<p>Software works because someone is accountable for it. Pair Programming, Test Driven Development, and now Agentic coding all to one degree or another damage the network of trust.<p>- Pair Programming  (There is no one person accountable for the change.)
+- Test Driven Development (The test pass, so my software is good)
+- Agentic Coding (My prompt was good, so my software is good)<p>AI is great for software development... As long as you review and understand each change it makes. Because YOU are going to be held accountable for what the software does."	treespace8	1793290663	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50291799	"> They are hesitant to take their hand off the wheel because they don’t have full confidence the agents have the right guardrails in place to run off on their own.<p>This is not a new problem, I've had this problem every summer when a new batch of interns show up.<p>As they say, if an intern can bring down production, it is not the intern's fault.<p>The interns are generally so much better than me at writing code, but they're not the best at ""software development"" (I call it ""software gardening"").<p>My training regime is to push them up the next 4 leadership levels from ""writing code"" - delegation, negotiation, vision and inspiration.<p>Agents are barely at delegation, with multi-agent harnesses.<p>They don't negotiate with you, they say yes.<p>Their vision is limited to the context you gave and most of their output is uninspiring (you can smell ""Claude did this"" on a UX design pattern easily).<p>But the humans, they've been thrust into delegation on day 1 & unless you've been a tech-lead manager, you probably haven't exercised that skill yet. Even if you have done that, the way agents work is not exactly how humans work [1] in terms of incentives or even try something they think won't work.<p>If you've been a good IC for years, the company could always afford to hire a human who specializes in those skills and suddenly you've been promoted to a new role without a pay bump or even a choice.<p>Most of the ""Let's add agents and go faster"" is basically adding more manpower to a project behind schedule and the payback is missing because that causes communication gaps & dropped messages.<p>[1] - <a href=""https://tinyurl.com/orchestration-imperative"" rel=""nofollow"">https://tinyurl.com/orchestration-imperative</a>"	gopalv	1793291657	1
+				
+				
+50291974	"I think this blog post is underbaked. I think it misplaces where the tension is, and also the skiing metaphor is attempting to simplify an explanation that's already simple.<p>The post describes the tension as being between leaders and developers. I don't really think that's where the tension is. I'm on a small team of all senior devs, and I've seen both sides -- skepticism and full embrace, and leadership was not pushing AI on us at all. On our team, no matter where we're each individually at on adoption, we're all pretty clear-eyed about the upsides and downsides. The upside is absurdly fast code production. The downside is losing touch with every line of code in the codebase.<p>There's no need to introduce the skiing metaphor, because the problem is simple: it's the devs' necks on the line when the system goes down or a customer record goes missing. When you get a call at 4 in the morning from the CEO, ""Let me ask someone (AI)"" isn't an acceptable answer. It's your job to know the failure modes like the back of your hand and be able to diagnose and rightsize in minutes. We've spent our whole careers guarding against those failures by agonizing over every line of code that goes into the product. With that understanding, it's pretty obvious why senior devs are hesitant to adopt something new without a clear picture of how they can be sure that the program isn't going to go down under load, isn't going to drop or mangle customer records, and when one of those things inevitably does happen, how to recover quickly. In a nutshell, job #1 for a senior dev is to account for every failure, and this becomes much harder when an automated system is pushing through 10x as much code.<p>I'm one of the devs who has chosen to adopt AI. As I reflect on that, I think the reason I'm willing to do so is because I have a level of certainty that I can work the pipeline to safely introduce more changes, faster. So far, I am getting mixed results, but that's not deterring me from continuing to try to reach an optimal point on the tradeoff curve."	x3haloed	1793292236	1
+50291362	A business ending software failure or security breach can occur from a single feature flag variable or 'minor' parsing bug.  Usually its a long sequence of these, but it only takes one.<p>I've personally experienced week long incidents because someone didn't understand how a system worked and a couple of low impact shortcuts and convenient approaches and minor mistakes all came together to internally DDOS important systems. All reasonable individually, resulted in the majority of the ops team pulling a 70+ hour week and doing live prod cleanups in the middle of the night.... Agents do this faster. Also, they're labor competition, maybe.	datadrivenangel	1793290288	1
+50291238	Because LLM's can do amazing things, but they can also make huge blunders. Claude constantly makes incorrect assumptions, or implements the wrong thing, or claims there is a bug when there is not.....<p>On the other hand its VERY fast at finding and fixing some bugs, and finding problems before they hit production. Very good at checking things like what API changes an upgrade brings or finding the right answer about a badly documented library, etc.	graemep	1793289822	1
+				
+50291401	I’ve seen the opposite. The best devs are aggressively embracing agents - producing more, and at higher quality.	agd	1793290400	1
+				
+				
+				
+				
+				
+				
+				
+50291129	> How much can we trust a system when nobody has experience of building it this way?<p>If humans are no longer reading the LLM outputs and internalizing the codebase themselves, there's no longer much point to source code. The coding assistant might as well take a natural language prompt and directly hand you an ELF binary that passes a test suite. Are companies ready for that?	curt15	1793289439	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50291122	Not wary really, but I do tend to micro manage the agent.<p>I'm no longer considering myself a good developer either, the agent is way better at details. Not so much at following a general pattern that makes sense.	d--b	1793289400	1
+				
+				
+50296318	"Feels like the obvious reason is that you don't have the mental map usually created by figuring out and writing the code yourself. So, not only is it annoying to debug AI generated code, but you're left trusting that the system didn't sneak something in that you don't know about.<p>You can definitely help limit this issue by having clear instructions for how the AI should work, but there's just a feeling you're telling someone else what to write, while being left on the hook for it if anything goes wrong.<p>That and a lot of developers like programming, and vastly prefer to it to the alternative process of ""acting like a virtual manager""."	CM30	1793309286	1
+50291845	"""agents"" are useful for people operating in domains they don't know or understand, and not for people who do.   Or at least I've never seen a task in a field I'm comfortable in, improved by either ""AI"" or ""an AI agent"".  Made worse, yes, but not improved.<p>But I don't mind ""agentic development"" to help a person learn to code in a domain.  As kind of a tutorial, both on ""how things can work"" and ""how to spot the mistakes"".   ""Agents"" and ""AI"" always make a LOT of mistakes, especially in fields of domain specialization."	teunispeters	1793291826	1
+50291630	"There's agentic development where you've designed, even at a high level what the goals and constraints are.  Within reason, as doing 10 things at once is not compatible with actually thinking about a problem, no matter what your Adderall says.<p>Then there's... management forcing ""agentic development"" on you to basically hurry up, and actively don't want your design input or even to think about the problem.  Just 'review it' and be expected to own the problems after.  Outsourcing basically.<p>The first is fine, second is not sustainable for any happiness unless you are offering top compensation."	gedy	1793291131	1
+50291306	Good developers know that AI isn't necessary at all and no software got better since AI generated code. In fact it got worse.<p>All that AI does is giving lazy developers more output that is approved by another LGTM developer, so the appearances of progress are kept up.<p>There is no reason at all to justify no-AI usage. It is the same as when the cigarette industry depicted smoking as cool and non-smokers had to justify not giving in to the dirty habit for fear of not being one of the cool kids.	hgqwtr	1793290044	1
+50291596			1793291011	1
+50294502	"Are they though?<p>If you've been a tech lead of a group larger than, say, 10 people, you'll know the feeling of not having enough time to review all the code changes. But still, you're expected to and usually can contribute to important directional decisions. You have some confidence in being able to smell issues from patterns of software behavior. I think it might be people with that experience who tend to be more comfortable in delegating more to agents. That seems like the more likely predictive factor to me than ""good"" vs ""bad"" developers."	sadilek	1793302052	1
+50291385	"""I don't trust code that I don't understand, or that I don't know someone experienced has reviewed.""<p><i>proceeds to install 200 random npm dependencies</i>"	ang_cire	1793290355	1
+				
+				
+				
+				
+				
+				
+				
+50294511			1793302099	1
+50291635	They're not. But some of them are! And it comes down to knowing how to work with agents in the best way. A good developer -- all in on Agentic development or not -- still knows precisely where to review, pause, rewrite, spike, and so on and so forth. I just don't see the problem here.	sibeliuss	1793291139	1
+50289371	"<i>Why are good developers so wary of agentic development?</i><p>Perhaps because agentic development is aimed at replacing ""good developers"".<p>Agentic development tends to undermine the very process that creates ""good developers"".<p>Agentic development will do to software what off-shoring did to manufacturing."	jqpabc123	1793283070	1
+				
+				
+50291428	I’m weary of the culture of ship it if it passes tests even if someone (a reviewer) has concerns	matt3210	1793290481	1
+50293481	Why are good developers so wary of agentic development? Because they are good developers.	thefz	1793297598	1
+50293699	"The best style of agentic development is when you tell it ""no, you should do this instead"". That implies that you have the knowledge to do so.<p>Non-developers that try vibecoding default to a ""yes, and"" style."	Archit3ch	1793298393	1
+				
+50291439	Because they are stubborn.<p>When even Linus is using agents it is time to accept it.	radial_symmetry	1793290507	1
+				
+				
+				
+50291722	My experience as a senior software engineer is that generative AI is an incredible productivity boost for engineers that know what they need to implement. If I need to write a new service, I'm going to be able to do that extremely quickly with Claude Code or some other agentic tooling as long as I know what I want.<p>However, generative AI should be banned for leadership or product owners or anyone on the requirements specification end of the Jira ticket. I'm fine with them using LLMs to read documents and learn, but <i>generative</i> AI specifically in the hands of these folks seems to be a net productivity drag on organizations.<p>I am so tired of 1,500 word Jira tickets that are over-specified to death with requirements that nobody is actually interested in and I have to spend exorbitant amounts of times just trying to distill out the functionality that the requestor is actually looking for. And these logorrheic nightmare tickets end up spawning all kinds of other unnecessary downstream work.	ryandvm	1793291385	1
+50292242			1793293042	1
+50294260	Because many have built a career and identity on the ability to write code. And confused it with engineering. So it's a hard to swallow pill.	epolanski	1793300924	1
+50303862	It seems to me as a management problem, not a tech problem.<p>You can delegate responsibility, not accountability.<p>This is a key principle in management, and usually what makes people progress in their career: if you take accountability for the failures, you also own the successes.<p>As I see it, if someone is pushing accountability down the chain, they are not the leaders you want.	pls-dnt-deploy	1793368201	1
+50299159	"The question is flawed. First you would need to define ""Good Developers"".<p>Everyone's answer is different."	Loxicon	1793327338	1
+50291467	They are still hanging into the false belief that software quality matters to anyone besides good developers.	root_axis	1793290636	1
+				
+50297773	Because they have a good sense of how things can go horribly wrong.	KevinMS	1793316882	1
+50292394	not sure whether I am good developer but for me it is half of<p>> The easy (lazy?) answer is that they love writing code, or they’re worried about their jobs.<p>and half of using proprietary SaaS being something I deeply dislike.	matkoniecz	1793293582	1
+50291948	"I'd push back on the use of the term ""good developers"" here. Since the beginning of software development, software developers have had to adapt to ever changing technologies. The good ones adapt, and the bad ones fall off. A person could say that they were great at writing assembly back in the 70s or 80s, but almost nobody writes straight assembly nowadays, and if they do it's usually written as inline assembly. The environment has once again changed, and agentic coding is the change. The actual good developers will use coding agents to complement their skills and write better code faster, while the ones who can't use or refuse to use coding agents will fall off.<p>Also the article mentions ""senior engineers"", the term ""senior"" is thrown around so much these days — along with the term ""engineer"" — that it's beginning to lose all meaning. Everyone is a senior after 2 years of software development it seems. Honestly if a group of ""senior"" ""engineers"" and infrastructure consultants couldn't get an application working in a week with agents behind their back, I would doubt their expertise. Maybe that airline application is super complicated, but it looks like they let the agents run hog wild without any oversight, which no shit they didn't get a working application in a week. Anyone who has used agents for coding knows you can't do that and expect good results for anything more than a toy application. Also I didn't see a mention of which agents they used, they are far from equal. They could be using Claude Haiku on low effort for all I know.<p>I think this experiment would have been more interesting with 3 teams: One team with no agents allowed, one team who do full on vibecoding like it seems in this article, and the last which uses agents to complement developers."	joshblack1982	1793292153	1
+50293370	LLMs can only produce evidence. Producing proof requires a human<p>Two types of devs: Those who require proof before shipping and those who don't<p>Devs who require proof are shipping high quality. Devs who don't are shipping slop<p>One-shotting changes without checking them is highly irresponsible	Jaygles	1793297203	1
+50292285	>> TL;DR Good developers’ caution about agentic development comes from knowing that built isn’t the same as working in production.<p>No it’s not about some superior knowledge of how things work in the real world.<p>Seems to me it’s mostly emotional reaction not logical, which is fine.<p>The important thing to understand is that emotional reaction won’t change when the tech improves - they’ll still hate AI.	andrewstuart	1793293182	1
+50291275	"> Good developers’ caution about agentic development comes from knowing that built isn’t the same as working in production...I always felt there was something else, another fear hiding behind those obvious ones.<p>It's not fear.  It's experience.  I've seen the kind of code agents write.  And it's too often crap even when it ""works"".  This isn't about beautiful code.  It's about what we've built actually making sense to a, hopefully talented, software engineer.<p>Maybe more important than that, it's about taking the time to build the mental models that facilitate product development and the next iterations of coding.  When agents write all the software, the majority of engineers I've seen, including myself, lose almost all context to what is actually going on at anything but a very high almost laughable level.  And they then become almost completely dependent on the agent for the next iteration of development b/c they don't really understand what is there currently.<p>Does this matter?  From a software perspective, it depends on what you are building and for whom.<p>From a human perspective, it depends on the human.  I've seen good developers that I trust historically churn out crap code with agents because it was just too much to review.  And there is some kind of weird addiction like thing happening in our brains when using AI that makes it incredibly difficult for us to slow down and review all the code it writes.  In part b/c agents are great at crapping out 3K line PRs like it's nobody's business.  But it needs to be someone's business to understand what we are shipping for anything but non-trivial projects.  And truly understanding 3K line PRs hour after hour is just not sustainable for most of us.  Our eyes glaze over and we just ship it because that's what we do now as an industry.<p>I think wary is the wrong term.  I've learned agentic development's strengths and weaknesses.  And the tools, as they work currently, churn out code at a rocket's pace that any good software engineer would immediately reject in years past.  I don't like their code, I don't like how their code development process interacts with my brain.  It's not waryness, it's dislike and mistrust.<p>So, yes, they can be assistants.  And they can even write code.  But I think in much smaller chunks than most people are using them these days.<p>The idea that we should build software factories and/or otherwise just turn agents loose and isolate humans to the product/QA level is insane to me.  But I understand why we are here and I realize that a large portion of the business and dev community likes this new model.<p>I'm hoping that not doing it that way will end up be a competitive advantage in the long run.  Both for the software we are producing and for the devs that are creating it."	rsyring	1793289971	1
+				
+				
+50291987			1793292296	1
+50303998	[flagged]	arbor-group	1793368777	1
+50301743	[flagged]	bosslu_ai	1793353919	1
+50291230	[flagged]	vibeguardrails	1793289802	1
+50291325			1793290116	1
+50293910			1793299332	1
+50293183	[flagged]	tinykerneldev	1793296337	1
+50291219	[dead]	rglover	1793289758	1
+50300509	[dead]	peter_d_sherman	1793342186	1

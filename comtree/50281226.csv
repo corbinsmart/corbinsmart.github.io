@@ -1,0 +1,10 @@
+50281226	"I burned about $500 for this fun project: Small Python.
+Initial PoC used 3 resets of Codex in one session but all later development happens in Claude Code, also in one Opus 5.5 session over three days.<p>The outcome is a quickjs-like implementation for Python.
+Almost full Python 3.15 language features plus builtins are covered.
+No Lib/  support.
+Great for embedding scenarios.<p>No rust. Just plain C11 code.<p>Repo is here: <a href=""https://github.com/soasme/small-python/"" rel=""nofollow"">https://github.com/soasme/small-python/</a><p>Ask me anything."	soasme	1793223319	0
+50290711	How did you manage this much C code not blowing up in your face if it is fully ~vibes~?	marcankaitiaki	1793287965	1
+				
+50317830	Thanks!	xchip	1793465748	1
+50283559	If you were going to burn tokens anyway, why not just go for Rust? Or if you really wanted to stick to C for some reason, then why not Fil-C?	d3Xt3r	1793238473	1
+				

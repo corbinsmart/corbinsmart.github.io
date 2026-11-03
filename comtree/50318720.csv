@@ -1,0 +1,23 @@
+50318720		ntur1337	1793471896	0
+50319344	I work with another team at work that uses lots of message passing, C++ virtual methods in deeply nested class hierarchies, large DOMs and off-the-shelf C++ STL containers... on a STM32MP1, which has an in-order Cortex-A7 and a pittance of cache.<p>On the other hand, in my team I wrote my custom C++ STL containers that allocate inline, SAX-style processing libraries and an object pool with links that use index+generations like 2000s video games... on a STM32H5 with less than a megabyte of RAM.<p>Mechanical sympathy feels like a lost art to people I demonstrate it to... and I had to demonstrate to the first team with benchmark numbers that I would not be the bottleneck between us by orders of magnitudes.	boricj	1793475480	1
+				
+				
+				
+				
+				
+				
+50323908	I remember have a very long argument with a team I worked on, who were mostly convinced our service couldn't handle requests any faster because the CPUs were already at 100%. In the end we tripled the requests-per-second by cleaning up the service's memory access patterns...	swiftcoder	1793525213	1
+				
+50329661	This blog post and some other pages in the website are really great. Just useful information without padding, even when writing about the product.	ozgrakkurt	1793565851	1
+50323526	Modern CPUs have hundreds of megabytes of cache. That's more than the entire hard disk space required by Windows in the 1990s.<p>You could install an entire Windows system, emulated in cache of a modern CPU, including the hard disk, and modern computers are still slow, partly because the CPU does nothing while waiting for RAM to fetch data, and partly because decades of people prioritizing abstractions over efficient coding have made software totally inefficient.	bugake	1793519994	1
+				
+50327235	"Hi, i just have 2 questions. Are your machines priorizing Space over Processing ? In terms to save a few bytes, cos ""Rendering"" (for example) is done by the clients machine as an example? Or have i missunderstood something? I am asking, cos the first answer in the posting seem to miss: ""commenting the code good enough than anyone may 'understood, what <i>heck</i> this typed line may be for...'"" just asking...thanks"	inoknowtoask	1793551381	1
+50320505	"<a href=""https://people.freebsd.org/~lstewart/articles/cpumemory.pdf"" rel=""nofollow"">https://people.freebsd.org/~lstewart/articles/cpumemory.pdf</a><p>Has anyone rewritten this for 2026?"	brcmthrowaway	1793482790	1
+				
+50320981	I feel like the solution presented is just a clustered hashmap or “locality sensitive” if you’d like it.<p>Still not orders of magnitude better.	drivebyhooting	1793486669	1
+50321845	Uh, isn't this just radix-partitioned aggregation? Hierarchical (fixed two level) aggregation is old. What's novel here?<p>Microcosm of Pivot itself I guess. I just don't get why this project exists when DuckDB and Clickhouse both exist.	quotemstr	1793495500	1
+				
+				
+50321587	[flagged]	zittturkkpon	1793492488	1
+50321731			1793494152	1
+50321476	Shout out to the author, it seems coherent.<p>I like flamegraphs<p>I know folks use perf to help generate them<p>But in the future, now that Llm is here, get and agent to check assembly, PMUs and also see what you’re doing in assembly.<p>My 2c and happy coding to everyone :)	happyPersonR	1793491363	1

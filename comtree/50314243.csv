@@ -1,0 +1,20 @@
+50314243		Arodex	1793436212	0
+50315604	Could the confusion be that the 12 seconds only apply when the OS fails to respond to the power-down request? I recall struggling with laptops stuck in a boot loop, and it did pay off to hold the power-down button a little longer.	superjan	1793450258	1
+50314814	Looks like Microsoft forgot to talk to hardware manufacturers about this feature...	throwa356262	1793443957	1
+				
+				
+50314713			1793442794	1
+50317451	My guess; server and consumer motherboards are very different.  BMCs log a lot of data and on startup if the OS driver reads the log it can put whatever it wants in the crashdump.  Consumer motherboards mostly only store the reason for last poweroff which the OS can read on next boot. Server MBs may also have a longer timeout before cutting power from a long-press.<p>Apparently from standby the power-off time on some laptops is much longer and you get a MANUALLY_INITIATED_POWER_BUTTON_HOLD which kicks off in the ~8 seconds from the article.	benlivengood	1793463153	1
+50315165	What about modern devices (such as laptops) that have a fixed battery? They shouldn’t rely totally on software to force a hard power off because that’s not safe. If the software hangs you cannot power down	curiousObject	1793447208	1
+				
+				
+50315343	until it stops making noise :|	jareklupinski	1793448378	1
+50314804	My own PC doesn't take long at all to power off, although I know that for example on Lenovo laptops you need to hold that power button for quite long, I may count it next time I do it :)	NightPageReader	1793443862	1
+50315583	My desktop, which has an Asus motherboard but doesn't have Windows installed on it, also takes in the 3-4 seconds range for a hard shutdown. I would have assumed that it is entirely hardware-dependent and the OS hasn't much to do with it. On my Macbook Air I just counted 5 for a hard shutdown.	Finnucane	1793450006	1
+50315938	suposedly the sepc for ATX was mentioing 4 seconds. But today's laptops take way longer.	gargalatas	1793452702	1
+				
+50319637	Until the computer turns off...	johnea	1793477348	1
+50315834	"It seems to be 7s, at least in ntoskrnl.exe 10.0.22621.1105:<p><pre><code>  ; PopPowerButtonWorkCallback+0x1DF
+  shr  ebx, 1          ; unpack elapsed milliseconds
+  cmp  ebx, 0x1b58     ; 7000 milliseconds
+   jb   ...            ; below threshold: skip crash path</code></pre>"	9NRtKyP4	1793451936	1

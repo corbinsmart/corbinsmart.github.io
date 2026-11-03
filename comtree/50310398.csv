@@ -1,0 +1,22 @@
+50310398		wh33zle	1793395800	0
+50312268	It was all going great until I read<p>> The design also avoids problems like function coloring and plays well with Rust's ownership rules.<p>Async is not I/O. It can be <i>used</i> for I/O, but it's just a way of writing pure, deterministic state machines that keeps a logical flow together instead of scattered over a bunch of transitions.<p>Even if you choose to manually compile your async flows into explicit state machines, you still have to deal with ‘function colouring’ (a.k.a. typing): a flow that crosses several state transitions (and may have other disjoint parts of the state updated in the meantime, via other transitions) now has to be rewritten as a (series of) state transitions, and can't be called from a blocking function. If anything, rewriting all your state machines without `async` makes the function colouring ‘problem’ worse, because multi-transition flows are even <i>more</i> different from normal functions.	Twey	1793409239	1
+				
+				
+				
+				
+50311406	Sweet, this is basically how I design my protocol implementations in rust as well.<p>Way more testable, the bulk can be shared between async and blocking IO, it's a lot easier to completely ban unsafe in your dependencies (excepting std and core), etc.	monocasa	1793402395	1
+50310928	"Mullvad spun their own implementation off of boringtun as well (called gotatun[0])<p>[0] <a href=""https://github.com/mullvad/gotatun"" rel=""nofollow"">https://github.com/mullvad/gotatun</a>"	temp0826	1793399138	1
+50312315	One of the fundamentally great things about the Wireguard protocol is the simplicity. A small codebase can implement it, and that’s lead to some great libraries and innovation.<p>Another great (and subtle) thing is the monotonically increasing sequence number. Note that it isn’t incrementing, like DTLS. This small thing makes it so much easier to implement with efficient concurrency, and event external state (i.e. distributed concurrency).<p>That latter bit we’ve done in our own library.<p>Edit: typo, don’t -> done	mlhpdx	1793409768	1
+50313672	I've recently been developing a VPN Manager implementation using Rust, and the underlying architecture also uses WireGuard. Currently, I'm using WireGuard gotatun developed by Mullvad.<p>I wonder if you've tested any related data, such as performance curves, connection jitter, and so on, as well as things like security implementations.	dennysora-main	1793427485	1
+50315854	Does Rust always mean vibe-coded? I did not look into this deeper.	jurschreuder	1793452109	1
+				
+50311433	From their website about their product:<p>> Hardware does the heavy lifting.<p>> Your operating system and network card take over the repetitive jobs whenever they can. Your CPU gets room to breathe, and your battery stays full longer.<p>Where does this operating system run? Where does the power come from to run it if not battery?<p>Pure rubbish ai slop.<p>While the software might actually be ok upon inspection but this kind of ai slop nonsense copy doesn’t inspire confidence in using their software considering how security critical the vpn is.	asdf88990	1793402525	1
+				
+				
+				
+50312270	I've wanted Wireguard on some MCUs. Great!	clivedup	1793409276	1
+50313046	[flagged]	ogrimsby	1793418693	1
+50313665	[flagged]	dmandreev	1793427425	1
+50311704	[flagged]	lakeviewterrace	1793404442	1
+				
+				

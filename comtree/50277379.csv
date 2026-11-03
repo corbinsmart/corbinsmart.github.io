@@ -1,0 +1,56 @@
+50277379		costco	1793208563	0
+50311942	Author here. I submitted this a few days ago but seems like it was added to the second chance pool so now it’s on the front page.  Anyways, I have received a report from a user that this solver did not work for them with European proxies but did with US proxies… so they may be serving different versions for different regions. I will fix that soon. I’m not at my computer right now but it was working when I tested it a few hours ago (Cloudflare constantly changes things).	costco	1793406189	1
+				
+				
+				
+				
+50313570	"I've been using Edge Dev as my daily driver for years, and the last couple updates it's been failing Turnstile off and on. I get this error code on <a href=""https://debug.challenges.cloudflare.com/"" rel=""nofollow"">https://debug.challenges.cloudflare.com/</a> that's not currently throwing because it magically started working again.<p>But when it's not working, I've realized that roughly 30-50% of the internet is walled off to me in this browser profile because I can't pass the black box of Cloudflare's challenge.<p>What's truly maddening is that bypasses like this one are definitely ubiquitous and that at-scale actors are doing distillation and spamming social media and doing Dead Internet all over the place, but the end result is that I can't log into Letterboxd or whatever.<p>I don't know, I'm not even mad at Cloudflare, they're doing their best too. And I use LLMs every day, they're powerful tools, and Pandora's box ain't closing. It just feels like the internet has hit peak saturation of DDoS-by-LLM"	jyrkesh	1793426410	1
+				
+				
+50313540	"""The walls have ears.""<p>Personally I would be careful about poking this bear so publicly. All it does is accelerate escalation and cause those of us who have been subjected to user-agent discrimination and found our own workarounds even more difficulty.<p>With the rise of AI, this point may be moot, but this is still a war and anything you make public can and will be used against you."	userbinator	1793425984	1
+				
+				
+				
+				
+50312105	For better or worse, it's like `yt-dlp` — constant race against CF, so it's not reliable. It's probably for better.	paaloeye	1793407708	1
+				
+50313471	My Cloudflare solver is command + w. It's 100% reliable in a headful browser and occasionally results in finding an alternative site that doesn't place its priorities (denying bots) over the user's (judicious use of time).	nomilk	1793424821	1
+				
+				
+				
+				
+				
+				
+				
+50312421	I made something like this about a year ago. It worked until it didn't. My assessment is that an individual bypass isn't that hard, but doing it at scale is an entirely different and much harder game to play.<p>It's a hard game to play because they analyze behaviors across their entire network and detect behavioral patterns that are almost impossible to emulate at scale.	manofmanysmiles	1793410891	1
+				
+50313436	What are the legal implications for bypassing turnstiles?	test_user369	1793424266	1
+				
+				
+				
+				
+50317500	I’ve watched ChatGPT just click and solve several human checkers before. I think we need a new way to prove somebody’s human.	whh	1793463526	1
+50314239	I'm a little surprised that I didn't find any TLS cipher ordering in this project, which I'm sure is something that CF uses as a line of defense.	supriyo-biswas	1793436111	1
+				
+				
+50312043	Just out of curiousity, which model did you use and what did you say to convince it to help? I'm pretty sure Claude would have told you to kick rocks.	hackernud3s	1793406995	1
+				
+				
+50313145	Sigh. Once again computers have been shown to do better something than I can, for a task where ostensibly the inverse should hold true.	publlus_enigma	1793419927	1
+				
+50317367	Hola buenos días	yordin	1793462467	1
+50312127	Also fun tip, if you are ever stuck behind the Anubis PoW proxy, node.crypto is sufficient hardware acceleration to solve it in under a second.	Onavo	1793407943	1
+				
+50317659	[flagged]	ntsili	1793464669	1
+50313906	I'm on the other side of this: my job is driving a real browser through websites to test them, so I'm usually the thing Cloudflare is trying to spot.<p>What decides whether it works for me isn't the challenge solver, it's the browser. Headless gets flagged within a request or two on a CF-protected site. A real Chrome with a persistent profile and a normal pace keeps going for weeks, until they tighten a rule and it dies halfway through a test run.<p>The thing that actually got me out of it was to stop fighting the front door. Most of the teams I work with can hand over a staging host behind basic auth, or a test account on an allowlist. Then Turnstile isn't in the path at all and the test measures their app instead of my evasion skills.<p>Where there's no staging I keep a saved human session and reuse the cookies instead of solving anything. Slower, but it survives most rollouts. (Until it doesn't, and then I'm re-authenticating by hand at 9am.)	haukebri	1793430569	1
+50313915	[flagged]	noorsimar	1793430670	1
+50319407	[dead]	Yash16	1793475980	1
+50312537	[dead]	georgestones	1793412039	1
+50311785	Is it that difficult? Use a warm Safari profile on a real Mac. Then Turnstile becomes Apple's problem, ie, solved, because they use PAT.	doctorpangloss	1793405023	1
+				
+				
+				
+				
+50312345	It’s a good day to have a register of URLs that are Cloudflare gated. FYI my agent says that this is borderline useless and wasn’t needed at all for my purposes.	fudged71	1793410018	1
+50311542	the actual value comes from having a solution which tracks cloudflare, a full LLM pipeline for pulling the most recent obfuscated code, reversing it and updating the current solver. without it, users aren't going to have confidence in the continuity of the solver to build around it.<p>that said, most of the people who really need it roll their own in-house. don't think I have seen someone post it to github yet.	teravor	1793403255	1
+				

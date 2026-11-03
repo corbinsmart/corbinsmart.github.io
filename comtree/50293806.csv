@@ -1,0 +1,26 @@
+50293806		aray07	1793298820	0
+50319537	One issue I've had with swapping fans for Noctuas is the airflow matching. The louder fans aren't louder just because they're lower quality (which they definitely are), but also because (almost always in my experience) they force more air through.<p>That unit from the article sounds very temperature sensitive. I'd be wary of throwing a precision unit like that out of spec and out of calibration.<p>FWIW I've noctua-swapped so many things including an oscilloscope.	Scene_Cast2	1793476800	1
+				
+				
+				
+				
+				
+50320888	I got a ThinkStation P8 thinking it would be a nice workstation, but the fan noise was just unbearable. Not loud (although it could get LOUD), but extremely annoying. A cooling solution created for a rack mount system where the person buying the machine will never hear it. Absolutely unsuitable at home. I was looking into doing a Noctua Fan Swap here as well, but after reading the fan specs, I found out that this would be impossible, or possibly melt the machine. The 60mm fans on the PSU were rated at something like 25 watt _each_ and push more air at way more pressure than the strongest 120mm Noctua fan.<p>The Mac Studio that replaced it is practically silent and very energy efficient, while not being significantly slower.	dajonker	1793485762	1
+				
+50321144	Funny this is popping up, just ordered a noctua and buck converter to replace the very annoying fan in my rack mounted UPS this morning. The fan is audible through some sliding doors and has been driving me nuts.	bikezen	1793488178	1
+50318833	Anyone know why that heatsink is that weird hedgehog spines design and not the more common regular extruded fin?	PorciiVorbesc	1793472450	1
+				
+				
+				
+				
+50322307	I assume Jeff used an industrialPPC variant here, but I kind of wonder if there isn't an EBM Papst or Sanyo Denki part that would have been sufficiently quiet and a better fit. The Noctua parts are usually at least decent, but they're really not the end all for fans.	rpcope1	1793501350	1
+50318977	> And I guess it wouldn't be, since it's not exactly cheap (they don't publish a price for the unit online).<p>Any idea how much it costs?	throwaway198846	1793473175	1
+				
+50320890	That heatsink looked quite inefficient, somehow. Wouldn't it be better if there were branching on them to increase surface area multifold?	tehlike	1793485808	1
+50320874			1793485612	1
+50319669	I prefer installing a generic fan that's one size bigger but lower RPM instead of a fancy Noctua. You end up with similar or higher CFM. Downside is it may require drilling extra holes. But it's much cheaper and I didn't measure but I bet it's quieter too.	ckocagil	1793477560	1
+				
+50318864	Real Engineers at work.	dod9er	1793472590	1
+50320355	This popping up on hn is quite satisfying. I’m in the middle of (procrastinating) swapping out a noisy fan for a noctua in my kramer 728 which i use for improving the video quality out of a laserdisc player.	jimjimjim	1793481605	1
+50319327	"I never understood why so many devices were using such poor quality and noisy fans. They fail earlier, they move less air and they're noisier. Now I understand there's a cost issue, but it's not only that: a lot of it is also just poor design / poor research / poor parts sourcing.<p>For the little story, back in the early beige PC days (think 386 and 486), quiet PC fans didn't exist. It was all super noisy, and typically at a fixed speed.<p>And, coming from the Commodore 64 and then Commodore Amiga that were silent machines, this was driving me crazy.<p>So 18 y/o me managed to source some proper fans out of Japan (Panaflo fans IIRC) <i>and</i> I went bug my neighbor, who was studying to become a chip engineer...<p>I came to my neighbor with an idea: <i>""Why not lower the fan speed when the PC ain't too warm and then only speed it up when the PC gets too warm, you know, like a car's fan adapts to temperature?""</i> (cars would do that: they'd start spinning a huge fan to cool down the water in the car's radiator, but only once the water would be too warm).<p>And so my neighbor drew a little electronical circuit and we bought ""thermistors"": I would ""calibrate"" them with boiling water in my mom's kitchen and then we'd install the circuit with the thermistor in the PC's PSU, with Panaflo fans.<p>So basically: back in the 386 and then 486 days, I already had quiet PCs. I'd ""muffle"" my HDD in an enclosure, opened on top (so that heat could dissipate, on which I'd put a 7V panaflo fan [I'd take the 12V and the 5V and create 7V]).<p>Once the PC world began to wake up and the likes of Be Quiet! and Noctua became a real thing, I was delighted. My current main rig has a Be Quiet! PSU and a Noctua fan for the CPU. I cannot thank such companies enough.<p>P.S: for what it's worth my neighbor later on moved to southern California and became an early Broadcom employee and he's been much more successful than me for  he was the real smart cookie. We're still friends to this day."	TacticalCoder	1793475327	1
+				

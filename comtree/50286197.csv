@@ -1,0 +1,103 @@
+50286197		ZeljkoS	1793264108	0
+50298796	"The following is hypothetical, since we do not have a proper safety report yet.<p>It sounds like the issue happened, because there was an error in the line-based train control system (LZB), which led to falling back to the point-based train control system (ASFA).  However since there are more virtual blocks in LZB, than physical blocks in ASFA, this means that suddenly more than one train is in one block, which violates the most basic assumption of train control.  That requires the trains to not rely on the train control at all, even if it says that the block is clear, but instead are operated manually.<p>I do not know what the proper procedures for that are in Spain, but in e.g. Germany that seems to require driving by sight.  However that is also only after a number of accidents due this situation.  So the following seem to be similar accidents from Germany:<p>- <a href=""https://de.wikipedia.org/wiki/Eisenbahnunfall_von_Meerbusch-Osterath"" rel=""nofollow"">https://de.wikipedia.org/wiki/Eisenbahnunfall_von_Meerbusch-...</a><p>- On April 9, 2002, a near-collision occurred near Fallersleben. After a computer at the LZB control center in Fallersleben crashed, two trains on each of the two main tracks came to a stop. When the computer was restarted, the rear train in each pair was signaled a speed of 160 km/h, while the front train in each pair was signaled 0 km/h. One of the two train operators following saw the train stopped in front of him; the other, as a precaution, contacted the operations center, which warned him not to proceed."	1718627440	1793323925	1
+				
+				
+				
+50287022	The level of human negligence here is astounding. The system did exactly what it was supposed to (lock the train down if the track can't be confirmed clear), and then a human controller ordered the crew to override the system, <i>and</i> ordered them to proceed at an unsafe speed towards a similarly disabled train?	swiftcoder	1793270906	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50294297	"It should not be possible for one person to make a mistake of this magnitude.
+In case of a disconnected/off main safety system, the train should be limited on a hardware level to not be able to go over 40km/h."	juliushuijnk	1793301079	1
+				
+				
+				
+				
+50287098	Reading the text it seems to me this is due to a very widespread issue in Spain and other southern European countries: people don’t care about the warnings because there are too many false positives.<p>That’s why people here, when they hear the fire alarm they just wait for it to go off: the probability that it is actually a fire is minuscule… but the alarm triggers a lot.<p>Not sure how to actually solve this… but I’m also not making excuses for what happened. High speed trains is not the same as a fire alarm in some office building, the people in charge should be held responsible somehow.	notenchange	1793271395	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50294582	I think aircraft are so safe in this regard because, essentially, they are required to use a single international collision avoidance system that is well defined.  And modern cars have AEB systems built by vendors aiming for commonality to meet worldwide rules.<p>But train traffic systems seem to be a hodgepodge of different systems, perhaps locally grown and driven by the local vagaries of politics and rulemaking.<p>What a surprising inversion of expectations regarding safety.	electroweak	1793302440	1
+				
+				
+				
+50286686	I can't imagine what every passenger who survived and the families of those who passed are going through. Such a catastrophic incident with multiple human failures is so tragic and so needless. From the controller to the driver, every single one of them should have said hey we shouldn't just ignore a signal and should investigate why it's on first. For this to be such a quick decision suggests it's not a one off. I would be extremely interested to see how many near misses or ignored signals there has been across Spain. The crash earlier this year was due to inexperienced workers and it seems as if significant training improvements and protocols are needed.	ktallett	1793268127	1
+				
+				
+				
+				
+50294720	I'm totally not on the spectrum so I've only watched about 80% of the Plainly Difficult channel on YouTube, but if you want a painless and entertaining, if you're into that kind of thing, way of learning about train signaling and safety, and how safety systems have evolved, I highly recommend it.	Zigurd	1793303002	1
+				
+50292577	"Earlier thread:<p><i>What we know so far about Spain train crash</i> - <a href=""https://news.ycombinator.com/item?id=50286197"">https://news.ycombinator.com/item?id=50286197</a> - Oct 2026 (84 comments)"	dang	1793294184	1
+50293972	"I still don't know why the train drivers don't have a simple data: 
+  The distance to the train that is next in in that railway in its direction.
+With this information, that accident will have never happened."	anonymous2024	1793299640	1
+				
+				
+				
+				
+				
+50297954	This accident seems to have been caused by human error. Moreover, (from the news) the working arrangements and procedures seem to be such that in the event of a controller (or driver) making a mistake there was no automatic failsafe protection in place to stop the Renfe train.<p>An automatic failsafe mechanism should be installed to stop/cut the power to the moving train in situations like this, it should work <i>irrespective</i> of any instructions or actions by the controller or the driver.<p>When safety parameters deemed the Renefe train to be travelling too fast and too close to the Iryo one it should have stopped automatically. Such safety measures aren't rocket science but straightforward engineering, (interlocks, etc.). Over the years there have been too many accidents in situations such as this for such equipment not to be installed.<p>For a moment I visualized myself in that busy control room and easily making that mistake even though I'd made the correct decision hundreds of times previously. Not only are 69 lost lives a terrible tragedy but the life of the person who made this momentary slip has been ruined forever.<p>It should not have been allowed to happen. It's worth remembering that Westinghouse brake systems (which are well over a century old) automatically default to on (stop) when there's a fault, and the high speed (now decades old) Shinkansen has very sophisticated stopping mechanisms and has never had a major crash. The question is why such safety measures weren't installed here.	hilbert42	1793318162	1
+				
+				
+50298648	At least California's high-speed rail will never kill anyone.	fortran77	1793322559	1
+				
+50312831	"Obviously train safety systems should be formally verified and eliminate human error (only permit safe leeway to humans).<p>But apart from the safety mechanisms, there is also the concept of securing passengers.<p>What we know so far is that originally, cars weren't equipped with safety belts, until they were.<p>Imagine a thought experiment: the trains are equipped with safety belts, on a voluntary basis. Initially everyone scoffs at them, except for a minority. Time passes until an accident happens. Then everybody learns that the forward facing passengers that were facing forward had the lowest casualty reports, next are the people facing backwards, since a decelerating train mostly just pushes them harder into their own seats, and their safety depends on the discipline of any occupant who happens to sit on the forward facing seat. People start preferring the safest seats forward facing with belts (you only depend on your own discipline). People sitting in a forwards facing seat who refuse to put on the belt will be asked to find a different seat or put on the belt. In many places it will turn out a lot of passengers are standing upright ""by necessity"" even though  no law of nature or authority mandates or permits railroad operators to sell more tickets than they have safe seats. But first that would require figuring out what new lucrative job prospects can be opened for insurance companies, and any population around the world may think out loud why insurance on offenses appear to be legal and often even encouraged by court systems!<p>It turns out its never really possible to draw an objective line between accidental and intentional offenses, so at a fundamental level we should either permit insurance that covers you when caught committing murder, grand larceny or what have you (done); OR we should ban all insurance from covering offenses (accidental and intentional). Insurance ""allows the system to stably continue without shocks reverberating through the economy in the face of adverse events"" is a poor justification for permitting the insurance of offenses, especially since it typically results in the wrong questions being asked, and instead of figuring out who paid the least to insurance scams, perhaps some real questions could delve up real solutions that save lives instead of defend the income streams of lawyers profiting on the misery of civilians."	DoctorOetker	1793415704	1
+50286990	So based on this, the safest place to sit is presumably the middle carriage?	Yokolos	1793270607	1
+				
+				
+				
+50300530	"The BBC keeps repeating this inaccuracy and at this stage I wonder if it's deliberate:<p>> The driver replies, ""At normal speed?"" To which the controller says: ""Yes.""<p>That is not how the conversation went. The driver reads back the order from the controller, saying ""at normal speed? Hm okay agreed / understood"" then the controller starts wrapping up the conversation<p>ie the driver did not really question the order and it was barely a questioning tone (I write without judgement)<p>You only need intermediate Spanish to understand that part of the clip. The BBC has no excuse to be honest as I'm sure they have plenty of native speakers on hand<p>Whether it's a material difference I'm not sure, but the BBC should be more accurate"	gib444	1793342514	1
+50298664	Human override could have 2 keys that get turned concurrently at two locations by people who never meet each other, never talk, each has different job incentives.	fhub	1793322682	1
+50295719	"<i>""the collision occurred after one train stopped on the line unexpectedly due to an Automatic Warning System fault causing it to brake. It was then hit from behind by the second train that had passed a red stop signal protecting the stationary train in front""</i><p>- Not Spain. This was Bedford (UK) in June 2026.<p><a href=""https://en.wikipedia.org/wiki/2026_Bedford_train_collision"" rel=""nofollow"">https://en.wikipedia.org/wiki/2026_Bedford_train_collision</a><p><i>The train collided rear-end into the rear carriages of the other train and derailed, which also resulted in the three rear carriages of the first train to derail</i><p>- This was Białośliwie train collision (Poland) in June 2026<p><a href=""https://en.wikipedia.org/wiki/2026_Bia%C5%82o%C5%9Bliwie_train_collision"" rel=""nofollow"">https://en.wikipedia.org/wiki/2026_Bia%C5%82o%C5%9Bliwie_tra...</a><p><i>One carriage was reported to have overturned and four more were derailed. 44 of the passengers were injured</i><p>- And this was the Cleon Derailement (France) by sabotage in September 2026<p><a href=""https://en.wikipedia.org/wiki/Cl%C3%A9on_derailment"" rel=""nofollow"">https://en.wikipedia.org/wiki/Cl%C3%A9on_derailment</a><p>In this last case Police suspected sabotage after a 300 Kg piece of rail was found deliberately laid in the railway.<p><i>""A fire was detected in the rear cabin of the high-speed train. Following safety protocols, the 283 passengers on board have been evacuated""</i><p>This was an AVE passenger train in the line Madrid-Barcelona, in October 2026. Most probably another case of sabotage."	pvaldes	1793307044	1
+50293878	This was a terrifying read because I initially read  about this at the air port in Madrid after taking a Renfe train from Alicante; literally at the same time...just a different line	absoluteunit1	1793299208	1
+50295403	The main problem comes from under maintenance. I am spanish, we have known this for years.<p>15 or 20 years ago when I took the train it worked well.<p>Now there are more trains and they increased the traffic like by 70% if I am not wrong and the budget for railway infrastructure by only 17% and it seems to not scale well enough, for whatever reason I do not know all the details.<p>There are a lot of railway tracks that are not in good state so speed must be lowered. There are incideents and delays routinely, all the time.<p>This did not happen until like 10 years ago and it has gotten worse and worse since then, not only in high speed trains.<p>The roads is a mess also: 52% of infrastructure for roads has bad or very bad defects in it.<p>The thing is that we have a record in government incomings and the services, ALL of them (healthcare, roads, infrastructure...) slowly collapsing.Part of the money is not going to the right places. I think that nearly 40% of the budget goes for retired people. We have 9.5 million pensionists in Spain.<p>We have to change that system and rationalize government spending and welfare or eventually everything will collapse.	germandiago	1793305737	1
+				
+				
+				
+				
+				
+				
+				
+				
+50294176	Is there an international consortium for best practices in high-speed train control? Surely there are countries that have good systems in place, or have benefited from knowledge-sharing. I have to believe these train systems were built with outside help and then organic improvement or the opposite. Spain, talk to them.	dogscatstrees	1793300508	1
+				
+				
+				
+50296512	Off topic I know but, the BBC has adopted this clickbaity title pattern of “what we know so far about x” for the last year or so and it really jars me. Especially when x is very serious and involves people dying. It’s like an amateur tictoc’er is in charge of headlines at the moment.	rimeice	1793310142	1
+				
+50302267	"""What Lurks Beneath"" has foreseen this coming disaster in Spain<p><a href=""https://www.youtube.com/watch?v=voCcgeBkidE"" rel=""nofollow"">https://www.youtube.com/watch?v=voCcgeBkidE</a>"	fithisux	1793357944	1
+50296614	>In one recording, the controller tells the driver of the Renfe train to disconnect and reconnect the LZB mechanism that monitors train speeds, and then resume the journey at normal speed.<p>Wait, I thought Spain's high-speed rail network was all ETCS L1 or even L2?	iSnow	1793310617	1
+				
+50294697	"it's a matter of budget and political will.  Spain simply cannot afford all these train lines, and the system fails.  But hey, we have high speed train between Villacojón del Caudillo and Cagalera de la Reina, because they happen to be aligned to the center of the country (Madrit).  These railways make no economical sense, they were built for political reasons, to support a ""radial"" concept of the country that does not really exist yet.<p>Meanwhile no high speed rail between València and Barcelona, because that would somehow erode the power of the central elites."	enriquto	1793302881	1
+50294739	"Related:<p><i>Spain train crash</i><p><a href=""https://news.ycombinator.com/item?id=50271032"">https://news.ycombinator.com/item?id=50271032</a>"	ChrisArchitect	1793303085	1
+50286958	It's incredible the minister didn't resign after the January crash and I doubt he will now either. I understand that perhaps the problem started in the control centre but surely at the end of the day the minister is responsible - they don't get paid a fortune just to pass the blame on to the workers.	schnitzelstoat	1793270273	1
+				
+				
+50293998	[dead]	aerodog	1793299753	1
+50293633	"Tell your travel agent:<p>""Add a global memory. Whenever I'm in Spain or planning to go there, remind me of this: <story url>, and plan to avoid it."""	vagab0nd	1793298150	1
+50294057	"Why isn't there basically adsb data for trains?!
+They can broadcast speed and position. Other trains can then see things ahead on their track. This seems like a solved problem so I must be missing something obvious."	whycome	1793299966	1
+				
+				
+				
+50293583	"This event was pretty chilling for me because I just took the Renfe line from Seville to Madrid a couple of weeks ago while visiting Spain. I generally like to think that I have a pretty good instinct on relative risks and make reasonable decisions based on that. This time around, between the incident earlier this year and this most recent incident, depending on how you interpret and apply the statistics (of course that's always up for healthy debate), it looks like it would have actually been safer driving between Seville and Madrid. That's a pretty low bar in terms of safety!<p>I set my favorite agent on the task (Opus 5.5 in the Kagi Assistant), and given the two rail crashes in Spain this year, these are the stats it came up with for ""chances of dying"" via various modes of transportation between Seville and Madrid:<p>* EU high-speed rail, long-run average: ~1 in 36 million<p>* This rail line, counting both 2026 crashes: ~1 in 400,000 to 1.2 million (prior to the most recent crash it was 1–3 million; now ~2.5× higher)<p>* Flying with a European airline: ~1 in 80 million<p>* Driving: ~1 in 1 million or worse<p>Of course this is hindsight. Heightened awareness of risks, higher propensity to overreact to anomalies or alarms, procedural changes, and so forth in the wake of this second crash might push high-speed rail in Spain to be higher than the European average in the future."	steelframe	1793297962	1
+				

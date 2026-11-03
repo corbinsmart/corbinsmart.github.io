@@ -1,0 +1,20 @@
+50232101		atgreen	1792939513	0
+50263832	Wouldn’t it be wonderful if, in the world of LLMs, Lisp became the new lingua franca, because we don’t have to convince humans that parens are scary, and because it enables exactly this kind of magic.<p>Full circle for Lisp as an AI language.	mgdev	1793126549	1
+50264606	Hey, I'm the author.  Yes, I worked in the University of Toronto's AI lab as a student  many years ago, back when Lisp in AI was a thing. It definitely would be full circle!	atgreen	1793129847	2
+50266804	LLMs can’t count. Do you think they can balance parens?<p>Personally, I’ve wondered why they don’t just generate machine code.	jonhohle	1793140402	2
+50266874			1793140770	3
+50267216	I never thought of that. Humans avoid machine code for many reasons. If LLM's don't need to produce human-readable output, then why not?	shoobiedoo	1793142837	3
+50268647	It would be architecture dependent	__m	1793154489	4
+50269485	Well they could output plan.md files that are architecture independent first. Then we can commit those, and only generate the final machine code on demand.	lmz	1793163300	5
+50269907	That's a very good way to ensure your software is not reproducible.<p>People don't trust other people making little changes to existing software, who will ever be ok with rebuilding it from scratch?	SkiFire13	1793169185	6
+50272427	We could call the final phase a coLLMpiler for good measure.	lmz	1793189976	7
+50270320	they can call tools to count tho?	sharts	1793173199	3
+50268800	I mean, is this an actual issue? There have to be plenty of developers using LLMs to write Lisp(s).<p>I have occasionally seen Claude models struggle to balance brackets/parens in nesting-heavy languages like Dart (Flutter), but it’s gotten much better.	rafram	1793155864	3
+50283123	Plus your agent (strictly speaking) doesn't need to generate parens as tokens. Instead they can generate imperative stack commands that manipulate the AST. Or something paredit-like.	mgdev	1793235654	4
+50287339	LLMs can write Common Lisp just fine. I have no idea where the myth that they can't because of the all the parentheses comes from.	BaronSamedi	1793273269	4
+50262378	I think OpenLDK allow you to use the Java world for sbcl when you don't want to use Clojure or ABCL. But using OpenLDK requires you to pay the interop cost and when speed of the java libraries is not a sharp constrain.	Trusteando	1793121195	1
+50290244	(or LispWork$ and its Java interface)	vindarel	1793286158	2
+50262440	"Your ""light mode"" button doesn't work."	rjsw	1793121409	1
+50263104	That button makes the invisible scrollbar visible, though, which is great.	adrianmonk	1793123626	2
+50265790	I love lisp. I have fond memories of reading/studying Land of Lisp many years ago. Glad to see stuff like this being created.	bjornroberg	1793135077	1
+50266056	"Incidentally, it looks like this idea also works with Jolt now. It's still in alpha stages, but works as a proof of concept. <a href=""https://github.com/jlt-commons/jolt-openldk"" rel=""nofollow"">https://github.com/jlt-commons/jolt-openldk</a>"	yogthos	1793136342	1

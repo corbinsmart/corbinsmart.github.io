@@ -1,0 +1,8 @@
+50260146	"DietPi - the lightweight Debian based Linux distribution.<p>Our major changes:<p>DietPi-Wireguard: New tool to manage WireGuard servers and clients
+DietPi-Software: Software packages are setup via names instead of IDs
+HAProxy: Optimized installation (apt) without recompile needed
+DietPi-Config: Smaller improvements
+Quartz64: Support for ATAPI/SCSI CD/DVD/Blu-ray drives
+UTM VMs: Now with ARM and UEFI support
+DietPi-Network: Several improvements to our new network configuration tool
+Fixes for DietPi-Drive_Manager, DietPi-Cloudshell, UrBackup, Immich, Immich Machine Learning, Tor Relay, Kubo, Nextcloud<p>Of course, there are further changes and fixes. See also: https://dietpi.com/docs/releases/v10_8<p>How to update? Just run dietpi-update.<p>In addition, it would be nice, if you would contribute to our project or support us with a small donation: https://dietpi.com/contribute.html."	stephanstsdietp	1793112139	0

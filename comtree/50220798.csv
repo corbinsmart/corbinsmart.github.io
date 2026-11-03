@@ -1,0 +1,8 @@
+50220798		DrMoris	1792846353	0
+50258134	Based on README, this seems like yet* another vibe coded OS. Any interesting design/engineering decisions/remarks worth talking about?<p>*Thinking about it, kinda crazy how we can now casually build a simple independent OS in the time it took to just go through OSDev pages.	forgotpwd16	1793104203	1
+50319773	Planned for LimonOS: adding Python as a language inside the system (so you can write and run your own programs), FTP (already there) and SSH, a better browser (Citrus), a better kernel, writing my own programs inside it, and eventually running a Python server so other machines can connect to LimonOS.<p>Honest note: this depends on the loader → syscalls → mini-libc → Python subset → listening TCP chain. FTP works now; SSH, images/CSS in Citrus, and the Python HTTP server are in progress, not done yet.	DrMoris	1793478249	2
+50256235	I do kind of love the aggressive UI theme	swiftcoder	1793091061	1
+50257196	[dead]	voidmoth	1793098440	2
+50319744	[flagged]	DrMoris	1793478086	2
+50220799	[dead]	DrMoris	1792846353	1
+50256436	[flagged]	favaloralo	1793092724	1

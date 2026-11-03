@@ -1,0 +1,12 @@
+50243914		wicket	1793023447	0
+50250705	"Not sure how to feel about the ""Let's fork ReactOS and vibecode hundreds of commits per day"" approach."	breakingcups	1793047704	1
+50251817	At least the developer of LiberNT has sufficient knowledge to work with AI tools and he can review low level code. In many other forks, it's common to see people as mere meat proxies.	feldrim	1793052633	2
+50254832	What is the evidence of that?  I ask, so that it can be identified on other projects.	jdboyd	1793076749	3
+50258287	The developer of LiberNT worked with ReactOS and he managed to contribute a lot. But regarding AI governance on the project, there were conflicts between the developer and the community. This caused the separate fork we have seen called LiberNT.<p>It's not inferred from the work but through weeks of communication. The only evidence would be the chat history of ReactOS Mattermost.	feldrim	1793105118	4
+50257866	[citation needed]	qubex	1793102556	3
+50265792	[flagged]	killix	1793135081	3
+50255734	Better than flooding upstream with it.<p>ReactOS is focused more on getting the basics right and reverse engineering obscure APIs, they deserve all the credit for that. But their kernel is NT 5.2 so it can't even support .NET apps. That's a deal breaker for any serious use. LibreNT is shooting for a serious alternative to modern Windows.	tancop	1793086688	2
+50259565	">LibreNT is shooting for a serious alternative to modern Windows.<p>I would say good luck combining ""serious alternative"" and sloperating systems, but then modern Windows is going off a cliff so maybe compared to Windows this is serious."	officeplant	1793109850	3
+50251459	And I just got a PoW challenge when opening the site. Ironic.	zamalek	1793051050	2
+50256415	Windows NT in 1994 holds a special place in my heart. Such pure computing. Makes me happy to see this project and hope it does great.	gregglain	1793092465	1
+50257890	I first encountered NT 4.0 at age fifteen in 1996 and realised what a huge jump it was compared to the dOS/Windows 3.x/Windows 9x lineage. I went on to use it for the rest of the nineties and I was a beta tester for NT 5.0 (which later became Windows 2000). I jumped ship in 2003 and switched to MacOS X before XP SP2 was released. I feel a strange sense of familiarity but also alienation whenever I have to use a Windows machine nowadays.	qubex	1793102709	2

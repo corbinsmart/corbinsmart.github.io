@@ -1,0 +1,6 @@
+50318200		andrewstuart	1793468293	0
+50320931	It is rather stunning that PCI signalling works despite this style of wiring, but the proof is in the pudding! Dealing with the wire inductance and the interference between the signals could easily be the hardest aspect of this implementation. Probably much harder than designing the logic itself. IIRC, the absolutely minimal working PCI hardware and software could actually be rather rudimentary, if one did not need implement the entire PCI specification in a compliant way.	generuso	1793486150	1
+50319782	This is really neat and something I thought about myself.<p>An OS that would run on this is Inferno, though I am not sure of the state of the 68k compiler.	MisterTea	1793478344	1
+				
+50320582	Look at all those wires! No wonder hobbyists haven't bothered with the PCI bus much.	phendrenad2	1793483302	1
+				

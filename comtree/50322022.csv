@@ -1,0 +1,55 @@
+50322022		hapax_legomena	1793497589	0
+50325623	"We demonstrated this in 2016 at PennApps and won the hackathon. The demo video: <a href=""https://www.youtube.com/watch?v=pAM9c3eBFyE"" rel=""nofollow"">https://www.youtube.com/watch?v=pAM9c3eBFyE</a><p>Code: <a href=""https://github.com/fyquah/ramear"" rel=""nofollow"">https://github.com/fyquah/ramear</a><p>Press: <a href=""https://technical.ly/software-development/scary-hardware-hack-won-pennapps-ramear/"" rel=""nofollow"">https://technical.ly/software-development/scary-hardware-hac...</a><p>The most challenging part was to demonstrate it live on stage, typing on the airgapped desktop and decoding the signals on the laptop with the antena next to it. I found an image still surviving from the stage: <a href=""https://dailytrojan.com/2016/01/26/my-weekend-at-pennapps/"" rel=""nofollow"">https://dailytrojan.com/2016/01/26/my-weekend-at-pennapps/</a> I may have a video of the demo on the stage as well...<p>Our work was based on the same author Mordechai Guri's earlier work 5 months prior, referenced on GitHub (USENIX Security 15, pp. 849-864). Thank you sir, this hack was a highlight of my student years.<p>OTOH, it's chilling me to this day. The implications of this attack vector is only getting scarier. Also, apparently the capability ceiling: 1Kb/s and a greater distance is demonstrated here compared to 11 years ago."	emrehan	1793540585	1
+50322635	These and other methods are good reason to believe that AI can never be 100% contained, which gives me pause.<p>The famous air gap case is stuxnet, but there are other technical and biological approaches.<p>It’s a very weird reality we’ve found ourselves in if you stop, zoom out about, and really take in the gravity of the issues we are grappling with as a human race. Exciting, truly, and a bit nerve wracking.	talon8635	1793506300	1
+				
+				
+				
+				
+				
+				
+50323026	Cool paper even if the attack isn't practical, requiring getting the malware on the computer and a SDR antenna within 7 meters with clear line of sight of the affected computer for 100 bits per second (less after applying error correction). Hard to imagine a scenario where you can pull off both of those, but you couldn't plug in a USB, grab the PC, or record the screen directly.	TGower	1793512191	1
+				
+50322684	Does any information leak along the power line? I remember having some device back in the day that let me create a LAN through my apartment's electric wiring.<p>I'm wondering if anything ends up back there thru the PSU during normal use of a computer, or if the high frequency components get filtered out.<p>(Though maybe secure computers do things differently with the power as well?)	andai	1793506906	1
+				
+				
+				
+				
+				
+				
+				
+50328561	"Actually, leaking secrets by air gapped computers is really, really old.<p>I know that e.g. in 1985 the (west) german army had tempest rules e.g. for mobile elint systems. You couldn't use a normal computer for e.g. triangulation, or to look up things in databases. The reason was that even back then video of a normal computers could be monitored from more than 100 m away.<p><a href=""https://en.wikipedia.org/wiki/Tempest_(codename)"" rel=""nofollow"">https://en.wikipedia.org/wiki/Tempest_(codename)</a>"	holgerschurig	1793559684	1
+50323116	Devices like routers should have firmware in memory that has read-only access. The access should be turned on or off by a physical switch.<p>This way, if malware gets installed on your router, doing a cold boot will eliminate it. You can have a timer to just cold boot it regularly.<p>I've suggested this many times. The rationale for not doing it is so the firmware can be remotely updated. Well, that's exactly how malware infects it.	WalterBright	1793513533	1
+				
+50323681	There are tons of ways to make air gappped systems transmit data. They all include the installation of some malware and have become more expensive and less usable over time.<p>Back in the day with crt screens you could just capture the frequencies transmitted when creating the picture and look at the copy straight away.<p>No malware. No direct contact. And it worked over rather big distances.	Grimeton	1793522120	1
+				
+50328657	I've started to play a meta game when I see new paper on side channels: I try to guess if it's Guri or Elovici this time.	maqp	1793560205	1
+50325912	"I used the same approach to play music from a .wav via pulse density modulation -<p>* <a href=""https://www.youtube.com/watch?v=KH9yb1qFKDY"" rel=""nofollow"">https://www.youtube.com/watch?v=KH9yb1qFKDY</a><p>* <a href=""https://github.com/anfractuosity/musicplayer"" rel=""nofollow"">https://github.com/anfractuosity/musicplayer</a>"	anfractuosity	1793542562	1
+50326105	"""At best, an air gap is a high-latency connection."" - Ed Skoudis (of SANS fame)."	EvanAnderson	1793543705	1
+50322769	Meanwhile my WiFi never works	rbbydotdev	1793508201	1
+				
+				
+50323190	> With a slow transmission rate (t = 10ms), A transmission is maintained at a distance of 700 cm away. With medium transmission rate (t = 5ms), A transmitted is maintained at a distance of 450 cm away and BER of 3%-4%. With a fast transmission rate (t = 1ms), a transmission is maintained at a distance of 300 cm away and BER of 2%-4%.<p>Coming from a non-EE background, this is the most interesting part to me. 10ms is an eternity in programming perf work, but it's already very constrained in how clear the signal is for reading the transmission. I just find it interesting that we want to do <i>nothing</i> to create a signal. Perhaps this makes it harder to exploit?	xpct	1793514618	1
+50325045	Air gaps need to include a faraday cage.	mooktakim	1793536578	1
+				
+				
+50326881	"Yes, side channel attacks are sneaky, and always end up leveraging someone's hubris, with huge effort.<p>If you rely on an encryption machine that can't give the same letter on the output as the input, and the next thing you know, after millions of zł and £ and $ of effort, including capturing a submarine in the middle of the ocean before it sinks, others are reading your encrypted messages.<p>You isolate your Uranium enrichment facility in the middle of Iraq with guards, barbed wire, and pretty good security, but someone is able to slink in, put a passive monitoring probe on the 3 phase power going into your facility, and sneak it back out a few months later... and then they do an FFT, then measure the peaks to back-compute the speed of each stage's centrifuge, and the next thing you know, they can tell  exactly how well things are going for you (read about that on Slashdot more than a decade ago! Possibly related[1])<p>If you put all your data through a digital computer, someone may use Van Eck phreaking to spy on your video output, or other emissions. If they have the right gear in range. Getting that gear in range again usually entails the results of large sums of effort.<p>Sure, it's <i>possible</i> to leak info out the data lines going from a CPU to RAM with a properly formatted set of patterns. If you <i>don't even try to isolate that CPU from an ingress of control</i>, however, you don't need that high effort strategy, you just need a good North Korean hacker working from the other side of the globe.<p>Folks, we mostly solved the ingress of control problem back in the 1970s, and it was getting folded into Multics as multilevel, capability based, security. But, the folks at Bell Labs, and many other places (MOST other places, and almost all of us, myself included) decided that security wasn't really important.  That's why we're in this mess today, not because of idiots with LLMs and too much money.<p>We're in this because Operating Systems that rely on ambient authority can not ever be made secure.<p>Unix, Linux, Windows, and all the rest are unfit for purpose in the era of persistent Internet. We need to undo that local minima decision back from the era of paying by the minute for dialup connections to the BBS, and before every computer was networked. It's going to suck, but it's likely to be a Y2K level problem, not impossible.<p>[1] <a href=""https://web.archive.org/web/20170828055815/https://www.washingtonpost.com/archive/politics/1999/03/02/us-spied-on-iraqi-military-via-un/3b9e56ce-1fa7-4aa9-ba9c-8423510bb9f3/?utm_term=.bca888fe5303"" rel=""nofollow"">https://web.archive.org/web/20170828055815/https://www.washi...</a>"	mikewarot	1793549144	1
+50322682	As a total layman when it comes to air gapping: Would this not be defeated by putting the computer in a faraday cage?	skhr0680	1793506819	1
+				
+				
+				
+				
+				
+				
+				
+50325654			1793540821	1
+50323194	These attacks are all incredibly impractical and pointless, the bit rate under the most charitable assumptions is pathetically low. But even more, it ignores the most significant risk, which is people. People who can be tricked and subverted, and people systems that can be influenced to become misaligned, or which have procedural holes.<p>It's much easier to subvert the supply chain for the secure hardware or subvert the authorised system transfers.	angry_octet	1793514673	1
+				
+50322656	Let me guess, a paper written by Mordechai Guri?<p>It's not even a contest anymore, that man is the heavyweight champ of air-gap security.	ranger_danger	1793506492	1
+				
+50322967	"> We show that malware on a compromised computer<p>Right… I’m going to stop reading after these words. With malware on the computer you can change the heat signature of the room of you’re bored enough. <a href=""https://xkcd.com/1172/"" rel=""nofollow"">https://xkcd.com/1172/</a>"	laserbeam	1793511234	1
+50322748	Computers used to come in proper full metal cases. Now they don't. Even when you try to find a metal case for a personal build most cases have giant holes in the side (case windows) acting as slot antennas. And plastic case laptop designs are even worse. Radiated emissions are much easier to achieve at useful intensities these days because of it. Sure, before the conductors going in and out radiated somewhat effectively (and still do). But now even core system components inside are just being let emit without any mitigation.	superkuh	1793507834	1
+				
+				
+50322191	[flagged]	carplaybits	1793499807	1
+50327720	[flagged]	johndxy	1793554476	1
+50323133			1793513745	1

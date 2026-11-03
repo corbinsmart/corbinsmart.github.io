@@ -1,0 +1,97 @@
+50274251		bradley_taunt	1793197826	0
+50275437	Interesting to watch the rapid fragmentation of FOSS into “hard” anti-AI, AI-neutral-to-discouraged, AI-supplemented, and AI-driven camps, akin to the early GPL vs BSD wars. Suddenly I don’t see as many complaints about licensing, and some of the die-hard GPL stans are silently dropping that position as Linux adopts AI-supplemented development.<p>On one hand it’s unfortunate, because it hypothetically dilutes developer efforts, but on the other hand the most extreme groups already had incompatible personalities and weren’t working well together. This self-sorting may actually result in a better cadence and less energy wasted on arguing.<p>The downside is that a lot of loud and annoying people seem to be converging on BSD land. I am AI-nonaligned (I just care about Quality) but I’m very much in favor of OpenBSD’s heads-down focused dev culture. I hope that doesn’t change.	iamnothere	1793201761	1
+				
+				
+				
+				
+				
+				
+50277665	These types of projects tend to have a flash of appeal, especially to people used to Linux, because it lessens one degree of unfamiliarity, but they don't seem to stick around for to me obvious reasons.<p>It's hard to get involved with something like a BSD project because you have to learn a lot and put in enough effort to get committer rights.  And then if you want to move the needle you have to do even more work and build consensus without getting overly emotional when people disagree with you.  But it is the path I would recommend to have a lasting impact, and I am speaking from experience as a FreeBSD and NetBSD src committer.<p>Also, pkgsrc is one of the strong points of NetBSD, coupled with pbulk and pkgin.  Wrapping that all up in an opinionated installation (like Omarchy recently did to Arch) would be a more survivable effort.  But as my friend Larry McVoy would say, it means you don't always get to drive the big red fire truck by yourself.	kev009	1793209254	1
+				
+				
+50277231	> AlpineBSD is not a fork of Alpine Linux, its package collection is original (though many packages are ultimately based on aports).<p>> Alpine Linux uses the OpenRC init system. Currently, AlpineBSD uses s6 and we intend to add OpenRC as an alternative.<p>I'm not sure where exactly the line should be, but that feels like it's not an Alpine* then. Like, if you're starting your package collection separately and use a different service manager, you're further from Alpine Linux than  Adélie Linux is.<p>(To be clear, I'm a big fan of making a new OS from a *BSD core and a new userspace. I'm just quibbling about naming semantics)	yjftsjthsd-h	1793208227	1
+				
+50275436	"Ok so it's ""AI free"". But why? It doesn't justify the decision but just assumes you will understand the reasoning. I have to say: I don't. For example they are pinning binutils, gcc, and gdb to the last version they know does not have LLM generated code. I assume this means they will not be able to accept any upstream patches, but instead have to take over maintenance of those packages themselves for the forseeable future, effectively meaning development on those will stop for the purposes of AlpineBSD. Seems stupid, to me."	efficax	1793201759	1
+				
+				
+50277383	Back in my day, we didn't have artificial intelligence. We had actual ignorance. And we liked it that way.	seethishat	1793208579	1
+				
+50276106	"Alpine is also the codename of the first iOS, hence the default root pwd ‘alpine’. 
+<a href=""https://mashable.com/archive/apple-ios-codenames#9.CLuUuywuqY"" rel=""nofollow"">https://mashable.com/archive/apple-ios-codenames#9.CLuUuywuq...</a>"	thenthenthen	1793204177	1
+50275195	"After reading the web page, I am left with some questions unanswered,<p>* Is it a goal for AlpineBSD to run on native hardware, or is it intended for containers (a major use-case for Alpine itself)?<p>* For users who want to avoid AI-generated code, why run this rather than netbsd itself?<p>If the team want to attract interest, they should give more context.<p>The mission is unclear. The team could address this by stating goals and milestones on the front page.<p>There is a link to a tool s6 on the page. The description of that tool opens with a circular definition. It would be clearer if it stated why it exists in the opening paragraph. Near the bottom it talks about ""One of the design goals of s6-frontend"". It would be better to state all of the design goals."	cturner	1793200906	1
+				
+				
+50275280	"The whole ""as little AI code as possible"" is tribalism.<p>I want software that is brilliant and well audited, no matter who or what produced it.<p>No AI guarantees nothing, especially if it's a C codebase like netbsd, why not also join the rust tribe then?"	hoppp	1793201223	1
+				
+				
+				
+				
+				
+				
+				
+				
+50275573	I can respect this. Looks like AI auditing code is fine and I can't imagine why auditing would ever be a con. As for the lack of reasons given I guess they leave that for the users which seems completely fine to me. If you are chimping out over not getting a justification then you should probably do some soul-searching.	against_epistem	1793202244	1
+50285562	I was a fan of the Debian GNU/kFreeBSD project, I wanted to use FreeBSD back then, but I was unhappy with the BSD approach to software packaging. But even that was abandoned due to lack of interest. People who want to use BSDs just generally prefer the BSD way of doing things. I might be wrong, but I don't think the anti-AI ex-Linux-user crowd is large enough for this to become successful. I think a more useful work from the anti-AI community would be to start improving the driver situation in NetBSD/OpenBSD, so it can be used on modern machines, and just accept the BSD way of packaging software.	lukaslalinsky	1793258967	1
+50275550	"> NOTICE: The NetBSD kernel has spotty hardware support, much less so than Linux. You cannot necessarily expect AlpineBSD to work on any random computer you have lying around.<p>Huh. I feel like the author has their BSDs mixed up! NetBSD's main claim to fame is that it runs on practically everything, even lots of platforms no longer supported by mainstream Linux distributions. The page links to the laptop wiki, which is about AMD64 laptops and their finicky peripherals and driver support. A better place to start for hardware support is <a href=""https://wiki.netbsd.org/ports/"" rel=""nofollow"">https://wiki.netbsd.org/ports/</a>."	bityard	1793202174	1
+				
+				
+				
+				
+				
+				
+50285768	The half-life of these projects are well below one year.	asmnzxklopqw	1793260726	1
+50276226	I so wish Gentoo/BSD still was a thing.	Gualdrapo	1793204593	1
+				
+				
+50286690	"I've ctrl+f nanobsd but found no entires. Nanobsd is a set of build scripts from the FreeBSD source code that allows you to create a very minimal barebones operating system image. I think its mainly used for FreeBSD derivatives.<p><a href=""https://docs.freebsd.org/en/articles/nanobsd/"" rel=""nofollow"">https://docs.freebsd.org/en/articles/nanobsd/</a>"	irusensei	1793268143	1
+50286341	> The NetBSD kernel has spotty hardware support, much less so than Linux.<p>On the other hand, it can run on a toaster, a 386, an IBM Workpad laptop…	rbanffy	1793265079	1
+50283951	I'm sure we'll make a fuss about this today, but we won't hear about this project again for at least 10 years.	commandersaki	1793241616	1
+50275349	Neat project. One thing I don't see covered: is everything going to be statically linked like it is on Alpine Linux? Is statically linking libc advisable on a NetBSD kernel? I know (unlike Linux) the FreeBSD kernel ABI can change every major release, but I'm not familiar with NetBSD's approach.	craftkiller	1793201463	1
+				
+				
+50275449			1793201809	1
+50283669	It's funny how there's a disclaimer about not supporting as much hardware as Linux. NetBSD had a reputation for supporting pretty much everything so seeing the tables turn in favor of Linux is pretty odd.	scheme271	1793239275	1
+50281115	I've been using AI with alpine and had tremendous results. fixing legacy bugs, reducing resources, improving performance.  with the right supervision, the results are great.<p>AI can fix a lot of issues that lingered due to lack of time & patience for proper testing and experimentation.<p>For example, I had VM instances crashing because of a commercial vendor's agents (telemetry, auth etc).  AI identified why the crash occurred, and rewrote the buggy vendor agent with a lighter and more resilient agent.<p>I brought the issue up with the vendor, and they were stuck with their approach for legacy reasons.  Fine!  we can both operate happily now. I don't have to use their software.	tonymet	1793222712	1
+50285508	Do any devs here not use AI? I mean really not use AI.	bottlepalm	1793258464	1
+50287053	"<p><pre><code>    > more GNU-oriented userspace, preferring e.g. GNU make over BSD make
+</code></pre>
+How are you going to build that kernel?"	tosti	1793271119	1
+50278235	"Regardless of how you feel about using LLMs or using products that are developed with LLMs, it is a good idea to have an ecosystem of open source projects with differing levels of LLM involvement, including pristine software written entirely by humans.<p>The pragmatic argument for hard no-LLM projects: if models are to be useful, they need good input. Hand-written software that has been carefully audited is free from the kinds of feedback errors that will eventually weaken LLM code generation. Otherwise, a bad pattern gets copied. In the next generation, this bad pattern is seen a bit more often as stochastic models converge on it and more open source code adopts it. This is reinforced in the next generation and it becomes a common pattern. Then, in the next generation, this pattern is seen all over. This could be inert ""non-coding DNA"" like weird naming conventions or pointless comments. Or, it could be bad edge cases that become commonly exploitable."	nanolith	1793210813	1
+				
+50290531	Love the commitment by “Amishpunks”. I am all-in AI now but can imagine a future where I will be one of you guys.	Rodmine	1793287352	1
+50275369	Great website, great AI policy. The two are probably related.	123ajhz	1793201510	1
+50276161	> NetBSD kernel has spotty hardware support<p>Oh, how the mighty have fallen. Still remember the times when the meme was that the NetBSD was running on absolutely anything.	proxysna	1793204408	1
+				
+				
+				
+50282371	Not using AI is a choice they can make.<p>They'll be left behind, but it clearly doesn't matter to them.	snvzz	1793229849	1
+				
+50284472	So they thought “ok NetBSD is not unpopular enough, we need to fix it” and made this.	dizza	1793247120	1
+				
+50282091	If this were based on OpenBSD or HardenedBSD I could get into it.	jon128	1793227998	1
+50275589	">A small amount of essential software is pinned to the last version which is not tainted. We pin software as a last resort, preferring to find alternatives or move the package into the tainted repository. The current list of pinned software in “base” and “main” is:<p>>binutils
+gcc
+gdb
+libffi
+perl
+xorriso<p>Good luck replacing those ..."	mrbn100ful	1793202274	1
+				
+50287038	more like NetBSD + busybox	krystalgamer	1793270994	1
+50276594	"while sitting on a cab a few weeks ago, i was watching other large trucks passing through, and i was wondering about what it would be like if these trucks were entirely made by bots, would travelling on roads feel less safer? 
+when you know that the existing old stuff is made by humans and most humans who are good at their work genuinely put in effort and care in their craft, can we say the same about work generated by clankers?
+Really got me wondering, still split on if all this AI hype will be a net good in the long run.
+Sure you're more productive and end up spitting out more code, as long as its non critical SaaS stuff, who cares if things go wrong right?
+for crucial, mission critical stuff, relying only on AI autonomously, especially when they are still prone to make errors, seems like a very dystopian reality.
+Just today claude code hallucinated the first name of a person because in the username the first name was one letter."	proton_9	1793205996	1
+50282528	Another niche distribution which opposed the AI. I hope none of its maintainers resign due to burnout from tasks which could be easily offloaded to AI.	arisudesu	1793231071	1
+50290601	[dead]	cypherlion	1793287613	1
+50281245	It is really very telling that the AI bros, after flagging bad Google earnings from the front page, need to descend on a tiny new project and flag or downvote all comments that sting.<p>They are really very insecure people, professionally and socially.<p>EDIT: It took one second for an AI patrol to downvote this one.	1ajsht	1793223387	1
+				
+				
+50281124	> AlpineBSD is an operating system based on the NetBSD kernel with a userspace inspired by Alpine Linux and the objective of making it possible to use as little AI-generated software as possible.<p>Fucking get over yourself.	teaearlgraycold	1793222749	1
+50275154	This AI policy is so utterly backwards and stupid I don't even have a nicer way of saying it.	holistio	1793200750	1
+				
+				
+				
+				
+				

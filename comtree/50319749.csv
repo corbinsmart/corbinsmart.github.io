@@ -1,0 +1,58 @@
+50319749		luu	1793478115	0
+50328146	I just run 120v extension cords from my EV during power outages (it has 2 15A capable outlets). I added a manual transfer switch to my furnace so it can be plugged into an extension cord, and I can power my furnace, blower, refrigerator and freezer, wifi and internet for a couple of days.<p>I really wanted to set up an automatic transfer switch for the whole house from my car in v2h mode, but I found it impossible to spend any amount of money and be confident that the system would actually work with my current EV (the wallbox quasar _sounds_ promising but I couldn't find any reports that it actually _works_)	jerkstate	1793557147	1
+				
+50326765	My biggest problem with batteries for grid outages is that the only outages I am actually concerned with would drain them to zero before the outage is resolved. For short term, smaller/portable batteries are fantastic at bridging a few hours. Plug the wifi & fridge in and you can sometimes go for 2-3 days.<p>I am not aware of any economically feasible way to run my 5+ ton HVAC system full-time on batteries after a hurricane just reset all the infrastructure, and you do need to run it full time because of the insane humidity and latent heat that follows a tropical system. Doing the math, I'd need something approaching 800kWh of storage to ride through this kind of event (7+ days). This is approaching half a million dollars in batteries. I can install an <i>extremely</i> nice 1800 RPM generator for ~15% of this cost, which would also include a year's worth of propane buried on the property.<p>I think a simple generator on an ATS remains undefeated from an engineering perspective. If you have an air cooled unit, the maintenance is not much more complicated than with a lawnmower. You just have one extra spark plug to deal with, and sometimes the oil pressure sensor needs replacing. I can get my stubborn Honda generator to start with all kinds of weird tricks. If my Ecoflow battery starts to act weird, I have very little recourse by comparison.	bob1029	1793548290	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50327904	A fundamental problem here is that V2H during an outage requires a disconnection device (in the NEC this is a “microgrid interconnect device”), and the manufacturers of such things have made no effort whatsoever to standardize the control protocol.  This means that you cannot build an islanded-V2H-ready house and just plug in a car.  So the whole concept is kind of dead in the water.<p>At least Tesla is vertically integrated enough to pull it off within their own product portfolio, but this has approximately no value if you want to use a non-Tesla car.	amluto	1793555652	1
+				
+				
+50329646	"SAE-J2847 includes ""how to convert your building side to supporting BPT grid works, and pairs well - it looks - with ISO 15118-20 BPT.  (and reasonably well with ISO-15118-2 and the BPT extensions in SAE-J2847).  Anyway, supporting AC grids requires some additional electronics both in battery systems and in the local hookups.<p>I haven't explored the actual space much, as I work on ISO 15118-20 for busses, and a bus as a local grid backup scales pretty well.  (and even then, I work protocol level, not electrical)."	teunispeters	1793565750	1
+50327737	"This entire area is a mess, I spent a year or so trying to get bidirectional charging set up at home in the UK. I even went to several of the vendors mentioned in that post and said ""I've got basically a blank cheque and permission to do whatever you want however you want, even use it all as a case study to make this work"" and nowhere could/would do it.<p>The most frustrating thing is it looks like V2G is easier and more accessible than V2H[1]: it's easier to give control of your battery to your energy provider and bypass your house to help the energy companies than it is just to power your own home with your own car battery.<p>Technically, this is ridiculous. You don't bypass your house when you do V2G.<p>My tinfoil hat is clearly making me too cynical when I say this, but I think it's this way because of the relationship between energy providers and law makers. These are the same energy providers that use ""changes in wholesale pricing"" to justify increasing how much they sell me electricity for, whilst reducing the amount they pay me for the solar electricity I sell them.<p>[1] <a href=""https://octopus.energy/power-pack/"" rel=""nofollow"">https://octopus.energy/power-pack/</a>"	1dom	1793554617	1
+				
+50327576	Tesla just brought this functionality to new Model 3 and Model Y cars as of Oct 1. It requires at least one Powerwall 3 to enable bidirectional V2H - what they call Powershare. But those cars can now power the home and charge from solar while the grid is offline.	drusenko	1793553563	1
+				
+50328707	Most Tesla models don't support bidirectional because they had free Supercharging, and also probably because having your car not full at all times is not always the best experience. Other brands like Nissan had always supported V2H and in fact it has always been a selling point of OG leaf that it could double as the Powerwall equivalent since back in 2012.<p>Most V2H systems don't support zero-interrupt automatic transition because it has no means to know if the perceived grid outage is accidental or intentional, and if intentional, trying to back it up could injure/kill electrician who commanded it. But if the system is operating off-grid, I think those can be configured to be always uninterruptible.	numpad0	1793560505	1
+				
+50326889	You can do it with an F150 lightning if you have the 10kW inverter. Rather than use the charge port and the official charger, you use the 30A 240V plug in the bed to power your panel. You can charge the truck while using this too.	WarmWash	1793549210	1
+				
+				
+50328579			1793559755	1
+50326837	"> The only way I can see to do this today is with Tesla Powershare + Cybertruck, which says ""If the system includes a UL 1741-listed solar system<p>Since this was posted Tesla rolled out PowerShare to recent ModelY and some other cars. Not sure about solar recharge though. Where I live storms come in winter and I have natgas so most of the power will go to fridges and electronics, which will hopefully last long enough."	DenisM	1793548789	1
+				
+50326971	One of the problems with companies like GM is that they still see this as a premium feature and require their hardware (not just a charger). Tesla requires not only their chargers but also their inverters and cars.<p>What is missing is a spec that inverters and cars and chargers can all follow, then we will see mass adoption.	declan_roberts	1793549675	1
+				
+50327316	I'm not sure what the laws are like in the USA I assume they are similar to elsewhere.<p>However I think there are two problems here that have to be solved:<p>1) you need to island your house, that is, physically disconnect your house from the grid<p>2) once you have disconnected the grid, you then need to provide some sort of pilot sine wave to allow the plug to function.<p>I have an islanding system for my (house) battery and solar, so in theory, I could have a bidirectional charger whilst being off grid. However both my car and charger don't support that (my charger is also deeply shit, and has no local API access.)<p>The bigger problem, which is tangentially touched on, is that vanishingly few chargers can actually support islanding. It makes the installation harder, and drives up the compliance and installation cost[1]. this means that you are taping together two disparate systems together (or going all in on enphase, which also has a limited local API)<p>There isn't a spec for a household systems to talk together to do energy management. currently I use homeassistant to monitor the variable electricity prices, car plug status and how happy the fucking powerwall is, so that I can make sure the car charges from solar, without draining the house battery to 0, or only charge at night when the price us uber cheap (and also not drain the house battery).<p>The amount of sysadminig to make that work reliably means that no normal person is able to achieve it. The problem for consumers is that there isn't any motivation for manufactures to work together on this. because they want to vertically integrate.<p>[1] The installation cost for what is effectively a very thin software wrapper around a local contactor is egregious.	KaiserPro	1793551931	1
+				
+50327268	I really wonder if part of the reason this isn’t more widespread is that utilities with variable rate electricity pricing would get burnt on it. Imagine charging during cheap time then dumping 5-20kWh back onto the grid during expensive time. You could have a positive ROI on a vehicle you regularly drive (timing permitting)	theoreticalmal	1793551597	1
+				
+				
+				
+				
+				
+				
+50328382	Likewise, there are plenty of plug-in hybrid cars which ought to be great home emergency backup generators (ie. they have a 40+ kilowatt generator and 7+ kilowatt inverter), but very few have this functionality even if the hardware in most cases supports it and would simply require a firmware update.<p>I had good luck with telling claude to rewrite my laptop bios to enable various power modes which were theoretically possible but disabled by firmware, like powering a fullsize screen from the laptop battery over usbc.<p>Maybe I'll tell claude to rewrite the car firmware too...	londons_explore	1793558461	1
+				
+50326761	Wouldn't the charge / discharge cycles reduce the life of the car battery? I presume the same is true of in-home batteries, but although an in-home battery is an extra capital expense, I imagine the replacement cost of in-home batteries is quite a bit lower, isn't it? Would be interested to know more about the medium-to-long term economics of this.	frereubu	1793548240	1
+				
+				
+				
+50327970	One of the biggest misses in NACS (J3400) is bi-directional power in the spec. SAE J3400/2 will fix it.	1970-01-01	1793556061	1
+50327275	I live rural and I'm hoping the next decade will bring a wave of cheaper safer sodium ion battery options. Something I'd feel a lot more comfortable with putting in or around my home since they don't have thermal runaway issues, their materials are theoretically cheaper, and they can withstand colder temperatures.<p>While I'd like to use my EV as backup, the cost and integration issues right now are just not sensible. The utilities and manufacturers have made it too cost prohibitive.	cmrdporcupine	1793551679	1
+				

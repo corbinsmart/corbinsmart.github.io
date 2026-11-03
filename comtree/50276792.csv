@@ -1,0 +1,366 @@
+50276792		acossta	1793206883	0
+50279731	"At this point if a Google PM handed me $100 and said ""go figure out how to issue a prompt to Gemini 4 Argon"" I'm only ~30% sure I could figure out how. The Gemini app in my phone only has 3.8 Pro as the latest model; it does say ""Ultra"" in the bottom left, but I really don't think I'm on the Ultra plan. How I would sign up for that, on a Workspace account, is beyond our brightest minds.<p>Its sad watching them try to keep up when they want nothing more than to crumble under the weight of their own bureaucracy, and at this point I'm not sure there's any hope for them."	827a	1793216497	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50279518	"It is pretty clear at this point that the frontier models need only handful of tiered models.<p>1. Ultra - The best and the most expensive for showing off and government. 
+2. Pro - Almost best but substantially cheaper for most productive people. 
+3. Flash - Workhorse for everyone. 
+4. Lite - For the unwashed masses and peasants.<p>There is no need to attach anything to these labels. In fact industry could simply standardize these namings like SEMVER.<p>There could be an internal representation which could give specific number of the model but these companies should move on to be more like Chrome. No one knows or cares which version of chrome they are on.<p>For a lot of systems the real underlying version would matter because of reliability. That can be provided to those power users."	RajuChacha108	1793215729	1
+				
+				
+				
+				
+				
+				
+50277575	Given how quickly the field is moving, showing benchmarks without releasing the model is quite meaningless. If they decide to release it in one month, there will probably be a stronger competition out there. And the benchmarks won't look as good.	solarpunk_enthu	1793209041	1
+				
+				
+				
+				
+				
+				
+				
+50277193	Just remembered i haven't tried argon yet, they announced argon then and delayed releasing it, didn't even know they've made it publically available. I don't understand why google thinks this is an awesome strategy in a market where there are other really good models.	PreciousH	1793208114	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50277130	"Benchmark scores recolored for readability:<p><a href=""https://i.imgur.com/IDFGuJU.jpeg"" rel=""nofollow"">https://i.imgur.com/IDFGuJU.jpeg</a>"	gavinray	1793207984	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50277735	In this age of constant change, I am grateful that at least I can still rely on Google for confusing, ever-changing product names.	MrOrelliOReilly	1793209466	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50277362	Perhaps someone should tell the Gemini team about these models. When I open gemini.google.com I see 3.6 Flash and 3.1 Pro.	zarzavat	1793208527	1
+				
+				
+				
+				
+				
+				
+50277952	I'm really starting to get annoyed by the fact that all companies are timing all their decisions according to the stock market.<p>Doing this two hours before today's earnings report.<p>It's probably going to be a terrible earnings call in terms of capital expenditure, cash flow and new borrowing.	cvladan	1793209988	1
+				
+				
+				
+				
+				
+50276885	> Reducing shortcuts and loophole exploitation: With Carbon, we further mitigated shortcut attempts in training while ensuring high-quality coding performance. Carbon reduced successful cheating on Terminal-Bench 4.0 to 0.0%, with attempts to cheat dropping to 0.4% — all while improving overall accuracy.<p>This is probably the single most important thing to make frontier models usable right now, so I'm happy there seems to be some progress. This was the previous Gemini's biggest problem IMO	eldenring	1793207236	1
+				
+50277734	"Sooo... Is Carbon 4.1? Or is it different to Argon 4 somehow?  Different model? Or point update?<p>Is Argon ""pro"" and Carbon ""ultra""?<p>Is Argon obsolete now? Does Carbon replace it or live alongside of it?<p>Very confusing naming!"	mattlondon	1793209466	1
+				
+				
+				
+				
+				
+				
+50278417	"<i>>Resisting prompt injection: While Argon previously led the Gray Swan’s Indirect Prompt Injection (IPI) Benchmark in prompt injection resistance with a very low 0.7% attack success rate, Carbon achieves 0.0% — resisting every evaluated attack attempt.</i><p>""We patched every vulnerability we knew"". Meanwhile, prompt-injecting Argon (or any other model) is still trivial, and Carbon won't be an exception. Because the attacker is not limited to things Google has evaluated.<p>AI shops are blind to anything that's not a metric."	orbital-decay	1793211405	1
+				
+50277268	tbh i might be one of the few who actually likes gemini since 3. it wasnt as good at coding compared to other two but it always wrote the best, and talked the best, providing very good conversation experience. it works incredibly well in my customer service agent harness and my users have been very satisfied. Now Gemini 4 is incredible, but the same old issue: a powerful model, in the worst official harness<p>deepmind should get rid of those antigravity ppl they're a joke and sabotaging the model's reputation.	LewisOrton	1793208333	1
+				
+				
+50277623	Would love to know from a Googler if this is the #1 model that Google engineers use for coding or if they rely on 3rd parties.	javierhonduco	1793209159	1
+				
+				
+				
+				
+				
+				
+				
+				
+50277378	> Building on Gemini 4 Argon, which was launched two weeks ago, Carbon illustrates the pace at which we’re pushing the frontier forward. Our researchers and models are working hand in hand to advance capabilities faster, while strengthening our safeguards in tandem.<p>Is it a variant of Argon? A different model? The next version? It seems like this is a separate class (like Anthropic's Mythos).<p>anyway, its needlessly confusing.	dbgrman	1793208559	1
+				
+				
+50276952	Of course the naming is confusing. With way OAI & Ant are naming models, I assumed that this would be a tier above Argon, but it's the same price?	Ryan5453	1793207471	1
+				
+				
+50277075	"I'm assuming this is a post-train of Argon (""Building on Gemini 4 Argon, which was launched two weeks ago, Carbon illustrates the pace at which we’re pushing the frontier forward.""), but does anyone know for sure? The post isn't clear."	droidjj	1793207820	1
+				
+50277834	"> <i>""Carbon ranks #1 on the recently updated v5.0 of Artificial Analysis Intelligence Index at 59.""</i><p>Basically everyone[0] thought yesterday's update looked suspect, even before we knew about Carbon.<p>Did Google coordinate with AAI on any aspect of this in a non-public way? Is this the sort of thing a publicly-traded company would be obliged to disclose, if they were involved in it? AAI isn't a regulated company (private), but the stuff they print influences stock prices.<p>[0] <a href=""https://news.ycombinator.com/item?id=50268868"">https://news.ycombinator.com/item?id=50268868</a> (<i>""Artificial Analysis Intelligence Index v5""</i>)"	peri-cl	1793209711	1
+				
+				
+50277298	So, AA published an updated score yesterday, and a new Google model ranks on top of that updated index today.<p>What a coincidence it is!	theanonymousone	1793208391	1
+				
+50277569	"If you don't have a general release date to announce then STFU. An undefined ""coming soon"" just makes people feel excluded and angry."	Stevvo	1793209030	1
+				
+				
+50284714	"Argon is a fantastic model. If you tell me I can only have one subscription: Claude, Gemini or ChatGPT, I honestly don't know which one I would pick currently<p>But what naming is this, I thought Google goes into a similar direction with naming as the others, so a ""Argon"" is similar to a Astra, and then there's Flash and Pro as the middle tiers, but if they just call models with random names now it 'll get super confusing"	artdigital	1793249653	1
+50276927	Wow, $2/$10 for input and output even if just for introductory pricing is an incredible deal. Wonder how token efficient it is.	nickandbro	1793207400	1
+				
+				
+50278516	"""The Fairwind Program gives high-priority defenders (like governments, healthcare providers, and telecommunications services) early access to advanced models that help them build better defenses, before new threats arrive.""<p>Again, no access to open source developers. The AI companies want bugs for dramatic public relations! Also, of course there aren't enough bugs so they have to be rationed for the ""defenders"" and future models."	ltph0	1793211692	1
+				
+50278567	"I'm absolutely loving Google's new naming scheme here.
+Solid room for at least 118 models."	paaloeye	1793211880	1
+				
+				
+				
+50277440	"Where is 4 flash?<p>3.8 flash is a really solid ""everyday"" model. Was hoping a new flash model would be the next release."	WarmWash	1793208720	1
+				
+50277137	> Gemini 4 Carbon will launch at the same introductory price 1 as Argon at $2 per million input tokens and $10 per million output tokens, with cached input tokens priced at 95% off input token price.<p>So more capable and same price? I can at least appreciate that	james2doyle	1793207993	1
+50277377	While there are a hundred different evals it seems to me that we've settled on crowning the #1 coding model as the best model. So in those terms this is still behind Opus 5.5 and Astra.	paxy	1793208559	1
+				
+50277027	Does anyone know what the naming convention is here? Does this supersede Argon? They have the same pricing, $4/$20 normally and $1/$10 'promotional'.	rcr-anti	1793207722	1
+				
+				
+50277241	75% chance OAI or Anthropic take the crown back within a week?	WarmWash	1793208256	1
+				
+50281040	"I'm on a Workspace Pro subscription and the models I have are (in order of the dropdown on gemini.google.com):<p><pre><code>    - 3.6 Flash
+    - 3.8 Thinking
+    - 3.1 Pro
+</code></pre>
+I would love to sign up to Antigravity to try out these new Gemini 4 models but the Antigravity pricing page - <a href=""https://antigravity.google/pricing"" rel=""nofollow"">https://antigravity.google/pricing</a> - recommends me (a ""Developer"") to ""Get Ultra"". But that leads me to an error page, because Ultra is only available for personal accounts apparently ""Sign in to your personal account. Switch to a personal Google Account to access Google One."".<p>Back I go to the Antigravity pricing page and there is a tier ""For Organisations"". But now I have the option of either contacting sales (are you kidding me?) or ""Start now via the API"".<p>So I'm out - I want a simple subscription like Claude or Codex. I don't want API enterprise pricing for a 2 person organisation. I could use my personal account but I'm already paying increased Google Workspace prices to access Gemini and I can't even use the latest models with that.<p>If someone at Google sees this, flag this ridiculous behaviour please and get things under control. It should be a very clear process - don't show me things I can't access. Price things consistently and please just make things logical."	kisamoto	1793222358	1
+50284409	Google can't release a model - go announce this to your Fairwind companies.<p>Like why does Google keep announcing models that are not publicly available	alabhyajindal	1793246528	1
+50279185	I was pleasantly surprised to learn that Gemini 4 Argon had 1M output token limit. My text2SQL workflow based on GBQ will go brr...	MILP	1793214346	1
+50278586	"Gemini Argon was released a few weeks ago.[1] I'm curious how the development cycle works behind the scenes that allows them to release two models in such short succession. Do they have multiple teams working on different models?<p>[1] <a href=""https://news.ycombinator.com/item?id=50073879"">https://news.ycombinator.com/item?id=50073879</a>"	n_u	1793211922	1
+				
+50280749	I'm not a fan of Google just announcing benchmarks for models which won't get into public hands for eternity. It's kinda useless.<p>If all you want to prove is your internal models deserve a seat at the big boy table, maybe OpenAI and Anthropic should also release benchmarks for GPT 11 and Opus 9, launching in 2030.	gulmothrowaway	1793220774	1
+50277283	Is this the first time VendingBench was used as a serious benchmark result in a model release? That's kinda funny.	minimaxir	1793208363	1
+				
+				
+50277712	Google releases earnings later today. This timing is...fortuitous.	blinding-streak	1793209408	1
+				
+50286608	I'd like it a lot if Google would enable antigravity to use the latest greatest models faster, and also give me more choices. I really like the product, but I don't feel very ultra even though I'm paying for it.	indymike	1793267536	1
+50278780	They managed to piss off all classes of their customers with their latest Argon release. They removed old flash models and gemini pro without actually giving Argon to everybody. Then they released the model to only paying customers to the exclusion of free plans or promotional deals like that comes with their Pixel phones. They staggered the release of Argon and didn't give it to Pro and Ultra users at the same time. Pro users when they got it received an extra usage pool for it (didn't help - they can't do anything with their token quota) while Ultra users have a single pool shared with Gemini Flash. I am not even sure if Antigravity got it yet. Literally nobody is happy about the release and they don't seem to care at all.	dizhn	1793212594	1
+50300244	I think the opus5.5 vs fable5.1 situation has been my tipping point where I completely ignore these benchmarks now. Fable is just better than Opus5.5 in all cases I've ever used both and compared. I don't care what the benchmarks say, they're just not reflective of my needs, so they're not relevant to me - other people may have different experience.	Incipient	1793338879	1
+50278983	Not sure how to interpret the Artificial Analysis leaderboard anymore. I checked a few days ago and Muse was rated higher than the best OpenAI models; it seems that shortly afterward they changed the methodology and now Muse is way lower and Gemini is #1.	highfrequency	1793213423	1
+				
+				
+50278082	I applaud that Google is making state-of-the-art models, and no doubt they want credit for that. But it also highlights how hard it will be to get back the develop-class. Who is going to migrate from Claude's for this without an enormous incentive? Claude has the trust and the ecosystem for those who want the very best. Codex is clipping at its heals, and as arguably a better total value.<p>Love the options but also I hope Google understands that they need to now compete on many dimensions for developers. Google probably will still win huge shares of the consumer market, though frontier intelligence will have little to do with it, other than the RSI aspect.	kevinkoning	1793210359	1
+				
+				
+				
+				
+				
+				
+50281000	"Well, at least the name is honest<p><a href=""https://www.ft.com/content/8158cb5a-4bbd-43fd-b329-15a54e8422c8?syn-25a6b1a6=1"" rel=""nofollow"">https://www.ft.com/content/8158cb5a-4bbd-43fd-b329-15a54e842...</a>"	quicklywilliam	1793222146	1
+50278493	It's the speed of these gemini models that I'm most impressed with. I'm finding speed to actually be a larger limitation than intelligence these days of running multiple agents 24/7 building stuff.	DanMcInerney	1793211644	1
+				
+50278339	"> Building on Gemini 4 Argon, which was launched two weeks ago, Carbon illustrates the pace at which we’re pushing the frontier forward.<p>This has to be an intentional echoing of the ""pace the frontier"" language?"	tempestn	1793211161	1
+50278587	i'm only here for the pelican	twelvenmonkeys	1793211926	1
+50277993	Will this make it to OpenRouter? Running your own benchmarks against these models is surprisingly frustrating when you don’t want to create hundreds of accounts for each AI lab’s API.	dom96	1793210112	1
+50276956	'Coming soon'. 2027 perhaps?	speedstyle	1793207507	1
+				
+50285168	"Well done Gemini Team, I've been really enjoying your models of late.<p>Nitpick.. ""Model API Naming"", I wish you would in all releases or announcement have a small section about what the latest model is called in the API.<p>Anthropic is really good with this. I can reliability predict whats the model API name just from the announcement.<p>I always have to first google whats the naming+version for gemini models (api)."	rawoke083600	1793254953	1
+50278526	Note that the benchmarks seem to be cherrypicked. For Argon they were also cherrypicked, but differently, when Argon released. For the new benchmarks (cherrypicked for Carbon), Argon is now behind GPT-6 Astra in most of these benchmarks, even though Argon was ahead of Astra in the benchmarks cherrypicked for Argon. So apparently they couldn't find benchmarks in which both Carbon and Argon are overall ahead of Astra.	cubefox	1793211727	1
+50281168	Nice try to distract from a horrible earnings release!	alpineman	1793222993	1
+50277365	What makes me most excited is that we probably get fable 5.5 soon with the IPO. Which is going to surpass this again. But cool to see progress!	jascha_eng	1793208529	1
+50279336	Artificial Analysis is ranking it as #1. Wait a couple days until they come up with a new index versions and Anthropic will lead again.	docheinestages	1793214998	1
+				
+50284419	It would have been much cooler if the naming sequence had been helium, neon, and argon, rather than argon and carbon.	yje07039	1793246615	1
+				
+50277010			1793207666	1
+50277655	"This feels like a pretty big deal. Quite a few people sleeping on argon because it doesn't come via a subscription, but it's noticeably better than pretty much everything in my own weird game based benchmark (<a href=""https://botbowlbench.com/"" rel=""nofollow"">https://botbowlbench.com/</a>)"	crimsoneer	1793209231	1
+50282816	I fully expect Google to have frontier-level models<p>How badly will their product decisions (fumbles) hold back what those models can accomplish? As a token provider, with a decent model, sure. I'd be happy to use them.<p>But I'm not sure I can easily be convinced to buy into their higher level (ChatGPT-esque) experiences	at1as	1793233386	1
+50280421	Is Google simply more transparent than other labs with regard to exposing their training progress?<p>I’d like to think other labs are making similar progress but hold their cards closer to their chests. Because it doesn’t seem that there’s much value signaling capability ahead of release unless you are “behind” in market capture.	ryanschaefer	1793219310	1
+50282452	In a thousand years when the robots try to figure out human history they will short circuit when they try to solve the naming conventions of LLMs. Is it a natural law that the naming should be completely useless? Is the Fibonacci sequence hiding in here somewhere and we just can’t see it yet…	techpression	1793230473	1
+50276896	I'm not a big fan of their trend of talking about a new model and not releasing it for a while.	kilroy123	1793207279	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50280135	It’s still not ready for public—looks like they’re pushing the launch, kind of like they did with argon. Now anthropic and openai will launch a model outperforming carbon then google thinks of calling carbon to public. Also their premium plans are very bad, least usage for the money invested.	hemkeshr	1793217998	1
+50277948	"My general impression of all Google models I've tried so far is a general ""goody two shoes"" feeling which I find very, very frustrating.<p>I'm going to experiment with this one (assuming they ever get around to actually releasing it), and I'm really hoping the lame cultural aftertaste is gone."	ur-whale	1793209980	1
+50276951	Is Carbon to Argon what Fable is to Opus?	herunan	1793207470	1
+				
+				
+50277943			1793209970	1
+50277556	I’m itching for more smart cheap models. I have a mid level Claude and ChatGPT subscription and I’m blasting through my usage, and I’m too cheap to pay for the higher tier.<p>I use DeepSeek too but it’s more of a workhorse model, requires a lot more guiding and sometimes struggles to get where I want it.	cedws	1793208997	1
+				
+				
+				
+50283020	They talk a lot without allowing people to use it.  I'm just used to OpenAI doing rollouts the first day they announce their models.  Google just either make you wait 2 weeks or go on a waitlist.  They are still the joke of the 3 headed dragon.	m3kw9	1793234954	1
+50278746	I tried previous Google models before and they were ok but I prefer to stick to Claude or Astra these days.<p>Maybe I am just paranoid but at least if OAI or Anthropic ban my account I am not at the risk of losing access to my email address too.<p>You never know with Google and that is a problem.	rdm_blackhole	1793212466	1
+50277149	Google really tried to make it sound like they're not in the AI race, but suddenly are pushing out huge challengers in the space. I originally took them to be fully focused on the consumer side, but it looks like they're going after it all, now.	lordolunch	1793208013	1
+				
+				
+50285715	Since Gemini 3.1 Pro, it's all benchmaxxed models. I recently tried Argon 4 and it failed to use tool correctly so much it's not worth bothering about Google's models anymore.	thatsadude	1793260361	1
+50283646	The tokens per second graph on AA seems practically worthless. Apparently Argon/Carbon run around 100tps, but in Opencode I'm getting <30tps which seems in line with openrouter.ai speeds as well.	wmedrano	1793239115	1
+50277816	"I wonder, with all these releases and with all impressive open models, is Mythos even relevant anymore? Did it even exist or was just a, ahem, ""run 100 concurrent requests and select best response""?"	thway15269037	1793209675	1
+				
+50283244	Argon and Carbon are not even on the same column of a periodic table. What is the theme here? All variation of Gases?<p>Also Carbon is lighter than Argon. So lighter is apparently better?<p>What comes next? Gemini 4 Helium?	brtkwr	1793236344	1
+				
+50276939	well at the very least it will encourage anthropic to launch their new opus	tschellenbach	1793207434	1
+50278470	Argon(18), Carbon(6), they have Helium next and some quark after that.	GodelNumbering	1793211588	1
+50276894	Interesting - at time of writing, Carbon is claimed to be #1 on AA, but AA has not updated yet.<p>Excited to try it, opus level benchmarks with their omniscience score and multimodality seems worth testing!	Fergusonb	1793207263	1
+				
+				
+50277682	Great to see Google reclaim the frontier, however, as usual with most Google launches, an announcement for a product that no one can actually try outside of a tiny circle of users.	ur-whale	1793209311	1
+50280916	"So Anthropic responds sometime between now and when their stock starts trading on Nov 16th. 
+The only question is how much of an improvement will their next release have?"	Aboutplants	1793221719	1
+50289944	Would love to try it out/use it, but I can't afford for my Google account to get locked because AI decided something.	_DeadFred_	1793285123	1
+50277514	Just cancelled my Anthropic subscription. Looking forward to this.	I_am_tiberius	1793208890	1
+				
+50277730	Yes but has it broken out of its sandbox and hacked anyone yet?	Ozzie_osman	1793209457	1
+				
+50277836	There are so many benchmarks now, it’s hard to know which ones to look for. Google has listed a bunch that they’re winning at, but idk if those are cherry-picked or not.	jawiggins	1793209714	1
+50279206	Carbon is 1/3 of Argon… So what’s next? Helium, at 1/3 of Carbon?<p>“Helium” in Spanish is “Helio.” And Helios was the most powerful AI in the Deus Ex universe… Coincidence??	andvari_bekho	1793214432	1
+50277103	Is this the best and the biggest model from Google now? I have a hard time understanding this stuff with all the various tiers and “best” terminology use within tiers.	dyauspitr	1793207890	1
+50297371	Wait tell next week, each week-month we get new models. This is a race between all the powerhouses.	PalmSocial	1793314399	1
+50277040	"> Carbon ranks #1 on the recently updated v5.0 of Artificial Analysis Intelligence Index at 59.<p><i>Clicks link</i><p>Carbon isn't anywhere on the page and you can't toggle it on either. I'm sure it's just timing and it will be there soon but still just look amateur, which is about how I feel about Google and AI overall. I know the models have improved but I still have a bad taste in my mouth from testing Gemini in the past and I still feel that Google has an overly complicated ""how to use our models"" that changes way too often. That coupled with ""you could lose access to your google account if we don't like what you do with Gemini"" means I have little desire to test it out.<p>On top of all of that I'm completely over announcing a new model that we can't actually play with or try out. I don't think Google is lying about how well their model scored exactly but it still has big ""my girlfriend goes to another school, you don't know her""-energy."	joshstrange	1793207743	1
+				
+50282071	I really don't get the naming. It seems a waste to use interesting nouns for names when the model is the same and just gets updated every month.	quixoticelixer-	1793227830	1
+50276995	"> Carbon ranks #1 on the recently updated v5.0 of Artificial Analysis Intelligence Index [0] at 59.<p>If you are going to hyperlink, maybe make sure that your model is actually on the page.<p>Also, the screen reader has a bug ([[duration]] minutes instead of the actual value) and you have once again announced a model we cannot use.<p>Edit: Both have been fixed after posting this. Maybe a Gemini 4 Carbon Agent has read and fixed the screen reader bug xD<p>I cannot fathom what motivates a lab, whose releases for the last year haven't been competitive, to shoot themselves in the foot like this. All this does is make it easier for competitors to snipe your actual launch, even if there was potential with this model (doubtful given 4 Argon, 3.1 Pro and 3 Pro), now everyone knows what exactly they need to release eval results wise to beat Carbon. There is this old idea of ""Your competitor always is the first to have an idea what your next product will do"", but in this case, Anthropic and co don't even need to guess, they got specific numbers to target.<p>Announce your models the moment they are available on API and in the subscription for all paying subscription users (<i>cough</i> Argon <i>cough</i>), stop with the cryptic tweets to drum up hype you know full well you won't live up to and make models that tool call, task adhere, task infer and handle long context tasks well beyond simple back-and-forth, chat style prompting. Reminder, during Ox Alpha, actual Google employees implied that was their model. How is this something anyone would believe is a good idea and how are they still allowed to tweet anything after? Please, stop that, it isn't helpful.<p>If frontier isn't your thing, stop wasting money on moonshot pre-train runs, fund research and open weight via Gemma and sell your inference hardware to other labs, that's far more lucrative anyway, as seen with Colossus 1.<p>[0] <a href=""https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index"" rel=""nofollow"">https://artificialanalysis.ai/evaluations/artificial-analysi...</a>"	Topfi	1793207598	1
+				
+				
+				
+				
+				
+				
+				
+50276910	The fact that frontier models actively attempt to subvert evaluation harnesses (0.4% attempt rate still remaining) remains fascinating and slightly unsettling.	Peteriishak	1793207336	1
+50285365	argon has been a steady horse and delivered good quality code. It especially helps if it accommodating and does follow instructions well. Google never was a strong product company  - they had like 4 different video calling apps.<p>I believe that we need multiple labs building great models and am glad google is investing heavily to be at the frontier.	animalhot	1793256957	1
+50280530	All I know is that I currently pay Anthropic a bunch of money per month for Claude and that Google wasn't even on my radar for that.	XorNot	1793219794	1
+50280559	So how’s Google for subscription and agentic usage?<p>Does their Pro plan have similar limits to OAIs $100 business plan for example?<p>Any equivalent for the 20x plans?	aetherspawn	1793219919	1
+				
+50282767	"It sounds like people have been having problems, but at least with the way I like to work on some projects (still in the weeds, and making sure that important aspects of code are treated with respect), Argon has been completely unmatched in performance. It participates in my process exactly as I ask it to, doesn't run off and ""solve"" what I haven't asked for, spots bugs and opportunities in situations where the others are confused and crashing out. It's the first time I have ever been <i>happy</i> with the code quality. And I don't give two shits that it can't design a picturesque voxel pagoda -- this thing can code, and talk about it like a pro. I'm excited to try Carbon."	scotth	1793232974	1
+				
+50286421	Google's interfase just awful, I don't even want to try testing the new model	jamesforestwest	1793265861	1
+50286707	What is it with anybody but anthropic having zero sense for how to name their models?	Aeolun	1793268241	1
+50276921	Google is putting much higher priority on frontier models over Flash models, even though they have TPUs.	informal007	1793207383	1
+				
+				
+				
+50277894	Argon 4 is really good in my opinion, especially in chat. Usage is limited, but one big difference is that it seems to better understand what is and isn't worth mentioning.<p>It has better tuning towards not adding unhelpful caveats and irrelevant details. When I told it I was unhappy with some slop being dumped into some repo markdown files from Astra and Sol it actually went ahead and tastefully cleaned them up in line with how I expected them to be. Reductions are normally so bad from agents.<p>One big thing is that it really feels like talking to someone smarter than me. Other agents just seem extremely knowledgeable but Argon felt smart.	kingstnap	1793209854	1
+50277100	I wonder what kind of problems are they internally testing these frontier models if not math problems?	yewenjie	1793207882	1
+50277974	At this pace it will soon be Gemini 5 cornholio. We’ll soon need an llm to explain between llm’s…	dainiusse	1793210050	1
+50284941	Like every Google model release, the benchmarks are never indicative of reality.	nullbio	1793252315	1
+50277334	Can’t stand these paternalistic companies gatekeeping new models because “cyber”. We saw how this went with the PHP vuln last week with defenders using special / early-access models and then saying “hey there’s a vuln we won’t say what it is but it’s there and we won’t patch it until tomorrow”, and with the huggingface devs having to use Chinese models to defend from OpenAI because their American models wouldn’t help because cyber.<p>Any bad actor worth their salt is already a) going to have the weights downloaded, forever, to various models that are good at hacking and b) is out of reach of the U.S. government anyways. A ban on open weight models, plus paternalistic gatekeepers of cyber models like the big labs, just opens up Americans and American companies and municipalities to hacking from abroad. Or I guess to a really nice racket where only the big labs can offer a “we’ll continuously monitor and improve your cybersecurity for millions of dollars a year”.<p>“We're taking a deliberate approach to rollout and are actively engaged in the U.S. government’s voluntary process for pre-release model testing. Starting this week, we will make Carbon available to a subset of cyber defenders and will gradually phase access to additional trusted partners through our Fairwind Program. We’re continuing to gather feedback and iterate on guardrails before making Carbon available to developers, businesses, and consumers via our product surfaces as soon as possible.”	edot	1793208475	1
+				
+50279368	What CLI harness should be used with this? Is antigravity usable these days via CLI?	singingtoday	1793215124	1
+				
+50284801	Thanks for sharing this.<p>I find that particular service very very expensive for us to use.	crossgrainlab	1793250718	1
+50278294	Is it possible these days to create gacc not tied to phone number or identity?	secondary_op	1793211012	1
+50281369	Bravo! Always a fan of vaporware that claims it's overall best!	hit8run	1793223876	1
+50278621	When will Boron be released??? That's an important question here.	paaloeye	1793212064	1
+50281376	"My humble theory on naming:
+Argon-Carbon = ArC<p>Next:
+Silver, then Iodine<p>Slowly spelling out ARC-AGI"	_qua	1793223931	1
+50277249	I always forget they have a model by the time I actually get access.	arjie	1793208278	1
+50278295	Leave it to Google to require a Chemistry degree to be able to differentiate their LLMs.<p>OpenAI: astral objects, bigger = better.<p>Anthropic: more pretentious = better.<p>Google: ¯\_(ツ)_/¯	trvz	1793211012	1
+50281185	So the sort by atomic number?<p>Barium > Argon > Carbon<p>Why is carbon then more capable?	MASNeo	1793223091	1
+50280839	Gemini 5 Most Wanted	tomfcarrion	1793221280	1
+50278520	I'll skip this and tune in to Gemini 94 Plutonium	drakmo	1793211711	1
+50277169	"Seems great? Is Google back in the ring? Now they ""just"" need a competent harness...<p>But damn, is (talking about) releasing a new SOTA model two weeks after the previous one stupid. Do they not plan these things? Argon shouldn't be released at all if you're going to put out ""argon 1.1"" few weeks later."	Culonavirus	1793208065	1
+50276865	"seriously ""big if true""... looking forward to seeing non benchmark tasks and seeing if this actually outperforms opus 5.5"	blovescoffee	1793207187	1
+50280282	Too bad there's no way to actually use it	cloudhead	1793218662	1
+50278375	Where are Gemini 4 Nitrogen and Gemini 4 Azote?	anticensor	1793211264	1
+50279312	So, next is Gemini Xenon or Gemini Helium?	andvari_bekho	1793214913	1
+50281108	will this again will be one of those mediocre two-prompt models like Nitrogen, or whatever it was called?	_s_a_m_	1793222687	1
+50278576	Argon Carbon Xxmas Jaxxon Flaxxon Waxxon	sergiotapia	1793211907	1
+				
+50281078	I'm holding out for Gemini Plaid	yehosef	1793222552	1
+50279247	Does it rank on FelonyBench, though?	loeg	1793214671	1
+50278027	"I wonder if the google ai team has to do some RF to scrub the whole ""Don't be evil"" thing from its all-written-human-knowledge weights before they can get it to attack.<p>When I mention a preference for brevity in a comment offhand and it snowballs into a <i>rule</i> 8 sessions down the road in a PR review that requests the removal of 90% of a colleague's docstrings.<p>I can't imagine all the ""push back"" on the ""load bearing"" Code of Conduct from their corporate foundation documents."	FrameworkFred	1793210184	1
+50276935	Argon -> Carbon<p>What's next Krypton?<p>you can definitely tell new people are in charge at deepmind based on the change in naming	htrp	1793207419	1
+				
+				
+50278940	> Gemini Carbon<p>> [Header image is a chunk of ice]<p>???	TobTobXX	1793213236	1
+				
+50279806	A rose is just a rose…	YVoyiatzis	1793216761	1
+50282167	wait wha? i though they were going the noble gas theme	qwertytyyuu	1793228409	1
+50286235	who even cares anymore? we cant use it	sourcecodeplz	1793264269	1
+50279131	i dont know how to contribute to this platform.	yourmahbub	1793214077	1
+50279525	I am on a paid plan for Google's AI offering, and I did just about ten prompts to Argon before I hit my 5 hour limit. I'm not holding my breath this will be a model that is practical to use now either.	VadimPR	1793215764	1
+50277239	It's clear that all the labs have stagnated and have no idea where to go from here. All their results are basically equal now, they're benchmaxed to fuck and there are zero new architectures.	MisterMunchkin	1793208249	1
+				
+				
+50288129	i am tired of themmmmm	0x41414141	1793278287	1
+50280870	Great specs!<p>What happens when all the good names are taken from the periodic table of elements?<p>I have registered calcium, helium, and californium for my California-based LLM.<p>Silicon Valley Clowns...	minimaxa	1793221431	1
+50277585	I wonder if this is finally a frontier model or just dogshit(i.e. behind open models) like all the past 3 models they released so far.	thefounder	1793209073	1
+50277062	The Google naming convention is so nonsensical it's comical.<p>With Anthropic and OpenAI, it's obvious immediately which are the better models. I.e. Sol is better than Luna, or Mythos is better than Fable.<p>But Google, let's pick Argon, which to most folks means mostly nothing. And then... Carbon! So which is better, Argon or Carbon? Nobody fucking knows. Plus neither sounds cool or viral or mysterious or even provokes curiosity.<p>When Fable was first leaked it sounded different and intriguing... Carbon just sounds... boring.	saberience	1793207793	1
+				
+				
+				
+				
+				
+50277453	why come google is not coming up with navier stokes level proofs?	threepts	1793208742	1
+				
+50277837	So now we are just showing some tables with each model?! Who even used argon in normal day to day stuff? From the time they opened Argon publicly to now, it’s like: three weeks maybe?! Most these benchmarks weren’t realistic to start with, and now it is just meaningless tables, not to mention the model degrade from the release date to after few weeks.	tamimio	1793209717	1
+50280987	Now we know why AA updated their benchmarking. Bet they weren’t #1 before the change…	simonjgreen	1793222066	1
+50277274	"Oh, look! Another model that's supposedly amazing at Cybersecurity.<p>Too bad you won't be able to use it to secure your open-source projects. If you try it'll throw up a prompt telling you to use some initiative you can't use or afford while the provider collects the findings.
+What a racket."	cotillion	1793208345	1
+50279168	Well, they won the race on confusing the shit out of us with model names.	delbronski	1793214267	1
+50282293	nah	arunvpp	1793229202	1
+50276929	> in live coding environments with our own teams it shows reduced misalignment and fabrication rates<p>Wow. This huge. An AI company actually just said 'fabrication' instead of 'hallucination'. AI bubble about to burst...	nprateem	1793207404	1
+50276962	Argon has been so disappointing that I don't know what to think. It feels like an older-generation model, except for its world knowledge.	cesarvarela	1793207514	1
+				
+50279898	benchmaxxed shit	jxherc	1793217092	1
+50278288	> Coming soon<p>Come on googs!	Robdel12	1793210989	1
+50276870	[flagged]	officially_peep	1793207193	1
+50285961	[dead]	shakewingo	1793262079	1
+50285903	[flagged]	bbtalk	1793261690	1
+50281991	[dead]	grd_dev	1793227435	1
+50276899	[dead]	iamsyr	1793207297	1
+50279107	[dead]	symbatix	1793213997	1
+50279491	[dead]	employee_first_	1793215641	1
+50286466	[flagged]	Vivek-KY	1793266325	1
+50278207	[dead]	thanhdongnguyen	1793210753	1
+50281125	[dead]	onesandofgrain	1793222759	1
+50276989	Oh good, another Gemini release where they don’t release it.	thefourthchime	1793207583	1

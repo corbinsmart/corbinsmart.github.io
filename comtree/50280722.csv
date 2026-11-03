@@ -1,0 +1,33 @@
+50280722		ledoge	1793220704	0
+50284846	"It's so insane to have PDF programs doing their own encryption, <i>not</i> because ""don't roll your own crypto"" (although yes for that reason too), but because the people who write PDF programs (libraries, viewers, general-purpose tools like qpdf, etc etc) aren't (necessarily) going to be great at understanding or designing good encryption UX.<p>Also, I get that a lot of sensitive information is exchanged with PDFs these days, but why should PDFs have encryption built-in to the file format?  Sensitive information is also exchanged in image files, word documents, zip files, html, etc etc etc etc.  If you take all the work that goes into making the crypto UX decent for one kind of file and apply that to ""all files"", then each ecosystem doesn't have to invent their own.<p>This is just like ""high-end"" car manufacturers insisting on making their own software, and not integrating apple carplay.  They're either going to make a <i>truly shitty</i> podcast app, or they're not even going to bother and instead tell people to use bluetooth to listen to podcasts like it's 2006."	philsnow	1793251221	1
+				
+				
+				
+				
+50281944	"""MuPDF versions before 1.28.5 use an implementation of the drand48 family"" yeah, ok, so they're basically not doing real encryption. The number of bits in the key space isn't the real story; the keys simply aren't cryptographically random."	tptacek	1793227117	1
+				
+50282234	What is wrong with software engineers that we keep making really stupid basic mistakes like this? Sometimes I think programming should require licensing and regular testing.	NelsonMinar	1793228851	1
+				
+				
+				
+				
+				
+50282482	"Does the DMCA still make it illegal to access encrypted content no matter how easy it is to discover the key? <a href=""https://www.law.cornell.edu/uscode/text/17/1201"" rel=""nofollow"">https://www.law.cornell.edu/uscode/text/17/1201</a><p>Would the new LLM model owners like to strike this down, or use it to demonstrate how dangerous unrestricted models can be?"	jburgess777	1793230727	1
+				
+50313756	On Linux you can just read from /dev/random, do other OSes not provide this?<p>What drives developers to reinvent these wheels? It's both more effort and worse.	yonatan8070	1793428475	1
+50284435	That's way too many PDF implementations affected by this category of stupidity.<p>It makes me wonder: Coincidence, really? There's enough there to think that there might be some invisible hand behind it.	snvzz	1793246747	1
+50285764	Pdfium powers Chrome's/Chromium's PDF viewer, but maybe Chrome doesn't expose encrypting PDF documents as a feature to be affected?	leni536	1793260706	1
+50281821	Rule #1 of rolling your own RNG: don’t.<p>Rule #2? Please don’t.	ubutler	1793226451	1
+				
+				
+				
+50295911	String.getBytes(UTF-8) is an incredibly common way to kneecap yourself<p>always Base64Encode/Decode!	exabrial	1793307726	1
+50280837	it's like the weak hardware wallet entropy bug	paulpauper	1793221271	1
+50281663	Wonderful.	JonChesterfield	1793225584	1
+50282273	"Obligatory xkcd <a href=""https://m.xkcd.com/221/"" rel=""nofollow"">https://m.xkcd.com/221/</a>"	RobotToaster	1793229090	1
+50282280	I assume this is the fruit of AI-driven decompilation? Nice work.	esafak	1793229137	1
+50281385	You'd have to be completely off your rocker to use a PDF tool written in C anyway.	jeffbee	1793223986	1
+				
+				
+				
+				

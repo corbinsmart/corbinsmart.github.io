@@ -1,0 +1,6 @@
+50298526		acossta	1793321553	0
+50300788	There are some suggested mitigations on the issue:<p>You may also build a program with a different default by<p>placing a godebug multipathtcp=0 line in the main module's go.mod file; or<p>adding a //go:debug multipathtcp=0 line directly before the package main line.<p>Still unclear though whether that will fully mitigate this.	grey-area	1793345389	1
+50298740	Unfortunate news for Caddy which exposes unpatched Linux systems (confirmed) and may be common in container setups. Unclear if the container engine as a middle man actually helps mitigate the issue.	nialse	1793323372	1
+50298716	From TFA:<p>> Note that disabling MPTCP on a program-by-program basis is a fragile mitigation. Accidentally leaving a single MPTCP listener exposed will still leave a system vulnerable. Further, it assumes that all viable exploits for this bug depend on MPTCP. Again, we strongly recommend upgrading to a patched kernel version	fractorial	1793323111	1
+				
+				

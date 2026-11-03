@@ -1,0 +1,23 @@
+50310055		gpt-7	1793393904	0
+50310449	Tmux, nvim, opencode + a load of custom scripts and skills is all I need. I cringe every time I see some colleague daddle around with sth like this or copilot trying to phrase a prompt what should be just a git command. But I might just not be the target audience.	Blackarea	1793396079	1
+				
+				
+50326681	"given that all your competitors in this space are open source, hard to make the case against it<p>if you have any special tricks, probably don't worry too much about getting copied if you really want to win in the ""devs who care about performance"" market<p>[did i miss the gh repo?]"	arach	1793547601	1
+50310350	"Wouldn't ""AIDE"" be more skimmable? Took me a while to figure out you probably mean something like ""agentic development environment"" because I couldn't find a definition of the acronym anywhere."	LoganDark	1793395506	1
+50320907	so i looked at the downloaded bundle, in fact it is running CLIs in the background and just an agent orchestrator in the front? so it is in fact running on our agent accounts locally? am i being too old not knowing all these stuff happening, this is a cool approach actually.	davidspenfffff	1793485924	1
+				
+				
+50315279	Whiel I'm not a big fan of Theo's, how is this different from t3-code?<p>That, im sorry to say, seems to be one of the best opensource apps doing this sort of thing.	ndom91	1793447998	1
+				
+50310393	"Tangential question: is getting try/use<something>.com gets an auto boost from HN?<p>Ref: <a href=""https://news.social-protocols.org/stats?id=50310055"" rel=""nofollow"">https://news.social-protocols.org/stats?id=50310055</a>"	paaloeye	1793395756	1
+				
+50310651	If target audience is running loads of agent, I don't have those agents wouldn't do a better job. Instead of waiting for an update, you'll get all you need with one or two rebuilds lead time.<p>You don't even have to use GPUI or Rust.	paaloeye	1793397212	1
+50310447	These days you can just make your own? I can strongly recommend everyone just build their own personal tool...<p>Or am I missing something?<p>Here is my personal, Rust based, ultra-fast ADE. Feel to fork an make it your own:<p>github.com/rjprins/agtk	rjprins	1793396078	1
+50310695	Thank you for all the downloads!<p>We will soon be adding support for orchestrating multiple agents and working with cloud machines from providers like Daytona<p>- Palomino Team	gpt-7	1793397520	1
+				
+50310390	"how does it compare to <a href=""https://herdr.dev/"">https://herdr.dev/</a> ?"	jcelerier	1793395728	1
+				
+50310099	Excited to show Palomino, our GPUI based ADE!<p>Palomino is very fast and lightweight<p>A lot more is coming soon and we appreciate all feedback!	gpt-7	1793394151	1
+				
+50311223	We are pushing some changes in the next hour.<p>Update using Cmd K -> check for updates	gpt-7	1793401225	1
+50310313	"""Palomino does not send your code, files, prompts, or chats to us. AI services you choose to use receive the content you send them."""	mring33621	1793395306	1

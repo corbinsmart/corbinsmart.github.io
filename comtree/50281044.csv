@@ -1,0 +1,106 @@
+50281044		mhb	1793222370	0
+50281279	"Formlabs uses a proprietary resin cartridge... it's the paper printers situation all over again, the printers themselves are not that expensive but the disposable ink costs an arm and a leg.<p>Don't go with Formlabs, support any of the open-platform alternatives.<p>And also, be aware that these printers require some serious development work (you need solvent to wash away uncured resin (if you ask me, this basically necessitates a chemical hood... Formlabs will happily upsell the ""Form Wash"" for this for another 699). If uncured resin falls on your floor (which has happened to me a little too many times), boy is it a horror cleaning it up even if you have industrial grade solvents; FDM printers are easier and their ""ink"" is much, much less expensive by comparison."	pen2l	1793223532	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50286770	I don't care what they say. Having done resin printing, it's toxic and fiddly and you can very very easily ruin your machine. The auxiliary chemicals like isopropyl alcohol are toxic as well, and need to be changed quite regularly if you want to avoid your prints getting an oily sheen.<p>It also generates copious amount of hazardous waste. Anything that has to do with this degree of material safety hazards should not be a hobby.<p>Before resin printing, lots of people had a hobby doing resin casts, the forums are full of health-related horror stories, this thing can and will kill you over time.	torginus	1793268684	1
+				
+				
+				
+				
+				
+				
+50282832	"I have a resin printer (elegoo mars 2p) and have done a number of small ""production"" runs of things that don't really matter.<p>I have to say that it is the biggest pain in the arse thing I even own. While the prints come out ""good"", I find that dimensional accuracy is often really not good at all; and that the whole rinse in isopropyl, finish in the sun process is just a sticky, irritating, and probably carcinogenic drag.<p>And I can't imagine why USD700 is regarded as a bargain.<p>So this has served as a fine reminder - I need to sell this damn thing, it just takes up space."	RantyDave	1793233514	1
+				
+50284316	This thing is all over YouTube, they really backed up the truck to the Influencer Club and started handing out the goods. Lots of people I like and respect have showcased it, like Applied Science, Jeff Geerling, among others.<p>But although there's a lot of discussion about how large a discount this is from FormLab's 8 billion dollar printers, there is absolutely NO comparison that I can find to other brands! OK, it's a cheaper Bentley - but how does it compare to the Toyota or Honda that we can get down the street? There are loads of options with --on paper-- better specs for half this price or less.	rfrey	1793245332	1
+				
+				
+				
+50284898	"You don't want a resin printer. They are nasty, chemically, they require you to set up a ""hot zone"", you need ppe, venting is really important. When your print works good, you still have to wash it and then cure it.  Changing colors ids like a whole event.<p>FDM printers are amazing now. Strongly recommend an FDM printer."	regretsresin	1793251784	1
+				
+				
+50281570	This page really needs to explain what is “resin printer” and why would I need it. I have no idea how is it different from my regular 3D printer.	vl	1793224994	1
+				
+				
+				
+50281820	"Jeff Geerling has a great video about this printer that got me up to speed on resin printing as well - coming from the 3d printing world I'm stoked to see the price dropping but it also seems like a lot more hassle to me at this stage<p><a href=""https://www.youtube.com/watch?v=4l9xU3_36Xs"" rel=""nofollow"">https://www.youtube.com/watch?v=4l9xU3_36Xs</a>"	jborichevskiy	1793226447	1
+				
+				
+50283904	I have a big interest in this; I have been making a lot of electronics as of late due to LLMs being so capable!<p>For instance, I wanted to buy a smart device to control my mini-split and it was 160$ on amazon for 1. Well I built 5 for 80$ in a weekend (excluding the 7 days shipping from China).<p>I'm very much looking for someone convince me not to buy this? Seems like people don't enjoy resin because it's a tad messy and it has a ~10-30 curing process.<p>Yet all parts from my FDM printer feels cheap and looks like nothing I'd be happy to buy unless I spend HOURS sanding and painting.	0xb0565e486	1793241255	1
+				
+				
+				
+				
+50282015	How stiff can you make the resin with those 3d printers ? Probably not as much as carbon fiber, but how does it hold against aluminium or fiberglass? Also, can you do composite fibreglass/resin with 3d printers ?	orwin	1793227569	1
+				
+				
+				
+50283019	Resin printing has its place but it's terribly messy and the FDM printers are getting so good these days it's basically trivial to print even complex multi part prints.	tgtweak	1793234953	1
+50284711	I'm in the market for a new resin printer (I have a bunch of old ones) and no idea why I would buy this/why this is an improvement off my current printer based on what is presented on the marketing pages. Pass. I didn't buy the prusa resin printer but at least they were really good at communicating what the actual value was for folk who already have resin printers. This just seems like it's aimed at SLA novices	nikkwong	1793249623	1
+				
+50290568	My anycube costs a fraction of this and I don't need to shell out for any proprietary nonsense like cartridges. I use all open source tooling as well. For $700 I got a resin printer, several diverse resin types, a fume extraction hood/enclosure, a infrared curing box and automatic washer tank.	drzaiusx11	1793287496	1
+50281701	I used to use an older, more expensive version from FormLabs in my last company to print our (more accurate) version of Invisalign negatives, and we'd thermoform the aligners over the top of the cured resin (with a barrier).<p>The accuracy was great.  They'd hold up.  Printing took a while, but generally pretty solid as we scaled from in-house to full lab setup.  They're great as resin printers go.	tonyhb	1793225776	1
+50288213	"Ben Krasnow/Applied Science, built a ""3D-printed, alcohol-powered, Einstein-Szilard absorption refrigerator"" using one:<p><a href=""https://www.youtube.com/watch?v=doZ5e4YVdEs"" rel=""nofollow"">https://www.youtube.com/watch?v=doZ5e4YVdEs</a><p>[EDIT] coverage of the printer starts here: <a href=""https://www.youtube.com/watch?v=doZ5e4YVdEs&t=708s"" rel=""nofollow"">https://www.youtube.com/watch?v=doZ5e4YVdEs&t=708s</a>"	helsinkiandrew	1793278639	1
+50286579	Is HN an advertizing site now?	ur-whale	1793267283	1
+				
+50281259	Honest question, what would I do if this is my first 3D printer and I don't have the ability to wash and cure? Or do I and I just don't know it, ha	mkw5053	1793223431	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50281251	How did the preorder form for this product endup #2 here on HN in 10 minutes with no comments?<p>Theres no new blog or video or news, preorders opened 2 weeks ago	user-	1793223415	1
+				
+				
+				
+50281306	"I have a noob ""reverse"" resin creation question. The product page says it has low VOC emissions. Could certain recyclables(e.g. 4,5 HDPE types) create the resin from my stuff at home with low VoC that I could use/sell etc?<p>My gut would say  economically/technologically prohibitive but a low throughput table top recycler seems like a great way to reduce my recyclable garbage."	ghm2199	1793223628	1
+				
+				
+50284713	Man how the prices have fallen from the early days. I recall the one my lab had in college was >10k (>20k even?)	karlfrohlich	1793249650	1
+50281731	Seems to be sharper, faster, and larger in volume than their previous offerings—and for < half the price, too!<p>Pretty cool.	gavmor	1793225963	1
+50281275	"Wow this price is interesting. I guess the Chinese competition is really driving prices down. I do miss the first generation (I think second was too) where they were ""true"" SLA but they got sued into oblivion by 3D Systems."	syntaxing	1793223495	1
+				
+50289129	Man, so many influences shilling this printer. And every single one of them says strikingly similar statements, almost as if they are following a script from FormLabs.	lp92	1793282154	1
+				
+50282635	7.9 x 4.9 x 9.3 in build volume is small. Since it is resin, does it really make a difference to make the build area bigger without upgrading the hardware, just by increasing the frame size?	system2	1793231780	1
+				
+50293075	What I really want to know is.. Where is that cheap Micronics SLS printer that Formlabs bought 2 years ago?	Hasz	1793295964	1
+50281571	Why is it showing me $749 excluding tax? Did the price increase by $50 since this was posted?	fancyfredbot	1793224995	1
+				
+50281722	Does it produce toxic fumes?	amelius	1793225943	1
+				
+50281473	As someone who got into FDM printing about a year ago, and still finds it very exciting, this is a really compelling resin printer. It's priced very well for the capabilities, especially in terms of providing everything a beginner might need to be comfortable with resin printing.<p>That said, I just noticed Costco online has some FDM stuff, which I think is a pretty exciting development, so if I have any money to spend on 3d printing stuff in the near future, I'll probably spend it there. :)	passive	1793224423	1
+50281462	I have the sensational $200 bamboo lab printer what would the $700 thing give me more?	singularity2001	1793224382	1
+				
+				
+				
+				
+50287365	After discovering SendCutSend, I put away these childish 3D printer fantasies and just have my parts made from pure metal and delivered quick and easy. Enough with plastics and resins, use REAL materials.	deadbabe	1793273469	1
+				
+50285610	[flagged]	lanmu	1793259512	1
+50286538	[dead]	thrw999kjdh	1793266896	1
+50288336	[dead]	excannuk	1793279136	1
+50281440	[flagged]	mitxela	1793224263	1
+				
+50281342	Does it come with MCP integration for Claude/Antigravity CLI?	paaloeye	1793223770	1

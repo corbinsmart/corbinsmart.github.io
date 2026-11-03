@@ -1,0 +1,24 @@
+50273201		Nasser-13	1793194112	0
+50273995	"Just a one minutes test:<p><pre><code>    * Mouse over text takes too long, it should be visible instant. When I'm searching for a tool I don't want to wait 500ms for each symbol
+    * Even empty it feels more laggy then onshape on same device / browser.
+    * When I did a boolean operation there is no popup or similar where I can choose the tool and target. It's all based on selection order? How do I choose 2 tools and one target, or the other way around.
+</code></pre>
+And it's all based on a single 16 000 large c++ file? <a href=""https://github.com/Nx-Nass/NassCAD/blob/main/MEDUSA_SOURCE/nasscad_medusa.cpp"" rel=""nofollow"">https://github.com/Nx-Nass/NassCAD/blob/main/MEDUSA_SOURCE/n...</a><p>wut? That whole repo seems a mess."	Mashimo	1793196962	1
+				
+50274927	I'm glad people are working on this. The open source CAD world is not doing well (not you Blender<3) and even if you're willing to pay the big bucks for any of the proprietary options, they won't run on Linux without rather high levels of applied violence.<p>That leaves cloud only options like on-shape which means they get to hold your project files hostage. I'm not sure why any business has ever come to the conclusion that losing control of their design work is acceptable but here we are.	fedpost	1793199993	1
+				
+				
+				
+50276868	"I had really good results with using Solidcraft (<a href=""https://solidcraft.io/"" rel=""nofollow"">https://solidcraft.io/</a>) for home stuff. Does 99% (I use solidworks makers for the remainder 1) of what I need and has a MCP connection which makes it fun. They use Nvidia’s recently open sourced BREP engine but Solidcraft is porting it to Rust."	syntaxing	1793207192	1
+50274307	I'm not sure if it's crashed or just very slow, but I've been waiting several minutes to preview a fillet on a cylinder end.	RobotToaster	1793197973	1
+50273514	Which modeling kernel does it use?	SoKamil	1793195329	1
+				
+				
+				
+50273445	At first glance, this looks really impressive.	jqpabc123	1793195104	1
+50299024	[flagged]	heicbrowser	1793326108	1
+50290867	[dead]	Nasser-13	1793288562	1
+50288823	[dead]	vorlaxenlabs	1793281056	1
+50280230	[flagged]	moymoteapp	1793218457	1
+50273526	[flagged]	Forsaken_Parfai	1793195376	1
+50289165	[dead]	atakmim	1793282326	1

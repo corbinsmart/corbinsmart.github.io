@@ -1,0 +1,20 @@
+50291812		Arterialist	1793291714	0
+50291813	"Hey guys, I had a few esp32 boards around for a while and always thought - how do we go beyond just one device, would it be possible to apply cloud-native thinking to distributed edge computing?<p>Result is Kube32. I got the cluster and a full-stack web app with real-time sync running on esp32 s3 dev board and cardputer - <a href=""https://7f0c-180-74-71-21.ngrok-free.app/"" rel=""nofollow"">https://7f0c-180-74-71-21.ngrok-free.app/</a> (may go down) (should support at least a few concurrent users - break it)<p>You won't see one cool thing though, which is the hud pod that uses Cardputer as a keyboard that syncs keystrokes to all clients in real-time.<p>Honestly, it opens so many possibilities for distributed edge computing and multi-device systems. Let me know what use-cases do you think would benefit from kube32 the most."	Arterialist	1793291714	1
+				
+				
+50316766	Super cool! One thought that would make this way more useful to me (and probably a thousand times more complicated, sorry) is if it had a way to split out “GPIO” subroutines from the main app, and schedule them separately. So GPIO would become an addressable unit like pods or load balancers in k8s.<p>The idea is I could specify something like “I have this app that needs to pull data from a GPIO labeled as a ds18b20 and outdoors” and it takes care of scheduling my app, starting a ds18b20 reader, and networks them together. I never need to know if they’re on the same esp32, separate ones, or in a crazy alternate world the compute bit goes on a VM on a laptop with no GPIOs and the sensors go on a real esp32.<p>Having GPIOs be an addressable resource would be so cool. Like if nothing else, I could start a new esp32 project without wiring up a breadboard. Most of my stuff is some combination of the same 10 chips anyways.	everforward	1793458677	1
+				
+				
+50313757	What kind of overhead does the Wasm approach add in terms of memory and cpu time? I also have way too many ESP32 boards lying around	catlifeonmars	1793428479	1
+				
+				
+50313596	cloud native emedded devices are an oxymoron	vrighter	1793426755	1
+				
+50325582	Did you test its limits?	LotfiBenDev	1793540298	1
+				
+50313277	What's the benifit?	rayshen	1793421833	1
+				
+50315000	Slop	hbcdbff	1793445745	1
+50314704	[flagged]	I-overlay	1793442635	1
+50323223	[dead]	maliroq	1793515177	1
+50314414	[dead]	professional_to	1793438895	1

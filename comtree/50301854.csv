@@ -1,0 +1,38 @@
+50301854		swq115	1793354775	0
+50305967	"If anyone from Microsoft security reads this, could you please do something about login.microsoftonline.com/XXX/v2.0/adminconsent?<p>The callback you're redirecting the user to at the end of that flow is forgeable if an attacker knows an azure tenant ID of a different customer, and putting a ""Never use the tenant ID value of the tenant parameter to authenticate or authorize users"" warning in the docs is only helpful as long as a way to authenticate users exists."	unddoch	1793376593	1
+				
+				
+				
+				
+50303645	When it comes to the amount of cross-tenant leaks Azure looks to be way ahead the competition. Makes me wonder why enterprises still flock there.	meekins	1793367185	1
+				
+				
+				
+				
+				
+				
+				
+50303689	maybe we should tag submissions with dates now?<p>[2026-10-02]<p>beginning of curent month feels like two years ago when multiple vulns drop daily	albert_e	1793367383	1
+				
+50306057	This guy must be the nightmare of Azure developers, kudos for the incredible work on finding these vulnerabilities!	giovanni_or2	1793376937	1
+				
+50305833	Ok so.<p>Microsoft had an egregious cross-tenant vulnerability (really, how many cross-tenant vulnerabilities did other clouds have?).<p>Vulnerability was reported.<p>They fixed it - incorrectly. Reported again.<p>They fixed it this time... and broke the previous fix. So it's vulnerable again.<p>What a clown show.	outworlder	1793376103	1
+				
+				
+50303214	"path traversal and IDOR..<p>likely been active since the inception of these capabilities<p>wonder if the recommendation to ""add randomness to resource names"" is because of this (unrelated security by obscurity lol)"	thewisenerd	1793364978	1
+				
+50315791	>> The original RuntimeUrl path was no longer validated, and as a result, you could perform that attack again. I would include some pictures, but they would be the same pictures as above, so you can just imagine them.<p>Such kindness & grace shown by the author. He/she could have ripped azure furthermore so easily.	sam1r	1793451582	1
+50303656	God. I would hate to be the engineer forced to have enough Azure experience to be able to find these bugs and understand Azure’s infrastructure on this level.<p>Should have been addressed in the Geneva conventions.	xmcp123	1793367236	1
+				
+50314027	Meanwhile they want to fire even more people there.	giancarlostoro	1793432744	1
+50306139	“Go to the cloud!”, they said.<p>The cloud:<p>Let’s see how their platform design holds up in the coming years, and if it can hold up to LLMs doing more of this same type of discovery and whether MSFT can fix it.	mapotofu	1793377251	1
+50303894	Reporting cross-Tenant issues as an outsider with a vulnerability chain gets you $$$.<p>Reporting “theoretical” issues with validation as an Employee gets you a lot of questions as to why you were looking.<p>Oh well.	eugenekay	1793368314	1
+				
+				
+				
+50306186	[flagged]	gary23w	1793377424	1
+50313244	[flagged]	MaxQuimby	1793421345	1
+50319838	[dead]	just60sec	1793478607	1
+50313629	[flagged]	corvane	1793427059	1
+50304753	[flagged]	klorbrinnbor	1793371703	1
+50314318	[flagged]	invidiouslove12	1793437479	1

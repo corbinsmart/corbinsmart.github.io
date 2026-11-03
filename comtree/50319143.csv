@@ -1,0 +1,161 @@
+50319143		oger	1793474190	0
+50321127	"> TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8<p>I know it's customary for HN to edit titles to remove extraneous information, but removing ""Linux"" here really takes away something useful and relevant.  This is a Linux vulnerability.  If you're running *BSD or Mac or Windows, not affected."	asveikau	1793488081	1
+				
+				
+				
+50327151	"Here's the NIST link: <a href=""https://nvd.nist.gov/vuln/detail/cve-2026-98432"" rel=""nofollow"">https://nvd.nist.gov/vuln/detail/cve-2026-98432</a><p>Here are my notes so far after digging into this with Claude + defensive access:<p>1. Not just an MPTCP thing - any received IPv4 packet with options creates the problematic conditions.<p>2. Also appears that using NetLabel/CIPSO (SELinux or Smack with a CIPSOV4 mapping) creates the same conditions that a packet with IP options would. If you're using these, it might mean that dropping IPv4 packets with IP options might not fully mitigate.<p>3. At least for our test VMs in Azure (accelerated networking) I wasn't able to get any IPv4 packets with options through, from three different US-based ISPs. Unfortunately Microsoft publishes no docs on whether the fabric drops this or not, so YMMV.<p>We're using a simple XDP program to mitigate until a patched kernel is available (thanks @tptacek for the idea):<p><a href=""https://github.com/jamilbk/drop-ipv4-opt"" rel=""nofollow"">https://github.com/jamilbk/drop-ipv4-opt</a>"	jamilbk	1793550772	1
+				
+50319726	Some notes I've got about this:<p>- MPTCP is not a requirement, it is a generic use-after-free.<p>- Exploitability over the internet is unlikely, most ISP routers drop packets with IP options fields.<p>- At least according to Red Hat, dropping packets with IP options yourself helps, but is not a full mitigation.<p>- Successful exploit requires multiple CPU cores to process packets, so systems with just a single core or packet processing pinned to a single core are not affected.	peanut-walrus	1793477971	1
+				
+				
+				
+				
+				
+				
+				
+50329922	The difference between now and next year is that we won’t have time next year to patch before malicious agents use this exploit against everything at lighting speed. Global internet downtime will be the only solution.	bottlepalm	1793567344	1
+				
+50319570	How are Ubuntu and RHEL not fixed? Few operating systems market themselves more as suitable for servers. What are they doing over there?	swinglock	1793476976	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50319664	"No patches for Ubuntu or red hat yet.<p><a href=""https://ubuntu.com/security/CVE-2026-98432"" rel=""nofollow"">https://ubuntu.com/security/CVE-2026-98432</a><p><a href=""https://access.redhat.com/security/cve/cve-2026-98432"" rel=""nofollow"">https://access.redhat.com/security/cve/cve-2026-98432</a>"	grey-area	1793477514	1
+				
+				
+				
+50319571	"At least if you’re on Amazon Web Services behind a load balancer you probably aren’t really that impacted enough to spend Halloween patching.<p>> AWS Web Application Firewall, Application Load Balancer, Classic Load Balancer, TLS Listeners on Network Load Balancer, Cloud Front, API Gateway<p>> Customers using the above services do not receive TCP connections from untrusted sources directly when following best practices. AWS is applying updates to the underlying infrastructure of these services and no immediate customer action is required if you are using these services. We still recommend customers update their self-managed instances behind these services within the next 30 days.<p>[0]: <a href=""https://aws.amazon.com/security/security-bulletins/2026-160-aws/"" rel=""nofollow"">https://aws.amazon.com/security/security-bulletins/2026-160-...</a>"	Shank	1793476979	1
+				
+				
+				
+				
+50320477	It's okay guys, the authors simply don't know how to write good C. A real C programmer would not have shipped such a basic use-after-free bug. Rust is just a crutch.	winwang	1793482640	1
+				
+				
+				
+				
+50319761	Everything talks about this in terms of servers, but what about desktop Linux in typical setups?  Consumer modems and routers?  IoT junk?	gadtfly	1793478190	1
+				
+				
+				
+50320580	I've been compiling a list of cybersecurity RSS feeds to build a small automation (with oversight from Hermes agent) to ping me (ntfy.sh or just Telegram) when a CVE requires my intervention (matching them to a list of services I run for clients and myself.)<p>My list (of feeds) is still small, but this CVE did not show up, do any of you have any tips for RSS feeds to use for this purpose?	teekert	1793483299	1
+				
+				
+				
+				
+50321255	I suppose I'm not the only one feeling worn out by this tidal wave of vulnerabilities that I somehow have to keep up to?	9cb14c1ec0	1793489175	1
+				
+				
+50319519	"> Anthropic says Claude wrote the exploit ""after initial prompting,"" that it runs ""arbitrary commands as root, without any credentials or user interaction"" on servers with a multipath TCP listener, and that in its proof of concept ""it takes 48 minutes to leak a kernel pointer and another five minutes to reach the shell command execution.""<p>This is wild. I'm a firmware nerd, not a backend nerd, what percentage of TCP/IP servers are 'multipath'?<p>Also, since IPv6 isn't affected, wouldn't it be funny if this is what it took to get everyone to switch."	wiskinator	1793476688	1
+				
+				
+50319762	Can anyone explain how use after free results in a practical exploit?<p>I ask because I’ve been dabbling in rooting various closed devices at home. I’m finding AI fantastic at finding vulnerabilities statically (from firmware upgrade binaries), but when you then ask it to use it to get root or code execution it just goes in circles.<p>In the end it usually ends up there’s no exploit it can find, because it can’t actually influence the affected memory in a useful way. This is especially so if that memory is in the heap. On the stack it’s a lot more predictable (especially with OOB writes).	marcosscriven	1793478191	1
+				
+				
+				
+				
+				
+				
+50322061	"Fixed upstream in:[1]<p>7.3 (2026-10-18)<p>7.2.10 (2026-10-11)<p>6.18.56 (2026-10-11)<p>6.12.113 (2026-10-15)<p>6.6.159 (2026-10-15)<p>6.1.190 (2026-10-15)<p>5.15.225 (2026-10-15)<p>[1] <a href=""https://lore.kernel.org/all/?q=tcp_v4_reqsk_destructor"" rel=""nofollow"">https://lore.kernel.org/all/?q=tcp_v4_reqsk_destructor</a> -- check for ""kfree_rcu"" being used instead of ""kfree"" within ""tcp_v4_reqsk_destructor"" (net/ipv4/tcp_ipv4.c)"	dhx	1793498037	1
+50321212	"god this page could hardly be more ai generated if it tried<p>actual link: <a href=""https://nvd.nist.gov/vuln/detail/cve-2026-98432"" rel=""nofollow"">https://nvd.nist.gov/vuln/detail/cve-2026-98432</a>"	nektro	1793488760	1
+50325644	Linux noob: I run a small VPS for a low stakes side project that runs Caddy and a Go backend that I've shutdown for precaution. Once a Ubuntu patch is made available, I read that applying the patch and reboot will be enough, but how can that be the case if someone used the exploit to break in and leave a rootkit or something like that? What are your full recovery plans for these situations?	wastedpotencial	1793540745	1
+				
+50323685	I am surprised formal verification efforts of the Linux kernel didn’t find this. Any experts care to chime in?	edejong	1793522234	1
+50319518	>the kernel handed those saved options from the request socket to the new connection without copying them, then freed them immediately when the connection went away, while another CPU could still be reading them to build a handshake reply.<p>If this requires a multi-core system to exploit, it's good news for most of the consumer routers that will never get updates. Saved by cheap single-core hardware.	mrob	1793476664	1
+				
+				
+				
+				
+50326448	If you run caddy it's written in go so probably listening on an mtcp socket meaning you are probably vulnerable. Watch out!	fancyfredbot	1793546205	1
+50320143	My home firewall runs Ubuntu. It doesn't accept (new) incoming packets from the internet. I don't have any IoT devices except printers, whose packets the firewall rejects, and has done since I bought them. Do I need to do anything apart from wait for the patch to become available?	geye1234	1793480203	1
+				
+50325951	This saddens me since MPTCP is quite useful and not the cause of the bug, just a way to ease exploitation (probably simpler heap massaging? Way over my head). Anyway, upgrade, but don't block MPTCP; no exploit is available, and it's just as likely someone finds another path before Anthropic releases theirs.	Aissen	1793542808	1
+50319886	Is OpenWRT affected? Because that would be a real fawkin problem.	lakeviewterrace	1793478779	1
+				
+				
+50329654	Just to add a data point: we added an edge router rule to drop inbound IP packets with options set. Interestingly a) that rule has a hit count of zero so far and b) it was somewhat tricky to test because it turns out every host I could think of to run an nping command from is on a network that filters the packets anyway. Or perhaps our upstream provider is doing the filtering. I had to send packets from a machine where the path didn't go through anyone else's router in order to see hit counts increasing and thereby test the rule.	dboreham	1793565809	1
+50320018	Without a test-case, read POC, how do I verify if my server is affected?	bana-io	1793479542	1
+50319553	"What is a ""multipath TCP listener""?"	theteapot	1793476869	1
+				
+				
+				
+				
+50325110	> Anthropic says Claude built a remote root exploit for servers with a multipath TCP listener. It hasn't published the exploit.<p>Bro, we've gained a root RCE with this vulnerability. No, you can't see a PoC, just trust me bro, we have a root RCE, also buy our IPO pls bro.	kristjank	1793537105	1
+				
+50319584	"Some previous discussion: <a href=""https://news.ycombinator.com/item?id=50299182"">https://news.ycombinator.com/item?id=50299182</a>"	daemonologist	1793477044	1
+50325746	Weird, front page >500points today; flagged to death last week.	OJFord	1793541486	1
+50320070	The linked source spun up my fans with 100% GPU utilization. Is there some... unwelcome... script running?	lakeviewterrace	1793479812	1
+50322804	If you’re on Ubuntu you can upgrade by pulling the -43 version from the -proposed repo. Crazy they still havent shipped it to -stable.	iknowstuff	1793508645	1
+50321763	I was sorely tempted to fully bypass the kernel for networking before, and this isn't exactly giving me warm fuzzies for staying.	hansvm	1793494528	1
+50319657	2027 is going to be the year of two to three major CVEs per day.<p>The discourse on this is weird, sounds at times as if these are “because of AI.” These are mostly pre-existing bugs, some very old, and they’ve been lurking. If they all get found we exit the other side more secure and reliable.	api	1793477443	1
+				
+				
+				
+				
+50325046	This particular page (and other pages at altasum.net) is a CPU hog.<p>It usually means: suspicious activity or poor taste or disregard for web standards, or a combination of these.<p>There is a plenty of information on that CVE from other places.	kunley	1793536592	1
+				
+50321283	If you run a custom kernel chances are you're not affected:<p># CONFIG_MPTCP is not set	frunzales	1793489537	1
+				
+				
+50321618	What does this enable an attacker to do exactly? RCE? DoS? Unknown?	kaoD	1793492853	1
+				
+50319161	MikroTik routers seem affected but mitigations are available.<p>Watch your Linux systems for kernel updates. Reboot!	oger	1793474273	1
+				
+50320674	Finally a usecase for mptcp on linux. Been waiting and trying off and on for years to get it to do something, but now it can give a nice remote root shell. Well, not to me, I just get to patch devices.	jck86	1793484032	1
+50319629			1793477301	1
+50324728	There is zero context, zero information, very alarming language but nothing about mitigation factors.<p>This is a terrible way of communicating vulnerabilities.	louwrentius	1793533637	1
+50321590	There are microkernel operating systems out there that run the network stack in isolated, unprivileged contexts. Some of them are even not written in C.	jeffbee	1793492543	1
+50321109	"The most terrifying part of this is all the devices that might be affected. Ignore servers and desktops. Linux 4.4 came out nearly 11 years ago. While most Linux devices' firmware is actually more ancient than that (Linux 2.x and 3.x isn't uncommon), any device that <i>did</i> ship with Linux 4.4+ is going to get hacked, because nobody patches those devices. Any smart device in the world that isn't a server, desktop, or microcontroller, is probably running Linux.<p>As part of the Software Building Code (that we don't have, and desperately need), one of the things we should have is mitigation for these abandoned internet safety risks. Here's how I would define that section:<p><pre><code>  Section 4    Connections to Public Internet
+  Section 4.1  Device Support
+    Devices connected to the public internet WILL require one of the following:
+      a) Guaranteed LTS support for a minimum of 10 years
+      b) Guaranteed rolling release support for a minimum of 10 years
+    Devices without this support are not permitted to be connected to the public internet.
+  Section 4.2  Vendor Responsibility
+    When releasing devices, vendors must determine whether this device is certified for
+    public internet use. Support must be maintained according to S4.1. Failure to comply will
+    result in fines of up to $5,000 per affected device.
+  Section 4.3  Installer Responsibility
+    Any device connected to the public internet which is not certified for public internet
+    use is in violation, and will be subject to fines of up to $500 per affected device.
+  Section 4.4  Device Owner Responsibility
+    Any installed devices will be replaced once they reach their End Of Life period,
+    or after 10 years, whichever comes first. Installed devices in use that exceed this
+    period are in violation, and subject to fines of up to $250 per affected device.
+</code></pre>
+(These fines are tiny compared to the fines for things like fire code violations, but enough money that a company, contractor, or individual would rather fix their device than pay the fines)"	0xbadcafebee	1793487934	1
+				
+50319623	"If I am reading this right, Slackware 15.0 is already fixed:<p><pre><code>     % uname -a
+     Linux XXXX 5.15.223 #1 SMP PREEMPT Thu Oct 22 00:03:07 CDT 2026
+     x86_64 Intel(R) Core(TM) i7-4810MQ CPU @ 2.80GHz GenuineIntel GNU/Linux</code></pre>"	jmclnx	1793477259	1
+				
+50323374	Is Traefik affected?	ustad	1793517670	1
+50320658	I tried to find a mitigation using a ufw filter that rejects IPv4 packets with too large headers but it didn't work. It broke something essential and I had to switch it off again. I'd be interested in hearing about a temporary mitigation using firewall rules.	jonathanstrange	1793483957	1
+				
+50320575	[06:00]	dofm	1793483263	1
+50319473	Oh joy.	voidfunc	1793476373	1
+50326022	Nothingburger as per usual	ihateaislop	1793543240	1
+50324123	[dead]	lalitkumar93369	1793527566	1
+50324127	[dead]	lalitkumar93369	1793527646	1
+50321175	"Let me guess... The bug is in C code?<p>(reading TFA)<p><pre><code>    net/ipv4/af_inet.c
+    net/ipv4/tcp_ipv4.c
+</code></pre>
+Ah yup.<p>And moreover it's a security issue found by LLMs.<p>It's kinda a really bad time to be a C-loving, AI-hating, fanboi.<p>Do we at least entertain the idea that some rewrites of some things in safer languages could be a desirable goal? (not saying it's practical or not: just asking if C lovers are willing to reflect a bit on what's going on atm)."	TacticalCoder	1793488535	1
+				
+				
+				
+50319622	How are people finding Fil-C? It's designed to avoid things like this.	ogogmad	1793477259	1
+				
+				
+50320982	Who wrote the bug? Very likely someone at Redhat.	grommz	1793486677	1
+50320134	"In an earlier report, it said only affected is kernel 4.4, not all since. This quite dramatic now.<p>I see. <a href=""https://nvd.nist.gov/vuln/detail/cve-2026-98432"" rel=""nofollow"">https://nvd.nist.gov/vuln/detail/cve-2026-98432</a> affected versions format is the culprit. Entirely unusable.
+We do have versions, branch names and tags for a reason."	rurban	1793480167	1
+				

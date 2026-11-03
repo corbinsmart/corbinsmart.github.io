@@ -1,0 +1,45 @@
+50290480		surprisetalk	1793287204	0
+50325782	"I only watched the first few minutes and thought no way touch is that simple! It isn’t. Because most of these utilities have a lot of scar tissue handling years of various edge cases and conditions. Something to be said for software engineering. If you try to build for all the edge conditions then getting a somewhat working example out would take too long<p>I did appreciate the ways he used the man pages to build out the tools.<p>Actual touch.c source: <a href=""https://github.com/coreutils/coreutils/blob/master/src/touch.c"" rel=""nofollow"">https://github.com/coreutils/coreutils/blob/master/src/touch...</a>"	firesteelrain	1793541699	1
+				
+				
+50324011	I just looked at the first example / utility he implemented; which was 'touch'<p>Will this actually update the 'last modified' date for an already existing file?<p>Also, there's a standard way of processing command line arguments on Linux/Unix, which is not being followed here.	ReDress	1793526396	1
+				
+				
+				
+				
+50324378	"I kind of expected this to happen: Coding will become an ""artisanal craft"" - much like woodworking for example. Sure for most of your furniture you can just go to ikea but every now and then you might get joy from making something with your own hands."	jcfrei	1793529936	1
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+50324443	"I discovered his videos a few days ago. I imagine the ""algorithm"" pushed those into a lot of HN users' feeds.<p>Just this morning, I was wondering if it would make sense to share it on HN. And here it it on the front page. What a small world."	assumed_throwaw	1793530560	1
+50326039	"No splits timer. No frame perfect tricks. Uses ""exploits"" (touch truncates file). Terrible strats.<p>Swapping to printf(""Usage: %s ...\n"",argv[0]); could easily save 60 key presses.<p>Let us know when somebody creates a No-ABE category."	athrowaway3z	1793543309	1
+50324811	We mostly saw the guy typing. The clicking sound is very distracting. Using vim didn't do him any favour. I would be much more impressed if we could get more insight into to the thinking and problem solving process. Also smoking is not commonly accepted productivity booster. He could have watched porn instead.	gozzoo	1793534446	1
+50324594	Finally a video where creator's face overlaid on top of the content actually contributes value.	bananaquant	1793532396	1
+50324712	Just a guy using libc in fact...	ligarota	1793533467	1
+50325338	"Would expect this on hackertube.com.<p><a href=""https://news.ycombinator.com/item?id=50319510"">https://news.ycombinator.com/item?id=50319510</a>"	kingforaday	1793538769	1
+50329362	This reminds of the CoderPad-style interview. Kinda triggering, but might be a good way to practice the muscle! Anyone else agree?	brcmthrowaway	1793564400	1
+50325026	Most (if not all) of this video is AI.	krautburglar	1793536441	1
+				
+				
+50324614	What did the LLM bug check say?	amelius	1793532614	1
+				
+50324660	This cursor sound is almost asmr-ish, damn.	TheRoque	1793533006	1
+50324248	sometimes, I really miss coding by hand	el_psy_congroo	1793528731	1
+				
+				
+50328050	Dude is a bit unhinged, but I like him. I'll keep an eye on him.	bitbasher	1793556582	1
+50324714			1793533500	1
+50324669	*while smoking cigs	lifeisloving	1793533091	1
+				
+50326282	Now, for contrast, I'd love to see what Opus 5.5 and/or Astra can do when set to do the same thing on a 52m wall clock limit.	snvzz	1793544977	1

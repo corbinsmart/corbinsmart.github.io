@@ -1,0 +1,5 @@
+50273504		ndr	1793195306	0
+50305999	"Nice tool, thanks for building and releasing it.<p>What I wish existed is smarter handling of megamorphic call sites. In practice most dyn sites only ever see a handful of concrete types, so tracking which types actually get coerced to dyn Trait in reachable code could prune a lot of the vtable fan-out.
+Probably not easy, but does not have to be perfect. It's also OK to acknowledge that this sometimes fails and handle that gracefully in visuslization.<p>And a view that overlays coverage data, so you can see which paths are actually exercised. Could be especially useful with panics, so you can see which panic paths tests actually hit."	weinzierl	1793376740	1
+50307170	Anyone else read the title and think someone found a way to spot early stock market sentiment shifts by analyzing options patterns?	jkingsman	1793381049	1
+				

@@ -1,0 +1,13 @@
+50295868		iamnothere	1793307595	0
+50297560	"> On top of that, Sylphide OS adds:<p>>    drivers for mouse, keyboard, display, storage and network<p>and couple lines later<p>> What you don't have yet, but definitely planned:<p>>    storage (microsd, usb)
+>    network (ethernet, wifi)<p>I'm not gonna be angry at false advertising, but OS attempts only become appropriate to discuss once you made drivers and actually ran stuff on physical hardware<p>Before that point it's just one of the many dozens and dozens other half-efforted attempts at OS that have been done over and over to death by now"	NooneAtAll5	1793315430	1
+				
+50298045	> Olimex esp32-p4-pc, the flagship product: new, powerful<p>That's a very cool board, but pretty tricky. Great idea to run an old Mac OS on it. I try on and off to port the Oberon System 3 to this board since I received it in February. The display already works pretty good, but still a lot of road blocks.	Rochus	1793318725	1
+				
+				
+50296551	If it's running on MMU-less systems, I'd be interested in how it loads multiple programs into memory: does it need to relocate each program binary? If so, doesn't that preclude using execute-in-place (XIP)?	irdc	1793310351	1
+				
+				
+50299017	On one hand: Cool!<p>On the other hand: I have a lot of old hardware in my 'too good to go' garbage bin that can run a full fledged Linux, so what.	karlkloss	1793326046	1
+50298996	[flagged]	gaiya365	1793325858	1
+50302259	[flagged]	robbie_cox	1793357881	1
